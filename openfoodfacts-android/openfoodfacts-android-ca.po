@@ -1,0 +1,151 @@
+# Catalan translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-03 22:41+0000\n"
+"Last-Translator: VPablo <villumar@gmail.com>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Obre sessió"
+
+#: logout
+msgid "Sign-out"
+msgstr "Tanca la sessió"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Cerca un producte pel nom o marca:"
+
+#: search_button
+msgid "Search"
+msgstr "Cerca"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Escaneja el codi de barres per trobar o afegir un producte:"
+
+#: scan
+msgid "Scan"
+msgstr "Escàner"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts reuneiz informació i dates de productes alimenticis de tot el món a "
+"una base de dades oberta.</p>"
+
+#: back
+msgid "Back"
+msgstr "Torna"
+
+#: close
+msgid "Close"
+msgstr "Tanca"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr ""
+"Obre sessió per afegir productes o editar les pàgines dels productes."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Nom d'usuari o direcció electrònica:"
+
+#: password
+msgid "Password:"
+msgstr "Contrasenya:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Sense compte encara? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Crea un compte</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Llengua preferida:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"La cerca tornarà preferentment productes a la llegua seleccionada, i els "
+"productes que haja afegit seran afegits a la corresponent versió de Open "
+"Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Paràmetres"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Hola, $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "L'enviament està en progrés"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Imatge rebuda, gràcies!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "No s'ha pogut enviar la imatge"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Torna a provar"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Cerca en progrés"
+
+#: connecting
+msgid "Connecting"
+msgstr "Connectant"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "La connexió ha fallat: sense xarxa?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Nom d'usuari o contrasenya incorrectes"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Carregant el producte des de la base de dades de Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Producte $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Afegir un producte sense codi de barres"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Codi de barres: $1"

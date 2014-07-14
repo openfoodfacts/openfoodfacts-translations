@@ -1,0 +1,150 @@
+# Brazilian Portuguese translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-03 17:39+0000\n"
+"Last-Translator: Matheus Cavalcante <Unknown>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Entrar"
+
+#: logout
+msgid "Sign-out"
+msgstr "Sair"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Procurar um produto pelo nome ou marca:"
+
+#: search_button
+msgid "Search"
+msgstr "Procurar"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Ler o código de barras para encontrar ou adicionar um produto:"
+
+#: scan
+msgid "Scan"
+msgstr "Ler"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts organiza informações e dados sobre produtos alimentícios de todo o "
+"mundo em um banco de dados gratuito e aberto.</p>"
+
+#: back
+msgid "Back"
+msgstr "Voltar"
+
+#: close
+msgid "Close"
+msgstr "Fechar"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Entre para adicionar produtos ou editar suas páginas."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Nome de usuário ou e-mail:"
+
+#: password
+msgid "Password:"
+msgstr "Senha:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Ainda não tem uma conta? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Criar Conta</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Idioma preferido:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Uma pesquisa retornará prioritariamente produtos no idioma selecionado, e os "
+"produtos que você adicionar serão adicionados à versão correspondente do "
+"Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Parâmetros"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Olá $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Envio em progresso"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Imagem recebida, obrigado!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "A imagem não pôde ser enviada"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Tentar Novamente"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Procura em progresso"
+
+#: connecting
+msgid "Connecting"
+msgstr "Conectando"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Conexão falhou: há uma conexão de rede?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Nome de usuário ou senha inválido"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Carregando produto do banco de dados do Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Produto $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Adicionar um produto sem código de barras"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Código de Barras: $1"

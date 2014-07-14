@@ -1,0 +1,145 @@
+# Bengali translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-06 17:52+0000\n"
+"Last-Translator: Rafee Mostafa <rafee@byei.org>\n"
+"Language-Team: Bengali <bn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "সাইন ইন"
+
+#: logout
+msgid "Sign-out"
+msgstr "সাইন আউট"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "নাম অথবা ব্র্যান্ড এর মাধ্যমে পণ্য খুঁজুন"
+
+#: search_button
+msgid "Search"
+msgstr "খুঁজুন"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "বারকোড স্ক্যান করে পণ্য খুঁজুন অথবা যোগ করুন"
+
+#: scan
+msgid "Scan"
+msgstr "স্ক্যান"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=ওপেন ফুড ফা/><br /><p>Open Food Facts "
+"gathers information and data on food products from around the world in a "
+"free and open database.</p>"
+
+#: back
+msgid "Back"
+msgstr "পিছনে যান"
+
+#: close
+msgid "Close"
+msgstr "বন্ধ করুন"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr ""
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "ইউজার-নেম অথবা ইমেইল অ্যাডরেস"
+
+#: password
+msgid "Password:"
+msgstr "পাসওয়ার্ড"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+
+#: language
+msgid "Preferred language:"
+msgstr "পছন্দনীয় ভাষা"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+
+#: parameters
+msgid "Parameters"
+msgstr "মানসমূহ"
+
+#: hello
+msgid "Hello $1!"
+msgstr "হ্যালো $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "পাঠানো হচ্ছে"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "ছবি পাওয়া গেছে, ধন্যবাদ!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "ছবিটি পাঠানো সম্ভব হয়নি"
+
+#: upload_retry
+msgid "Retry"
+msgstr "পুনরায় চেষ্টা করুন"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "খোঁজা হচ্ছে"
+
+#: connecting
+msgid "Connecting"
+msgstr "সংযোগ স্থাপন করা হচ্ছে"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr ""
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "ইউজারনেম অথবা পাসওয়ার্ড-এ ভুল আছে"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr ""
+
+#: product_title
+msgid "Product $1"
+msgstr ""
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr ""
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "বারকোড: $1"

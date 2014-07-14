@@ -1,0 +1,1554 @@
+# Spanish translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-03-23 09:58+0000\n"
+"Last-Translator: Paco Molinero <paco@byasl.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+msgid " and "
+msgstr " y "
+
+msgid "(non-accented letters, digits and/or dashes)"
+msgstr "(letras sin tildes, dígitos o guiones)"
+
+msgid "(Optional) - Create a column for every:"
+msgstr "(Opcional) - Crear una columna para cada:"
+
+msgid ""
+"['January 'February 'March 'April 'May 'June 'July 'August 'September "
+"'October 'November 'December']"
+msgstr ""
+"['enero 'febrero 'marzo 'abril 'mayo 'junio 'julio 'agosto 'septiembre "
+"'octubre 'noviembre 'diciembre']"
+
+msgid "['Sunday 'Monday 'Tuesday 'Wednesday 'Thursday 'Friday 'Saturday']"
+msgstr "['domingo 'lunes 'martes 'miércoles 'jueves 'viernes 'sábado']"
+
+msgid "% of difference"
+msgstr "% de diferencia"
+
+msgid ""
+"%d products match the search criterias, of which %i products have a known "
+"production place."
+msgstr ""
+"%d productos que coincidan con los criterios de búsqueda, de los cuales %i "
+"productos tienen un lugar de producción conocido."
+
+msgid ""
+"%d products match the search criterias, of which %i products have defined "
+"values for the graph's axis."
+msgstr ""
+"%d productos coinciden con los criterios de búsqueda, de los cuales %i "
+"productos han definido valores para el eje del gráfico."
+
+msgid "%d products:"
+msgstr "%d productos:"
+
+msgid "%s in %s"
+msgstr "%s en %s"
+
+msgid ""
+"→ With Chrome, Firefox and Safari, you can select multipe pictures (product, "
+"ingredients, nutrition facts .) by clicking them while holding the Ctrl key "
+"pressed to add them all in one shot."
+msgstr ""
+"→ Con Chrome, Firefox y Safari, puede seleccionar múltiples fotos (de "
+"productos, ingredientes, información nutricional.) Haciendo clic en ellos "
+"mientras mantiene pulsada la tecla Ctrl para añadir todos ellos en una sola "
+"toma."
+
+msgid ""
+"<p>Thanks for joining. You can now sign-in on the site to add and edit "
+"products.</p>"
+msgstr ""
+"<p>Gracias por acompañarnos. Ahora puede iniciar sesión en el sitio y añadir "
+"y editar productos.</p>"
+
+msgid "<p>Your account parameters have been changed.</p>"
+msgstr "<p>Los parámetros de su cuenta han sido cambiados correctamente.</p>"
+
+msgid "1 product:"
+msgstr "1 producto:"
+
+msgid "10th centile"
+msgstr "10.º centil"
+
+msgid "2 l, 250 g, 1 kg, 25 cl, 6 fl oz, 1 pound"
+msgstr "2 l, 250 g, 1 kg, 25 cl, 6 fl oz, 1 pound"
+
+msgid "5<sup>th</supe> centile"
+msgstr "5.º centil"
+
+msgid "60 g, 12 oz, 20cl, 2 fl oz"
+msgstr "60 g, 12 oz, 20cl, 2 fl oz"
+
+msgid "90th centile"
+msgstr "90.º centil"
+
+msgid "95<sup>th</supe> centile"
+msgstr "95.º centil"
+
+msgid ""
+"A collaborative, free and open database of ingredients, nutrition facts and "
+"information on food products from around the world"
+msgstr ""
+"Una base de datos colaborativa, libre y abierta de los ingredientes, "
+"información nutricional sobre los productos alimenticios de todo el mundo"
+
+msgid "A product already exists with the new code"
+msgstr "Un producto existe actualmente con el nuevo código"
+
+msgid "About me"
+msgstr "Acerca de mí"
+
+msgid "Account parameters"
+msgstr "Parámetros de cuenta"
+
+msgid "add a brand"
+msgstr "añadir una marca"
+
+msgid "add a category"
+msgstr "añadir una categoría"
+
+msgid "add a label"
+msgstr "añadir una etiqueta"
+
+msgid "Add a nutrient"
+msgstr "Añadir un nutriente"
+
+msgid "Add a picture"
+msgstr "Añadir una imagen"
+
+msgid "add a place"
+msgstr "Añadir un lugar"
+
+msgid "Add a product"
+msgstr "Añadir un producto"
+
+msgid "add a store"
+msgstr "añadir una tienda"
+
+msgid "add a type, shape or material"
+msgstr "añadir un tipo, forma o material"
+
+msgid "add an origin"
+msgstr "añadir un origen"
+
+msgid "Add date"
+msgstr "Añadir fecha"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "Added:"
+msgstr "Añadido:"
+
+msgid "additive"
+msgstr "aditivo"
+
+msgid "additives"
+msgstr "aditivos"
+
+msgid "Advanced search and graphs"
+msgstr "Búsqueda avanzada y gráficos"
+
+msgid "All missions"
+msgstr "Todas las misiones"
+
+msgid "allergen"
+msgstr "alergeno"
+
+msgid "allergens"
+msgstr "alergenos"
+
+msgid ""
+"An email with a link to reset your password has been sent to the e-mail "
+"address associated with your account."
+msgstr ""
+"Un correo electrónico con un enlace para restaurar su contraseña ha sido "
+"enviado a la dirección de correo asociada con su cuenta."
+
+msgid "An error occured while reading the data, try to refresh the page."
+msgstr ""
+"Ocurrió un error mientras se leían los datos, intente actualizar la página."
+
+msgid ""
+"Average nutrition facts for the %d products of the %s category for which "
+"nutrition facts are known (out of %d products)."
+msgstr ""
+"Información nutricional promedio de los %d productos de la categoría %s para "
+"los que se conoce la información nutricional (de% d productos)."
+
+msgid "Barcode number:"
+msgstr "Número de código de barras:"
+
+msgid "Barcode"
+msgstr "Código de barras"
+
+msgid "Be the first to complete this mission!"
+msgstr "¡Sea el primero en completar esta misión!"
+
+msgid "Belongs to:"
+msgstr "Pertenece a:"
+
+msgid "Best before date"
+msgstr "Preferentemente antes de la fecha"
+
+msgid "brand"
+msgstr "marca"
+
+msgid "Brands to be completed"
+msgstr "Marcas para completar"
+
+msgid "brands"
+msgstr "marcas"
+
+msgid ""
+"By adding information, data and/or images, you accept to place irrevocably "
+"your contribution under the <a "
+"href=http://opendatacommons.org/licenses/dbcl/1.0/>Database Contents Licence "
+"1.0</a> licence"
+msgstr ""
+"Alañadir información, datos o imágenes, acepta poner su contribución de "
+"forma irrevocable bajo la licencia <a "
+"href=http://opendatacommons.org/licenses/dbcl/1.0/>Database Contents Licence "
+"1.0</a>"
+
+msgid "by"
+msgstr "por"
+
+msgid "California, USA"
+msgstr "California, USA"
+
+msgid "Categories to be completed"
+msgstr "Categorías para completar"
+
+msgid "categories"
+msgstr "categorías"
+
+msgid "category"
+msgstr "categoría"
+
+msgid ""
+"Cereals 85.5% (wheat flour, whole-wheat flour 11%), malt extract, cocoa "
+"4,8%, ascorbic acid"
+msgstr ""
+"Cereales 85,5% (harina de trigo, harina de trigo integral 11%), extracto de "
+"malta, cacao 4,8%, ácido ascórbico"
+
+msgid "Change search criteria"
+msgstr "Cambiar los criterios de búsqueda"
+
+msgid "Change your account parameters"
+msgstr "Cambiar sus parámetros de cuenta"
+
+msgid "Changed:"
+msgstr "Cambiado:"
+
+msgid "Changes history"
+msgstr "Historial de cambios"
+
+msgid "Changes saved."
+msgstr "Cambios guardados."
+
+msgid "Changes summary"
+msgstr "Resumen de cambios"
+
+msgid "Changes to your public profile have been saved."
+msgstr "Los cambios de su perfil público se han guardado."
+
+msgid "Character set: Unicode (UTF-8)). Separator: tabulation (tab)."
+msgstr ""
+"Conjunto de caracteres: Unicode (UTF-8)). Separador: tabulación (tab)."
+
+msgid "Characteristics completed"
+msgstr "Características completadas"
+
+msgid "Characteristics to be completed"
+msgstr "Características para completar"
+
+msgid "Checked"
+msgstr "Seleccionado"
+
+msgid "checker"
+msgstr "comprobador"
+
+msgid "checkers"
+msgstr "comprobadores"
+
+msgid "Chinese"
+msgstr "Chino"
+
+msgid "Chocolate bar with milk and hazelnuts"
+msgstr "Barra de chocolate con leche y avellanas"
+
+msgid "choose a criteria..."
+msgstr "escoger un criterio..."
+
+msgid "choose a nutriment..."
+msgstr "escoger un nutriente..."
+
+msgid "cities"
+msgstr "ciudades"
+
+msgid "City, state and country where purchased"
+msgstr "Ciudad, estado y país donde se compró"
+
+msgid "city"
+msgstr "ciudad"
+
+msgid "Common name"
+msgstr "Nombre común"
+
+msgid "Comparison to average values of products in the same category :"
+msgstr ""
+"Comparación con los valores promedio de los productos en la misma catagoría:"
+
+msgid "Complete"
+msgstr "Completo"
+
+msgid "completed %d missions:"
+msgstr "%d misiones completadas:"
+
+msgid "Completed by %d persons."
+msgstr "Completado por %d personas."
+
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+msgid "Contains:"
+msgstr "Contenido:"
+
+msgid "contains"
+msgstr "contiene"
+
+msgid "contributor"
+msgstr "contribuyente"
+
+msgid "contributors"
+msgstr "contribuyentes"
+
+msgid "corrector"
+msgstr "corrector"
+
+msgid "correctors"
+msgstr "correctores"
+
+msgid "Countries where sold"
+msgstr "Países donde se vendió"
+
+msgid ""
+"Countries where the product is widely available (non including stores "
+"specialising in foreign products)"
+msgstr ""
+"Países en los que el producto está ampliamente disponible (no incluyendo "
+"tiendas especializadas en productos extranjeros)"
+
+msgid "countries"
+msgstr "países"
+
+msgid "country"
+msgstr "país"
+
+msgid "Criteria"
+msgstr "Criterios"
+
+msgid "Current image:"
+msgstr "Imagen actual:"
+
+msgid "Data"
+msgstr "Datos"
+
+msgid "Delete a product"
+msgstr "Eliminar un producto"
+
+msgid "Delete an user"
+msgstr "Eliminar un usuario"
+
+msgid "Delete the page"
+msgstr "Eliminar la página"
+
+msgid "Deleted:"
+msgstr "Eliminado:"
+
+msgid "Display results on a graph"
+msgstr "Mostrar los resultados en un gráfico"
+
+msgid "Display results on a map"
+msgstr "Mostrar resultados en un mapa"
+
+msgid "does not contain"
+msgstr "no contiene"
+
+msgid "Download results in CSV format (Excel, OpenOffice)"
+msgstr "Descargar los resultados en un formato CSV (Excel, OpenOffice)"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Drilldown into products by:"
+msgstr "Desglose en productos a través de:"
+
+msgid "Dutch"
+msgstr "Holandés"
+
+msgid "e-mail address"
+msgstr "dirección de correo electrónico"
+
+msgid "Ecological footprint"
+msgstr "Huella ecológica"
+
+msgid "Edit a product"
+msgstr "Editar un producto"
+
+msgid "Edit date"
+msgstr "Editar fecha"
+
+msgid "Edit the page"
+msgstr "Editar la página"
+
+msgid "Edit your public profile"
+msgstr "Editar su perfil público"
+
+msgid "edit"
+msgstr "editar"
+
+msgid "EMB code"
+msgstr "Código EMB"
+
+msgid "EMB codes"
+msgstr "Códigos EMB"
+
+msgid "Empty"
+msgstr "Vacío"
+
+msgid "en_US"
+msgstr "en_US"
+
+msgid "en-US"
+msgstr "en-US"
+
+msgid "English"
+msgstr "Inglés"
+
+msgid "Enter a new password."
+msgstr "Introduzca una nueva contraseña"
+
+msgid "Error while saving, please retry."
+msgstr "Error mientras se estaba guardado, inténtelo nuevamente."
+
+msgid "Error while uploading image"
+msgstr "Error mientras se cargaba la imagen"
+
+msgid "Evolution of the number of products on Open Food Facts"
+msgstr "Evolucioón del número de productos en Open Food Facts"
+
+msgid "Example:"
+msgstr "Ejemplo:"
+
+msgid "Examples:"
+msgstr "Ejemplos:"
+
+msgid "Excess drinking is harmful for health."
+msgstr "El exceso en la bebida es perjudicial para la salud."
+
+msgid "Expiration date completed"
+msgstr "Fecha de expiración completada"
+
+msgid "Expiration date to be completed"
+msgstr "Fecha de caducidad para completar"
+
+msgid "Extract the ingredients from the picture"
+msgstr "Extraer los ingredientes de la imagen"
+
+msgid "Extracting ingredients"
+msgstr "Extraer ingredientes"
+
+msgid "Fair trade"
+msgstr "Comercio justo"
+
+msgid "fair-trade"
+msgstr "comercio justo"
+
+msgid "for 100 g / 100 ml"
+msgstr "por 100 g / 100 ml"
+
+msgid ""
+"For products without a barcode, an internal code is automatically set."
+msgstr ""
+"Para los productos sin código de barras, se establece automáticamente un "
+"código interno."
+
+msgid "for"
+msgstr "por"
+
+msgid "French"
+msgstr "Francés"
+
+msgid "Fresh, Canned, Frozen, Bottle, Box, Glass, Plastic..."
+msgstr "Fresco, enlatado, congelado, botella, caja, cristal, plástico..."
+
+msgid "Front image"
+msgstr "Imagen frontal"
+
+msgid "Generate graph"
+msgstr "Generar gráfico"
+
+msgid "Generate the map"
+msgstr "Generar el mapa"
+
+msgid "German"
+msgstr "Alemán"
+
+msgid "Goal:"
+msgstr "Objetivo:"
+
+msgid "Graph title"
+msgstr "Título del gráfico"
+
+msgid "Graph"
+msgstr "Gráfico"
+
+msgid "Hebrew"
+msgstr "Hebreo"
+
+msgid "Hello"
+msgstr "Hola"
+
+msgid "high quantity"
+msgstr "alta cantidad"
+
+msgid "High risks"
+msgstr "Alto riesgo"
+
+msgid "high"
+msgstr "alto"
+
+msgid "Horizontal axis"
+msgstr "Eje horizontal"
+
+msgid ""
+"http://world.openfoodfacts.org/images/misc/openfoodfacts-logo-en-356.png"
+msgstr ""
+"http://world.openfoodfacts.org/images/misc/openfoodfacts-logo-en-356.png"
+
+msgid "If the barcode is not correct, please correct it here:"
+msgstr "Si el código de barras no es correcto, corríjalo aquí:"
+
+msgid ""
+"If the carbon footprint is specified on the label (rarely at this time), "
+"indicate it for the same quantity than the nutritional composition."
+msgstr ""
+"Si se especifica la huella de carbono en la etiqueta (rara vez en este "
+"momento), indicarla para la misma cantidad que la composición nutricional."
+
+msgid ""
+"If the data is incomplete or incorrect, you can complete or correct it by "
+"editing this page."
+msgstr ""
+"Si los datos son incompletos o incorrectos, puede completarlos o corregirlos "
+"editando esta página."
+
+msgid ""
+"If the picture is sufficiently sharp and level, nutrition facts can be "
+"automatically extracted from the picture."
+msgstr ""
+"Si la imagen es lo suficientemente clara, la información nutricional se "
+"puede extraer automáticamente de la imagen."
+
+msgid ""
+"If you already have an account on <SITE>, please sign-in before filling this "
+"form."
+msgstr ""
+"Si ya tiene una cuenta en <SITE>, conéctese antes de llenar este formulario."
+
+msgid ""
+"If you have forgotten your password, fill-in your username or e-mail address "
+"to receive instructions for resetting your password."
+msgstr ""
+"Si ha olvidado su contraseña, rellene su nombre de usuario o dirección de "
+"correo electrónico para recibir instrucciones de restablecimiento de su "
+"contraseña."
+
+msgid "Image received"
+msgstr "Imagen recibida"
+
+msgid "Image saved"
+msgstr "Imagen guardada"
+
+msgid ""
+"In Europe, code in an ellipse with the 2 country initials followed by a "
+"number and CE."
+msgstr ""
+"En Europa, código con una elipse con las 2 iniciales del país seguidos de un "
+"numero y CE."
+
+msgid ""
+"Incorrect user name or password. <a href=\"/cgi/reset_password.pl\"Forgotten "
+"password?</a>"
+msgstr ""
+"Usuario o contraseña incorrecta <a href=\"/cgi/reset_password.pl\"Forgotten "
+"password?</a>"
+
+msgid ""
+"Indicate ingredients from mentions like May contain traces of Made in a "
+"factory that also uses etc."
+msgstr ""
+"Indique ingredientes con menciones como Puede contener trazas de Hecho en "
+"una fábrica que utiliza también etc."
+
+msgid ""
+"Indicate only the most specific category. \"Parents\" categories will be "
+"automatically added."
+msgstr ""
+"Indique solo la categoría más específica. Se añadirán automáticamente "
+"categorías «Padres»."
+
+msgid ""
+"Indicate only the most specific labels. \"Parents\" labels will be added "
+"automatically."
+msgstr ""
+"Indique solo la etiqueta más específica. Se añadirán automáticamente "
+"etiquetas «Padres»."
+
+msgid "Indicate where you bought or saw the product (at least the country)"
+msgstr "Indique donde se adquirió o vio el producto (por lo menos el país)"
+
+msgid "Indifferent"
+msgstr "Indiferente"
+
+msgid ""
+"Information and data must come from the product package and label (and not "
+"from other sites or the manufacturer's site), and you must have taken the "
+"pictures yourself.<br/>"
+msgstr ""
+"La información y los datos deben provenir del paquete del producto y la "
+"etiqueta (y no desde otros sitios o el sitio del fabricante), y que debe "
+"haber tomado las fotos usted mismo. <br/>"
+
+msgid "Information below is visible in your public profile."
+msgstr "La información a continuación es visible en su perfil público."
+
+msgid "informer"
+msgstr "informador"
+
+msgid "informers"
+msgstr "informadores"
+
+msgid "ingredient from palm oil"
+msgstr "ingrediente del aceite de palma"
+
+msgid "ingredient that may be from palm oil"
+msgstr "ingrediente que puede proceder del aceite de palma"
+
+msgid "ingredient"
+msgstr "ingrediente"
+
+msgid "Ingredients are listed in order of importance (quantity)."
+msgstr "Ingredientes listados en orden de importancia (cantidad)."
+
+msgid "Ingredients completed"
+msgstr "ingredientes completados"
+
+msgid "ingredients from or that may be from palm oil"
+msgstr "ingredientes procedentes o que puede proceder del aceite de palma"
+
+msgid "ingredients from palm oil"
+msgstr "ingredientes del aceite de palma"
+
+msgid "Ingredients image"
+msgstr "imagen de ingredientes"
+
+msgid "Ingredients list"
+msgstr "lista de ingredientes"
+
+msgid ""
+"Ingredients text could not be extracted. Try with a sharper image, with "
+"higher resolution or a better framing of the text."
+msgstr ""
+"El texto de los ingredientes texto no se pudo extraer. Pruebe con una imagen "
+"más nítida, con mayor resolución o un mejor encuadre del texto."
+
+msgid ""
+"Ingredients text has been extracted. Text recognition is not perfect, so "
+"please check the text below and correct errors if needed."
+msgstr ""
+"El texto de los ingredientes ha sido extraído. El reconocimiento de texto no "
+"es perfecto, así que por favor revise el siguiente texto y corrija los "
+"errores, si es necesario."
+
+msgid "ingredients that may be from palm oil"
+msgstr "ingredientes que pueden venir del aceite de palma"
+
+msgid "Ingredients to be completed"
+msgstr "ingredientes a completar"
+
+msgid "ingredients-from-palm-oil"
+msgstr "ingredientes-del-aceite-de-palma"
+
+msgid "ingredients-that-may-be-from-palm-oil"
+msgstr "ingredientes-que-puede-proceder-del-aceite-de-palma"
+
+msgid "ingredients"
+msgstr "ingredientes"
+
+msgid "Invalid address."
+msgstr "Dirección  no válida."
+
+msgid "Invalid e-mail address"
+msgstr "Dirección de correo electrónico no válida"
+
+msgid "Invalid user."
+msgstr "Usuario no válido."
+
+msgid "Italian"
+msgstr "Italiano"
+
+msgid ""
+"Keep the order, indicate the % when specified, separate with a comma or - , "
+"use ( ) for ingredients of an ingredient"
+msgstr ""
+"Mantenga el orden, indique el % cuando se especifique, separe con una coma o "
+"-, utilice () para los ingredientes de un ingrediente"
+
+msgid "Kinder Bueno White, Kinder Bueno, Kinder, Ferrero"
+msgstr "Kinder Bueno White, Kinder Bueno, Kinder, Ferrero"
+
+msgid "Kinder Bueno White"
+msgstr "Kinder Bueno White"
+
+msgid "known nutrient"
+msgstr "nutriente conocido"
+
+msgid "known nutrients"
+msgstr "nutrientes conocidos"
+
+msgid "known-nutrients"
+msgstr "nutrientes-conocidos"
+
+msgid "label"
+msgstr "etiqueta"
+
+msgid "Labels, certifications, awards"
+msgstr "Etiquetas, certificaciones, premios"
+
+msgid "labels"
+msgstr "etiquetas"
+
+msgid "Language most present and most highlighted on the product"
+msgstr "Idioma más presente y más resaltado en el producto"
+
+msgid "Link to the product page on the official site of the producer"
+msgstr "Vínculo de la página del producto en el sitio oficial de productor."
+
+msgid "List of %s"
+msgstr "Lista de %s"
+
+msgid "low quantity"
+msgstr "baja cantidad"
+
+msgid "Low risks"
+msgstr "bajo riesgo"
+
+msgid "low"
+msgstr "bajo"
+
+msgid "Main language on the product"
+msgstr "Idioma principal en el producto"
+
+msgid "Main language"
+msgstr "Idioma principal"
+
+msgid "Map title"
+msgstr "Título del mapa"
+
+msgid "Map"
+msgstr "Mapa"
+
+msgid "Maximum"
+msgstr "Máximo"
+
+msgid "Median"
+msgstr "Medo"
+
+msgid "Milk, Gluten, Nuts"
+msgstr "Leche, gluten, nueces"
+
+msgid "Minimum"
+msgstr "Mínimo"
+
+msgid "Mission: "
+msgstr "Misión: "
+
+msgid "mission"
+msgstr "misión"
+
+msgid "missions"
+msgstr "misiones"
+
+msgid "moderate quantity"
+msgstr "cantidad moderada"
+
+msgid "Moderate risks"
+msgstr "Riesgos moderados"
+
+msgid "moderate"
+msgstr "moderado"
+
+msgid "Name of the shop or supermarket chain"
+msgstr "Nombre de la tienda o cadena de supermercados"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "News"
+msgstr "Noticias"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "No product listed for barcode %s."
+msgstr "No hay productos listados para el código de barras %s."
+
+msgid "No products."
+msgstr "Sin productos."
+
+msgid "Normalize colors"
+msgstr "Colores normalizados"
+
+msgid ""
+"Note: this is a user generated graph. The title, represented products and "
+"axis of visualization have been chosen by the author of the graph."
+msgstr ""
+"Nota: este es un gráfico generado por el usuario. El título, los productos "
+"representados y el eje de la visualización han sido elegidos por el autor "
+"del gráfico."
+
+msgid "Number of additives"
+msgstr "Número de aditivos"
+
+msgid "Number of results by page"
+msgstr "Número de resultados por página"
+
+msgid "nutrient level"
+msgstr "nivel de nutriente"
+
+msgid "Nutrient levels for 100 g:"
+msgstr "Niveles de nutriente por cada 100g:"
+
+msgid "nutrient levels"
+msgstr "niveles de nutriente"
+
+msgid "nutrient-level"
+msgstr "nivel-de-nutriente"
+
+msgid "nutrient-levels"
+msgstr "niveles-de-nutrientes"
+
+msgid "nutrient"
+msgstr "nutriente"
+
+msgid "nutrients"
+msgstr "nutrientes"
+
+msgid "nutriment"
+msgstr "alimento"
+
+msgid "nutriments"
+msgstr "alimentos"
+
+msgid "Nutrition facts are not specified on the product."
+msgstr "Los valores nutricionales no se especifican en el producto."
+
+msgid "Nutrition facts completed"
+msgstr "Valores nutricionales completados"
+
+msgid "Nutrition facts to be completed"
+msgstr "Valores nutricionales para completar"
+
+msgid "Nutrition facts"
+msgstr "Valores nutricionales"
+
+msgid "Open Food Facts"
+msgstr "Open Food Facts"
+
+msgid "OpenFoodFacts"
+msgstr "OpenFoodFacts"
+
+msgid "or :"
+msgstr "o:"
+
+msgid "or"
+msgstr "o"
+
+msgid "Organic Fairtrade USA, Fair trade, TransFair..."
+msgstr "Organic Fairtrade USA, Fair trade, TransFair..."
+
+msgid "Organic"
+msgstr "Orgánico"
+
+msgid "origin"
+msgstr "origen"
+
+msgid "origins"
+msgstr "orígenes"
+
+msgid "other language"
+msgstr "otro idioma"
+
+msgid "Other products"
+msgstr "Otros productos"
+
+msgid "out of _MAX_"
+msgstr "fuera de  _MAX_"
+
+msgid "packager code"
+msgstr "código de empaquetador"
+
+msgid "packager codes"
+msgstr "códigos de empaquetador"
+
+msgid "packager-code"
+msgstr "código-de-empaquetador"
+
+msgid "packager-codes"
+msgstr "códigos-de-empaquetador"
+
+msgid "packaging cities"
+msgstr "ciudades de empaquetado"
+
+msgid "packaging city"
+msgstr "ciudad de empaquetado"
+
+msgid "Packaging to be completed"
+msgstr "Empaquetado para completar"
+
+msgid "Packaging type, format, material"
+msgstr "Tipo de empaquetado, formato, material"
+
+msgid "packaging"
+msgstr "empaquetado"
+
+msgid "Page %d out of %d."
+msgstr "Página %d de %d."
+
+msgid "Pages:"
+msgstr "Páginas:"
+
+msgid "Password:"
+msgstr "Contraseña:"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "per serving"
+msgstr "para servir"
+
+msgid ""
+"Permanent link to these results, shareable by e-mail and on social networks"
+msgstr ""
+"El enlace permanente a estos resultados, se puede compartir por correo "
+"electrónico y en las redes sociales"
+
+msgid ""
+"Permanent link to this graph, shareable by e-mail and on social networks"
+msgstr ""
+"Enlace permanente a este gráfico, compartible por correo electrónico y en "
+"las redes sociales"
+
+msgid ""
+"Permanent link to this map, shareable by e-mail and on social networks"
+msgstr ""
+"Enlace permanente a este mapa, compartible por correo electrónico y en las "
+"redes sociales"
+
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+msgid "Photo on white background: try to remove the background"
+msgstr "Foto sobre fondo blanco: intente eliminar el fondo"
+
+msgid "photographer"
+msgstr "fotógrafo"
+
+msgid "photographers"
+msgstr "fotógrafos"
+
+msgid "Photos to be uploaded"
+msgstr "Fotos para subir"
+
+msgid "Photos to be validated"
+msgstr "Fotos para validad"
+
+msgid "Photos uploaded"
+msgstr "Fosots subidas"
+
+msgid "Photos validated"
+msgstr "Fotos validadas"
+
+msgid "Please correct the following errors:"
+msgstr "Corrija los siguientes errores:"
+
+msgid ""
+"Please note: for each nutriment, the average is computed for products for "
+"which the nutriment quantity is known, not on all products of the category."
+msgstr ""
+"Nota: para cada nutriente, el promedio se calcula para productos para los "
+"que se conoce la cantidad de alimento, no sobre todos los productos de la "
+"categoría."
+
+msgid "Polish"
+msgstr "Polaco"
+
+msgid "Portuguese"
+msgstr "Portugués"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Product  name"
+msgstr "Nombre de producto"
+
+msgid "Product added on"
+msgstr "Producto añadido el"
+
+msgid "Product characteristics"
+msgstr "Características de producto"
+
+msgid "Product name to be completed"
+msgstr "Nombre de producto para completar"
+
+msgid "Product name"
+msgstr "Nombre del producto"
+
+msgid "Product picture with barcode:"
+msgstr "Imagen del producto con código de barras"
+
+msgid "Product picture"
+msgstr "Imagen del producto"
+
+msgid "Product without barcode"
+msgstr "Producto sin código de barras"
+
+msgid "product"
+msgstr "producto"
+
+msgid "Products added by %s"
+msgstr "Productos añadidos por %s"
+
+msgid "Products from the %s brand"
+msgstr "Productos de la marca %s"
+
+msgid "Products from the %s category"
+msgstr "Productos de la categoría %s"
+
+msgid "Products originating from %s"
+msgstr "Productos originarios de %s"
+
+msgid "Products packaged by the company with emb code %s"
+msgstr "Productos envasados ​​por la empresa con el código emb %s"
+
+msgid "Products packaged in the city of %s"
+msgstr "Producto empaquetados en la ciudad %s"
+
+msgid "Products search"
+msgstr "Búsqueda de productos"
+
+msgid "Products sold at %s"
+msgstr "Productos vendidos el %s"
+
+msgid "Products sold in %s"
+msgstr "Productos vendidos en %s"
+
+msgid "Products that contain the ingredient %s"
+msgstr "Productos que contienen el ingrediente %s"
+
+msgid "Products that contain the nutriment %s"
+msgstr "Productos que contienen el nutriente %s"
+
+msgid "Products that have the label %s"
+msgstr "Productos que tienen la etiqueta %s"
+
+msgid "Products that were added by the user %s"
+msgstr "Productos que añadió el usuario %s"
+
+msgid "Products that were edited by the user %s"
+msgstr "Productos que editó el usuario %s"
+
+msgid "Products with a %s packaging"
+msgstr "Productois con epaquetado %"
+
+msgid "Products with complete information"
+msgstr "Productos con información completa"
+
+msgid "Products with the emb code %s"
+msgstr "Productos con el código emb %s"
+
+msgid "Products you added or edited"
+msgstr "Productos que ha añadido o editado"
+
+msgid "products"
+msgstr "productos"
+
+msgid "purchase place"
+msgstr "lugar de compra"
+
+msgid "purchase places"
+msgstr "lugares de compra"
+
+msgid "purchase-place"
+msgstr "lugar-de-compra"
+
+msgid "purchase-places"
+msgstr "lugares-de-compra"
+
+msgid "Quantity to be completed"
+msgstr "Cantidad para completar"
+
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgid "Reason for removal"
+msgstr "Razón para eliminar"
+
+msgid "Register"
+msgstr "Registrado"
+
+msgid "Remember me"
+msgstr "Recuérdame"
+
+msgid "Remember the place of purchase and store for the next product adds"
+msgstr ""
+"Recuerde el lugar de compra y almacén para el siguiente producto añadido"
+
+msgid "Reset of your password on Open Food Facts"
+msgstr "Restablecer su contraseña en Open Food Facts"
+
+msgid "Reset password"
+msgstr "Restablecer contraseña"
+
+msgid "Results graph"
+msgstr "Gráfico de resultados"
+
+msgid "Results map"
+msgstr "Mapa de resultados"
+
+msgid "Risk"
+msgstr "Riesgo"
+
+msgid "Rotate left"
+msgstr "Girar a la izquerda"
+
+msgid "Rotate right"
+msgstr "Girar a la derecha"
+
+msgid ""
+"Rotate the image if necessary, then click and drag to select the interesting "
+"zone:"
+msgstr ""
+"Rote la imagen si es necesario, a continuación, pulse y arrastre para "
+"seleccionar la zona de interés:"
+
+msgid "Russian"
+msgstr "Ruso"
+
+msgid "salt equivalent"
+msgstr "sal equivalente"
+
+msgid "Sardines in olive oil, Orange juice from concentrate"
+msgstr "Sardinas en aceite de oliva, zumo de naranja de concentrado"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Saved."
+msgstr "Guardado."
+
+msgid "Saving image"
+msgstr "Guardar imagen"
+
+msgid "Saving."
+msgstr "Guardar."
+
+msgid "Scatter plot"
+msgstr "Gráfico de dispersión"
+
+msgid "Search a product, brand, ingredient, nutriment etc."
+msgstr "Buscar un producto, marca, ingrediente, alimento, etc."
+
+msgid ""
+"Search for words present in the product name, generic name, brands, "
+"categories, origins and labels"
+msgstr ""
+"Búsqueda de palabras presentes en el nombre del producto, nombre genérico, "
+"las marcas, las categorías, los orígenes y las etiquetas"
+
+msgid "Search results"
+msgstr "Resultados de búsqueda"
+
+msgid "Search terms"
+msgstr "Términos de búsqueda"
+
+msgid "Search:"
+msgstr "Buscar:"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "See the product page"
+msgstr "Ver la página del producto"
+
+msgid "See you soon!"
+msgstr "¡Hasta la vista!"
+
+msgid "Selected images"
+msgstr "Imágenes seleccionadas"
+
+msgid "Send a picture..."
+msgstr "Enviar una imagen"
+
+msgid "Sending image"
+msgstr "Enviando imagen"
+
+msgid "Serving size"
+msgstr "Tamaño de la porción"
+
+msgid "Show detailed stats"
+msgstr "Mostar estadísticas detalladas"
+
+msgid "Sign-in and add the product"
+msgstr "Acceder y añadir el producto"
+
+msgid "Sign-in and edit the product"
+msgstr "Acceder y editar el producto"
+
+msgid "Sign-in"
+msgstr "Acceder"
+
+msgid "Sign-out"
+msgstr "Cerrar sesión"
+
+msgid "Site or blog address"
+msgstr "Sitio o dirección del blog"
+
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+msgid "Spanish"
+msgstr "Español"
+
+msgid "standard deviation, minimum, maximum, 10th and 90th percentiles"
+msgstr "desviación típica, mínimo, máximo, percentiles 10 y 90"
+
+msgid "Standard deviation"
+msgstr "Desviación estándar"
+
+msgid "status"
+msgstr "estado"
+
+msgid "statuses"
+msgstr "estados"
+
+msgid "store"
+msgstr "almacén"
+
+msgid "stores"
+msgstr "almacenes"
+
+msgid "Subscribe to the newsletter (2 emails per month maximum)"
+msgstr "Suscribirse al boletín (2 correos al mes máximo)"
+
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+msgid "Thanks for joining Open Food Facts"
+msgstr "Gracias por unirse a Open Food Facts"
+
+msgid ""
+"The e-mail address is already used by another user. Maybe you already have "
+"an account? You can  <a href=\"/cgi/reset_password.pl\">reset the "
+"password</a> of your other account."
+msgstr ""
+"La dirección de correo electrónico ya ha sido utilizado por otro usuario. "
+"¿Tal vez usted ya tiene una cuenta? Puede  <a "
+"href=\"/cgi/reset_password.pl\">restablecer la contraseña</a> de su otra "
+"cuenta."
+
+msgid ""
+"The expiration date is a way to track product changes over time and to "
+"identify the most recent version."
+msgstr ""
+"La fecha de caducidad es una manera de seguir los cambios de producto en el "
+"tiempo y para identificar la versión más reciente."
+
+msgid ""
+"The graph will show only products for which displayed values are known."
+msgstr ""
+"El gráfico mostrará únicamente los productos para los que se muestran "
+"valores que se conocen."
+
+msgid ""
+"The map will show only products for which the production place is known."
+msgstr ""
+"El mapa mostrará solamente los productos para los que se conoce el lugar de "
+"producción."
+
+msgid "The password and confirmation password are different."
+msgstr "La contraseña y su confirmación son diferentes."
+
+msgid "The password needs to be a least 6 characters long."
+msgstr "La contraseña debe tener al menos 6 caracteres."
+
+msgid "The reset password link is invalid or has expired."
+msgstr ""
+"El enlace de restablecimiento de contraseña no es válido o ha expirado."
+
+msgid ""
+"The table lists by default nutriments that are often specified. Leave the "
+"field blank if it's not on the label.<br/>You can add extra nutriments "
+"(vitamins, minerals, cholesterol etc.)"
+msgstr ""
+"La tabla enumera nutrientes por defecto que a menudo se especifican. Deje el "
+"campo en blanco si no está en la etiqueta. <br/> Puede añadir nutrientes "
+"adicionales (vitaminas, minerales, colesterol, etc)"
+
+msgid ""
+"The user name must contain only unaccented letters, digits and dashes."
+msgstr ""
+"El nombre de usuario debe contener solo letras sin tilde, dígitos y guiones."
+
+msgid "There is no account with this email"
+msgstr "No hay cuenta con este correo electrónico"
+
+msgid "This mission has been completed by:"
+msgstr "La misión ha sido competada por:"
+
+msgid "This username already exists, please choose another."
+msgstr "El usuario ya existe, elija otro."
+
+msgid "This username does not exist."
+msgstr "Este usuario no existe"
+
+msgid "To be checked"
+msgstr "Para comprobar"
+
+msgid "To be completed"
+msgstr "Para completar"
+
+msgid "trace"
+msgstr "traza"
+
+msgid "traces"
+msgstr "trazas"
+
+msgid "Twitter username (optional)"
+msgstr "Usuario de Twitter (opcional)"
+
+msgid "unknown nutrient"
+msgstr "nutriente desconocido"
+
+msgid "unknown nutrients"
+msgstr "nutrientes desconocidos"
+
+msgid "unknown-nutrients"
+msgstr "nutrientes-desconocidos"
+
+msgid "Unsubscribe"
+msgstr "Darse de baja"
+
+msgid "Upload error"
+msgstr "Error de subida"
+
+msgid "Uploaded images"
+msgstr "Imágenes subidas"
+
+msgid "Uploading image"
+msgstr "Subiendo imagen"
+
+msgid "Use a different color for the following products:"
+msgstr "Use un color diferente para los siguientes productos"
+
+msgid "User name"
+msgstr "Nombre de usuario"
+
+msgid "Username or e-mail address: "
+msgstr "Usuario o dirección de correo: "
+
+msgid "Username or e-mail address:"
+msgstr "Nombre de usuario o dirección de correo:"
+
+msgid "Username or email address"
+msgstr "Nombre de usuario o dirección de correo"
+
+msgid "Validate and/or resize image"
+msgstr "Validar o redimensionar la imagen"
+
+msgid "value for 100 g / 100 ml"
+msgstr "valor para 100 g / 100 ml"
+
+msgid "Vertical axis"
+msgstr "Eje vertical"
+
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+msgid "View matching products from the entire world"
+msgstr "Ver productos coincidentes del mundo entero"
+
+msgid "View results from the entire world"
+msgstr "Ver resultados del mundo entero"
+
+msgid "View the list for matching products from the entire world"
+msgstr "Ver la lista de los productos coincidentes en el mundo entero"
+
+msgid "view"
+msgstr "ver"
+
+msgid "with nutrition facts"
+msgstr "con valores nutricionales"
+
+msgid "With sweeteners"
+msgstr "Con edulcorantes"
+
+msgid "With"
+msgstr "Con"
+
+msgid "Without"
+msgstr "Sin"
+
+msgid "You are already signed in."
+msgstr "Ya ha accedido."
+
+msgid "You are connected as %s."
+msgstr "Está conectado como %s"
+
+msgid "You are connected with your Facebook account."
+msgstr "Está conectado con su cuenta de Facebook"
+
+msgid "You can unsubscribe from the lists at any time."
+msgstr "Se puede dar de baja de la lista en cualquier momento."
+
+msgid "You need to enter a name or nickname."
+msgstr "Tiene que introducir un nombre o un apodo."
+
+msgid "You need to enter a user name"
+msgstr "Tiene que introducir un nombre de usuario"
+
+msgid ""
+"Your password has been changed. You can now log-in with this password."
+msgstr "Su contraseña ha cambiado. Ahora puede acceder con esta contraseña."
+
+msgid "Open Food Facts - World"
+msgstr "Open Food Facts - Mundo"
+
+msgid "What's in my yogurt?"
+msgstr "¿Qué hay en mi yogur?"
+
+msgid "Let's open yogurts from all around the world!"
+msgstr "¡Abramos los yogures de todo el mundo!"
+
+msgid ""
+"On Open Data Day 2014, Open Food Facts launches the What's in my yogurt? "
+"project."
+msgstr ""
+"En el Open Data Day 2014, Open Food Facts lanza el proyecto What's in my "
+"yogurt? (¿Qué hay en mi yogur?)."
+
+msgid ""
+"Help us to collect information and data (ingredients, nutrition facts etc.) "
+"on food products from all around the world."
+msgstr ""
+"Ayúdenos a recopilar información y datos (ingredientes, información "
+"nutricional, etc) en los productos alimenticios de todo el mundo."
+
+msgid ""
+"In a few minutes, you can easily add products and contribute to improve food "
+"for everyone."
+msgstr ""
+"En pocos minutos, puede añadir fácilmente productos y contribuir a mejorar "
+"la seguridad alimentaria para todos."
+
+msgid "The collected data is then usable and reusable freely:"
+msgstr ""
+"Los datos recogidos a continuación, son utilizables y reutilizables "
+"libremente:"
+
+msgid "To help you to make better choices"
+msgstr "Para ayudarle a hacer mejores elecciones"
+
+msgid "to decipher labels: which food additives should you avoid?"
+msgstr ""
+"para descifrar las etiquetas: ¿qué aditivos de alimentos debe evitar?"
+
+msgid "to compare products and to find better alternatives"
+msgstr "para comparar productos y encontrar mejores alternativas"
+
+msgid ""
+"to find products that do not contain (or contain less) substances that you "
+"want to avoid: fat, salt, additives, allergens etc."
+msgstr ""
+"para encontrar los productos que no contienen (o contienen menos) sustancias "
+"que se quiere evitar: grasa, sal, aditivos, alérgenos, etc."
+
+msgid "To motivate the industry to offer better products"
+msgstr "Para motivar a la industria a ofrecer mejores productos"
+
+msgid "by grading products and publishing nutritional comparisons."
+msgstr "calificando productos y publicando comparaciones nutricionales."
+
+msgid ""
+"by checking allegations like 25% less sugar/salt/fat than other products "
+"from the same category."
+msgstr ""
+"comprobando los alegatos como un 25% menos de azúcar / sal / grasa que otros "
+"productos de la misma categoría."
+
+msgid "To help research"
+msgstr "Para ayudar a la investigación"
+
+msgid ""
+"by combining the data with other data, researchers can find correlations and "
+"try to establish the link between some ingredients and affections."
+msgstr ""
+"mediante la combinación de los datos con otros datos, los investigadores "
+"pueden encontrar correlaciones y tratar de establecer el vínculo entre "
+"algunos de los ingredientes y de las afecciones."
+
+msgid "... and for all the other uses we have not thought about!"
+msgstr ""
+"... y para todas aquellas aplicaciones en las que aún no hemos pensado."
+
+msgid ""
+"By making this data publicly available for free and for all uses, you are "
+"not limited by our imagination, and people from all around the world will "
+"find thousand of usage ideas that we would never have thought about."
+msgstr ""
+"Al poner estos datos a disposición del público de forma gratuita y para "
+"todos los usos, usted no está limitado por nuestra imaginación, y la gente "
+"de todo el mundo encontrará miles de ideas de uso que nunca hubiéramos "
+"pensado."
+
+msgid "Got ideas? Share them on the Idea Forum!"
+msgstr "¿Tiene una ideas? Compártala en Idea Forum."
+
+msgid "Last products added:"
+msgstr "Últimos productos añadidos"
+
+msgid ""
+"products being added (in particular products added with the iPhone, Android "
+"and Windows Phone apps)"
+msgstr ""
+"productos que se añaden (en particular los productos añadidos con las "
+"aplicaciones de iPhone, Android y Windows Phone)"

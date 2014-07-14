@@ -1,0 +1,609 @@
+# German translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+#
+# Translators:
+# jus <s.brandt@mixxx.org>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenFoodFacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-02-17 17:52+0000\n"
+"Last-Translator: jus <Unknown>\n"
+"Language-Team: German "
+"(http://www.transifex.com/projects/p/openfoodfacts/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:13+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+"Language: de\n"
+
+msgid ""
+"1% for the planet, 1 percent for the planet, one percent for the planet"
+msgstr ""
+"1 %  für den Planeten, 1 %  für den Planeten, ein Prozent für den Planeten"
+
+msgid "100% natural"
+msgstr "100 % natürlich"
+
+msgid "25% less salt"
+msgstr "25 % weniger Salz"
+
+msgid "Alimentos de Castilla-La Mancha"
+msgstr ""
+
+msgid "Alimentos de Extremadura"
+msgstr ""
+
+msgid "AT-BIO-402"
+msgstr "AT-BIO-402"
+
+msgid "Authentic Trappist Product"
+msgstr ""
+
+msgid "BE-BIO-01"
+msgstr "BE-BIO-01"
+
+msgid "BE-BIO-02"
+msgstr "BE-BIO-02"
+
+msgid "Biodynamic agriculture"
+msgstr "Biodynamischen Landwirtschaft"
+
+msgid "BO-BIO-126"
+msgstr "BO-BIO-126"
+
+msgid "Calidad Certificada"
+msgstr ""
+
+msgid "Carbon compensated product, carbon neutral"
+msgstr "CO2 kompensiertes Produkt, CO2-neutral"
+
+msgid ""
+"Carbon footprint, carbon emissions, product that specifies the carbon "
+"footprint"
+msgstr ""
+"CO2-Fußabdruck, CO2-Emissionen, Produkt welches den CO2-Fußabdruck gibt"
+
+msgid "carbon, co2"
+msgstr "Kohlenstoff, CO2"
+
+msgid "Carrefour Quality, Quality Carrefour"
+msgstr "Carrefour Qualität, Qualität Carrefour"
+
+msgid "Certified Belgian Abbey Beer"
+msgstr "Zertifiziertes Belgisches Abtei-Bier"
+
+msgid "CH-BIO-004"
+msgstr "CH-BIO-004"
+
+msgid "CH-BIO-006, ch-bio-scesp-006"
+msgstr "CH-BIO-006, ch-bio-scesp-006"
+
+msgid "coloring, colouring, color, colour"
+msgstr "Färbung, Farbe"
+
+msgid "CZ-BIO-001"
+msgstr "CZ-BIO-001"
+
+msgid "DE-ÖKO-001"
+msgstr "DE-ÖKO-001"
+
+msgid "DE-ÖKO-003"
+msgstr "DE-ÖKO-003"
+
+msgid "DE-ÖKO-007"
+msgstr "DE-ÖKO-007"
+
+msgid "DE-ÖKO-013"
+msgstr "DE-ÖKO-013"
+
+msgid "Demeter"
+msgstr "Demeter"
+
+msgid "Denominación de Origen Calificada"
+msgstr ""
+
+msgid "Denominación de Origen"
+msgstr ""
+
+msgid ""
+"DO Manzanilla-Sanlúcar de Barrameda, D.O. Manzanilla-Sanlúcar de Barrameda, "
+"Manzanilla-Sanlúcar de Barrameda, Manzanilla de Sanlúcar de Barrameda"
+msgstr ""
+
+msgid "DO Montilla-Moriles, D.O. Montilla-Moriles, Montilla-Moriles"
+msgstr ""
+
+msgid "DO Navarra, D.O. Navarra, Vino de Navarra"
+msgstr ""
+
+msgid "DO Toro, D.O. Toro, Toro, Vino de Toro"
+msgstr ""
+
+msgid "DOCa Rioja, D.O.Ca. Rioja, Vino de Rioja"
+msgstr ""
+
+msgid "ES-ECO-001-AN"
+msgstr "ES-ECO-001-AN"
+
+msgid "ES-ECO-001-CM"
+msgstr "ES-ECO-001-CM"
+
+msgid "ES-ECO-002-AN"
+msgstr "ES-ECO-002-AN"
+
+msgid "ES-ECO-002-AR"
+msgstr "ES-ECO-002-AR"
+
+msgid "ES-ECO-002-CM"
+msgstr "ES-ECO-002-CM"
+
+msgid "ES-ECO-003-AN"
+msgstr "ES-ECO-003-AN"
+
+msgid "ES-ECO-004-AN"
+msgstr "ES-ECO-004-AN"
+
+msgid "ES-ECO-004-AR"
+msgstr "ES-ECO-004-AR"
+
+msgid "ES-ECO-005-AN"
+msgstr "ES-ECO-005-AN"
+
+msgid "ES-ECO-005-AR"
+msgstr "ES-ECO-005-AR"
+
+msgid "ES-ECO-006-AR"
+msgstr "ES-ECO-006-AR"
+
+msgid "ES-ECO-007-AR"
+msgstr "ES-ECO-007-AR"
+
+msgid "ES-ECO-008-AR"
+msgstr "ES-ECO-008-AR"
+
+msgid "ES-ECO-009-AR"
+msgstr "ES-ECO-009-AR"
+
+msgid "ES-ECO-010-AR"
+msgstr "ES-ECO-010-AR"
+
+msgid "ES-ECO-011-AR"
+msgstr "ES-ECO-011-AR"
+
+msgid "ES-ECO-012-AS"
+msgstr "ES-ECO-012-AS"
+
+msgid "ES-ECO-013-IB"
+msgstr "ES-ECO-013-IB"
+
+msgid "ES-ECO-014-IC"
+msgstr "ES-ECO-014-IC"
+
+msgid "ES-ECO-015-CN"
+msgstr "ES-ECO-015-CN"
+
+msgid "ES-ECO-016-CL"
+msgstr "ES-ECO-016-CL"
+
+msgid "ES-ECO-017-AN"
+msgstr "ES-ECO-017-AN"
+
+msgid "ES-ECO-017-CM"
+msgstr "ES-ECO-017-CM"
+
+msgid "ES-ECO-019-CT"
+msgstr "ES-ECO-019-CT"
+
+msgid "ES-ECO-020-CV"
+msgstr "ES-ECO-020-CV"
+
+msgid "ES-ECO-021-EX"
+msgstr "ES-ECO-021-EX"
+
+msgid "ES-ECO-022-GA"
+msgstr "ES-ECO-022-GA"
+
+msgid "ES-ECO-023-MA"
+msgstr "ES-ECO-023-MA"
+
+msgid "ES-ECO-024-MU"
+msgstr "ES-ECO-024-MU"
+
+msgid "ES-ECO-025-NA"
+msgstr "ES-ECO-025-NA"
+
+msgid "ES-ECO-026-VAS"
+msgstr "ES-ÖKO-026-VAS"
+
+msgid "ES-ECO-027-RI"
+msgstr "ES-ECO-027-RI"
+
+msgid "ES-ECO-028-CM"
+msgstr "ES-ECO-028-CM"
+
+msgid "Etiqueta de Calidad Doñana 21"
+msgstr ""
+
+msgid "EU Agriculture, European Union agriculture"
+msgstr "EU Landwirtschaft, Landwirtschaft der Europäischen Union"
+
+msgid "EU Organic, European Organic"
+msgstr ""
+
+msgid "EU Organic"
+msgstr "EU Bio"
+
+msgid "FACE"
+msgstr ""
+
+msgid "Fair trade"
+msgstr "Fair-Trade"
+
+msgid "Fairtrade International, Fairtrade, FLO international, FLO"
+msgstr "Fairtrade International, Fairtrade, FLO International, FLO"
+
+msgid "Fed without GMOs"
+msgstr "Gefüttert ohne genetisch veränderte Organismen"
+
+msgid "flavor, flavour, flavoring, flavouring"
+msgstr "Aroma, Geschmacksstoffe"
+
+msgid "FR-BIO-01"
+msgstr "FR-BIO-01"
+
+msgid "FSC, Forest Stewardship Council"
+msgstr ""
+
+msgid "Galicia Calidade"
+msgstr ""
+
+msgid "Gluten-free, Without gluten, No gluten"
+msgstr "Glutenfrei, Ohne Gluten, Kein Gluten"
+
+msgid "Gluten-free"
+msgstr "Glutenfrei"
+
+msgid "GMOs, Genetically Modified Organisms"
+msgstr "GVO, Genetisch veränderte Organismen"
+
+msgid "In braille"
+msgstr "In Braille-Schrift"
+
+msgid ""
+"ingredients, from, with, of, by, the, verified, certified, approved, 100%, "
+"pure, product, guaranty, guaranteed"
+msgstr ""
+"Zutaten, aus, mit, von, bei, der, geprüft, zertifiziert, zugelassen, 100 % "
+"rein, Produkt, Garantie, garantiert"
+
+msgid "Integrated production"
+msgstr "Integrierte Produktion"
+
+msgid "IT-BIO-003"
+msgstr "IT-BIO-003"
+
+msgid "IT-BIO-004"
+msgstr "IT-BIO-004"
+
+msgid "IT-BIO-005"
+msgstr "IT-BIO-005"
+
+msgid "IT-BIO-006"
+msgstr "IT-BIO-006"
+
+msgid "IT-BIO-007"
+msgstr "IT-BIO-007"
+
+msgid "IT-BIO-008"
+msgstr "IT-BIO-008"
+
+msgid "IT-BIO-009"
+msgstr "IT-BIO-009"
+
+msgid "IT-BIO-010"
+msgstr "IT-BIO-010"
+
+msgid "IT-BIO-011"
+msgstr "IT-BIO-011"
+
+msgid "IT-BIO-012"
+msgstr "IT-BIO-012"
+
+msgid "IT-BIO-013"
+msgstr "IT-BIO-013"
+
+msgid "IT-BIO-014"
+msgstr "IT-BIO-014"
+
+msgid "Kosher, kasher"
+msgstr "Koscher, Kascher"
+
+msgid "Kosher"
+msgstr "Koscher"
+
+msgid "Lowers cholesterol"
+msgstr "Senkt Cholesterin"
+
+msgid "made in France"
+msgstr "Hergestellt in Frankreich"
+
+msgid "Max Havelaar, Max Havelar"
+msgstr ""
+
+msgid "Max Havelaar"
+msgstr ""
+
+msgid "MSG, glutamate"
+msgstr "MSG, Glutamat"
+
+msgid "natural colorings"
+msgstr "natürliche Farbstoffe"
+
+msgid "natural flavors"
+msgstr "natürliche Aromen"
+
+msgid "never frozen"
+msgstr "nie gefroren"
+
+msgid "NL-BIO-01"
+msgstr "NL-BIO-01"
+
+msgid "no added salt"
+msgstr "ohne Zusatz von Salz"
+
+msgid "No added sugar"
+msgstr "Ohne Zusatz von Zucker"
+
+msgid "No additives"
+msgstr "Ohne Zusatzstoffe"
+
+msgid "no alcohol, alcohol-free"
+msgstr "kein Alkohol, alkoholfrei"
+
+msgid "no artificial colors"
+msgstr "keine künstlichen Farbstoffe"
+
+msgid "no artificial flavors"
+msgstr "keine künstlichen Aromen"
+
+msgid "no aspartame, aspartame free"
+msgstr "kein Aspartam, Aspartam frei"
+
+msgid "No Bisphenol-A, No BPA, BPA free, Bisphenol-A free"
+msgstr "Kein Bisphenol-A, Nr. BPA, BPA frei, Bisphenol-A frei"
+
+msgid "No caffeine, caffeine free"
+msgstr "Kein Koffein, koffeinfrei"
+
+msgid "no cholesterol, cholesterol-free"
+msgstr "kein Cholesterin, cholesterinfrei"
+
+msgid "No colorings, no added colorings"
+msgstr "Keine Farbstoffe, keine zusätzlichen Farbstoffe"
+
+msgid "no eggs, egg free"
+msgstr "keine Eier, Ei-frei"
+
+msgid "no flavors, no added flavors"
+msgstr "keine Aromen, keine zusätzlichen Aromen"
+
+msgid "no flavour enhancer"
+msgstr "keine Geschmacksverstärker"
+
+msgid "No GMOs"
+msgstr "Ohne GMO"
+
+msgid "no lactose, lactose-free"
+msgstr "keine Laktose, laktosefrei"
+
+msgid "No lecithine, lecithine-free"
+msgstr "Ohne Sojalecithin, Sojalecithin-frei"
+
+msgid "no milk, milk-free"
+msgstr "Ohne Milch, Milch-frei"
+
+msgid "No MSG, MSG free"
+msgstr "Ohne MSG, MSG frei"
+
+msgid "No preservatives, no added preservatives"
+msgstr "Ohne Konservierungsstoffe, keine zusätzlichen Konservierungsstoffe"
+
+msgid "no soy, soy free"
+msgstr "kein Soja, Soja frei"
+
+msgid "no sugar, sugar-free"
+msgstr "kein Zucker, zuckerfrei"
+
+msgid "not advised for pregnant women"
+msgstr "nicht empfohlen für Schwangere"
+
+msgid "Organic"
+msgstr "Bio"
+
+msgid "Orthodox Union, OU"
+msgstr "Orthodox Union, OU"
+
+msgid "Palm oil free, Without palm oil, No palm oil"
+msgstr "Palmöl-frei, Ohne Palmöl, Kein Palmöl"
+
+msgid "PDO Arroz de Calasparra, Arroz de Calasparra"
+msgstr ""
+
+msgid "PDO Arroz de Valencia, PDO Arròs de València, Arròs de València"
+msgstr ""
+
+msgid "PDO Azafrán de La Mancha, Azafrán de La Mancha"
+msgstr ""
+
+msgid "PDO Estepa"
+msgstr ""
+
+msgid "PDO Montes de Toledo, Montes de Toledo"
+msgstr ""
+
+msgid "PDO Pasas de Málaga, Pasas de Málaga"
+msgstr ""
+
+msgid "PDO Pimentón de la Vera, Pimentón de la Vera"
+msgstr ""
+
+msgid "PDO Pimentón de Murcia, Pimentón de Murcia"
+msgstr ""
+
+msgid "PDO Sierra de Segura, Sierra de Segura"
+msgstr ""
+
+msgid "PDO Vinagre de Jerez, Vinagre de Jerez"
+msgstr ""
+
+msgid "PDO, P.D.O, Protected Designation of Origin"
+msgstr "PDO, P.D.O, Geschützte Ursprungsbezeichnung"
+
+msgid "PDO"
+msgstr ""
+
+msgid "PGI Alubia de La Bañeza-León, Alubia de La Bañeza-León"
+msgstr ""
+
+msgid "PGI Berenjena de Almagro, Berenjena de Almagro"
+msgstr ""
+
+msgid "PGI Garbanzo de Fuentesaúco, Garbanzo de Fuentesaúco"
+msgstr ""
+
+msgid "PGI Lenteja de La Armuña, Lenteja de La Armuña"
+msgstr ""
+
+msgid ""
+"PGI Lenteja Pardina de Tierra de Campos, Lenteja Pardina de Tierra de Campos"
+msgstr ""
+
+msgid "PGI Mazapán de Toledo, Mazapán de Toledo"
+msgstr ""
+
+msgid "PGI Pemento do Couto, Pemento do Couto"
+msgstr ""
+
+msgid "PGI, P.G.I, Protected Geographical Indication"
+msgstr "PGI, P.G.I, Geschützte geografische Angabe"
+
+msgid "PGI"
+msgstr ""
+
+msgid "preservatives, conservatives"
+msgstr "Konservierungsstoffe, Konservativen"
+
+msgid "PT-BIO-03"
+msgstr "PT-BIO-03"
+
+msgid "PT-BIO-04"
+msgstr "PT-BIO-04"
+
+msgid "Pure beef"
+msgstr "Reines Rindfleisch"
+
+msgid "Pure butter"
+msgstr "Reine Butter"
+
+msgid "pure cocoa butter, pure cocoa butter chocolate"
+msgstr "reine Kakaobutter, reine Kakaobutter-Schokolade"
+
+msgid "Pure juice"
+msgstr "Reiner Saft"
+
+msgid "Pure pork"
+msgstr "Reines Schweinefleisch"
+
+msgid "Rainforest Alliance"
+msgstr ""
+
+msgid "Reinheitsgebot"
+msgstr "Reinheitsgebot"
+
+msgid "Reyno Gourmet"
+msgstr ""
+
+msgid "Rich in fiber"
+msgstr "Reich an Ballaststoffen"
+
+msgid "Rich in vitamin C"
+msgstr "Reich an Vitamin C"
+
+msgid ""
+"RSPO, Roundtable on Sustainable Palm Oil, Huile de palme RSPO, Huile de "
+"palme durable RSPO"
+msgstr ""
+
+msgid "Spanish protected product"
+msgstr "Geschütztes Spanisches Erzeugnis"
+
+msgid "Spanish quality label"
+msgstr "Spanisches Qualitäts-Gütesiegel"
+
+msgid "superior quality"
+msgstr "Spitzenqualität"
+
+msgid "Sustainable fishery, Sustainable fishing, Sustainable Seafood"
+msgstr ""
+"Nachhaltige Fischerei, nachhaltige Fischerei, nachhaltige Meeresfrüchte"
+
+msgid "Sustainable fishery"
+msgstr "Nachhaltige Fischerei"
+
+msgid "Sustainable Seafood MSC, MSC, Marine Stewardship Council"
+msgstr ""
+
+msgid "Tierra de Sabor"
+msgstr ""
+
+msgid "TSG, T.S.G, Traditional Speciality Guaranteed"
+msgstr ""
+
+msgid "USDA Organic"
+msgstr ""
+
+msgid "Vegan Action"
+msgstr ""
+
+msgid "Vegan Society"
+msgstr ""
+
+msgid "Vegan, Suitable for vegans"
+msgstr "Vegan, Geeignet für Veganer"
+
+msgid "Vegan"
+msgstr "Vegan"
+
+msgid "Vegetarian Society"
+msgstr ""
+
+msgid "Vegetarian, Suitable for vegetarians"
+msgstr "Vegetarisch, Geeignet für Vegetarier"
+
+msgid "Vegetarian"
+msgstr "Vegetarisch"
+
+msgid "Vino de la Tierra"
+msgstr ""
+
+msgid "Vino de Pago"
+msgstr ""
+
+msgid "VP Campo de la Guardia, V.P. Campo de la Guardia, Campo de la Guardia"
+msgstr ""
+
+msgid "VT Castilla, V.T. Castilla, Vino de la Tierra de Castilla "
+msgstr ""
+
+msgid "With sulfites, Contains sulfites"
+msgstr "Mit Sulfiten, Enthält Sulfite"
+
+msgid "With Sunflower oil"
+msgstr "Mit Sonnenblumenöl"
+
+msgid "without, 0%"
+msgstr "ohne, 0 %"

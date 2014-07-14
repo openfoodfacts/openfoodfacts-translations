@@ -1,0 +1,149 @@
+# Russian translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-08 18:49+0000\n"
+"Last-Translator: Ivlev Denis <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Войти"
+
+#: logout
+msgid "Sign-out"
+msgstr "Выйти"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Искать продукцию по имени или бренду:"
+
+#: search_button
+msgid "Search"
+msgstr "Поиск"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Сканировать штрих-код для поиска или добавления продукта:"
+
+#: scan
+msgid "Scan"
+msgstr "Сканировать"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-ru.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts выдает информацию и данные по пищевым продуктам всего мира из открытой "
+"и бесплатной базы данных.</p>"
+
+#: back
+msgid "Back"
+msgstr "Назад"
+
+#: close
+msgid "Close"
+msgstr "Закрыть"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Войдите, чтобы добавлять или редактировать информацию о продуктах."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Имя пользователя или e-mail:"
+
+#: password
+msgid "Password:"
+msgstr "Пароль:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Нет учетной записи? <a href=http://ru.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Создать учетную запись</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Предпочитаемый язык:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Поиск продуктов происходит для выбранного языка, новые продукты будут "
+"добавляться к соответствующей версии Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Параметры"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Приветствую, $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Идет отправка"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Изображение получено, спасибо!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Невозможно отправить изображение"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Повтор"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Идёт поиск"
+
+#: connecting
+msgid "Connecting"
+msgstr "Подключение"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Не удалось соединиться, проверьте соединение."
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Неверное имя пользователя или пароль"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Загружается продукт из базы данных Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Продукт $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Добавить продукт без штрих-кода"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Штрих-код: $1"

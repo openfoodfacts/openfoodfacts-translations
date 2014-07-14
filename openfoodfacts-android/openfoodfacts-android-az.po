@@ -1,0 +1,150 @@
+# Azerbaijani translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-06 19:24+0000\n"
+"Last-Translator: Rashid Aliyev <Unknown>\n"
+"Language-Team: Azerbaijani <az@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Daxil ol"
+
+#: logout
+msgid "Sign-out"
+msgstr "Çıx"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Məhsulu adına və ya brendinə görə seç"
+
+#: search_button
+msgid "Search"
+msgstr "Axtarış"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Barkodu skan etməklə məhsul axtar və ya əlavə et:"
+
+#: scan
+msgid "Scan"
+msgstr "Kodu oxu"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Açıq Qida Faktları /><br /><p>Açıq "
+"Qida Faktları -dünya üzrə qida məhsulların haqda verilənlər və mılumatın "
+"pulsuz və açıq verilənlər bazası.</p>"
+
+#: back
+msgid "Back"
+msgstr "Geri"
+
+#: close
+msgid "Close"
+msgstr "Bağla"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr ""
+"Məhsul əlavə etmək və ya məhsul səhifəsini redaktə etmək üçün daxil olun."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "İstifadəçi adı və ya e-poçt ünvanı:"
+
+#: password
+msgid "Password:"
+msgstr "Şifrə:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Hesabınız yoxdur? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Hesab yarat</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Üstünlük verilən dil:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Axtarış seçilmiş dildə üstünlük təşkil edən məhsullar və sizin əlavə "
+"edəcəyiniz məhulların Open Foods Fact-ın versiyasına uyğun çıxarılacaq."
+
+#: parameters
+msgid "Parameters"
+msgstr "Xüsusiyyətlər"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Salam $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Göndərilir"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Şəkil qəbul olunmuşdur! Təçəkkür edirik!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Şəkili göndərmək mümkün olmadı"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Yenidən sına"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Proqress üzrə axtarış"
+
+#: connecting
+msgid "Connecting"
+msgstr "Qoşulur"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Qoşulmaq mümkün olmadı: şəbəkə yoxdur?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Yalnış istifadəçi adı və ya şifrə"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Açıq Qida Faktları bazasından məhsul haqda məlumat yüklənir"
+
+#: product_title
+msgid "Product $1"
+msgstr "Məhsul $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Barkodsuz məhsul əlavə et"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Barkod: $1"

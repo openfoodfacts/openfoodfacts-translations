@@ -1,0 +1,150 @@
+# French translation for openfoodfacts
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-04 15:07+0000\n"
+"Last-Translator: Pierre Soulat <Unknown>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Entrer"
+
+#: logout
+msgid "Sign-out"
+msgstr "Se déconnecter"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Chercher un produit par nom ou par marque :"
+
+#: search_button
+msgid "Search"
+msgstr "Chercher"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Scannez le code-barre pour trouver ou ajouter un produit :"
+
+#: scan
+msgid "Scan"
+msgstr "Scanner"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-fr.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts répertorie les produits alimentaires du monde entier dans une base de "
+"données ouverte et gratuite.</p>"
+
+#: back
+msgid "Back"
+msgstr "Retour"
+
+#: close
+msgid "Close"
+msgstr "Fermer"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Connectez-vous pour ajouter des produits ou modifier leurs fiches."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Nom d'utilisateur ou adresse email :"
+
+#: password
+msgid "Password:"
+msgstr "Mot de passe :"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Pas encore de compte ? <a href=http://fr.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Créer un compte</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Langue préférée :"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"La recherche retournera en priorité des produits dans la langue "
+"sélectionnée, et les produits que vous ajoutez seront ajoutés à la version "
+"correspondante d'Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Bienvenue $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Envoi en cours…"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Image reçue, merci!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "L'image n'a pu être envoyée."
+
+#: upload_retry
+msgid "Retry"
+msgstr "Réessayer"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Recherche en cours…"
+
+#: connecting
+msgid "Connecting"
+msgstr "Connexion en cours"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Échec de la connexion : pas de réseau ?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Mauvais nom d'utilisateur ou mot de passe"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Chargement du produit à partir de la base de données Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Produit $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Ajouter un produit sans code-barre"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Code barre : $1"

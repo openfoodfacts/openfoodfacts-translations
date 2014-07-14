@@ -1,0 +1,149 @@
+# Oriya translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-08 04:12+0000\n"
+"Last-Translator: Chidananda Sahoo <chidanandsahoo8@gmail.com>\n"
+"Language-Team: Oriya <or@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "ଲଗ-ଇନ୍ କରନ୍ତୁ"
+
+#: logout
+msgid "Sign-out"
+msgstr "ଲଗ-ଆଉଟ୍ କରନ୍ତୁ"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "କୌଣସି ଉତ୍ପାଦର ନାମ ସନ୍ଧାନ କରନ୍ତୁ"
+
+#: search_button
+msgid "Search"
+msgstr "ସନ୍ଧାନ"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "ଉତ୍ପାଦ ଖୋଜିବା ପାଇଁ ବାର୍-କୋଡ୍ କୁ କ୍ରମବୀକ୍ଷଣ କରନ୍ତୁ"
+
+#: scan
+msgid "Scan"
+msgstr "କ୍ରମବୀକ୍ଷଣ କରନ୍ତୁ"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=ମୁକ୍ତ ଖାଦ୍ୟ ତଥ୍ୟ /><br /><p>ମୁକ୍ତ "
+"ଖାଦ୍ୟ ତଥ୍ୟ, ଦୁନିଆର କୋଣ ଅନୁକୋଣରୁ ଖାଦ୍ୟ ତଥା ଖାଦ୍ୟ ଉତ୍ପାଦ ବିଷୟରେ ଅନେକ ତଥ୍ୟ "
+"ସଂଗ୍ରହ କରେ.</p>"
+
+#: back
+msgid "Back"
+msgstr "ପଛକୁ"
+
+#: close
+msgid "Close"
+msgstr "ବନ୍ଦ କରନ୍ତୁ"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "ଉତ୍ପାଦ ଯୋଡିବା ତଥା ଉତ୍ପାଦ ସମ୍ପାଦନା କରିବା ପାଇଁ ଲଗ-ଇନ୍ କରନ୍ତୁ"
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "କର୍ତାଙ୍କ ନାମ"
+
+#: password
+msgid "Password:"
+msgstr "ପ୍ରବେଶ ସଂକେତ:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"ଖାତା ଖୋଲି ନାହାନ୍ତି କି ? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>ନୂଆ ଖାତାଟିଏ ଖୋଲନ୍ତୁ</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "ମନୋନୀତ ଭାଷା"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"ସନ୍ଧାନର ଫଳାଫଳ, ପ୍ରାଥମିକତା ହିସାବରେ ମନୋନୀତ ଭାଷାରେ ପ୍ରକାଶିତ ହେବ ଏବଂ ଆପଣ ଯେଉଁ "
+"ଉତ୍ପାଦ ଯୋଡିବେ, ତାହା ମୁକ୍ତ ଖାଦ୍ୟ ତଥ୍ୟର ପ୍ରଚଳିତ ସଂସ୍କରଣରେ ସଂଯୋଗ ହେବ"
+
+#: parameters
+msgid "Parameters"
+msgstr "ପ୍ରାଚଳ ବା ପରାମିଟର"
+
+#: hello
+msgid "Hello $1!"
+msgstr "ଶୁଭେଚ୍ଛା $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "ପ୍ରେରଣ ଚାଲୁଅଛି"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "ଛବି ପ୍ରାପ୍ତ ହୋଇଛି । ଧନ୍ୟବାଦ !"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "ଏହି ଛବିଟି ପଠାଯାଇ ପାରିବନି"
+
+#: upload_retry
+msgid "Retry"
+msgstr "ଆଉଥରେ ଚେଷ୍ଟା କରନ୍ତୁ"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "ଖୋଜୁଛି"
+
+#: connecting
+msgid "Connecting"
+msgstr "ସଂଯୋଗ କରୁଛି"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "ଯୋଗାଯୋଗ ବିଚ୍ଛିନ୍ନ ହୋଇଗଲା ! ନେଟୱର୍କ ନାହିଁ କି ?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "ଭୁଲ କର୍ତାଙ୍କ ନାମ ଅଥବା ଭୁଲ ପ୍ରବେଶ ସଙ୍କେତ"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "ମୁକ୍ତ ଖାଦ୍ୟ ତଥ୍ୟର ତଥ୍ୟାଗାରରୁ ଉତ୍ପାଦ ଜମା ହେଉଛି"
+
+#: product_title
+msgid "Product $1"
+msgstr "ଉତ୍ପାଦ $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "ବାର-କୋଡ୍ ବିହୀନ ଉତ୍ପାଦ ଯୋଡନ୍ତୁ"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "ବାର-କୋଡ୍: $1"

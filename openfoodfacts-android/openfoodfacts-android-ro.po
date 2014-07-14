@@ -1,0 +1,151 @@
+# Romanian translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-05 01:16+0000\n"
+"Last-Translator: Radu Rădeanu <radu.radeanu@gmail.com>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Autentificare"
+
+#: logout
+msgid "Sign-out"
+msgstr "Deconectare"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Caută un produs după nume sau brand:"
+
+#: search_button
+msgid "Search"
+msgstr "Caută"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Scanează codul de bare pentru a găsi sau adăuga un produs:"
+
+#: scan
+msgid "Scan"
+msgstr "Scanează"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts adună informații și date cu privire la produsele alimentare din "
+"întreaga lume într-o bază de date liberă și deschisă.</p>"
+
+#: back
+msgid "Back"
+msgstr "Înapoi"
+
+#: close
+msgid "Close"
+msgstr "Închide"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr ""
+"Autentificarea este necesară pentru a adăuga sau edita paginile produselor."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Nume de utilizator sau adresa de e-mail:"
+
+#: password
+msgid "Password:"
+msgstr "Parolă:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Nu ai încă un cont? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Crează un cont nou</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Limba preferată:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Căutarea va întoarce produse prioritare în limba selectată, iar produsele pe "
+"care le adăugați vor fi adăugate la versiunea corespunzătoare cu Open Food "
+"Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Parametrii"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Salut $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Trimitere în curs"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Imagine primită, vă mulțumesc!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Imaginea nu a putut fi trimisă"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Reîncercați"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Căutare in curs"
+
+#: connecting
+msgid "Connecting"
+msgstr "Conectare"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Conectare eșuată: nu sunteți conectat la o rețea?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Utilizatorul sau parola incorecte"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Încărcare produs din baza de date a Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Produs $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Adaugă un produs fără  codul de bare"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Cod de bare: $1"

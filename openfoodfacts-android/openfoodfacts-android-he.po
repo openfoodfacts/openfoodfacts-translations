@@ -1,0 +1,149 @@
+# Hebrew translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-06 13:52+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "כניסה"
+
+#: logout
+msgid "Sign-out"
+msgstr "יציאה"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "חיפוש מוצר לפי שם או מותג:"
+
+#: search_button
+msgid "Search"
+msgstr "חיפוש"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "יש לסרוק את הברקוד כדי לחפש או להוסיף מוצר:"
+
+#: scan
+msgid "Scan"
+msgstr "סריקה"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts אוסף מידע ונתונים על מוצרי מזון מרחבי העולם במסד נתונים חופשי "
+"ופתוח.</p>"
+
+#: back
+msgid "Back"
+msgstr "חזרה"
+
+#: close
+msgid "Close"
+msgstr "סגירה"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "יש להיכנס כדי להוסיף מוצרים או לערוך עמודי מוצרים."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "שם משתמש או כתובת דוא״ל:"
+
+#: password
+msgid "Password:"
+msgstr "ססמה:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"אין לך חשבון עדיין? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>יצירת חשבון</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "שפה מועדפת:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"חיפוש יחזיר את המוצרים בעדיפות גבוהה בשפה הנבחרה, ומוצרים שיתווספו על ידיך "
+"יתווספו אל הגרסה התואמת של Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "משתנים"
+
+#: hello
+msgid "Hello $1!"
+msgstr "שלום $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "מתבצעת שליחה"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "התמונה התקבלה, תודה!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "לא ניתן לשלוח את התמונה"
+
+#: upload_retry
+msgid "Retry"
+msgstr "ניסיון חוזר"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "החיפוש מתבצע"
+
+#: connecting
+msgid "Connecting"
+msgstr "מתבצעת התחברות"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "ההתחברות נכשלה: אין רשת?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "שם המשתמש או הססמה שגויים"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "מוצר ממסד הנתונים של Open Food Facts נטען"
+
+#: product_title
+msgid "Product $1"
+msgstr "מוצר $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "הוספת מוצר ללא ברקוד"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "ברקוד: $1"

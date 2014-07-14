@@ -1,0 +1,150 @@
+# Malay translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-07 19:11+0000\n"
+"Last-Translator: CL TAN <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Daftar masuk"
+
+#: logout
+msgid "Sign-out"
+msgstr "Daftar keluar"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Cari produk mengikut nama atau jenama:"
+
+#: search_button
+msgid "Search"
+msgstr "Gelintar"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Imbas barkod untuk cari atau tambah produk:"
+
+#: scan
+msgid "Scan"
+msgstr "Imbas"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts menghimpun maklumat dan data produk makanan dari serata dunia dalam "
+"pangkalan data bebas dan terbuka.</p>"
+
+#: back
+msgid "Back"
+msgstr "Undur"
+
+#: close
+msgid "Close"
+msgstr "Tutup"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Daftar untuk menambah produk atau menyunting halaman produk."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Nama pengguna atau alamat e-mel:"
+
+#: password
+msgid "Password:"
+msgstr "Kata laluan:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Belum ada akaun lagi? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Cipta akaun baharu</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Bahasa dikehendaki:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Menggelintar akan paparkan produk yang diutamakan dalam bahasa pilihan, dan "
+"produk yang anda tambah akan dimasukkan dalam versi Open Food Fact yang "
+"berkenaan."
+
+#: parameters
+msgid "Parameters"
+msgstr "Parameter"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Hello $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Menghantar kemajuan"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Imej diterima, terima kasih!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Imej tidak dapat dihantar"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Cuba lagi"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Gelintar di dalam proses"
+
+#: connecting
+msgid "Connecting"
+msgstr "Menyambung"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Penyambungan gagal: tiada rangkaian?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Nama pengguna atau kata laluan teruk"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Memuatkan produk dari pangkalan data Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Produk $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Tambah produk tanpa barkod"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Barkod: $1"

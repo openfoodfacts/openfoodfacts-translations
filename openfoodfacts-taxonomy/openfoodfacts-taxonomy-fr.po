@@ -1,0 +1,6595 @@
+# French translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-06-09 16:49+0000\n"
+"Last-Translator: Jean Marc <Unknown>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:13+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+msgid "Zizanie"
+msgstr "Zizanie"
+
+msgid "Yin Zhen"
+msgstr "Yin Zhen"
+
+msgid "Yaourts, yahourts, yogourts, yoghourts"
+msgstr "Yaourts, yogourts, yoghourts"
+
+msgid "Yaourts végétaux, yaourt végétal, yaourt végan, yaourts sans lait"
+msgstr "Yaourts végétaux, yaourt végétal, yaourt végan, yaourts sans lait"
+
+msgid "Yaourts vanille, Yaourts à la vanille"
+msgstr "Yaourts vanille, yaourts à la vanille"
+
+msgid "Yaourts sucrés"
+msgstr "Yaourts sucrés"
+
+msgid "Yaourts soja natures"
+msgstr "Yaourts soja natures"
+
+msgid "Yaourts soja aux fruits tropicaux"
+msgstr "Yaourts soja aux fruits tropicaux"
+
+msgid "Yaourts soja aux fruits rouges"
+msgstr "Yaourts soja aux fruits rouges"
+
+msgid "Yaourts soja aux fruits mixés"
+msgstr "Yaourts soja aux fruits mixés"
+
+msgid "Yaourts soja aux fruits"
+msgstr "Yaourts soja aux fruits"
+
+msgid "Yaourts soja au citron"
+msgstr "Yaourts soja au citron"
+
+msgid "Yaourts natures, Yaourt nature"
+msgstr "Yaourts natures, yaourt nature"
+
+msgid "Yaourts mixés"
+msgstr "Yaourts mixés"
+
+msgid "Yaourts entiers, Yaourts au lait entier, Yaourt au lait entier"
+msgstr "Yaourts entiers, yaourts au lait entier, yaourt au lait entier"
+
+msgid "Yaourts brassés, Yaourt brassé"
+msgstr "Yaourts brassés, yaourt brassé"
+
+msgid "Yaourts brassés à la fraise"
+msgstr "Yaourts brassés à la fraise"
+
+msgid "Yaourts aux fruits"
+msgstr "Yaourts aux fruits"
+
+msgid "Yaourts au soja, Yaourts soja, yaourts au lait de soja"
+msgstr "Yaourts au soja, yaourts soja, yaourts au lait de soja"
+
+msgid ""
+"Yaourts au lait de brebis, Yaourt au lait de brebis, Yaourts de brebis, "
+"Yaourt de brebis"
+msgstr ""
+"Yaourts au lait de brebis, yaourt au lait de brebis, yaourts de brebis, "
+"yaourt de brebis"
+
+msgid "Yaourts au citron"
+msgstr "Yaourts au citron"
+
+msgid "Yaourts aromatisés"
+msgstr "Yaourts aromatisés"
+
+msgid "Yaourts allégés en matière grasse, Yaourts allégés"
+msgstr "Yaourts allégés en matière grasse, yaourts allégés"
+
+msgid "Yaourts à la grecque"
+msgstr "Yaourts à la grecque"
+
+msgid "Yaourts à la fraise"
+msgstr "Yaourts à la fraise"
+
+msgid "Yaourts à boire"
+msgstr "Yaourts à boire"
+
+msgid "Wrap, roulade"
+msgstr "Wrap, roulade"
+
+msgid "Williamine"
+msgstr "Williamine"
+
+msgid "Whiskys, whiskies, whiskey, whiskeys"
+msgstr "Whiskys, whiskies, whiskey, whiskeys"
+
+msgid ""
+"Whiskys allemands, Whisky allemand, Whiskey allemand, Whiskeys allemands, "
+"Whiskys d’Allemagne, Whisky d’Allemagne, Whiskey d’Allemagne, Whiskeys "
+"d’Allemagne"
+msgstr ""
+"Whiskys allemands, whisky allemand, whiskey allemand, whiskeys allemands, "
+"whiskys d’Allemagne, whisky d’Allemagne, whiskey d’Allemagne, whiskeys "
+"d’Allemagne"
+
+msgid "Whisky normand"
+msgstr "Whisky normand"
+
+msgid "Whisky lorrain"
+msgstr "Whisky lorrain"
+
+msgid "Whisky japonais"
+msgstr "Whisky japonais"
+
+msgid "Whisky irlandais"
+msgstr "Whisky irlandais"
+
+msgid "Whisky gallois"
+msgstr "Whisky gallois"
+
+msgid "Whisky français"
+msgstr "Whisky français"
+
+msgid "Whisky écossais"
+msgstr "Whisky écossais"
+
+msgid "Whisky corse"
+msgstr "Whisky corse"
+
+msgid ""
+"Whisky canadiens, Whisky canadien, Whiskey canadien, Whiskeys canadiens"
+msgstr ""
+"Whisky canadiens, whisky canadien, whiskey canadien, whiskeys canadiens"
+
+msgid "Whisky breton"
+msgstr "Whisky breton"
+
+msgid "Whisky belge"
+msgstr "Whisky belge"
+
+msgid "Whisky américain"
+msgstr "Whisky américain"
+
+msgid "Whisky alsacien"
+msgstr "Whisky alsacien"
+
+msgid "Volailles surgelées, Volaille surgelée"
+msgstr "Volailles surgelées, volaille surgelée"
+
+msgid "Volailles"
+msgstr "Volailles"
+
+msgid "Vodkas, Vodka"
+msgstr "Vodkas, vodka"
+
+msgid "vins vinés"
+msgstr "vins vinés"
+
+msgid "vins rouges, vin rouge"
+msgstr "Vins rouges, vin rouge"
+
+msgid "Vins rosés, vin rosé"
+msgstr "Vins rosés, vin rosé"
+
+msgid "vins pétillant, vin pétillant, pétillant"
+msgstr "Vins pétillant, vin pétillant, pétillant"
+
+msgid "vins perlant, vin perlant, perlé"
+msgstr "Vins perlant, vin perlant, perlé"
+
+msgid "Vins mutés, vin muté"
+msgstr "Vins mutés, vin muté"
+
+msgid "vins mutés de type vin doux naturel, VDN"
+msgstr "Vins mutés de type vin doux naturel, VDN"
+
+msgid "Vins mutés de type vin doux naturel"
+msgstr "Vins mutés de type vin doux naturel"
+
+msgid "Vins mutés"
+msgstr "Vins mutés"
+
+msgid "vins mousseux, vin mousseux, mousseux"
+msgstr "Vins mousseux, vin mousseux, mousseux"
+
+msgid "Vins italiens"
+msgstr "Vins italiens"
+
+msgid "Vins français"
+msgstr "Vins français"
+
+msgid "Vins espagnols"
+msgstr "Vins espagnols"
+
+msgid "Vins effervescents"
+msgstr "Vins effervescents"
+
+msgid "Vins du Portugal, Vins portugais"
+msgstr "Vins du Portugal, vins portugais"
+
+msgid "Vins doux, Vin doux, Vins doux naturels, Vin doux naturel"
+msgstr "Vins doux, vin doux, vins doux naturels, vin doux naturel"
+
+msgid "Vins de pays"
+msgstr "Vins de pays"
+
+msgid "Vins californiens, vins de Californie"
+msgstr "Vins californiens, vins de Californie"
+
+msgid "vins blancs, vin blanc"
+msgstr "Vins blancs, vin blanc"
+
+msgid "Vins américains"
+msgstr "Vins américains"
+
+msgid "Vins"
+msgstr "Vins"
+
+msgid "Vinaigres, vinaigre"
+msgstr "Vinaigres, vinaigre"
+
+msgid "Vinaigres noirs"
+msgstr "Vinaigres noirs"
+
+msgid "Vinaigres de Xérès, vinaigre de Xéres"
+msgstr "Vinaigres de Xérès, vinaigre de Xéres"
+
+msgid "Vinaigres de vins rouges"
+msgstr "Vinaigres de vins rouges"
+
+msgid "Vinaigres de vins de riz"
+msgstr "Vinaigres de vins de riz"
+
+msgid "Vinaigres de vins blancs"
+msgstr "Vinaigres de vins blancs"
+
+msgid "Vinaigres de vin, vinaigre de vin"
+msgstr "Vinaigres de vin, vinaigre de vin"
+
+msgid "Vinaigres de tomate, Vinaigre de tomate"
+msgstr "Vinaigres de tomate, vinaigre de tomate"
+
+msgid "Vinaigres de riz rouges"
+msgstr "Vinaigres de riz rouges"
+
+msgid "Vinaigres de riz noirs"
+msgstr "Vinaigres de riz noirs"
+
+msgid "Vinaigres de riz japonais"
+msgstr "Vinaigres de riz japonais"
+
+msgid "Vinaigres de riz blancs"
+msgstr "Vinaigres de riz blancs"
+
+msgid "Vinaigres de riz"
+msgstr "Vinaigres de riz"
+
+msgid "Vinaigres de miel"
+msgstr "Vinaigres de miel"
+
+msgid "Vinaigres de cidre, vinaigre de cidre"
+msgstr "Vinaigres de cidre, vinaigre de cidre"
+
+msgid "Vinaigres de canne, vinaigre de canne à sucre"
+msgstr "Vinaigres de canne, vinaigre de canne à sucre"
+
+msgid "Vinaigres d’alcools"
+msgstr "Vinaigres d’alcools"
+
+msgid "Vinaigres blancs, vinaigre blanc"
+msgstr "Vinaigres blancs, vinaigre blanc"
+
+msgid "Vinaigres balsamiques"
+msgstr "Vinaigres balsamiques"
+
+msgid "Vinaigres aromatisés, vinaigre aromatisé"
+msgstr "Vinaigres aromatisés, vinaigre aromatisé"
+
+msgid "Viandes surgelées"
+msgstr "Viandes surgelées"
+
+msgid "Viandes en conserve"
+msgstr "Viandes en conserve"
+
+msgid "Viandes de veau, veau"
+msgstr "Viandes de veau, veau"
+
+msgid "Viandes de porc, porc"
+msgstr "Viandes de porc, porc"
+
+msgid "Viandes de porc"
+msgstr "Viandes de porc"
+
+msgid "Viandes de boeuf, boeuf"
+msgstr "Viandes de bœuf, bœuf"
+
+msgid "Viandes d’agneau, agneau, agneaux"
+msgstr "Viandes d’agneau, agneau, agneaux"
+
+msgid "Viandes"
+msgstr "Viandes"
+
+msgid "Verveine menthe"
+msgstr "Verveine menthe"
+
+msgid "Verveine"
+msgstr "Verveine"
+
+msgid "Vermicelle de riz, vermicelles de riz"
+msgstr "Vermicelle de riz, vermicelles de riz"
+
+msgid "vergeoises"
+msgstr "Vergeoises"
+
+msgid "Veloutés de tomates"
+msgstr "Veloutés de tomates"
+
+msgid "Veloutés de potiron"
+msgstr "Veloutés de potiron"
+
+msgid "Veloutés de poireaux"
+msgstr "Veloutés de poireaux"
+
+msgid "Veloutés de légumes du soleil"
+msgstr "Veloutés de légumes du soleil"
+
+msgid "Veloutés de légumes"
+msgstr "Veloutés de légumes"
+
+msgid "Veloutés de courgettes"
+msgstr "Veloutés de courgettes"
+
+msgid "Veloutés de carottes"
+msgstr "Veloutés de carottes"
+
+msgid "Veloutés d'asperges"
+msgstr "Veloutés d'asperges"
+
+msgid "Veloutés"
+msgstr "Veloutés"
+
+msgid "Végétaux et dérivés"
+msgstr "Végétaux et dérivés"
+
+msgid "Vanille"
+msgstr "Vanille"
+
+msgid "Vacherin"
+msgstr "Vacherin"
+
+msgid "Tuber mesentericum, truffe de Lorraine"
+msgstr "Tuber mesentericum, truffe de Lorraine"
+
+msgid "Tuber brumale, truffe musquée, ivernenco, pudendo, rougeotte"
+msgstr "Tuber brumale, truffe musquée, ivernenco, pudendo, rougeotte"
+
+msgid "Tuber aestivum, truffe Mayenque, truffe noire d'été"
+msgstr "Tuber aestivum, truffe Mayenque, truffe noire d'été"
+
+msgid "Truites fumées, truite fumée"
+msgstr "Truites fumées, truite fumée"
+
+msgid "Truites"
+msgstr "Truites"
+
+msgid "Truffes en chocolat"
+msgstr "Truffes en chocolat"
+
+msgid ""
+"Truffes du Périgord, Truffes noires, Truffe noire, Tuber melanosporum, "
+"Truffes noires du Périgord, Truffes du Tricastin, truffes du Ventoux, "
+"truffes noires de Norcia, truffes noires de Spoleto"
+msgstr ""
+"Truffes du Périgord, truffes noires, truffe noire, tuber melanosporum, "
+"truffes noires du Périgord, truffes du Tricastin, truffes du Ventoux, "
+"truffes noires de Norcia, truffes noires de Spoleto"
+
+msgid ""
+"Truffes de Toscane, tuber borchii, tuber albidum Pico, truffe blanche de mars"
+msgstr ""
+"Truffes de Toscane, tuber borchii, tuber albidum Pico, truffe blanche de mars"
+
+msgid "Truffes"
+msgstr "Truffes"
+
+msgid "truffe blanche d'Alba, Tuber magnatum"
+msgstr "truffe blanche d'Alba, tuber magnatum"
+
+msgid "Triticale"
+msgstr "Triticale"
+
+msgid "Tripes"
+msgstr "Tripes"
+
+msgid "Tourtes, Tourte"
+msgstr "Tourtes, tourte"
+
+msgid "Tourtes aux champignons"
+msgstr "Tourtes aux champignons"
+
+msgid "Tourtes"
+msgstr "Tourtes"
+
+msgid "Torsades"
+msgstr "Torsades"
+
+msgid "Tommes, tomes, Tomme, tome"
+msgstr "Tommes, tomes, tomme, tome"
+
+msgid "Tommes"
+msgstr "Tommes"
+
+msgid "Tomme du Massif central"
+msgstr "Tomme du Massif central"
+
+msgid "Tomme du Canada"
+msgstr "Tomme du Canada"
+
+msgid "Tomme de Suisse"
+msgstr "Tomme de Suisse"
+
+msgid "Tomme de Savoie"
+msgstr "Tomme de Savoie"
+
+msgid "Tomme d’Italie"
+msgstr "Tomme d’Italie"
+
+msgid "Tomates séchées"
+msgstr "Tomates séchées"
+
+msgid ""
+"Tomates S.Marzano de l'Agro Sarnese-Nocerino, Pomodoro S.Marzano dell'Agro "
+"Sarnese-Nocerino"
+msgstr ""
+"Tomates S.Marzano de l'Agro Sarnese-Nocerino, Pomodoro S.Marzano dell'Agro "
+"Sarnese-Nocerino"
+
+msgid "Tomates pelées"
+msgstr "Tomates pelées"
+
+msgid "Tomates en conserve, conserves de tomate"
+msgstr "Tomates en conserve, conserves de tomate"
+
+msgid "Tomates cerise"
+msgstr "Tomates cerise"
+
+msgid "Tomates AOP"
+msgstr "Tomates AOP"
+
+msgid "Tomates"
+msgstr "Tomates"
+
+msgid "Tomate olivette, Tomates olivettes"
+msgstr "Tomate olivette, tomates olivettes"
+
+msgid "Tignard"
+msgstr "Tignard"
+
+msgid "Thunnus obesus, Thon obèse, Bigeye tuna"
+msgstr "Thunnus obesus,thon obèse, bigeye tuna"
+
+msgid "Thons tropicaux"
+msgstr "Thons tropicaux"
+
+msgid "thons rouges"
+msgstr "thons rouges"
+
+msgid "thons patudo"
+msgstr "thons patudo"
+
+msgid "thons pales, thon pale"
+msgstr "thons pales, thon pale"
+
+msgid "thons listao, bonite à ventre rayé, listao, Katsuwonus pelamis"
+msgstr "thons listao, bonite à ventre rayé, listao, katsuwonus pelamis"
+
+msgid "Thons fumés, thon fumé"
+msgstr "Thons fumés, thon fumé"
+
+msgid "Thons en conserve, Conserve de thons"
+msgstr "Thons en conserve, conserve de thons"
+
+msgid ""
+"Thons blancs, Thons germon, thons blanc germon, germon, Thunnus alalunga, "
+"thon blanc germon"
+msgstr ""
+"Thons blancs, thons germon, thons blanc germon, germon, thunnus alalunga, "
+"thon blanc germon"
+
+msgid "Thons blancs au naturel"
+msgstr "Thons blancs au naturel"
+
+msgid "Thons blancs"
+msgstr "Thons blancs"
+
+msgid "Thons au naturel"
+msgstr "Thons au naturel"
+
+msgid ""
+"Thons albacore, Thon albacore, thon à nageoires jaunes, Thunnus albacares, "
+"Thons jaunes, Thon jaune"
+msgstr ""
+"Thons albacore, thon albacore, thon à nageoires jaunes, thunnus albacares, "
+"thons jaunes, thon jaune"
+
+msgid "Thons à l’huile de tournesol"
+msgstr "Thons à l’huile de tournesol"
+
+msgid "Thons à l’huile d’olive"
+msgstr "Thons à l’huile d’olive"
+
+msgid "Thons à l’huile"
+msgstr "Thons à l’huile"
+
+msgid "Thons"
+msgstr "Thons"
+
+msgid "thon mignon, Thunnus tonggol, Longtail tuna, northern bluefin tuna"
+msgstr "Thon mignon, thunnus tonggol, longtail tuna, northern bluefin tuna"
+
+msgid "Thibarine"
+msgstr "Thibarine"
+
+msgid "Thés verts, Thé vert"
+msgstr "Thés verts, thé vert"
+
+msgid "Thés verts torréfiés japonais"
+msgstr "Thés verts torréfiés japonais"
+
+msgid "Thés verts torréfiés"
+msgstr "Thés verts torréfiés"
+
+msgid "Thés verts Long Jing, puits du dragon"
+msgstr "Thés verts Long Jing, puits du dragon"
+
+msgid "Thés verts japonais, Thés verts du Japon"
+msgstr "Thés verts japonais, thés verts du Japon"
+
+msgid "Thés verts chinois"
+msgstr "Thés verts chinois"
+
+msgid "Thés sombres"
+msgstr "Thés sombres"
+
+msgid "Thés Sencha, Sencha"
+msgstr "Thés Sencha, Sencha"
+
+msgid "Thés Sencha"
+msgstr "Thés Sencha"
+
+msgid "Thés noirs, Thé noir"
+msgstr "Thés noirs, thé noir"
+
+msgid "Thés minceur, Thé minceur"
+msgstr "Thés minceur, thé minceur"
+
+msgid "Thés jaunes"
+msgstr "Thés jaunes"
+
+msgid "Thés Hojicha, Hojicha, Bancha Hojicha"
+msgstr "Thés Hojicha, Hojicha, Bancha Hojicha"
+
+msgid "Thés glacés, Ice-tea"
+msgstr "Thés glacés, Ice-tea"
+
+msgid "Thés glacés"
+msgstr "Thés glacés"
+
+msgid "Thés Genmaicha"
+msgstr "Thés Genmaicha"
+
+msgid "Thés Fukuju, Fukuju"
+msgstr "Thés Fukuju, Fukuju"
+
+msgid "Thés bleus"
+msgstr "Thés bleus"
+
+msgid "Thés blancs, báichá"
+msgstr "Thés blancs, báichá"
+
+msgid "Thés blancs"
+msgstr "Thés blancs"
+
+msgid "Thés bancha, bancha"
+msgstr "Thés bancha, bancha"
+
+msgid "Thés au citron"
+msgstr "Thés au citron"
+
+msgid "Thés au beurre"
+msgstr "Thés au beurre"
+
+msgid "Thés aromatisés"
+msgstr "Thés aromatisés"
+
+msgid "Thés à la menthe"
+msgstr "Thés à la menthe"
+
+msgid "Thés"
+msgstr "Thés"
+
+msgid "Thazars fumés, thazar fumé, thazards fumés, thazard fumé"
+msgstr "Thazars fumés, thazar fumé, thazards fumés, thazard fumé"
+
+msgid "Terrines de volailles"
+msgstr "Terrines de volailles"
+
+msgid "Terrines de saumon"
+msgstr "Terrines de saumon"
+
+msgid "Terrines de sanglier"
+msgstr "Terrines de sanglier"
+
+msgid "Terrines de Saint-Jacques, Terrines de St-Jacques"
+msgstr "Terrines de Saint-Jacques, Terrines de St-Jacques"
+
+msgid "Terrines de lapin"
+msgstr "Terrines de lapin"
+
+msgid "Terrines de foie, terrine de foie"
+msgstr "Terrines de foie, terrine de foie"
+
+msgid "Terrines de cerf"
+msgstr "Terrines de cerf"
+
+msgid "Terrines de canard"
+msgstr "Terrines de canard"
+
+msgid "Terrines de campagne"
+msgstr "Terrines de campagne"
+
+msgid "Terrines de boudin, terrine de boudin"
+msgstr "Terrines de boudin, terrine de boudin"
+
+msgid "Terrines de bison"
+msgstr "Terrines de bison"
+
+msgid "Terrines bretonne, Terrine de Bretagne"
+msgstr "Terrines bretonne, terrine de Bretagne"
+
+msgid "Terrines"
+msgstr "Terrines"
+
+msgid "Teff"
+msgstr "Teff"
+
+msgid "Tartes tropéziennes"
+msgstr "Tartes tropéziennes"
+
+msgid "Tartes Tatin"
+msgstr "Tartes Tatin"
+
+msgid "Tartes surgelées, tarte surgelée"
+msgstr "Tartes surgelées, tarte surgelée"
+
+msgid "Tartes sucrées"
+msgstr "Tartes sucrées"
+
+msgid "Tartes salées"
+msgstr "Tartes salées"
+
+msgid "Tartes normandes"
+msgstr "Tartes normandes"
+
+msgid "Tartes françaises"
+msgstr "Tartes françaises"
+
+msgid "Tartes aux pommes néerlandaises"
+msgstr "Tartes aux pommes néerlandaises"
+
+msgid "Tartes aux pommes"
+msgstr "Tartes aux pommes"
+
+msgid "Tartes aux poireaux"
+msgstr "Tartes aux poireaux"
+
+msgid "Tartes aux myrtilles, blueberry pie"
+msgstr "Tartes aux myrtilles, blueberry pie"
+
+msgid "Tartes aux framboises"
+msgstr "Tartes aux framboises"
+
+msgid "Tartes au sucre"
+msgstr "Tartes au sucre"
+
+msgid "Tartes au sirop d'érable"
+msgstr "Tartes au sirop d'érable"
+
+msgid "Tartes au saumon"
+msgstr "Tartes au saumon"
+
+msgid "Tartes au riz"
+msgstr "Tartes au riz"
+
+msgid ""
+"Tartes au me'gin, tarte messine, tarte de meugé, tautch’e de meugé, tarte au "
+"maugin, tarte de maugin, tarte au m’gin, tarte au fromage, Tarte de Metz, "
+"Tate au m'gin, Migeaine, migaine"
+msgstr ""
+"Tartes au me'gin, tarte messine, tarte de meugé, tautch’e de meugé, tarte au "
+"maugin, tarte de maugin, tarte au m’gin, tarte au fromage, Tarte de Metz, "
+"Tate au m'gin, Migeaine, migaine"
+
+msgid "Tartes au maroilles"
+msgstr "Tartes au maroilles"
+
+msgid "Tartes au fromage, Tartes aux trois fromages"
+msgstr "Tartes au fromage, Tartes aux trois fromages"
+
+msgid "Tartes au citron meringuées"
+msgstr "Tartes au citron meringuées"
+
+msgid "Tartes au citron"
+msgstr "Tartes au citron"
+
+msgid "Tartes au chocolat"
+msgstr "Tartes au chocolat"
+
+msgid "Tartes al d'jote"
+msgstr "Tartes al d'jote"
+
+msgid "Tartes à la noix de pécan"
+msgstr "Tartes à la noix de pécan"
+
+msgid "Tartes à la noix de coco"
+msgstr "Tartes à la noix de coco"
+
+msgid "Tartes à la crème"
+msgstr "Tartes à la crème"
+
+msgid "Tartes à la citrouille"
+msgstr "Tartes à la citrouille"
+
+msgid "Tartes"
+msgstr "Tartes"
+
+msgid "Tartelettes"
+msgstr "Tartelettes"
+
+msgid "Tarte au vin, Tartes au vin, sèche au vin, wein-tarte"
+msgstr "Tarte au vin, tartes au vin, sèche au vin, wein-tarte"
+
+msgid "Tapenades vertes, Tapenade verte, Tapenade aux olives vertes"
+msgstr "Tapenades vertes, tapenade verte, tapenade aux olives vertes"
+
+msgid "Tapenades noires, Tapenade noire, Tapenade aux olives noires"
+msgstr "Tapenades noires, tapenade noire, tapenade aux olives noires"
+
+msgid "Tapenade"
+msgstr "Tapenade"
+
+msgid "Tangerines"
+msgstr "Tangerines"
+
+msgid "Tagliatelles"
+msgstr "Tagliatelles"
+
+msgid "Taboulés royaux, Taboulé royal"
+msgstr "Taboulés royaux, taboulé royal"
+
+msgid ""
+"Taboulés orientaux, Taboulé oriental, Taboulé à l'orientale, Taboulés à "
+"l'orientale"
+msgstr ""
+"Taboulés orientaux, taboulé oriental, taboulé à l'orientale, taboulés à "
+"l'orientale"
+
+msgid "Taboulés frais, taboulé frais"
+msgstr "Taboulés frais, taboulé frais"
+
+msgid "Taboulés aux tomates, Taboulé aux tomates"
+msgstr "Taboulés aux tomates, taboulé aux tomates"
+
+msgid "Taboulés aux légumes frais, Taboulé aux légumes frais"
+msgstr "Taboulés aux légumes frais, taboulé aux légumes frais"
+
+msgid "Taboulés au poulet, Taboulé au poulet"
+msgstr "Taboulés au poulet, taboulé au poulet"
+
+msgid "Taboulés à l'huile d'olive, Taboulé à l'huile d'olive"
+msgstr "Taboulés à l'huile d'olive, taboulé à l'huile d'olive"
+
+msgid "Taboulés"
+msgstr "Taboulés"
+
+msgid "Tablettes de chocolat, tablette de chocolat"
+msgstr "Tablettes de chocolat, tablette de chocolat"
+
+msgid "Surgelés"
+msgstr "Surgelés"
+
+msgid "Suppléments fastfoods, Supplément fastfood"
+msgstr "Suppléments fastfoods, supplément fastfood"
+
+msgid "Suppléments"
+msgstr "Suppléments"
+
+msgid "Sucres, sucre"
+msgstr "Sucres, sucre"
+
+msgid "sucres roux"
+msgstr "sucres roux"
+
+msgid "sucres perlés"
+msgstr "sucres perlés"
+
+msgid "Sucres mi-blancs"
+msgstr "Sucres mi-blancs"
+
+msgid "sucres invertis, sucres liquides invertis, sirops de sucre inverti"
+msgstr "sucres invertis, sucres liquides invertis, sirops de sucre inverti"
+
+msgid "Sucres glaces, Sucres impalpables, Sucres à glacer"
+msgstr "Sucres glaces, sucres impalpables, sucres à glacer"
+
+msgid "sucres gélifiant"
+msgstr "sucres gélifiant"
+
+msgid "sucres en morceaux"
+msgstr "sucres en morceaux"
+
+msgid "Sucres de canne"
+msgstr "Sucres de canne"
+
+msgid "sucres complets"
+msgstr "sucres complets"
+
+msgid "sucres candi"
+msgstr "Sucres candi"
+
+msgid "Sucres blonds"
+msgstr "Sucres blonds"
+
+msgid "Sucres blancs, saccharose, saccarose, sucres de table, sucroses"
+msgstr "Sucres blancs, saccharose, saccarose, sucres de table, sucroses"
+
+msgid "stopwords:aux,au,de,le,du,la,a,et,avec"
+msgstr "stopwords:aux,au,de,le,du,la,a,et,avec"
+
+msgid "Spéculoos, spéculos, spéculaus, speculaas, Spekulatius"
+msgstr "Spéculoos, spéculos, spéculaus, speculaas, Spekulatius"
+
+msgid "Spécialité à base de tripes"
+msgstr "Spécialité à base de tripes"
+
+msgid "Spaghettis au petit épeautre"
+msgstr "Spaghettis au petit épeautre"
+
+msgid "Spaghettis au blé dur"
+msgstr "Spaghettis au blé dur"
+
+msgid "Spaghettis au blé complet"
+msgstr "Spaghettis au blé complet"
+
+msgid "Spaghetti, spaghettis"
+msgstr "Spaghetti, spaghettis"
+
+msgid ""
+"Spaghetti au blé dur complet, Spaghettis au blé dur complet, Spaghettis "
+"complet au blé dur"
+msgstr ""
+"Spaghetti au blé dur complet, spaghettis au blé dur complet, spaghettis "
+"complet au blé dur"
+
+msgid "Spaghetti"
+msgstr "Spaghetti"
+
+msgid "Soupes, soupe"
+msgstr "Soupes, soupe"
+
+msgid "Soupes froides, Soupe froide"
+msgstr "Soupes froides, soupe froide"
+
+msgid "Soupes froides"
+msgstr "Soupes froides"
+
+msgid ""
+"Soupes déshydratées, soupes lyophilisées, soupe déshydratée, souple "
+"lyophilisée"
+msgstr ""
+"Soupes déshydratées, soupes lyophilisées, soupe déshydratée, soupe "
+"lyophilisée"
+
+msgid "Soupes de légumes"
+msgstr "Soupes de légumes"
+
+msgid ""
+"Soupe de poissons à la sétoise, soupe de poisson petite pêche, Soupe rouge "
+"de la mer"
+msgstr ""
+"Soupe de poissons à la sétoise, soupe de poisson petite pêche, soupe rouge "
+"de la mer"
+
+msgid "Soupe de poissons"
+msgstr "Soupe de poissons"
+
+msgid "Sorgho"
+msgstr "Sorgho"
+
+msgid ""
+"Sorbets au fruit de la passion, sorbets aux fruits de la passion, sorbets "
+"passion, sorbets maracuja"
+msgstr ""
+"Sorbets au fruit de la passion, sorbets aux fruits de la passion, sorbets "
+"passion, sorbets maracuja"
+
+msgid "Sorbets au citron vert"
+msgstr "Sorbets au citron vert"
+
+msgid "Sorbets au citron"
+msgstr "Sorbets au citron"
+
+msgid "Sorbets à la pomme"
+msgstr "Sorbets à la pomme"
+
+msgid "Sorbets à la poire"
+msgstr "Sorbets à la poire"
+
+msgid "Sorbets à la mirabelle"
+msgstr "Sorbets à la mirabelle"
+
+msgid "Sorbets à la mangue"
+msgstr "Sorbets à la mangue"
+
+msgid "Sorbets à la framboise"
+msgstr "Sorbets à la framboise"
+
+msgid "Sorbets à la fraise"
+msgstr "Sorbets à la fraise"
+
+msgid "Sorbets à l’orange"
+msgstr "Sorbets à l’orange"
+
+msgid "Sorbets"
+msgstr "Sorbets"
+
+msgid "Sons de riz"
+msgstr "Sons de riz"
+
+msgid "Son des blé"
+msgstr "Sons de blé"
+
+msgid "Sodas, soda, boissons sucrées gazeuses, boissons gazeuses sucrées"
+msgstr "Sodas, soda, boissons sucrées gazeuses, boissons gazeuses sucrées"
+
+msgid ""
+"Sodas light, soda light, sodas édulcorés, sodas avec édulcorants, sodas sans "
+"sucres, soda sans sucre, soda allégé en sucre, sodas allégés en sucre"
+msgstr ""
+"Sodas light, soda light, sodas édulcorés, sodas avec édulcorants, sodas sans "
+"sucres, soda sans sucre, soda allégé en sucre, sodas allégés en sucre"
+
+msgid "Sodas aux fruits light, soda aux fruits light"
+msgstr "Sodas aux fruits light, soda aux fruits light"
+
+msgid "Sodas aux fruits light"
+msgstr "Sodas aux fruits light"
+
+msgid "Sodas aux fruits exotiques, soda aux fruits exotiques"
+msgstr "Sodas aux fruits exotiques, soda aux fruits exotiques"
+
+msgid "Sodas aux fruits"
+msgstr "Sodas aux fruits"
+
+msgid "Sodas au cola, soda au cola, colas, sodas colas"
+msgstr "Sodas au cola, soda au cola, colas, sodas colas"
+
+msgid "Sodas au cola sans caféine"
+msgstr "Sodas au cola sans caféine"
+
+msgid "Sodas au cola light, colas light, cola light"
+msgstr "Sodas au cola light, colas light, cola light"
+
+msgid "Sodas au cola"
+msgstr "Sodas au cola"
+
+msgid "Sodas au citron, soda citron, soda au citron"
+msgstr "Sodas au citron, soda citron, soda au citron"
+
+msgid "Sodas au citron light, soda au citron light"
+msgstr "Sodas au citron light, soda au citron light"
+
+msgid "Sodas au citron"
+msgstr "Sodas au citron"
+
+msgid "Sodas à la pomme, sodas aux pommes, soda à la pomme"
+msgstr "Sodas à la pomme, sodas aux pommes, soda à la pomme"
+
+msgid "Sodas à l'orange, soda orange, soda à l'orange"
+msgstr "Sodas à l'orange, soda orange, soda à l'orange"
+
+msgid ""
+"Sodas à l'orange light, soda à l'orange light, soda à la pulpe d'orange "
+"light, sodas à la pulpe d'orange light"
+msgstr ""
+"Sodas à l'orange light, soda à l'orange light, soda à la pulpe d'orange "
+"light, sodas à la pulpe d'orange light"
+
+msgid "Sodas à l'orange"
+msgstr "Sodas à l'orange"
+
+msgid "Sirops, sirop"
+msgstr "Sirops, sirop"
+
+msgid "Sirops de violette"
+msgstr "Sirops de violette"
+
+msgid "Sirops de menthe"
+msgstr "Sirops de menthe"
+
+msgid "Sirops de grenadine"
+msgstr "Sirops de grenadine"
+
+msgid "Sirops de fraise"
+msgstr "Sirops de fraise"
+
+msgid "Sirops de citron"
+msgstr "Sirops de citron"
+
+msgid "Sirops de cassis"
+msgstr "Sirops de cassis"
+
+msgid "Sirops d’orgeat"
+msgstr "Sirops d’orgeat"
+
+msgid "Sirops d’érable du Québec"
+msgstr "Sirops d’érable du Québec"
+
+msgid "Sirops d'érable moyen, Sirop d'érable B"
+msgstr "Sirops d'érable moyen, Sirop d'érable B"
+
+msgid "Sirops d'érable foncé, Sirop d'érable D"
+msgstr "Sirops d'érable foncé, sirop d'érable D"
+
+msgid "Sirops d'érable extra clair, Sirop d'érable AA"
+msgstr "Sirops d'érable extra clair, sirop d'érable AA"
+
+msgid "Sirops d'érable clair, Sirop d'érable A"
+msgstr "Sirops d'érable clair, sirop d'érable A"
+
+msgid "Sirops d'érable ambré, Sirop d'érable C"
+msgstr "Sirops d'érable ambré, sirop d'érable C"
+
+msgid "Sirops d'érable"
+msgstr "Sirops d'érable"
+
+msgid "Sirops aux fruits, sirop aux fruits"
+msgstr "Sirops aux fruits, sirop aux fruits"
+
+msgid "Sirops"
+msgstr "Sirops"
+
+msgid "Shou Mei"
+msgstr "Shou Mei"
+
+msgid "Shortbread"
+msgstr "Shortbread"
+
+msgid "Setaria"
+msgstr "Setaria"
+
+msgid "Serrano"
+msgstr "Serrano"
+
+msgid "série spéciale"
+msgstr "Série spéciale"
+
+msgid "Semoules de blé"
+msgstr "Semoules de blé"
+
+msgid "Semi-conserves"
+msgstr "Semi-conserves"
+
+msgid "Sels naturels, Sels non raffinés"
+msgstr "Sels naturels, sels non raffinés"
+
+msgid "Sels naturels"
+msgstr "Sels naturels"
+
+msgid "Sels marins, sels de mer, sel de mer"
+msgstr "Sels marins, sels de mer, sel de mer"
+
+msgid "Sels marins"
+msgstr "Sels marins"
+
+msgid "Sels liquides"
+msgstr "Sels liquides"
+
+msgid "Sels fins, sel fin"
+msgstr "Sels fins, sel fin"
+
+msgid "Sels du Québéc"
+msgstr "Sels du Québec"
+
+msgid "Sels des mines de sel"
+msgstr "Sels des mines de sel"
+
+msgid ""
+"Sels des marais salants, sels marins gris, sels marins gris de table, sels "
+"marins gris de cuisine"
+msgstr ""
+"Sels des marais salants, sels marins gris, sels marins gris de table, sels "
+"marins gris de cuisine"
+
+msgid "Sels de table"
+msgstr "Sels de table"
+
+msgid "Sels de Guérande"
+msgstr "Sels de Guérande"
+
+msgid "Sels"
+msgstr "Sels"
+
+msgid "Sel gemme non raffiné"
+msgstr "Sel gemme non raffiné"
+
+msgid "Seigle"
+msgstr "Seigle"
+
+msgid "Secale"
+msgstr "Secale"
+
+msgid "Saumons, saumon"
+msgstr "Saumons, saumon"
+
+msgid "Saumons fumés, saumon fumé"
+msgstr "Saumons fumés, saumon fumé"
+
+msgid ""
+"Saumons fumés sauvages, saumon fumé sauvage, saumon fumé de pêche, saumons "
+"fumés de pêche"
+msgstr ""
+"Saumons fumés sauvages, saumon fumé sauvage, saumon fumé de pêche, saumons "
+"fumés de pêche"
+
+msgid "Saumons fumés de dégustation"
+msgstr "Saumons fumés de dégustation"
+
+msgid "Saumons fumés d'élevage, saumon fumé d'élevage"
+msgstr "Saumons fumés d'élevage, saumon fumé d'élevage"
+
+msgid "Saumons fumés"
+msgstr "Saumons fumés"
+
+msgid "Saucissons, Saucisson"
+msgstr "Saucissons, saucisson"
+
+msgid "Saucissons secs, Saucisson sec"
+msgstr "Saucissons secs, saucisson sec"
+
+msgid "Saucissons secs pur porc, saucisson sec pur porc"
+msgstr "Saucissons secs pur porc, saucisson sec pur porc"
+
+msgid "Saucissons cuits, saucisson cuit"
+msgstr "Saucissons cuits, saucisson cuit"
+
+msgid "Saucissons artisanaux, Saucisson artisanal"
+msgstr "Saucissons artisanaux, Saucisson artisanal"
+
+msgid "Saucissons à l’ail, saucisson à l’ail"
+msgstr "Saucissons à l’ail, saucisson à l’ail"
+
+msgid "Saucissons"
+msgstr "Saucissons"
+
+msgid "Saucisses sèches, Saucisse sèche"
+msgstr "Saucisses sèches, saucisse sèche"
+
+msgid "Saucisses savoyardes, Saucisses de Savoie"
+msgstr "Saucisses savoyardes, saucisses de Savoie"
+
+msgid "Saucisses savoyardes"
+msgstr "Saucisses savoyardes"
+
+msgid "Saucisses fumées"
+msgstr "Saucisses fumées"
+
+msgid "Saucisses françaises, Saucisses de France"
+msgstr "Saucisses françaises, saucisses de France"
+
+msgid "Saucisses françaises"
+msgstr "Saucisses françaises"
+
+msgid "Saucisses espagnoles, Saucisses d'Espagne"
+msgstr "Saucisses espagnoles, saucisses d'Espagne"
+
+msgid "Saucisses de Toulouse"
+msgstr "Saucisses de Toulouse"
+
+msgid "Saucisses de Strasbourg, Knacks"
+msgstr "Saucisses de Strasbourg, Knacks"
+
+msgid "Saucisses de Strasbourg"
+msgstr "Saucisses de Strasbourg"
+
+msgid ""
+"saucisses de Nuremberg, Nürnberger Rostbratwürstchen, Nürnberger Bratwürste, "
+"petites saucisses de Nuremberg"
+msgstr ""
+"Saucisses de Nuremberg, Nürnberger Rostbratwürstchen, Nürnberger Bratwürste, "
+"petites saucisses de Nuremberg"
+
+msgid "Saucisses de Morteau"
+msgstr "Saucisses de Morteau"
+
+msgid "Saucisses de Montbéliard natures"
+msgstr "Saucisses de Montbéliard natures"
+
+msgid "Saucisses de Montbéliard au cumin"
+msgstr "Saucisses de Montbéliard au cumin"
+
+msgid "Saucisses de Montbéliard"
+msgstr "Saucisses de Montbéliard"
+
+msgid "Saucisses de Molène"
+msgstr "Saucisses de Molène"
+
+msgid "Saucisses de Francfort, Saucisse de Francfort"
+msgstr "Saucisses de Francfort, saucisse de Francfort"
+
+msgid "Saucisses de foie de porc"
+msgstr "Saucisses de foie de porc"
+
+msgid "Saucisses de foie ariégeoise"
+msgstr "Saucisses de foie ariégeoise"
+
+msgid "Saucisses de foie alsacienne"
+msgstr "Saucisses de foie alsacienne"
+
+msgid "Saucisses d'herbe"
+msgstr "Saucisses d'herbe"
+
+msgid "Saucisses confites"
+msgstr "Saucisses confites"
+
+msgid "Saucisses aux choux, saucisses aux choux vaudoise"
+msgstr "Saucisses aux choux, saucisses aux choux vaudoise"
+
+msgid "Saucisses allemandes, Saucisses d'Allemagne"
+msgstr "Saucisses allemandes, saucisses d'Allemagne"
+
+msgid "Saucisses allemandes"
+msgstr "Saucisses allemandes"
+
+msgid "Saucisses"
+msgstr "Saucisses"
+
+msgid "Sauces tomate, sauce tomate"
+msgstr "Sauces tomate, sauce tomate"
+
+msgid "Sauces salades, sauce salade"
+msgstr "Sauces salades, sauce salade"
+
+msgid "Sauces provençales"
+msgstr "Sauces provençales"
+
+msgid "Sauces pour pizzas"
+msgstr "Sauces pour pizzas"
+
+msgid "Sauces pour pâtes, Sauce pour pâtes"
+msgstr "Sauces pour pâtes, sauce pour pâtes"
+
+msgid "Sauces pour pâtes"
+msgstr "Sauces pour pâtes"
+
+msgid "Sauces Pesto, Pesto, Pesto Genovese, Pesto alla Genovese"
+msgstr "Sauces Pesto, Pesto, Pesto Genovese, Pesto alla Genovese"
+
+msgid "Sauces Pesto Rosso, Pesto rosso"
+msgstr "Sauces Pesto Rosso, Pesto rosso"
+
+msgid ""
+"Sauces bolognaises, sauce bolognaise, Bolognese, Bolognaises, Bolognaise"
+msgstr ""
+"Sauces bolognaises, sauce bolognaise, Bolognese, Bolognaises, Bolognaise"
+
+msgid "Sauces aux olives"
+msgstr "Sauces aux olives"
+
+msgid "Sauces aux légumes"
+msgstr "Sauces aux légumes"
+
+msgid "Sauces au soja, Sauces soja"
+msgstr "Sauces au soja, sauces soja"
+
+msgid "Sauces au soja sucrées, Sauces soja sucrées"
+msgstr "Sauces au soja sucrées, sauces soja sucrées"
+
+msgid "Sauces au soja salées, Sauces soja salées"
+msgstr "Sauces au soja salées, sauces soja salées"
+
+msgid "Sauces au soja"
+msgstr "Sauces au soja"
+
+msgid "Sauces au roquefort"
+msgstr "Sauces au roquefort"
+
+msgid "Sauces au fromage"
+msgstr "Sauces au fromage"
+
+msgid "Sauces Arrabiata, sauce arrabiata, Arrabiata"
+msgstr "Sauces Arrabiata, sauce arrabiata, Arrabiata"
+
+msgid "Sauces à la viande"
+msgstr "Sauces à la viande"
+
+msgid "Sauces"
+msgstr "Sauces"
+
+msgid "Sarrasin de Tartarie, blés noirs fourragers"
+msgstr "Sarrasin de Tartarie, blés noirs fourragers"
+
+msgid "Sardines, sardine"
+msgstr "Sardines, sardine"
+
+msgid "Sardines sans huile"
+msgstr "Sardines sans huile"
+
+msgid "Sardines frites"
+msgstr "Sardines frites"
+
+msgid "Sardines en conserve"
+msgstr "Sardines en conserve"
+
+msgid "Sardines à la tomate"
+msgstr "Sardines à la tomate"
+
+msgid ""
+"Sardines à l’huile et au piment, Sardines au piment, Sardines à l’huile au "
+"piment"
+msgstr ""
+"Sardines à l’huile et au piment, sardines au piment, sardines à l’huile au "
+"piment"
+
+msgid "Sardines à l’huile et au citron, Sardines au citron"
+msgstr "Sardines à l’huile et au citron, sardines au citron"
+
+msgid "Sardines à l'huile de tournesol"
+msgstr "Sardines à l'huile de tournesol"
+
+msgid ""
+"Sardines à l'huile d'olive, sardines à l'huile d'olive vierge, sardines à "
+"l'huile d'olive vierge extra"
+msgstr ""
+"Sardines à l'huile d'olive, sardines à l'huile d'olive vierge, sardines à "
+"l'huile d'olive vierge extra"
+
+msgid "Sardines à l'huile d'olive"
+msgstr "Sardines à l'huile d'olive"
+
+msgid "Sardines à l'huile"
+msgstr "Sardines à l'huile"
+
+msgid "Sardines à l'ancienne"
+msgstr "Sardines à l'ancienne"
+
+msgid "Sandwichs, Sandwich, sandwiches"
+msgstr "Sandwichs, sandwich, sandwiches"
+
+msgid "Sandwichs jambon fromage, Sandwich jambon fromage"
+msgstr "Sandwichs jambon fromage, sandwich jambon fromage"
+
+msgid "Sandwich polaire, sandwichs au pain polaire"
+msgstr "Sandwich polaire, sandwichs au pain polaire"
+
+msgid "Sandwich BLT"
+msgstr "Sandwich BLT"
+
+msgid "Salsifis en conserve"
+msgstr "Salsifis en conserve"
+
+msgid "Salamis, Salami"
+msgstr "Salamis, salami"
+
+msgid "Salamis"
+msgstr "Salamis"
+
+msgid "Salami de dinde"
+msgstr "Salami de dinde"
+
+msgid "Salami de boeuf"
+msgstr "Salami de boeuf"
+
+msgid "Salades, Salade"
+msgstr "Salades, salade"
+
+msgid "Salades composées, salade composéea"
+msgstr "Salades composées, salade composée"
+
+msgid "Saint-nectaires"
+msgstr "Saint-nectaires"
+
+msgid "Saint Agur"
+msgstr "Saint Agur"
+
+msgid "Sablés"
+msgstr "Sablés"
+
+msgid "Rosettes, rosette, rosette de Lyon"
+msgstr "Rosettes, rosette, rosette de Lyon"
+
+msgid "Roqueforts"
+msgstr "Roqueforts"
+
+msgid "Rooibos, Infusions au rooibos"
+msgstr "Rooibos, infusions au rooibos"
+
+msgid "Rochebarron"
+msgstr "Rochebarron"
+
+msgid "Riz Vialone Nano"
+msgstr "Riz Vialone Nano"
+
+msgid "Riz thaï noir"
+msgstr "Riz thaï noir"
+
+msgid "Riz thaï blanc"
+msgstr "Riz thaï blanc"
+
+msgid "Riz thaï"
+msgstr "Riz thaï"
+
+msgid "Riz Surinam"
+msgstr "Riz Surinam"
+
+msgid "Riz soufflé"
+msgstr "Riz soufflé"
+
+msgid "Riz préparés"
+msgstr "Riz préparés"
+
+msgid ""
+"Riz précuits natures, riz précuits, riz précuit, riz pré-cuit, riz pré-cuits"
+msgstr ""
+"Riz précuits natures, riz précuits, riz précuit, riz pré-cuit, riz pré-cuits"
+
+msgid "Riz précuits nature"
+msgstr "Riz précuits nature"
+
+msgid "Riz pour sushi"
+msgstr "Riz pour sushi"
+
+msgid "Riz pour risotto"
+msgstr "Riz pour risotto"
+
+msgid "Riz parfumés, Riz parfumé"
+msgstr "Riz parfumés, Riz parfumé"
+
+msgid "riz paddy"
+msgstr "Riz paddy"
+
+msgid "Riz long grain, riz longs grains"
+msgstr "Riz long grain, riz longs grains"
+
+msgid "Riz long"
+msgstr "Riz long"
+
+msgid "Riz Koshihikari, Koshihikari"
+msgstr "Riz Koshihikari, Koshihikari"
+
+msgid "riz gluant, riz glutineux, riz collant, riz doux"
+msgstr "Riz gluant, riz glutineux, riz collant, riz doux"
+
+msgid "Riz de Camargue"
+msgstr "Riz de Camargue"
+
+msgid "riz cargo, riz complet, riz brun, riz semi-complet"
+msgstr "Riz cargo, riz complet, riz brun, riz semi-complet"
+
+msgid "Riz cantonais"
+msgstr "Riz cantonais"
+
+msgid "riz blanc, riz usiné, riz blancho"
+msgstr "Riz blanc, riz usiné, riz blancho"
+
+msgid "Riz Basmati, Basmati"
+msgstr "Riz Basmati, Basmati"
+
+msgid "Riz Basmati bruns"
+msgstr "Riz Basmati bruns"
+
+msgid "Riz Basmati blancs"
+msgstr "Riz Basmati blancs"
+
+msgid "Riz Basmati"
+msgstr "Riz Basmati"
+
+msgid "Riz arborio"
+msgstr "Riz arborio"
+
+msgid "Riz"
+msgstr "Riz"
+
+msgid "Rivesaltes"
+msgstr "Rivesaltes"
+
+msgid "Rillettes spéciales"
+msgstr "Rillettes spéciales"
+
+msgid "Rillettes poulet rôti, Rillettes de poulet rôti"
+msgstr "Rillettes poulet rôti, rillettes de poulet rôti"
+
+msgid "Rillettes françaises, Rillettes de France, Rillettes de la France"
+msgstr "Rillettes françaises, rillettes de France, rillettes de la France"
+
+msgid "Rillettes françaises"
+msgstr "Rillettes françaises"
+
+msgid "Rillettes du Mans"
+msgstr "Rillettes du Mans"
+
+msgid "Rillettes de volaille"
+msgstr "Rillettes de volaille"
+
+msgid "Rillettes de viande rouge"
+msgstr "Rillettes de viande rouge"
+
+msgid "Rillettes de viande blanche"
+msgstr "Rillettes de viande blanche"
+
+msgid "Rillettes de viande"
+msgstr "Rillettes de viande"
+
+msgid "Rillettes de truite fumée"
+msgstr "Rillettes de truite fumée"
+
+msgid "Rillettes de truite"
+msgstr "Rillettes de truite"
+
+msgid "Rillettes de Tours"
+msgstr "Rillettes de Tours"
+
+msgid "Rillettes de thon"
+msgstr "Rillettes de thon"
+
+msgid "Rillettes de saumon rose"
+msgstr "Rillettes de saumon rose"
+
+msgid "Rillettes de saumon"
+msgstr "Rillettes de saumon"
+
+msgid "Rillettes de sardine"
+msgstr "Rillettes de sardine"
+
+msgid "Rillettes de sanglier"
+msgstr "Rillettes de sanglier"
+
+msgid "Rillettes de Saint-Jacques, Rillettes de St-Jacques"
+msgstr "Rillettes de Saint-Jacques, rillettes de St-Jacques"
+
+msgid "Rillettes de requin"
+msgstr "Rillettes de requin"
+
+msgid "Rillettes de poulet, rillettes au poulet"
+msgstr "Rillettes de poulet, rillettes au poulet"
+
+msgid "Rillettes de poulet"
+msgstr "Rillettes de poulet"
+
+msgid "Rillettes de porc, Rillettes de cochon"
+msgstr "Rillettes de porc, rillettes de cochon"
+
+msgid "Rillettes de porc"
+msgstr "Rillettes de porc"
+
+msgid "Rillettes de poissons, rillettes de poisson"
+msgstr "Rillettes de poissons, rillettes de poisson"
+
+msgid "Rillettes de poissons"
+msgstr "Rillettes de poissons"
+
+msgid "Rillettes de mulet"
+msgstr "Rillettes de mulet"
+
+msgid "Rillettes de mouton"
+msgstr "Rillettes de mouton"
+
+msgid "Rillettes de maquereau"
+msgstr "Rillettes de maquereau"
+
+msgid "Rillettes de lapin"
+msgstr "Rillettes de lapin"
+
+msgid "Rillettes de langoustine"
+msgstr "Rillettes de langoustine"
+
+msgid "Rillettes de la Sarthe"
+msgstr "Rillettes de la Sarthe"
+
+msgid "Rillettes de homard, Rillettes au homard"
+msgstr "Rillettes de homard, rillettes au homard"
+
+msgid "Rillettes de gibiers de chasse"
+msgstr "Rillettes de gibiers de chasse"
+
+msgid "Rillettes de dinde"
+msgstr "Rillettes de dinde"
+
+msgid "Rillettes de crustacés"
+msgstr "Rillettes de crustacés"
+
+msgid "Rillettes de crevette"
+msgstr "Rillettes de crevette"
+
+msgid "Rillettes de crabe, Rillettes de chair de crabe, Rillettes au crabe"
+msgstr "Rillettes de crabe, rillettes de chair de crabe, rillettes au crabe"
+
+msgid "Rillettes de canard, rillettes au canard"
+msgstr "Rillettes de canard, rillettes au canard"
+
+msgid "Rillettes de cabillaud"
+msgstr "Rillettes de cabillaud"
+
+msgid "Rillettes de brochet"
+msgstr "Rillettes de brochet"
+
+msgid "Rillettes de boeuf"
+msgstr "Rillettes de boeuf"
+
+msgid "Rillettes de bar sauvage"
+msgstr "Rillettes de bar sauvage"
+
+msgid "Rillettes d’esturgeon"
+msgstr "Rillettes d’esturgeon"
+
+msgid "Rillettes d’alose"
+msgstr "Rillettes d’alose"
+
+msgid "Rillettes d’agneau"
+msgstr "Rillettes d’agneau"
+
+msgid "Rillettes d'oie, rillettes à l'oie"
+msgstr "Rillettes d'oie, rillettes à l'oie"
+
+msgid "Rillettes d'anguille"
+msgstr "Rillettes d'anguille"
+
+msgid "Rillettes artisanales"
+msgstr "Rillettes artisanales"
+
+msgid "Rillettes"
+msgstr "Rillettes"
+
+msgid "Rhums, Rhum"
+msgstr "Rhums, rhum"
+
+msgid "Rhums vieux, rhum vieux"
+msgstr "Rhums vieux, rhum vieux"
+
+msgid "Rhums jamaïcains"
+msgstr "Rhums jamaïcains"
+
+msgid "Rhums industriels, rhum industriel"
+msgstr "Rhums industriels, rhum industriel"
+
+msgid "Rhums haïtiens"
+msgstr "Rhums haïtiens"
+
+msgid "Rhums français"
+msgstr "Rhums français"
+
+msgid "Rhums dominicain"
+msgstr "Rhums dominicains"
+
+msgid "Rhums cubains"
+msgstr "Rhums cubains"
+
+msgid "Rhums bruns, rhum brun"
+msgstr "Rhums bruns, rhum brun"
+
+msgid "Rhums blancs, rhum blanc"
+msgstr "Rhums blancs, rhum blanc"
+
+msgid "Rhums ambrés, rhum ambré"
+msgstr "Rhums ambrés, rhum ambré"
+
+msgid "Rhums agricoles, rhum agricole"
+msgstr "Rhums agricoles, rhum agricole"
+
+msgid "Rhums agricoles AOC, rhum agricole AOC"
+msgstr "Rhums agricoles AOC, rhum agricole AOC"
+
+msgid "Rhums agricoles"
+msgstr "Rhums agricoles"
+
+msgid "Rhums"
+msgstr "Rhums"
+
+msgid "Rhum barbadien"
+msgstr "Rhum barbadien"
+
+msgid "rhubarbes"
+msgstr "Rhubarbes"
+
+msgid "Reblochons, Reblochon, Reblochons de Savoie, Reblochon de Savoie"
+msgstr "Reblochons, reblochon, reblochons de Savoie, reblochon de Savoie"
+
+msgid "Raviolis surgelés, ravioli surgelés"
+msgstr "Raviolis surgelés, ravioli surgelés"
+
+msgid "Raviolis frais, ravioli frais"
+msgstr "Raviolis frais, ravioli frais"
+
+msgid "Raviolis en conserve, raviolis en boite"
+msgstr "Raviolis en conserve, raviolis en boite"
+
+msgid "Raviolis aux légumes, ravioli aux légumes"
+msgstr "Raviolis aux légumes, ravioli aux légumes"
+
+msgid "Raviolis aux champignons, Raviolis champignons"
+msgstr "Raviolis aux champignons, raviolis champignons"
+
+msgid "Raviolis aux champignons"
+msgstr "Raviolis aux champignons"
+
+msgid "Raviolis aux cèpes, Raviolis cèpes"
+msgstr "Raviolis aux cèpes, raviolis cèpes"
+
+msgid "Raviolis au fromage, Raviolis aux fromages, Raviolis fromages"
+msgstr "Raviolis au fromage, raviolis aux fromages, raviolis fromages"
+
+msgid "Raviolis au boeuf, Ravioli pur boeuf"
+msgstr "Raviolis au bœuf, ravioli pur bœuf"
+
+msgid ""
+"Raviolis à la volaille, Raviolis volaille, ravioli à la volaille, raviolis "
+"au poulet"
+msgstr ""
+"Raviolis à la volaille, raviolis volaille, ravioli à la volaille, raviolis "
+"au poulet"
+
+msgid "Raviolis à la bolognaise, Raviolis bolognaise"
+msgstr "Raviolis à la bolognaise, raviolis bolognaise"
+
+msgid "Ravioli, raviolis"
+msgstr "Ravioli, raviolis"
+
+msgid "Ravioli"
+msgstr "Ravioli"
+
+msgid "Rasteau"
+msgstr "Rasteau"
+
+msgid "Raki"
+msgstr "Raki"
+
+msgid "Raisins secs Sultanines, Raisins Sultanines"
+msgstr "Raisins secs Sultanines, raisins Sultanines"
+
+msgid "Raisins secs de Corinthe"
+msgstr "Raisins secs de Corinthe"
+
+msgid "Raisins secs"
+msgstr "Raisins secs"
+
+msgid "Raisins"
+msgstr "Raisins"
+
+msgid "Raclettes"
+msgstr "Raclettes"
+
+msgid "Quinoa"
+msgstr "Quinoa"
+
+msgid "Quiches"
+msgstr "Quiches"
+
+msgid "Quenelles nature"
+msgstr "Quenelles nature"
+
+msgid "Quenelles de volaille"
+msgstr "Quenelles de volaille"
+
+msgid "Quenelles de veau"
+msgstr "Quenelles de veau"
+
+msgid "Quenelles de saumon"
+msgstr "Quenelles de saumon"
+
+msgid "Quenelles de poisson"
+msgstr "Quenelles de poisson"
+
+msgid "Quenelles de brochet"
+msgstr "Quenelles de brochet"
+
+msgid "Quenelles"
+msgstr "Quenelles"
+
+msgid "Quatre-quarts"
+msgstr "Quatre-quarts"
+
+msgid "Purées en flocons"
+msgstr "Purées en flocons"
+
+msgid "Purées de sésame demi-complet, Purées de sésame semi-complet"
+msgstr "Purées de sésame demi-complet, purées de sésame semi-complet"
+
+msgid "Purées de sésame blanc"
+msgstr "Purées de sésame blanc"
+
+msgid "Purées de sésame"
+msgstr "Purées de sésame"
+
+msgid "Purées de pommes de terre"
+msgstr "Purées de pommes de terre"
+
+msgid "Purées de noix de cajou, Purée de noix de cajour"
+msgstr "Purées de noix de cajou, purée de noix de cajou"
+
+msgid "Purées de noisette, Purée de noisette, Purées de noisettes"
+msgstr "Purées de noisette, Purée de noisette, Purées de noisettes"
+
+msgid "Purées de cacahuète, Purée de cacahuète"
+msgstr "Purées de cacahuète, Purée de cacahuète"
+
+msgid "Purées d'oléagineux"
+msgstr "Purées d'oléagineux"
+
+msgid "Purées d'arachide, Purée d'arachide"
+msgstr "Purées d'arachide, purée d'arachide"
+
+msgid "Purées d'amande, Purée d'amande"
+msgstr "Purées d'amande, purée d'amande"
+
+msgid "Purées d'amande complète"
+msgstr "Purées d'amande complète"
+
+msgid "Purées d'amande blanche"
+msgstr "Purées d'amande blanche"
+
+msgid "Purées d'amande"
+msgstr "Purées d'amande"
+
+msgid "Purées"
+msgstr "Purées"
+
+msgid "Pulla"
+msgstr "Pulla"
+
+msgid "Prunes"
+msgstr "Prunes"
+
+msgid "Prunelles"
+msgstr "Prunelles"
+
+msgid "Pruneaux d’Agen"
+msgstr "Pruneaux d’Agen"
+
+msgid "Pruneaux"
+msgstr "Pruneaux"
+
+msgid "Propolis"
+msgstr "Propolis"
+
+msgid "Produits vendus dans les années 1990"
+msgstr "Produits vendus dans les années 1990"
+
+msgid "Produits vendus dans les années 1980"
+msgstr "Produits vendus dans les années 1980"
+
+msgid "Produits vendus dans les années 1970"
+msgstr "Produits vendus dans les années 1970"
+
+msgid "Produits vendus dans les années 1960"
+msgstr "Produits vendus dans les années 1960"
+
+msgid "Produits vendus dans les années 1950"
+msgstr "Produits vendus dans les années 1950"
+
+msgid "Produits vendus avant l’an 2000, Produits vendus avant 2000"
+msgstr "Produits vendus avant l’an 2000, produits vendus avant 2000"
+
+msgid "Produits sous license"
+msgstr "Produits sous license"
+
+msgid "Produits sans gluten"
+msgstr "Produits sans gluten"
+
+msgid "produits saisiers"
+msgstr "Produits saisonniers"
+
+msgid "Produits panés, Produit pané"
+msgstr "Produits panés, produit pané"
+
+msgid ""
+"Produits laitiers, produit laitier, laitage, laitages, crèmerie, crèmeries"
+msgstr ""
+"Produits laitiers, produit laitier, laitage, laitages, crèmerie, crèmeries"
+
+msgid "Produits labellisés"
+msgstr "Produits labellisés"
+
+msgid "Produits Label Rouge, Label Rouge"
+msgstr "Produits Label Rouge, Label Rouge"
+
+msgid "Produits Label Rouge"
+msgstr "Produits Label Rouge"
+
+msgid "produits introuvables en Métropole"
+msgstr "produits introuvables en Métropole"
+
+msgid "Produits IGP"
+msgstr "Produits IGP"
+
+msgid "Produits décongelés, Produit décongelé"
+msgstr "Produits décongelés, produit décongelé"
+
+msgid "Produits de montagne"
+msgstr "Produits de montagne"
+
+msgid "Produits de la ruche"
+msgstr "Produits de la ruche"
+
+msgid "Produits de la mer, produit de la mer"
+msgstr "Produits de la mer, produit de la mer"
+
+msgid "Produits d’élevages"
+msgstr "Produits d’élevages"
+
+msgid "Produits artisanaux"
+msgstr "Produits artisanaux"
+
+msgid "Produits AOP, AOP"
+msgstr "Produits AOP, AOP"
+
+msgid "Produits AOP"
+msgstr "Produits AOP"
+
+msgid "Produits AOC, AOC"
+msgstr "Produits AOC, AOC"
+
+msgid "Produits AOC"
+msgstr "Produits AOC"
+
+msgid "Produits à teneur réduite en sel"
+msgstr "Produits à teneur réduite en sel"
+
+msgid ""
+"Produits à tartiner, préparations à tartiner, tartinables, produit à tartiner"
+msgstr ""
+"Produits à tartiner, préparations à tartiner, tartinables, produit à tartiner"
+
+msgid "Produits à tartiner sucrés"
+msgstr "Produits à tartiner sucrés"
+
+msgid "Produits à tartiner salés"
+msgstr "Produits à tartiner salés"
+
+msgid "Pousses de soja"
+msgstr "Pousses de soja"
+
+msgid ""
+"Pousses de haricot mungo, Pousse de haricot mungo, jeunes pousses de haricot "
+"mungo, Pousses de soja vert, Pousse de ambérique vert"
+msgstr ""
+"Pousses de haricot mungo, pousse de haricot mungo, jeunes pousses de haricot "
+"mungo, pousses de soja vert, pousse d'ambérique vert"
+
+msgid "Pousses de bambou, Pousse de bambou"
+msgstr "Pousses de bambou, pousse de bambou"
+
+msgid "Pousses"
+msgstr "Pousses"
+
+msgid "Poulets panés, Poulet pané"
+msgstr "Poulets panés, poulet pané"
+
+msgid "Poulets cuisinés"
+msgstr "Poulets cuisinés"
+
+msgid "Poulets"
+msgstr "Poulets"
+
+msgid "Poule au pot"
+msgstr "Poule au pot"
+
+msgid "Potages pour bébé"
+msgstr "Potages pour bébé"
+
+msgid "portos oxydatifs"
+msgstr "Portos oxydatifs"
+
+msgid "Porto, vins de Porto"
+msgstr "Porto, vins de Porto"
+
+msgid "Porto Vintage, porto millésimé"
+msgstr "Porto Vintage, porto millésimé"
+
+msgid "Porto Tawny, tawny"
+msgstr "Porto Tawny, tawny"
+
+msgid "Porto Single Quinta Vintage"
+msgstr "Porto Single Quinta Vintage"
+
+msgid "Porto Ruby"
+msgstr "Porto Ruby"
+
+msgid "porto rouges"
+msgstr "Porto rouges"
+
+msgid "porto réductifs"
+msgstr "Porto réductifs"
+
+msgid "Porto Late Bottled Vintage, LBV"
+msgstr "Porto Late Bottled Vintage, LBV"
+
+msgid "Porto Crusted, Crusted"
+msgstr "Porto Crusted, Crusted"
+
+msgid "porto blancs"
+msgstr "Porto blancs"
+
+msgid "Porto"
+msgstr "Porto"
+
+msgid "Port-saluts"
+msgstr "Port-saluts"
+
+msgid "Pop-corn, maïs soufflé, maïs éclaté, tactac, popcorn"
+msgstr "Pop-corn, maïs soufflé, maïs éclaté, tactac, popcorn"
+
+msgid "Pont-l'Evêque"
+msgstr "Pont-l'Evêque"
+
+msgid "Pommes gala, Gala"
+msgstr "Pommes gala, gala"
+
+msgid "Pommes de terre, patates, Solanum tuberosum"
+msgstr "Pommes de terre, patates, solanum tuberosum"
+
+msgid "Pommes de terre primeurs, Pommes de terre de primeur"
+msgstr "Pommes de terre primeurs, pommes de terre de primeur"
+
+msgid "Pommes de terre labellisées"
+msgstr "Pommes de terre labellisées"
+
+msgid "Pommes de terre de l'île de Ré, Pomme de terre de l'île de Ré"
+msgstr "Pommes de terre de l'île de Ré, pomme de terre de l'île de Ré"
+
+msgid "Pommes de terre de l'île de Ré"
+msgstr "Pommes de terre de l'île de Ré"
+
+msgid "Pommes de terre Charlotte"
+msgstr "Pommes de terre Charlotte"
+
+msgid "Pommes de terre catégorie 1, Pommes de terre Cat. 1"
+msgstr "Pommes de terre catégorie 1, pommes de terre Cat. 1"
+
+msgid "Pommes de terre Béa"
+msgstr "Pommes de terre Béa"
+
+msgid "Pommes de terre AOC"
+msgstr "Pommes de terre AOC"
+
+msgid "Pommes de terre Agata"
+msgstr "Pommes de terre Agata"
+
+msgid "Pommes"
+msgstr "Pommes"
+
+msgid "Pomélos, Pomelos"
+msgstr "Pomélos, pomelos"
+
+msgid "Pollens"
+msgstr "Pollens"
+
+msgid "Poivrons, Poivron, Capsicum annuum, piment doux, Piment Poivron"
+msgstr "Poivrons, poivron, capsicum annuum, piment doux, piment poivron"
+
+msgid "Poivrons rouges en conserve"
+msgstr "Poivrons rouges en conserve"
+
+msgid "Poivrons rouges"
+msgstr "Poivrons rouges"
+
+msgid "Poivrons grillés"
+msgstr "Poivrons grillés"
+
+msgid "Poivrons farcis"
+msgstr "Poivrons farcis"
+
+msgid ""
+"Poivrons de piquillo, pimiento del piquillo, pimiento de piquillo, Piquillo "
+"de Lodosa"
+msgstr ""
+"Poivrons de piquillo, pimiento del piquillo, pimiento de piquillo, piquillo "
+"de Lodosa"
+
+msgid "Poivrons"
+msgstr "Poivrons"
+
+msgid "Poivres verts"
+msgstr "Poivres verts"
+
+msgid "Poivres roses"
+msgstr "Poivres roses"
+
+msgid "Poivres noirs"
+msgstr "Poivres noirs"
+
+msgid "Poivres moulus"
+msgstr "Poivres moulus"
+
+msgid "Poivres gris"
+msgstr "Poivres gris"
+
+msgid "Poivres de Cayenne"
+msgstr "Poivres de Cayenne"
+
+msgid "Poivres blancs"
+msgstr "Poivres blancs"
+
+msgid "Poivres"
+msgstr "Poivres"
+
+msgid "Poissons, Poisson"
+msgstr "Poissons, poisson"
+
+msgid "Poissons surgelés"
+msgstr "Poissons surgelés"
+
+msgid "Poissons panés, Poisson pané"
+msgstr "Poissons panés, poisson pané"
+
+msgid "Poissons panés de merlu, Poisson pané de merlu"
+msgstr "Poissons panés de merlu, poisson pané de merlu"
+
+msgid "Poissons panés de merlan, Poisson pané de merlan"
+msgstr "Poissons panés de merlan, poisson pané de merlan"
+
+msgid "Poissons panés de colin, Poisson pané de colin"
+msgstr "Poissons panés de colin, poisson pané de colin"
+
+msgid "Poissons panés de cabillaud, Poisson pané de cabillaud"
+msgstr "Poissons panés de cabillaud, poisson pané de cabillaud"
+
+msgid "Poissons panés"
+msgstr "Poissons panés"
+
+msgid "Poissons fumés, poisson fumé"
+msgstr "Poissons fumés, poisson fumé"
+
+msgid ""
+"Poissons en conserve, conserves de poisson, conserves de poissons, conserve "
+"de poisson, conserve de poissons, poisson en conserve"
+msgstr ""
+"Poissons en conserve, conserves de poisson, conserves de poissons, conserve "
+"de poisson, conserve de poissons, poisson en conserve"
+
+msgid "Poissons crus"
+msgstr "Poissons crus"
+
+msgid "Pois chiches en conserve"
+msgstr "Pois chiches en conserve"
+
+msgid "Poires au sirop"
+msgstr "Poires au sirop"
+
+msgid "Poires"
+msgstr "Poires"
+
+msgid "poirées"
+msgstr "Poirées"
+
+msgid "Poireaux, Poireau"
+msgstr "Poireaux, poireau"
+
+msgid "Poireaux des sables de Créances, Poireaux de Créances"
+msgstr "Poireaux des sables de Créances, poireaux de Créances"
+
+msgid "Poireaux"
+msgstr "Poireaux"
+
+msgid "Poêlées, Poêlée"
+msgstr "Poêlées, poêlée"
+
+msgid "Poêlées royales, Poêlée royale"
+msgstr "Poêlées royales, poêlée royale"
+
+msgid "Poêlées façon kebab, Poêlée façon kebab"
+msgstr "Poêlées façon kebab, poêlée façon kebab"
+
+msgid "Poêlées campagnarde, Poêlée campagnarde"
+msgstr "Poêlées campagnarde, poêlée campagnarde"
+
+msgid "Poêlées à la tunisienne, Poêlée à la tunisienne"
+msgstr "Poêlées à la tunisienne, poêlée à la tunisienne"
+
+msgid "Poêlées à la sarladaise, Poêlée à la sarladaise"
+msgstr "Poêlées à la sarladaise, poêlée à la sarladaise"
+
+msgid ""
+"Poêlées à la paysanne, Poêlées paysanne, Poêlée à la paysanne, Poêlée "
+"paysanne"
+msgstr ""
+"Poêlées à la paysanne, poêlées paysanne, poêlée à la paysanne, poêlée "
+"paysanne"
+
+msgid "Poêlées à la landaise, Poêlée à la landaise"
+msgstr "Poêlées à la landaise, poêlée à la landaise"
+
+msgid "Poêlées"
+msgstr "Poêlées"
+
+msgid "Plats traiteurs, plat traiteur"
+msgstr "Plats traiteurs, plat traiteur"
+
+msgid ""
+"Plats susceptibles de contenir de la viande de cheval - lots retirés de la "
+"vente en février 2013, Plats-susceptibles-de-contenir-de-la-viande-de-cheval-"
+"retires-en-fevrier-2013"
+msgstr ""
+"Plats susceptibles de contenir de la viande de cheval - lots retirés de la "
+"vente en février 2013, plats-susceptibles-de-contenir-de-la-viande-de-cheval-"
+"retires-en-fevrier-2013"
+
+msgid ""
+"Plats susceptibles de contenir de la viande de cheval - lots retirés de la "
+"vente en février 2013"
+msgstr ""
+"Plats susceptibles de contenir de la viande de cheval - lots retirés de la "
+"vente en février 2013"
+
+msgid "Plats susceptibles de contenir de la viande de cheval"
+msgstr "Plats susceptibles de contenir de la viande de cheval"
+
+msgid "Plats principaux pour bébé, Plats principaux bébé"
+msgstr "Plats principaux pour bébé, plats principaux bébé"
+
+msgid "Plats principaux pour bébé"
+msgstr "Plats principaux pour bébé"
+
+msgid "Plats préparés, plat préparé, plats cuisinés, plat cuisiné"
+msgstr "Plats préparés, plat préparé, plats cuisinés, plat cuisiné"
+
+msgid ""
+"Plats préparés surgelés, plat préparé surgelé, Plats surgelés, Plat surgelé"
+msgstr ""
+"Plats préparés surgelés, plat préparé surgelé, plats surgelés, plat surgelé"
+
+msgid "Plats préparés frais, plat préparé frais"
+msgstr "Plats préparés frais, plat préparé frais"
+
+msgid "Plats préparés frais"
+msgstr "Plats préparés frais"
+
+msgid ""
+"Plats préparés en conserve, plats cuisinés en conserve, plat préparé en "
+"conserve"
+msgstr ""
+"Plats préparés en conserve, plats cuisinés en conserve, plat préparé en "
+"conserve"
+
+msgid "Plats préparés en conserve"
+msgstr "Plats préparés en conserve"
+
+msgid ""
+"plats préparés à réchauffer au micro-ondes, plats préparés au micro-onde, "
+"plat-préparé au micro-onde, plat au micro-onde"
+msgstr ""
+"plats préparés à réchauffer au micro-ondes, plats préparés au micro-onde, "
+"plat-préparé au micro-onde, plat au micro-onde"
+
+msgid "Plats préparés à faible teneur en matières grasses"
+msgstr "Plats préparés à faible teneur en matières grasses"
+
+msgid "Plats du soir pour bébé"
+msgstr "Plats du soir pour bébé"
+
+msgid "Plats cuisinés surgelés"
+msgstr "Plats cuisinés surgelés"
+
+msgid "Plats à base de volaille"
+msgstr "Plats à base de volaille"
+
+msgid "Plats à base de viande porcine"
+msgstr "Plats à base de viande porcine"
+
+msgid "Plats à base de viande ovine"
+msgstr "Plats à base de viande ovine"
+
+msgid "Plats à base de viande bovine"
+msgstr "Plats à base de viande bovine"
+
+msgid "Plats à base de viande"
+msgstr "Plats à base de viande"
+
+msgid "Plats à base de lièvre, Plats à base de viande de lièvre"
+msgstr "Plats à base de lièvre, plats à base de viande de lièvre"
+
+msgid "Plats à base de lièvre"
+msgstr "Plats à base de lièvre"
+
+msgid "Plats à base de lapin, Plats à base de viande de lapin"
+msgstr "Plats à base de lapin, plats à base de viande de lapin"
+
+msgid ""
+"Plats à base de lapin ou lièvre, Plats à base de viande de lapin ou lièvre, "
+"plats à base de lapin ou de lièvre"
+msgstr ""
+"Plats à base de lapin ou lièvre, plats à base de viande de lapin ou lièvre, "
+"plats à base de lapin ou de lièvre"
+
+msgid "Plats à base de lapin"
+msgstr "Plats à base de lapin"
+
+msgid "Plats à base de dinde"
+msgstr "Plats à base de dinde"
+
+msgid "Plats à base de canards"
+msgstr "Plats à base de canards"
+
+msgid "Plats à base d’oies"
+msgstr "Plats à base d’oies"
+
+msgid "Plantes condimentaires, Plante condimentaire"
+msgstr "Plantes condimentaires, plante condimentaire"
+
+msgid "Plantes aromatiques, Plante aromatique"
+msgstr "Plantes aromatiques, plante aromatique"
+
+msgid "Pizzas surgelées, pizza surgelée"
+msgstr "Pizzas surgelées, pizza surgelée"
+
+msgid "Pizzas ovales, Pizza ovale"
+msgstr "Pizzas ovales, pizza ovale"
+
+msgid "Pizzas et tartes surgelées"
+msgstr "Pizzas et tartes surgelées"
+
+msgid "Pizzas"
+msgstr "Pizzas"
+
+msgid "Pistaches, Pistache"
+msgstr "Pistaches, pistache"
+
+msgid "Piquant d'Algérie"
+msgstr "Piquant d'Algérie"
+
+msgid "Pintades"
+msgstr "Pintades"
+
+msgid "Pineau des Charentes, Floc de Gascogne, Macvin du Jura"
+msgstr "Pineau des Charentes, floc de Gascogne, macvin du Jura"
+
+msgid "Piments, Piment"
+msgstr "Piments, piment"
+
+msgid "Piments verts, Piment vert"
+msgstr "Piments verts, piment vert"
+
+msgid "Piments verts"
+msgstr "Piments verts"
+
+msgid "Piments rouges, Piment rouge"
+msgstr "Piments rouges, piment rouge"
+
+msgid "Piments rouges"
+msgstr "Piments rouges"
+
+msgid "Piments oranges, Piment orange"
+msgstr "Piments oranges, piment orange"
+
+msgid "Piments jaunes, Piment jaune"
+msgstr "Piments jaunes, piment jaune"
+
+msgid ""
+"Piments de Cayenne, Piment de Cayenne, Capsicum baccatum, aji, piment "
+"enragé, poivre de Cayenne"
+msgstr ""
+"Piments de Cayenne, piment de Cayenne, capsicum baccatum, aji, piment "
+"enragé, poivre de Cayenne"
+
+msgid ""
+"Piments d'Espelette, Piment d'Espelette, Ezpeletako biperra, Capsicum annuum "
+"L. Gorria"
+msgstr ""
+"Piments d'Espelette, piment d'Espelette, ezpeletako biperra, capsicum annuum "
+"L. Gorria"
+
+msgid "Piment vietnamien"
+msgstr "Piment vietnamien"
+
+msgid "Piment végétarien"
+msgstr "Piment végétarien"
+
+msgid ""
+"piment tepin, Capsicum annuum var. glabriusculum, Capsicum annuum var. "
+"aviculare, Gringo Killer, Bird Pepper"
+msgstr ""
+"Piment tepin, capsicum annuum var. glabriusculum, capsicum annuum var. "
+"aviculare, Gringo Killer, Bird Pepper"
+
+msgid "Piment oiseau, pequin, piment zozio, piment martin"
+msgstr "Piment oiseau, pequin, piment zozio, piment martin"
+
+msgid "Piment Naga Viper, Naga Viper"
+msgstr "Piment Naga Viper, Naga Viper"
+
+msgid "Piment kabyle"
+msgstr "Piment kabyle"
+
+msgid "Piment doux de Gascogne, piment doux des Landes"
+msgstr "Piment doux de Gascogne, piment doux des Landes"
+
+msgid "Piment d'Anglet"
+msgstr "Piment d'Anglet"
+
+msgid "Piment banane, Capsicum annuum cv Hungarian Wax"
+msgstr "Piment banane, Capsicum annuum cv Hungarian Wax"
+
+msgid "Piment Ancho, Ancho, piment poblano, chile ancho, piment large"
+msgstr "Piment Ancho, ancho, piment poblano, chile ancho, piment large"
+
+msgid "Pili-pili, jindungo, maguita-tuá-tuá, ndongo, nedungo"
+msgstr "Pili-pili, jindungo, maguita-tuá-tuá, ndongo, nedungo"
+
+msgid "Pickles de légumes"
+msgstr "Pickles de légumes"
+
+msgid "Pickles"
+msgstr "Pickles"
+
+msgid ""
+"Petits pots pour bébé, petits pots bébé, petit pot bébé, petits pots pour "
+"bébés, petits pots, petit pot"
+msgstr ""
+"Petits pots pour bébé, petits pots bébé, petit pot bébé, petits pots pour "
+"bébés, petits pots, petit pot"
+
+msgid "Petits pois en conserve"
+msgstr "Petits pois en conserve"
+
+msgid "Petits pains grillés"
+msgstr "Petits pains grillés"
+
+msgid "Petits pains azymes, Petit pain azyme"
+msgstr "Petits pains azymes, petit pain azyme"
+
+msgid "Petits Munsters, Petit Munster"
+msgstr "Petits Munsters, petit Munster"
+
+msgid "Petits beurres, petit beurre"
+msgstr "Petits beurres, petit beurre"
+
+msgid ""
+"petite tomate en grappe du Vésuve, petites tomates en grappe du Vésuve, "
+"Pomodorino del Piennolo del Vesuvio"
+msgstr ""
+"Petite tomate en grappe du Vésuve, petites tomates en grappe du Vésuve, "
+"pomodorino del Piennolo del Vesuvio"
+
+msgid "Petit-déjeuners, petits déjeuner"
+msgstr "Petit-déjeuners, petits déjeuner"
+
+msgid "Petit vert marseillais"
+msgstr "Petit vert marseillais"
+
+msgid "Petit salé, petit salé aux lentilles"
+msgstr "Petit salé, petit salé aux lentilles"
+
+msgid "Petit carré de Nice"
+msgstr "Petit carré de Nice"
+
+msgid "Persil"
+msgstr "Persil"
+
+msgid "Pêches"
+msgstr "Pêches"
+
+msgid "Pâtisseries, pâtisserie"
+msgstr "Pâtisseries, pâtisserie"
+
+msgid "Pâtes sèches"
+msgstr "Pâtes sèches"
+
+msgid "Pâtes sablées, Pâte sablée, Pâtes à tarte sablées"
+msgstr "Pâtes sablées, pâte sablée, pâtes à tarte sablées"
+
+msgid "Pâtes fraîches"
+msgstr "Pâtes fraîches"
+
+msgid "Pâtes feuilletées, Pâte feuilletée, Pâtes à tarte feuilletées"
+msgstr "Pâtes feuilletées, pâte feuilletée, pâtes à tarte feuilletées"
+
+msgid "Pâtes de sarrazin, Pâte de sarrazin, Crozets"
+msgstr "Pâtes de sarrazin, pâte de sarrazin, crozets"
+
+msgid "Pâtes d’amande, massepain"
+msgstr "Pâtes d’amande, massepain"
+
+msgid "Pâtes brisées, Pâte brisée, Pâtes à tarte brisées"
+msgstr "Pâtes brisées, pâte brisée, pâtes à tarte brisées"
+
+msgid "Pâtes alimentaires"
+msgstr "Pâtes alimentaires"
+
+msgid "Pâtes à tartiner, Pâte à tartiner"
+msgstr "Pâtes à tartiner, pâte à tartiner"
+
+msgid "Pâtes à tartiner aux noisettes, pâte à tartiner aux noisettes"
+msgstr "Pâtes à tartiner aux noisettes, pâte à tartiner aux noisettes"
+
+msgid ""
+"Pâtes à tartiner aux noisettes et au cacao, pâtes à tartiner aux noisettes "
+"et au chocolat"
+msgstr ""
+"Pâtes à tartiner aux noisettes et au cacao, pâtes à tartiner aux noisettes "
+"et au chocolat"
+
+msgid "Pâtes à tartiner aux noisettes"
+msgstr "Pâtes à tartiner aux noisettes"
+
+msgid "Pâtes à tartiner aux amandes"
+msgstr "Pâtes à tartiner aux amandes"
+
+msgid "Pâtes à tartiner au chocolat, pâtes à tartiner au cacao"
+msgstr "Pâtes à tartiner au chocolat, pâtes à tartiner au cacao"
+
+msgid "Pâtes à tartiner au chocolat"
+msgstr "Pâtes à tartiner au chocolat"
+
+msgid ""
+"Pâtes à tartiner au caramel, Pâte à tartiner au caramel, Caramels à "
+"tartiner, Caramel à tartiner"
+msgstr ""
+"Pâtes à tartiner au caramel, pâte à tartiner au caramel, caramels à "
+"tartiner, caramel à tartiner"
+
+msgid "Pâtes à tartiner"
+msgstr "Pâtes à tartiner"
+
+msgid "Pâtes à tarte, Pâte à tarte"
+msgstr "Pâtes à tarte, pâte à tarte"
+
+msgid "Pâtes à tarte"
+msgstr "Pâtes à tarte"
+
+msgid "Pâtes à base de Petit Épeautre, Pâtes Petit épeautre"
+msgstr "Pâtes à base de petit épeautre, pâtes petit épeautre"
+
+msgid "Pâté de tête"
+msgstr "Pâté de tête"
+
+msgid "Pâte de riz, Pâtes de riz"
+msgstr "Pâte de riz, pâtes de riz"
+
+msgid "pâté de foie gras"
+msgstr "Pâté de foie gras"
+
+msgid "Pasilla, chilaca"
+msgstr "Pasilla, chilaca"
+
+msgid "Parmigiano Reggiano, parmesan"
+msgstr "Parmigiano Reggiano, parmesan"
+
+msgid "parfait de foie gras"
+msgstr "Parfait de foie gras"
+
+msgid "Par origine de vente"
+msgstr "Par origine de vente"
+
+msgid "Paprika"
+msgstr "Paprika"
+
+msgid "Papayes"
+msgstr "Papayes"
+
+msgid "Pamplemousses"
+msgstr "Pamplemousses"
+
+msgid "Pamplemousse au sirop"
+msgstr "Pamplemousse au sirop"
+
+msgid "Palmiers"
+msgstr "Palmiers"
+
+msgid "Pains, pain"
+msgstr "Pains, pain"
+
+msgid "Pains spéciaux, Pain spéciaux"
+msgstr "Pains spéciaux, pain spéciaux"
+
+msgid "Pains spéciaux"
+msgstr "Pains spéciaux"
+
+msgid "Pains sans gluten, Pain sans gluten"
+msgstr "Pains sans gluten, pain sans gluten"
+
+msgid "Pains pour hamburgers, Pain pour hamburgers"
+msgstr "Pains pour hamburgers, pain pour hamburgers"
+
+msgid "Pains de seigle, Pains au seigle, Pain au seigle"
+msgstr "Pains de seigle, pains au seigle, pain au seigle"
+
+msgid "Pains de mie, pain de mie"
+msgstr "Pains de mie, pain de mie"
+
+msgid "Pains de mie complet, Pain de mie complet"
+msgstr "Pains de mie complet, pain de mie complet"
+
+msgid "Pains de mie aux céréales, Pain de mie aux céréales"
+msgstr "Pains de mie aux céréales, pain de mie aux céréales"
+
+msgid "Pains de mie"
+msgstr "Pains de mie"
+
+msgid "Pains de campagne, Pain de campagne"
+msgstr "Pains de campagne, pain de campagne"
+
+msgid "Pains croustillants, Pain croustillant"
+msgstr "Pains croustillants, pain croustillant"
+
+msgid "Pains Burger"
+msgstr "Pains Burger"
+
+msgid "Pains azymes, pain azyme"
+msgstr "Pains azymes, pain azyme"
+
+msgid "Pains azymes pilés"
+msgstr "Pains azymes pilés"
+
+msgid "Pains azymes extra fins, Pain azyme extra fin"
+msgstr "Pains azymes extra fins, pain azyme extra fin"
+
+msgid "Pains azymes au seigle, Pain azyme au seigle"
+msgstr "Pains azymes au seigle, pain azyme au seigle"
+
+msgid "Pains azymes au jus de betterave, Pain azyme au jus de betterave"
+msgstr "Pains azymes au jus de betterave, pain azyme au jus de betterave"
+
+msgid ""
+"Pains azymes à la farine de sarrasin, Pain azyme à la farine de sarrasin"
+msgstr ""
+"Pains azymes à la farine de sarrasin, pain azyme à la farine de sarrasin"
+
+msgid ""
+"Pains azymes à la farine de froment, Pain azyme à la farine de froment"
+msgstr ""
+"Pains azymes à la farine de froment, pain azyme à la farine de froment"
+
+msgid ""
+"Pains azymes à la farine de froment complète T150, Pain azyme à la farine de "
+"froment complète T150"
+msgstr ""
+"Pains azymes à la farine de froment complète T150, pain azyme à la farine de "
+"froment complète T150"
+
+msgid "Pains azymes à la farine de froment"
+msgstr "Pains azymes à la farine de froment"
+
+msgid ""
+"Pains azymes à la farine de châtaigne, Pain azyme à la farine de châtaigne"
+msgstr ""
+"Pains azymes à la farine de châtaigne, pain azyme à la farine de châtaigne"
+
+msgid "Pains azymes à la farine de blé, Pain azyme à la farine de blé"
+msgstr "Pains azymes à la farine de blé, pain azyme à la farine de blé"
+
+msgid ""
+"Pains azymes à la farine de blé T65, Pain azyme à la farine de blé T65"
+msgstr ""
+"Pains azymes à la farine de blé T65, pain azyme à la farine de blé T65"
+
+msgid "Pains azymes à la farine de blé"
+msgstr "Pains azymes à la farine de blé"
+
+msgid ""
+"Pains azymes à la farine d'épeautre, Pain azyme à la farine d'épeautre"
+msgstr ""
+"Pains azymes à la farine d'épeautre, pain azyme à la farine d'épeautre"
+
+msgid "Pains azymes à la farine complète, Pain azyme à la farine complète"
+msgstr "Pains azymes à la farine complète, pain azyme à la farine complète"
+
+msgid "Pains azymes à la farine complète"
+msgstr "Pains azymes à la farine complète"
+
+msgid "Pains azymes"
+msgstr "Pains azymes"
+
+msgid "Pain grillé, Pains grillés"
+msgstr "Pain grillé, pains grillés"
+
+msgid "Pain grillé"
+msgstr "Pain grillé"
+
+msgid "Orge"
+msgstr "Orge"
+
+msgid "Oranges"
+msgstr "Oranges"
+
+msgid "Olives vertes en saumure"
+msgstr "Olives vertes en saumure"
+
+msgid "Olives vertes dénoyautées"
+msgstr "Olives vertes dénoyautées"
+
+msgid "Olives vertes"
+msgstr "Olives vertes"
+
+msgid "Olives semi mures"
+msgstr "Olives semi-mures"
+
+msgid "Olives noires, Olive noire"
+msgstr "Olives noires, olive noire"
+
+msgid "Olives marinées"
+msgstr "Olives marinées"
+
+msgid "Olives dénoyautées"
+msgstr "Olives dénoyautées"
+
+msgid "Olives"
+msgstr "Olives"
+
+msgid "Oignons"
+msgstr "Oignons"
+
+msgid "Oies"
+msgstr "Oies"
+
+msgid "Oeufs, Oeufs frais"
+msgstr "Œufs, œufs frais"
+
+msgid "Oeufs plein air"
+msgstr "Œufs plein air"
+
+msgid "Oeufs labellisés"
+msgstr "Œufs labellisés"
+
+msgid "Oeufs Label Rouge"
+msgstr "Œufs Label Rouge"
+
+msgid "Oeufs en chocolat, oeuf en chocolat, oeufs de pâques, oeuf de pâques"
+msgstr "Œufs en chocolat, œuf en chocolat, œufs de pâques, œuf de pâques"
+
+msgid "Œufs de lump, Œufs de Cyclopterus lumpus, Oeufs de lompe"
+msgstr "Œufs de lump, œufs de Cyclopterus lumpus, œufs de lompe"
+
+msgid "Oeufs de cailles"
+msgstr "Œufs de cailles"
+
+msgid "Oeufs biologiques, Oeufs bio"
+msgstr "Œufs biologiques, œufs bio"
+
+msgid "Oeufs"
+msgstr "Œufs"
+
+msgid "Nourriture pour oiseaux"
+msgstr "Nourriture pour oiseaux"
+
+msgid "Nourriture pour chiens, produits pour chiens"
+msgstr "Nourriture pour chiens, produits pour chiens"
+
+msgid "Nourriture pour chiens"
+msgstr "Nourriture pour chiens"
+
+msgid "Nourriture pour chats, produits pour chats"
+msgstr "Nourriture pour chats, produits pour chats"
+
+msgid "Nourriture pour chats"
+msgstr "Nourriture pour chats"
+
+msgid "Nourriture pour animaux, produits pour animaux"
+msgstr "Nourriture pour animaux, produits pour animaux"
+
+msgid "Nourriture pour animaux"
+msgstr "Nourriture pour animaux"
+
+msgid "Nougats, türkischer Honig"
+msgstr "Nougats, türkischer Honig"
+
+msgid "nougats tendre et dur"
+msgstr "Nougats tendre et dur"
+
+msgid "Nougats noirs"
+msgstr "Nougats noirs"
+
+msgid "Nougats de Tours"
+msgstr "Nougats de Tours"
+
+msgid "Nougats de Sault"
+msgstr "Nougats de Sault"
+
+msgid "nougats de Montélimar, nougat de Montélimar"
+msgstr "Nougats de Montélimar, nougat de Montélimar"
+
+msgid "Nougats chinois"
+msgstr "Nougats chinois"
+
+msgid "Nougats bruns"
+msgstr "Nougats bruns"
+
+msgid "Nougats blancs"
+msgstr "Nougats blancs"
+
+msgid "nougats au chocolat"
+msgstr "Nougats au chocolat"
+
+msgid "nougats à la noix de coco"
+msgstr "Nougats à la noix de coco"
+
+msgid "Nougats"
+msgstr "Nougats"
+
+msgid "Nöra, nyora"
+msgstr "Nöra, nyora"
+
+msgid "Non alimentaire"
+msgstr "Non alimentaire"
+
+msgid "Noix de coco"
+msgstr "Noix de coco"
+
+msgid "Noisettes"
+msgstr "Noisettes"
+
+msgid "Nèfles"
+msgstr "Nèfles"
+
+msgid "Nectars multifruits"
+msgstr "Nectars multifruits"
+
+msgid "Nectars de raisin"
+msgstr "Nectars de raisin"
+
+msgid "Nectars de poire"
+msgstr "Nectars de poire"
+
+msgid "Nectars de pêche, nectar de pêche, nectar pêche"
+msgstr "Nectars de pêche, nectar de pêche, nectar pêche"
+
+msgid "Nectars de pamplemousse"
+msgstr "Nectars de pamplemousse"
+
+msgid "Nectars de myrtilles"
+msgstr "Nectars de myrtilles"
+
+msgid "Nectars de melon"
+msgstr "Nectars de melon"
+
+msgid "Nectars de mangue, nectar de mangue, nectar mangue, nectars mangue"
+msgstr "Nectars de mangue, nectar de mangue, nectar mangue, nectars mangue"
+
+msgid "Nectars de mandarine, nectars de clémentine"
+msgstr "Nectars de mandarine, nectars de clémentine"
+
+msgid "Nectars de Grenade"
+msgstr "Nectars de Grenade"
+
+msgid "Nectars de goyave, nectar de goyave, nectar goyave"
+msgstr "Nectars de goyave, nectar de goyave, nectar goyave"
+
+msgid "Nectars de fruits, nectar de fruits, nectars, nectar"
+msgstr "Nectars de fruits, nectar de fruits, nectars, nectar"
+
+msgid ""
+"Nectars de fruit de la passion, nectar de fruit de la passion, nectar fruit "
+"de la passion, nectar passion, nectars passion, nectars de fruits de la "
+"passion"
+msgstr ""
+"Nectars de fruit de la passion, nectar de fruit de la passion, nectar fruit "
+"de la passion, nectar passion, nectars passion, nectars de fruits de la "
+"passion"
+
+msgid "Nectars de banane, nectar de banane, nectar banane, nectars banane"
+msgstr "Nectars de banane, nectar de banane, nectar banane, nectars banane"
+
+msgid "Nectars d'orange"
+msgstr "Nectars d'orange"
+
+msgid "Nectars d'ananas"
+msgstr "Nectars d'ananas"
+
+msgid ""
+"Nectars d'abricot, nectar d'abricot, nectars d'abricots, nectar abricot"
+msgstr ""
+"Nectars d'abricot, nectar d'abricot, nectars d'abricots, nectar abricot"
+
+msgid "Nectarines"
+msgstr "Nectarines"
+
+msgid "Myrtilles des marais"
+msgstr "Myrtilles des marais"
+
+msgid "Myrtilles arbustives, Grande Myrtille"
+msgstr "Myrtilles arbustives, grande myrtille"
+
+msgid "Myrtilles"
+msgstr "Myrtilles"
+
+msgid "Muscats, Muscat"
+msgstr "Muscats, muscat"
+
+msgid "Muscats"
+msgstr "Muscats"
+
+msgid "Muscat du Cap-Corse"
+msgstr "Muscat du Cap-Corse"
+
+msgid "Muscat de Saint-Jean-de-Minervois"
+msgstr "Muscat de Saint-Jean-de-Minervois"
+
+msgid "Muscat de Rivesaltes"
+msgstr "Muscat de Rivesaltes"
+
+msgid "Muscat de Mireval"
+msgstr "Muscat de Mireval"
+
+msgid "Muscat de Lunel"
+msgstr "Muscat de Lunel"
+
+msgid "Muscat de Frontignan"
+msgstr "Muscat de Frontignan"
+
+msgid "Muscat de Beaumes-de-Venise"
+msgstr "Muscat de Beaumes-de-Venise"
+
+msgid "Mûres"
+msgstr "Mûres"
+
+msgid "Munsters au lait pasteurisé"
+msgstr "Munsters au lait pasteurisé"
+
+msgid "Munsters au lait cru"
+msgstr "Munsters au lait cru"
+
+msgid "Munsters"
+msgstr "Munsters"
+
+msgid "Mueslis, muesli"
+msgstr "Mueslis, muesli"
+
+msgid "Moutardes, moutarde, Moustarde"
+msgstr "Moutardes, moutarde, moustarde"
+
+msgid "Moutardes violettes"
+msgstr "Moutardes violettes"
+
+msgid "Moutardes provençales"
+msgstr "Moutardes provençales"
+
+msgid "Moutardes italiennes"
+msgstr "Moutardes italiennes"
+
+msgid "Moutardes fines, moutarde fine"
+msgstr "Moutardes fines, moutarde fine"
+
+msgid "Moutardes douces"
+msgstr "Moutardes douces"
+
+msgid "Moutardes de Dijon, moutarde de Dijon"
+msgstr "Moutardes de Dijon, moutarde de Dijon"
+
+msgid "Moutardes aux fines herbes"
+msgstr "Moutardes aux fines herbes"
+
+msgid "Moutardes au miel"
+msgstr "Moutardes au miel"
+
+msgid "Moutardes au cassis"
+msgstr "Moutardes au cassis"
+
+msgid "Moutardes allemandes, Süßer Senf"
+msgstr "Moutardes allemandes, Süßer Senf"
+
+msgid "Moutardes allemandes"
+msgstr "Moutardes allemandes"
+
+msgid "Moutardes à la violette"
+msgstr "Moutardes à la violette"
+
+msgid "Moutardes à la tomate"
+msgstr "Moutardes à la tomate"
+
+msgid "Moutardes à l’ancienne, moutarde à l’ancienne"
+msgstr "Moutardes à l’ancienne, moutarde à l’ancienne"
+
+msgid "Moutardes"
+msgstr "Moutardes"
+
+msgid "moutarde de l'est"
+msgstr "Moutarde de l'est"
+
+msgid "moutarde bavaroise, moutarde américaine"
+msgstr "Moutarde bavaroise, moutarde américaine"
+
+msgid "Mousses, Mousse"
+msgstr "Mousses, mousse"
+
+msgid "Mousses au chocolat, Mousse au chocolat"
+msgstr "Mousses au chocolat, mousse au chocolat"
+
+msgid "mousse de foie gras"
+msgstr "Mousse de foie gras"
+
+msgid "Moules"
+msgstr "Moules"
+
+msgid "Moulages en chocolat"
+msgstr "Moulages en chocolat"
+
+msgid "moster de Düsseldorf, moutarde anglaise"
+msgstr "Moster de Düsseldorf, moutarde anglaise"
+
+msgid "Morues"
+msgstr "Morues"
+
+msgid "Morbiers"
+msgstr "Morbiers"
+
+msgid "Mont d'Or"
+msgstr "Mont d'Or"
+
+msgid "Mollusques"
+msgstr "Mollusques"
+
+msgid ""
+"mistelle, vins mutés de types mistelle, vins de liqueur, vin de liqueur"
+msgstr ""
+"Mistelle, vins mutés de types mistelle, vins de liqueur, vin de liqueur"
+
+msgid "Mistelle"
+msgstr "Mistelle"
+
+msgid "Mimolettes, vieux Hollande, boule de Lille"
+msgstr "Mimolettes, vieux Hollande, boule de Lille"
+
+msgid "Mimolettes vieilles"
+msgstr "Mimolettes vieilles"
+
+msgid "Mimolettes jeunes"
+msgstr "Mimolettes jeunes"
+
+msgid "Mimolettes extra vieilles"
+msgstr "Mimolettes extra vieilles"
+
+msgid "Mimolettes demi-vieilles"
+msgstr "Mimolettes demi-vieilles"
+
+msgid "Mimolettes"
+msgstr "Mimolettes"
+
+msgid "Millet"
+msgstr "Millet"
+
+msgid "Mil"
+msgstr "Mil"
+
+msgid "Miels tropicaux, Miel tropical, Miel des tropiques"
+msgstr "Miels tropicaux, miel tropical, miel des tropiques"
+
+msgid "Miels roumains, Miels de Roumarie, Miels de Roumanie"
+msgstr "Miels roumains, miels de Roumanie"
+
+msgid "Miels réputés"
+msgstr "Miels réputés"
+
+msgid "Miels liquides"
+msgstr "Miels liquides"
+
+msgid "Miels labellisés"
+msgstr "Miels labellisés"
+
+msgid "Miels labélisés"
+msgstr "Miels labélisés"
+
+msgid "Miels Label Rouge"
+msgstr "Miels Label Rouge"
+
+msgid "Miels IGP"
+msgstr "Miels IGP"
+
+msgid "Miels français, Miels de France"
+msgstr "Miels français, miels de France"
+
+msgid "miels du Yémen"
+msgstr "Miels du Yémen"
+
+msgid "miels du Royaume-Uni"
+msgstr "Miels du Royaume-Uni"
+
+msgid "Miels du Pays de Champagne"
+msgstr "Miels du Pays de Champagne"
+
+msgid "Miels du Jura"
+msgstr "Miels du Jura"
+
+msgid "Miels du Gâtinais, Miel du Gätinais"
+msgstr "Miels du Gâtinais, miel du Gätinais"
+
+msgid "Miels des rives du Danube de Roumanie"
+msgstr "Miels des rives du Danube de Roumanie"
+
+msgid "Miels des Pyrénées"
+msgstr "Miels des Pyrénées"
+
+msgid "Miels des Pays de Loire"
+msgstr "Miels des Pays de Loire"
+
+msgid "Miels des Alpes"
+msgstr "Miels des Alpes"
+
+msgid "miels de trèfle"
+msgstr "Miels de trèfle"
+
+msgid "miels de tournesol"
+msgstr "Miels de tournesol"
+
+msgid "Miels de tilleul d'Alsace"
+msgstr "Miels de tilleul d'Alsace"
+
+msgid "miels de tilleul"
+msgstr "Miels de tilleul"
+
+msgid "miels de Tamaris"
+msgstr "Miels de Tamaris"
+
+msgid "Miels de sous-bois français"
+msgstr "Miels de sous-bois français"
+
+msgid "miels de sarrasin, miels de blé noir"
+msgstr "Miels de sarrasin, miels de blé noir"
+
+msgid "Miels de sapin des Vosges"
+msgstr "Miels de sapin des Vosges"
+
+msgid "Miels de sapin d'Alsace"
+msgstr "Miels de sapin d'Alsace"
+
+msgid "Miels de sapin"
+msgstr "Miels de sapin"
+
+msgid "miels de ronce"
+msgstr "Miels de ronce"
+
+msgid "Miels de romarin"
+msgstr "Miels de romarin"
+
+msgid "miels de robinier"
+msgstr "Miels de robinier"
+
+msgid "Miels de Provence"
+msgstr "Miels de Provence"
+
+msgid "Miels de prairies françaises"
+msgstr "Miels de prairies françaises"
+
+msgid "Miels de Poitou-Charentes, Miels du Poitou-Charentes"
+msgstr "Miels de Poitou-Charentes, Miels du Poitou-Charentes"
+
+msgid "miels de pissenlit"
+msgstr "Miels de pissenlit"
+
+msgid "Miels de pin de méditerrannée"
+msgstr "Miels de pin de méditerrannée"
+
+msgid "Miels de pin"
+msgstr "Miels de pin"
+
+msgid "miels de montagne"
+msgstr "Miels de montagne"
+
+msgid "Miels de miellat, Miel de miellat, Miels d'insectes"
+msgstr "Miels de miellat, miel de miellat, miels d'insectes"
+
+msgid "Miels de miellat"
+msgstr "Miels de miellat"
+
+msgid ""
+"Miels de metcalfa, Miels de metcalfa pruinosa, Miel de cicadelle blanche, "
+"Miels de cicadelle pruineuse"
+msgstr ""
+"Miels de metcalfa, miels de metcalfa pruinosa, miel de cicadelle blanche, "
+"miels de cicadelle pruineuse"
+
+msgid "Miels de Méditerrannée"
+msgstr "Miels de Méditerrannée"
+
+msgid "Miels de Méditerannée"
+msgstr "Miels de Méditerannée"
+
+msgid "Miels de mandarinier"
+msgstr "Miels de mandarinier"
+
+msgid "miels de litchi"
+msgstr "Miels de litchi"
+
+msgid "Miels de lavande de Méditerrannée"
+msgstr "Miels de lavande de Méditerrannée"
+
+msgid "Miels de lavande"
+msgstr "Miels de lavande"
+
+msgid "Miels de la Champagne"
+msgstr "Miels de la Champagne"
+
+msgid "Miels de jujubier du Yémen"
+msgstr "Miels de jujubier du Yémen"
+
+msgid "Miels de jujubier"
+msgstr "Miels de jujubier"
+
+msgid "Miels de Guérande"
+msgstr "Miels de Guérande"
+
+msgid "Miels de Gascogne"
+msgstr "Miels de Gascogne"
+
+msgid "miels de garrigue"
+msgstr "Miels de garrigue"
+
+msgid "Miels de framboisiers sauvages"
+msgstr "Miels de framboisiers sauvages"
+
+msgid "Miels de framboisiers rouges"
+msgstr "Miels de framboisiers rouges"
+
+msgid "miels de framboisier"
+msgstr "Miels de framboisier"
+
+msgid "Miels de forêt d'Alsace"
+msgstr "Miels de forêt d'Alsace"
+
+msgid "Miels de forêt"
+msgstr "Miels de forêt"
+
+msgid "Miels de fleurs, Miel de fleurs, Miels toutes fleurs"
+msgstr "Miels de fleurs, miel de fleurs, miels toutes fleurs"
+
+msgid "Miels de fleurs d'Alsace"
+msgstr "Miels de fleurs d'Alsace"
+
+msgid "Miels de fleurs"
+msgstr "Miels de fleurs"
+
+msgid "Miels de Corse"
+msgstr "Miels de Corse"
+
+msgid "Miels de conifères"
+msgstr "Miels de conifères"
+
+msgid "miels de colza"
+msgstr "Miels de colza"
+
+msgid "Miels de citronnier"
+msgstr "Miels de citronnier"
+
+msgid "Miels de chêne"
+msgstr "Miels de chêne"
+
+msgid "Miels de châtaignier d'Alsace"
+msgstr "Miels de châtaignier d'Alsace"
+
+msgid "miels de châtaignier"
+msgstr "Miels de châtaignier"
+
+msgid "miels de callune"
+msgstr "Miels de callune"
+
+msgid ""
+"Miels de bruyère callune, Miel de Callune, Miel de bruyère commune, Miel de "
+"Calluna vulgaris"
+msgstr ""
+"Miels de bruyère callune, miel de Callune, miel de bruyère commune, miel de "
+"Calluna vulgaris"
+
+msgid ""
+"Miels de bruyère blanche, Miels de bruyère arborescente, Miels de bruyère en "
+"arbre, Miels d'Erica arborea"
+msgstr ""
+"Miels de bruyère blanche, miels de bruyère arborescente, miels de bruyère en "
+"arbre, miels d'Erica arborea"
+
+msgid "Miels de bruyère"
+msgstr "Miels de bruyère"
+
+msgid "Miels de Bourgogne"
+msgstr "Miels de Bourgogne"
+
+msgid "miels de bleuet"
+msgstr "Miels de bleuet"
+
+msgid "Miels d’oranger, Miel d’oranger"
+msgstr "Miels d’oranger, miel d’oranger"
+
+msgid "Miels d’Alsace IGP"
+msgstr "Miels d’Alsace IGP"
+
+msgid "Miels d’Alsace"
+msgstr "Miels d’Alsace"
+
+msgid "Miels d’agrumes"
+msgstr "Miels d’agrumes"
+
+msgid "Miels d’acacia du Jura"
+msgstr "Miels d’acacia du Jura"
+
+msgid "Miels d’acacia des rives du Danube de Roumanie"
+msgstr "Miels d’acacia des rives du Danube de Roumanie"
+
+msgid "Miels d’acacia"
+msgstr "Miels d’acacia"
+
+msgid "Miels d'ulmo, Miels de Eucryphia cordifolia"
+msgstr "Miels d'ulmo, miels de Eucryphia cordifolia"
+
+msgid "miels d'eucalyptus"
+msgstr "Miels d'eucalyptus"
+
+msgid "Miels d'Aquitaine"
+msgstr "Miels d'Aquitaine"
+
+msgid "Miels d'acacia d'Alsace"
+msgstr "Miels d'acacia d'Alsace"
+
+msgid "Miels crémeux"
+msgstr "Miels crémeux"
+
+msgid "Miels clairs"
+msgstr "Miels clairs"
+
+msgid "Miels bruns"
+msgstr "Miels bruns"
+
+msgid "miels blancs du Tigrai"
+msgstr "miels blancs du Tigrai"
+
+msgid "Miels blancs"
+msgstr "Miels blancs"
+
+msgid "Miels AOP"
+msgstr "Miels AOP"
+
+msgid "Miels"
+msgstr "Miels"
+
+msgid "Miel de Pitcairn, Miel de l'île Pitcairn"
+msgstr "Miel de Pitcairn, miel de l'île Pitcairn"
+
+msgid "Méteil"
+msgstr "Méteil"
+
+msgid "Méta-catégorie"
+msgstr "Méta-catégorie"
+
+msgid "Merguez"
+msgstr "Merguez"
+
+msgid "Menus Viandes pour bébé"
+msgstr "Menus viandes pour bébé"
+
+msgid "Menus Poissons pour bébé"
+msgstr "Menus poissons pour bébé"
+
+msgid "Menus Légumes pour bébé"
+msgstr "Menus légumes pour bébé"
+
+msgid "Melons d’eau"
+msgstr "Melons d’eau"
+
+msgid "Melons"
+msgstr "Melons"
+
+msgid "Mélange de champignons"
+msgstr "Mélange de champignons"
+
+msgid "Méduse"
+msgstr "Méduse"
+
+msgid "Médicaments, médicament"
+msgstr "Médicaments, médicament"
+
+msgid ""
+"Mayonnaises de Dijon, Mayonnaise de Dijon, Mayonnaise à la moutarde de "
+"Dijon, Mayonnaises à la moutarde de Dijon"
+msgstr ""
+"Mayonnaises de Dijon, mayonnaise de Dijon, mayonnaise à la moutarde de "
+"Dijon, mayonnaises à la moutarde de Dijon"
+
+msgid "Mayonnaises allégées"
+msgstr "Mayonnaises allégées"
+
+msgid "Mayonnaises à l’huile de tournesol, Mayonnaise à l’huile de tournesol"
+msgstr ""
+"Mayonnaises à l’huile de tournesol, mayonnaise à l’huile de tournesol"
+
+msgid "Mayonnaises"
+msgstr "Mayonnaises"
+
+msgid "Maury"
+msgstr "Maury"
+
+msgid "Matooke, matoke"
+msgstr "Matooke, matoke"
+
+msgid "Matières grasses, matière grasse"
+msgstr "Matières grasses, matière grasse"
+
+msgid "Matières grasses végétales, matière grasse végétale"
+msgstr "Matières grasses végétales, matière grasse végétale"
+
+msgid "Matières grasses animales, matière grasse animale"
+msgstr "Matières grasses animales, matière grasse animale"
+
+msgid "Masa Harina"
+msgstr "Masa Harina"
+
+msgid "Maroilles"
+msgstr "Maroilles"
+
+msgid "Marmelades de citrons"
+msgstr "Marmelades de citrons"
+
+msgid "Marmelades de bigaradiers"
+msgstr "Marmelades de bigaradiers"
+
+msgid "Marmelades d’oranges"
+msgstr "Marmelades d’oranges"
+
+msgid "Marmelades d’ananas"
+msgstr "Marmelades d’ananas"
+
+msgid "Marmelades d’abricots"
+msgstr "Marmelades d’abricots"
+
+msgid "Marmelades"
+msgstr "Marmelades"
+
+msgid "Marlins fumés, marlin fumé"
+msgstr "Marlins fumés, marlin fumé"
+
+msgid "Margarines, Margarine végétale"
+msgstr "Margarines, margarine végétale"
+
+msgid "Maquereaux fumés"
+msgstr "Maquereaux fumés"
+
+msgid "Maquereaux en conserve"
+msgstr "Maquereaux en conserve"
+
+msgid "Maquereaux"
+msgstr "Maquereaux"
+
+msgid "Mao Jian"
+msgstr "Mao Jian"
+
+msgid "Mangues séchées, Mangue séchée"
+msgstr "Mangues séchées, mangue séchée"
+
+msgid "Mangues au sirop"
+msgstr "Mangues au sirop"
+
+msgid "Mangues"
+msgstr "Mangues"
+
+msgid "Mandarines"
+msgstr "Mandarines"
+
+msgid "Manchons de poulet"
+msgstr "Manchons de poulet"
+
+msgid "Maïs en conserve, Maïs"
+msgstr "Maïs en conserve, maïs"
+
+msgid "Maïs en conserve"
+msgstr "Maïs en conserve"
+
+msgid "Maïs doux"
+msgstr "Maïs doux"
+
+msgid "Madeleines longues"
+msgstr "Madeleines longues"
+
+msgid "Madeleines au raisin"
+msgstr "Madeleines au raisin"
+
+msgid "Madeleines au beurre frais"
+msgstr "Madeleines au beurre frais"
+
+msgid "Madeleines"
+msgstr "Madeleines"
+
+msgid "Lychees au sirop"
+msgstr "Lychees au sirop"
+
+msgid "Lukinke"
+msgstr "Lukinke"
+
+msgid "Lottes"
+msgstr "Lottes"
+
+msgid "lots retirés de la vente en février 2013"
+msgstr "Lots retirés de la vente en février 2013"
+
+msgid "Lots retirés de la vente"
+msgstr "Lots retirés de la vente"
+
+msgid "Liqueurs, liqueur"
+msgstr "Liqueurs, liqueur"
+
+msgid "Limonades"
+msgstr "Limonades"
+
+msgid "Lentilles vertes"
+msgstr "Lentilles vertes"
+
+msgid "Lentilles sèches, Lentilles à cuire"
+msgstr "Lentilles sèches, lentilles à cuire"
+
+msgid "Lentilles sèches"
+msgstr "Lentilles sèches"
+
+msgid "lentilles rouges"
+msgstr "lentilles rouges"
+
+msgid "lentilles rosées de Champagne, lentillon de Champagne"
+msgstr "lentilles rosées de Champagne, lentillon de Champagne"
+
+msgid "Lentilles préparées"
+msgstr "Lentilles préparées"
+
+msgid "lentilles noires, lentilles beluga"
+msgstr "Lentilles noires, lentilles beluga"
+
+msgid "lentilles corail, lentilles roses"
+msgstr "Lentilles corail, lentilles roses"
+
+msgid "lentilles brunes"
+msgstr "Lentilles brunes"
+
+msgid "lentilles blonde"
+msgstr "Lentilles blonde"
+
+msgid "Légumes-feuilles, Légume-feuille"
+msgstr "Légumes-feuilles, légume-feuille"
+
+msgid "Légumes tiges"
+msgstr "Légumes tiges"
+
+msgid "Légumes surgelés"
+msgstr "Légumes surgelés"
+
+msgid "Légumes secs"
+msgstr "Légumes secs"
+
+msgid "Légumes préparés, légume préparé"
+msgstr "Légumes préparés, légume préparé"
+
+msgid "Légumes préparés"
+msgstr "Légumes préparés"
+
+msgid "Légumes labellisés"
+msgstr "Légumes labellisés"
+
+msgid "Légumes labelisés"
+msgstr "Légumes labelisés"
+
+msgid "Légumes IGP"
+msgstr "Légumes IGP"
+
+msgid "Légumes frais"
+msgstr "Légumes frais"
+
+msgid "Légumes en conserve"
+msgstr "Légumes en conserve"
+
+msgid "Légumes bio, Légumes biologiques"
+msgstr "Légumes bio, légumes biologiques"
+
+msgid "Légumes AOC"
+msgstr "Légumes AOC"
+
+msgid "Légumes"
+msgstr "Légumes"
+
+msgid "Le Pepper Mont Jolien"
+msgstr "Le Pepper Mont Jolien"
+
+msgid "Lasagnes préparées"
+msgstr "Lasagnes préparées"
+
+msgid "Lasagnes à garnir, Lasagnes"
+msgstr "Lasagnes à garnir, lasagnes"
+
+msgid "Lardons fumés"
+msgstr "Lardons fumés"
+
+msgid "Lardons"
+msgstr "Lardons"
+
+msgid "Lapin à la tournaisienne"
+msgstr "Lapin à la tournaisienne"
+
+msgid "Lapin à la liégeoise"
+msgstr "Lapin à la liégeoise"
+
+msgid "Langues de chat, Katzenzungen, Cat tongue"
+msgstr "Langues de chat, Katzenzungen, cat tongue"
+
+msgid "Langoustines"
+msgstr "Langoustines"
+
+msgid "Langoustes"
+msgstr "Langoustes"
+
+msgid "Lambig"
+msgstr "Lambig"
+
+msgid "Laits, lait"
+msgstr "Laits, lait"
+
+msgid "Laits végétaux, lait végétal, laits végétaliens"
+msgstr "Laits végétaux, lait végétal, laits végétaliens"
+
+msgid "Laits UHT, lait UHT"
+msgstr "Laits UHT, lait UHT"
+
+msgid "Laits pour bébé, laits bébé"
+msgstr "Laits pour bébé, laits bébé"
+
+msgid "Laits pour bébé"
+msgstr "Laits pour bébé"
+
+msgid "Laits frais, lait frais"
+msgstr "Laits frais, lait frais"
+
+msgid "Laits entiers, lait entier"
+msgstr "Laits entiers, lait entier"
+
+msgid "Laits entiers concentrés, Lait entier concentré"
+msgstr "Laits entiers concentrés, lait entier concentré"
+
+msgid "Laits en poudre, farines de lait, laits déshydratés"
+msgstr "Laits en poudre, farines de lait, laits déshydratés"
+
+msgid "Laits écrémés, lait écrémé"
+msgstr "Laits écrémés, lait écrémé"
+
+msgid "Laits demi-écrémés, lait demi-écrémé"
+msgstr "Laits demi-écrémés, lait demi-écrémé"
+
+msgid "Laits demi-écrémés biologiques"
+msgstr "Laits demi-écrémés biologiques"
+
+msgid "Laits demi-écrémés"
+msgstr "Laits demi-écrémés"
+
+msgid "Laits de teff"
+msgstr "Laits de teff"
+
+msgid "Laits de souchet"
+msgstr "Laits de souchet"
+
+msgid "Laits de soja, lait de soja"
+msgstr "Laits de soja, lait de soja"
+
+msgid "Laits de soja naturel sans sucre"
+msgstr "Laits de soja naturel sans sucre"
+
+msgid "Laits de soja naturel avec du sucre"
+msgstr "Laits de soja naturel avec du sucre"
+
+msgid "Laits de soja avec du café"
+msgstr "Laits de soja avec du café"
+
+msgid "Laits de soja au cacao, Laits de soja au chocolat"
+msgstr "Laits de soja au cacao, laits de soja au chocolat"
+
+msgid "Laits de soja à la vanille"
+msgstr "Laits de soja à la vanille"
+
+msgid "Laits de sésame"
+msgstr "Laits de sésame"
+
+msgid "Laits de sarrasin"
+msgstr "Laits de sarrasin"
+
+msgid "Laits de riz, lait de riz"
+msgstr "Laits de riz, lait de riz"
+
+msgid "Laits de riz naturel"
+msgstr "Laits de riz naturel"
+
+msgid "Laits de riz au cacao, Laits de riz au chocolat"
+msgstr "Laits de riz au cacao, Laits de riz au chocolat"
+
+msgid "Laits de riz à la vanille"
+msgstr "Laits de riz à la vanille"
+
+msgid "Laits de quinoa"
+msgstr "Laits de quinoa"
+
+msgid "Laits de noix de macadamia"
+msgstr "Laits de noix de macadamia"
+
+msgid "Laits de noix "
+msgstr "Laits de noix "
+
+msgid "Laits de noisettes"
+msgstr "Laits de noisettes"
+
+msgid "Laits de montagne"
+msgstr "Laits de montagne"
+
+msgid "Laits de millet"
+msgstr "Laits de millet"
+
+msgid "Laits de maïs"
+msgstr "Laits de maïs"
+
+msgid "Laits de fruits à coques"
+msgstr "Laits de fruits à coques"
+
+msgid "Laits de croissance, lait de croissance"
+msgstr "Laits de croissance, lait de croissance"
+
+msgid "Laits de coco, lait de coco"
+msgstr "Laits de coco, lait de coco"
+
+msgid "Laits de châtaignes"
+msgstr "Laits de châtaignes"
+
+msgid "Laits de céréales"
+msgstr "Laits de céréales"
+
+msgid "Laits de blé de Khorasan, Laits de Kamut"
+msgstr "Laits de blé de Khorasan, laits de Kamut"
+
+msgid "Laits de blé"
+msgstr "Laits de blé"
+
+msgid "Laits d’épeautre, Laits d’Épeautre"
+msgstr "Laits d’épeautre, laits d’Épeautre"
+
+msgid "Laits d'orge"
+msgstr "Laits d'orge"
+
+msgid "Laits d'avoine, lait d’avoine"
+msgstr "Laits d'avoine, lait d’avoine"
+
+msgid "Laits d'amarante"
+msgstr "Laits d'amarante"
+
+msgid "Laits d'amande, lait d’amande"
+msgstr "Laits d'amande, lait d’amande"
+
+msgid "Laits d'alpiste"
+msgstr "Laits d'alpiste"
+
+msgid "Laits concentrés, Lait concentré"
+msgstr "Laits concentrés, lait concentré"
+
+msgid "Laits concentrés sucrés, Lait concentré sucré"
+msgstr "Laits concentrés sucrés, lait concentré sucré"
+
+msgid "Laits concentrés non sucrés, Lait concentré non sucré"
+msgstr "Laits concentrés non sucrés, lait concentré non sucré"
+
+msgid "Laits concentrés"
+msgstr "Laits concentrés"
+
+msgid "Laits aromatisés, lait aromatisé"
+msgstr "Laits aromatisés, lait aromatisé"
+
+msgid "Laits 2ème âge, lait 2eme age, lait deuxieme age, laits deuxieme age"
+msgstr "Laits 2ème âge, lait 2eme age, lait deuxieme age, laits deuxieme age"
+
+msgid "Laits 1er âge, lait 1er age, lait premier age, laits premier age"
+msgstr "Laits 1er âge, lait 1er age, lait premier age, laits premier age"
+
+msgid "Knusper"
+msgstr "Knusper"
+
+msgid "Knacks industrielles, Knackis, Knacki"
+msgstr "Knacks industrielles, Knackis, Knacki"
+
+msgid ""
+"Knacks industrielles à teneur réduite en sel, Knackis à teneur réduite en sel"
+msgstr ""
+"Knacks industrielles à teneur réduite en sel, Knackis à teneur réduite en sel"
+
+msgid "Knacks industrielles"
+msgstr "Knacks industrielles"
+
+msgid "Kirsch"
+msgstr "Kirsch"
+
+msgid "Ketchup"
+msgstr "Ketchup"
+
+msgid "Jus multifruits à base de jus concentré"
+msgstr "Jus multifruits à base de jus concentré"
+
+msgid "Jus multifruits"
+msgstr "Jus multifruits"
+
+msgid ""
+"Jus et nectars de fruits, jus et nectars de fruit, jus et nectar de fruit, "
+"jus et nectar de fruits"
+msgstr ""
+"Jus et nectars de fruits, jus et nectars de fruit, jus et nectar de fruit, "
+"jus et nectar de fruits"
+
+msgid "Jus de raisin, jus de raisins"
+msgstr "Jus de raisin, jus de raisins"
+
+msgid "Jus de raisin à base de concentré"
+msgstr "Jus de raisin à base de concentré"
+
+msgid "Jus de prune"
+msgstr "Jus de prune"
+
+msgid "Jus de pomme, jus de pommes"
+msgstr "Jus de pomme, jus de pommes"
+
+msgid ""
+"Jus de pomme à base de concentré, jus de pomme à base de jus concentré"
+msgstr ""
+"Jus de pomme à base de concentré, jus de pomme à base de jus concentré"
+
+msgid "Jus de poire"
+msgstr "Jus de poire"
+
+msgid "Jus de pêche"
+msgstr "Jus de pêche"
+
+msgid "Jus de pamplemousse, jus de pamplemousses"
+msgstr "Jus de pamplemousse, jus de pamplemousses"
+
+msgid "Jus de pamplemousse rose"
+msgstr "Jus de pamplemousse rose"
+
+msgid "Jus de pamplemousse frais"
+msgstr "Jus de pamplemousse frais"
+
+msgid "Jus de pamplemousse à base de concentré"
+msgstr "Jus de pamplemousse à base de concentré"
+
+msgid "Jus de pamplemousse 100% pur jus"
+msgstr "Jus de pamplemousse 100% pur jus"
+
+msgid "Jus de myrtilles"
+msgstr "Jus de myrtilles"
+
+msgid "Jus de mangue"
+msgstr "Jus de mangue"
+
+msgid "Jus de grenade"
+msgstr "Jus de grenade"
+
+msgid "Jus de fruits, jus de fruit"
+msgstr "Jus de fruits, jus de fruit"
+
+msgid "Jus de fruits frais"
+msgstr "Jus de fruits frais"
+
+msgid ""
+"Jus de fruits à base de concentré, jus de fruit à base de concentré, jus de "
+"fruits à base de concentrés"
+msgstr ""
+"Jus de fruits à base de concentré, jus de fruit à base de concentré, jus de "
+"fruits à base de concentrés"
+
+msgid ""
+"Jus de fruits 100% pur jus, jus de fruit 100% pur jus, jus de fruits pur "
+"jus, jus de fruit pur jus, pur jus de fruits"
+msgstr ""
+"Jus de fruits 100% pur jus, jus de fruit 100% pur jus, jus de fruits pur "
+"jus, jus de fruit pur jus, pur jus de fruits"
+
+msgid "Jus de carotte à base de concentré"
+msgstr "Jus de carotte à base de concentré"
+
+msgid "Jus de carotte"
+msgstr "Jus de carotte"
+
+msgid "Jus d’orange sanguine"
+msgstr "Jus d’orange sanguine"
+
+msgid "Jus d'orange, jus d'oranges"
+msgstr "Jus d'orange, jus d'oranges"
+
+msgid "Jus d'orange frais"
+msgstr "Jus d'orange frais"
+
+msgid "Jus d'orange à base de concentré"
+msgstr "Jus d'orange à base de concentré"
+
+msgid "Jus d'orange 100% pur jus"
+msgstr "Jus d'orange 100% pur jus"
+
+msgid "Jus d'ananas pur jus"
+msgstr "Jus d'ananas pur jus"
+
+msgid "Jus d'ananas frais"
+msgstr "Jus d'ananas frais"
+
+msgid "Jus d'ananas à base de concentré"
+msgstr "Jus d'ananas à base de concentré"
+
+msgid "Jus d'ananas"
+msgstr "Jus d'ananas"
+
+msgid ""
+"Jus d'abricot à base de concentré, jus d'abricot à base de jus concentré"
+msgstr ""
+"Jus d'abricot à base de concentré, jus d'abricot à base de jus concentré"
+
+msgid "Jus d'abricot"
+msgstr "Jus d'abricot"
+
+msgid "Jambons, Jambon"
+msgstr "Jambons, jambon"
+
+msgid "Jambons Serrano, jambon serrano"
+msgstr "Jambons Serrano, jambon serrano"
+
+msgid "Jambons secs, jambon sec"
+msgstr "Jambons secs, jambon sec"
+
+msgid "Jambons Label Rouge"
+msgstr "Jambons Label Rouge"
+
+msgid ""
+"Jambons ibériques, jambon ibérique, jambons pata negra, pata negra, jambon "
+"pata negra"
+msgstr ""
+"Jambons ibériques, jambon ibérique, jambons pata negra, pata negra, jambon "
+"pata negra"
+
+msgid ""
+"Jambons ibériques de gland, jambon ibérique de gland, jambon ibérique de "
+"bellota, pata negra bellota"
+msgstr ""
+"Jambons ibériques de gland, jambon ibérique de gland, jambon ibérique de "
+"bellota, pata negra bellota"
+
+msgid ""
+"Jambons ibériques de cebo, Jamón ibérico de cebo, jambon ibérique de gavage"
+msgstr ""
+"Jambons ibériques de cebo, jamón ibérico de cebo, jambon ibérique de gavage"
+
+msgid "Jambons ibériques"
+msgstr "Jambons ibériques"
+
+msgid "Jambons fumés, jambon fumé, jambons secs fumés, jambon sec fumé"
+msgstr "Jambons fumés, jambon fumé, jambons secs fumés, jambon sec fumé"
+
+msgid "Jambons fumés"
+msgstr "Jambons fumés"
+
+msgid "Jambons de Westphalie, jambon de Westphalie"
+msgstr "Jambons de Westphalie, jambon de Westphalie"
+
+msgid "Jambons de San Daniele, jambon de san daniele"
+msgstr "Jambons de San Daniele, jambon de San Daniele"
+
+msgid "Jambons de Parme, jambon de parme"
+msgstr "Jambons de Parme, jambon de Parme"
+
+msgid "Jambons de Paris, jambon de paris"
+msgstr "Jambons de Paris, jambon de Paris"
+
+msgid "Jambons de Mayence, jambon de Mayence"
+msgstr "Jambons de Mayence, jambon de Mayence"
+
+msgid ""
+"Jambons de la Forêt Noire, jambon de la Forêt Noire, jambons forêt noire"
+msgstr ""
+"Jambons de la Forêt Noire, jambon de la Forêt Noire, jambons forêt noire"
+
+msgid "Jambons de Bayonne, jambon de bayonne"
+msgstr "Jambons de Bayonne, jambon de Bayonne"
+
+msgid "Jambons crus, jambon cru"
+msgstr "Jambons crus, jambon cru"
+
+msgid "Jambons crus"
+msgstr "Jambons crus"
+
+msgid "Jambons blancs, Jambon blanc, jambon cuit, jambons cuits"
+msgstr "Jambons blancs, jambon blanc, jambon cuit, jambons cuits"
+
+msgid ""
+"Jambons blancs à teneur réduite en sel, jambon blanc à teneur réduite en sel"
+msgstr ""
+"Jambons blancs à teneur réduite en sel, jambon blanc à teneur réduite en sel"
+
+msgid "Jambons blancs"
+msgstr "Jambons blancs"
+
+msgid "Jalapeño, chipotle, morita"
+msgstr "Jalapeño, chipotle, morita"
+
+msgid "Infusions, Tisane"
+msgstr "Infusions, Tisane"
+
+msgid "Infusions minceur, Tisanes minceur"
+msgstr "Infusions minceur, tisanes minceur"
+
+msgid "Infusions minceur"
+msgstr "Infusions minceur"
+
+msgid "Infusions Bonne Nuit, Infusions douce nuit, Infusions nuit calme"
+msgstr "Infusions bonne nuit, infusions douce nuit, infusions nuit calme"
+
+msgid "Infusions aux fruits rouges"
+msgstr "Infusions aux fruits rouges"
+
+msgid "Infusions aux agrumes, Infusions agrumes, Infusion agrumes"
+msgstr "Infusions aux agrumes, infusions agrumes, infusion agrumes"
+
+msgid "IGP française"
+msgstr "IGP française"
+
+msgid "Ice-tea light, thés glacés lights"
+msgstr "Ice-tea light, thés glacés lights"
+
+msgid "Huiles, huiles végétales"
+msgstr "Huiles, huiles végétales"
+
+msgid "Huiles de tournesol"
+msgstr "Huiles de tournesol"
+
+msgid "Huiles de sésame"
+msgstr "Huiles de sésame"
+
+msgid "Huiles de poissons"
+msgstr "Huiles de poissons"
+
+msgid "Huiles de pépins de raisins"
+msgstr "Huiles de pépins de raisins"
+
+msgid "Huiles de pavot"
+msgstr "Huiles de pavot"
+
+msgid "Huiles de palme, Huiles de palme alimentaire, Huiles de palm"
+msgstr "Huiles de palme, huiles de palme alimentaire, huiles de palm"
+
+msgid "Huiles de noyaux de palme"
+msgstr "Huiles de noyaux de palme"
+
+msgid "Huiles de noix, huile de noix"
+msgstr "Huiles de noix, huile de noix"
+
+msgid "Huiles de noix de macadamia"
+msgstr "Huiles de noix de macadamia"
+
+msgid "Huiles de noisette"
+msgstr "Huiles de noisette"
+
+msgid "Huiles de maïs"
+msgstr "Huiles de maïs"
+
+msgid "Huiles de foie de morue"
+msgstr "Huiles de foie de morue"
+
+msgid "Huiles de foie de cabillaud"
+msgstr "Huiles de foie de cabillaud"
+
+msgid "Huiles de colza, huile de colza"
+msgstr "Huiles de colza, huile de colza"
+
+msgid "Huiles de coco"
+msgstr "Huiles de coco"
+
+msgid "Huiles d'olive vierges extra"
+msgstr "Huiles d'olive vierges extra"
+
+msgid "Huiles d'olive vierges"
+msgstr "Huiles d'olive vierges"
+
+msgid "Huiles d'olive"
+msgstr "Huiles d'olive"
+
+msgid "Huiles d'argan"
+msgstr "Huiles d'argan"
+
+msgid "Huiles d'arachide"
+msgstr "Huiles d'arachide"
+
+msgid "Hot-dog"
+msgstr "Hot-dog"
+
+msgid "Horchatas de chufa surgelés"
+msgstr "Horchatas de chufa surgelés"
+
+msgid "Horchatas de chufa"
+msgstr "Horchatas de chufa"
+
+msgid "Homards"
+msgstr "Homards"
+
+msgid "Herbes de Provence Label Rouge"
+msgstr "Herbes de Provence Label Rouge"
+
+msgid "Herbes de Provence"
+msgstr "Herbes de Provence"
+
+msgid "Herbes aromatiques"
+msgstr "Herbes aromatiques"
+
+msgid "Haricots verts en conserve"
+msgstr "Haricots verts en conserve"
+
+msgid "Haricots préparés, Haricots cuisinés"
+msgstr "Haricots préparés, haricots cuisinés"
+
+msgid "Haricots en conserve"
+msgstr "Haricots en conserve"
+
+msgid "Harengs fumés"
+msgstr "Harengs fumés"
+
+msgid "Harengs"
+msgstr "Harengs"
+
+msgid "Hamburgers, Hamburger"
+msgstr "Hamburgers, hamburger"
+
+msgid ""
+"Haddocks fumés, haddock fumé, eglefins fumés, eglefin fumé, aiglefins fumés, "
+"aigrefin fumés"
+msgstr ""
+"Haddocks fumés, haddock fumé, eglefins fumés, eglefin fumé, aiglefins fumés, "
+"aigrefin fumés"
+
+msgid "Hachis parmentier"
+msgstr "Hachis parmentier"
+
+msgid ""
+"Habanero, Capsicum chinense, jamaican hot, piment lampion, piment antillais, "
+"rocotillo, scotch bonnet"
+msgstr ""
+"Habanero, Capsicum chinense, jamaican hot, piment lampion, piment antillais, "
+"rocotillo, scotch bonnet"
+
+msgid "Guimauves, pâtes de guimauves, Chamallows"
+msgstr "Guimauves, pâtes de guimauves, Chamallows"
+
+msgid "Guajillo"
+msgstr "Guajillo"
+
+msgid "Groseilles"
+msgstr "Groseilles"
+
+msgid "Gros sels, gros sel"
+msgstr "Gros sels, gros sel"
+
+msgid "Gros sel de Guérande"
+msgstr "Gros sel de Guérande"
+
+msgid "Gressins artisanaux"
+msgstr "Gressins artisanaux"
+
+msgid "Grenier médocain"
+msgstr "Grenier médocain"
+
+msgid "Grenades"
+msgstr "Grenades"
+
+msgid "Grattons"
+msgstr "Grattons"
+
+msgid ""
+"Gratins de pomme de terre, Gratin de pomme de terre, Gratin de pommes de "
+"terre"
+msgstr ""
+"Gratins de pomme de terre, gratin de pomme de terre, gratin de pommes de "
+"terre"
+
+msgid "Gratins de poisson"
+msgstr "Gratins de poisson"
+
+msgid "Gratins de légumes"
+msgstr "Gratins de légumes"
+
+msgid "Gratins"
+msgstr "Gratins"
+
+msgid "Gratin d’aubergine"
+msgstr "Gratin d’aubergine"
+
+msgid "Graisserons"
+msgstr "Graisserons"
+
+msgid "Goyaves"
+msgstr "Goyaves"
+
+msgid "Goûters et desserts pour bébé, Goûters pour bébé, Desserts pour bébé"
+msgstr "Goûters et desserts pour bébé, goûters pour bébé, desserts pour bébé"
+
+msgid "Goûters et desserts pour bébé"
+msgstr "Goûters et desserts pour bébé"
+
+msgid "Goudas vieux"
+msgstr "Goudas vieux"
+
+msgid "Goudas rouges"
+msgstr "Goudas rouges"
+
+msgid "Goudas oranges"
+msgstr "Goudas oranges"
+
+msgid "Goudas mi-vieux"
+msgstr "Goudas mi-vieux"
+
+msgid "Goudas jaunes"
+msgstr "Goudas jaunes"
+
+msgid "Goudas fermiers, Boerenkaas"
+msgstr "Goudas fermiers, Boerenkaas"
+
+msgid "Goudas extra-vieux, Goudas de Noël"
+msgstr "Goudas extra-vieux, goudas de Noël"
+
+msgid "Goudas blancs"
+msgstr "Goudas blancs"
+
+msgid "Goudas au cumin"
+msgstr "Goudas au cumin"
+
+msgid "Goudas"
+msgstr "Goudas"
+
+msgid "Gouda artisanal"
+msgstr "Gouda artisanal"
+
+msgid "Gorgonzolas"
+msgstr "Gorgonzolas"
+
+msgid "Glaces rhum-raisin, glaces au rhum et aux raisins"
+msgstr "Glaces rhum-raisin, glaces au rhum et aux raisins"
+
+msgid "Glaces et sorbets, glace et sorbet, sorbets et glaces"
+msgstr "Glaces et sorbets, glace et sorbet, sorbets et glaces"
+
+msgid "Glaces au nougat"
+msgstr "Glaces au nougat"
+
+msgid "Glaces au chocolat"
+msgstr "Glaces au chocolat"
+
+msgid "Glaces au café"
+msgstr "Glaces au café"
+
+msgid "Glaces à la vanille"
+msgstr "Glaces à la vanille"
+
+msgid "Glaces à la pistache"
+msgstr "Glaces à la pistache"
+
+msgid "Glaces à la noix de coco, glaces au coco"
+msgstr "Glaces à la noix de coco, glaces au coco"
+
+msgid "Glaces à la fraise"
+msgstr "Glaces à la fraise"
+
+msgid "Glaces"
+msgstr "Glaces"
+
+msgid ""
+"Girolles, Girolle, Jaunotte, Jauniré, Cantharellus cibarius, Chanterelle "
+"ciboire, chevrette, roussotte, gallinace"
+msgstr ""
+"Girolles, girolle, jaunotte, jauniré, Cantharellus cibarius, chanterelle "
+"ciboire, chevrette, roussotte, gallinace"
+
+msgid "Gins"
+msgstr "Gins"
+
+msgid "Gentiane"
+msgstr "Gentiane"
+
+msgid "Genièvre"
+msgstr "Genièvre"
+
+msgid "Gélifiants végétaux"
+msgstr "Gélifiants végétaux"
+
+msgid "Gélifiants"
+msgstr "Gélifiants"
+
+msgid "Gelées royales"
+msgstr "Gelées royales"
+
+msgid "Gelées de fruits, Gelées"
+msgstr "Gelées de fruits, gelées"
+
+msgid "Gélatine"
+msgstr "Gélatine"
+
+msgid "Gaufrettes fourrées"
+msgstr "Gaufrettes fourrées"
+
+msgid "Gaufrettes aux légumes"
+msgstr "Gaufrettes aux légumes"
+
+msgid "Gaufrettes"
+msgstr "Gaufrettes"
+
+msgid "Gaufres fourrées"
+msgstr "Gaufres fourrées"
+
+msgid "Gaufres"
+msgstr "Gaufres"
+
+msgid "Gâteaux, gâteau"
+msgstr "Gâteaux, gâteau"
+
+msgid "Gâteaux apéritifs, Biscuits crackers"
+msgstr "Gâteaux apéritifs, biscuits crackers"
+
+msgid "Gâteaux apéritifs soufflés"
+msgstr "Gâteaux apéritifs soufflés"
+
+msgid "Gâteaux apéritifs"
+msgstr "Gâteaux apéritifs"
+
+msgid "Gaspacho, Gaspachos, gazpacho"
+msgstr "Gaspacho, gaspachos, gazpacho"
+
+msgid "Gandeuillots, Gandoyau"
+msgstr "Gandeuillots, gandoyau"
+
+msgid "Gambas, Aristeidae"
+msgstr "Gambas, aristeidae"
+
+msgid "Galettes des rois, Galette des rois"
+msgstr "Galettes des rois, galette des rois"
+
+msgid "Galettes des rois"
+msgstr "Galettes des rois"
+
+msgid "Galettes de riz complet"
+msgstr "Galettes de riz complet"
+
+msgid "Galettes de riz"
+msgstr "Galettes de riz"
+
+msgid "Galettes de maïs"
+msgstr "Galettes de maïs"
+
+msgid "Galettes de céréales"
+msgstr "Galettes de céréales"
+
+msgid ""
+"Galettes de blé noir, galette de blé noir, galette de sarazin, galettes de "
+"sarazin"
+msgstr ""
+"Galettes de blé noir, galette de blé noir, galette de sarazin, galettes de "
+"sarazin"
+
+msgid ""
+"Galettes à la frangipane, Galette à la frangipane, Galettes des rois à la "
+"frangipane"
+msgstr ""
+"Galettes à la frangipane, galette à la frangipane, galettes des rois à la "
+"frangipane"
+
+msgid "Galettes"
+msgstr "Galettes"
+
+msgid "Fruits tropicaux, fruits exotiques"
+msgstr "Fruits tropicaux, fruits exotiques"
+
+msgid "Fruits secs, fruits séchés, fruit sec, fruit séché"
+msgstr "Fruits secs, fruits séchés, fruit sec, fruit séché"
+
+msgid "Fruits rouges"
+msgstr "Fruits rouges"
+
+msgid "Fruits en conserve"
+msgstr "Fruits en conserve"
+
+msgid "Fruits de la passion"
+msgstr "Fruits de la passion"
+
+msgid "Fruits au sirop"
+msgstr "Fruits au sirop"
+
+msgid "Fruits à coques, Fruit à coque, Fruits à coque, Fruits à éclacle"
+msgstr "Fruits à coques, fruit à coque, fruits à coque, fruits à éclacle"
+
+msgid "Fruits"
+msgstr "Fruits"
+
+msgid "Fromages, fromagerie"
+msgstr "Fromages, fromagerie"
+
+msgid "Fromages râpés, fromage rapé"
+msgstr "Fromages râpés, fromage rapé"
+
+msgid "Fromages râpés"
+msgstr "Fromages râpés"
+
+msgid "Fromages pasteurisés, fromages au lait pasteurisé, fromage pasteurisé"
+msgstr ""
+"Fromages pasteurisés, fromages au lait pasteurisé, fromage pasteurisé"
+
+msgid "Fromages labéllisés"
+msgstr "Fromages labéllisés"
+
+msgid "Fromages italiens, Fromages d'Italie"
+msgstr "Fromages italiens, fromages d'Italie"
+
+msgid "Fromages italiens"
+msgstr "Fromages italiens"
+
+msgid "Fromages industriels"
+msgstr "Fromages industriels"
+
+msgid "Fromages fondus, Fromage fondu"
+msgstr "Fromages fondus, fromage fondu"
+
+msgid "Fromages en conserve"
+msgstr "Fromages en conserve"
+
+msgid "Fromages du Nord-Pas-de-Calais"
+msgstr "Fromages du Nord-Pas-de-Calais"
+
+msgid "Fromages des Pays-Bas, Fromages néerlandais"
+msgstr "Fromages des Pays-Bas, fromages néerlandais"
+
+msgid "Fromages des Pays-Bas"
+msgstr "Fromages des Pays-Bas"
+
+msgid "Fromages de vache, fromages au lait de vache"
+msgstr "Fromages de vache, fromages au lait de vache"
+
+msgid "Fromages de vache Prim'Holstein, Fromages de vache frisonne pie noir"
+msgstr "Fromages de vache Prim'Holstein, fromages de vache frisonne pie noir"
+
+msgid "Fromages de vache Prim'Holstein"
+msgstr "Fromages de vache Prim'Holstein"
+
+msgid "Fromages de Suisse, Fromages suisses"
+msgstr "Fromages de Suisse, fromages suisses"
+
+msgid "Fromages de Suisse"
+msgstr "Fromages de Suisse"
+
+msgid "Fromages de pays"
+msgstr "Fromages de pays"
+
+msgid "Fromages de montagne"
+msgstr "Fromages de montagne"
+
+msgid "Fromages de France, Fromages français"
+msgstr "Fromages de France, fromages français"
+
+msgid "Fromages de chèvre, fromage de chèvre"
+msgstr "Fromages de chèvre, fromage de chèvre"
+
+msgid "Fromages de brebis, fromage de brebis"
+msgstr "Fromages de brebis, fromage de brebis"
+
+msgid "Fromages blancs, fromage blanc"
+msgstr "Fromages blancs, fromage blanc"
+
+msgid "Fromages aux noix, Fromage au noix"
+msgstr "Fromages aux noix, fromage au noix"
+
+msgid "Fromages au lait thermisé"
+msgstr "Fromages au lait thermisé"
+
+msgid "Fromages au lait de bufflonne, Fromages de bufflonne"
+msgstr "Fromages au lait de bufflonne, fromages de bufflonne"
+
+msgid "Fromages au lait cru, fromage au lait cru"
+msgstr "Fromages au lait cru, fromage au lait cru"
+
+msgid "Fromages au lait cru"
+msgstr "Fromages au lait cru"
+
+msgid "Fromages artisanaux, fromage artisanal"
+msgstr "Fromages artisanaux, fromage artisanal"
+
+msgid "Fromages artisanaux"
+msgstr "Fromages artisanaux"
+
+msgid "Fromages AOC"
+msgstr "Fromages AOC"
+
+msgid "Fromages à tartiner, Fromage à tartiner"
+msgstr "Fromages à tartiner, fromage à tartiner"
+
+msgid "Fromages à pâte pressée non cuite, fromage à pâte pressée non cuite"
+msgstr "Fromages à pâte pressée non cuite, fromage à pâte pressée non cuite"
+
+msgid "Fromages à pâte pressée non cuite"
+msgstr "Fromages à pâte pressée non cuite"
+
+msgid "Fromages à pâte pressée demi-cuite"
+msgstr "Fromages à pâte pressée demi-cuite"
+
+msgid "Fromages à pâte pressée cuite"
+msgstr "Fromages à pâte pressée cuite"
+
+msgid "Fromages à pâte persillée, pâtes à moisissure interne, bleus"
+msgstr "Fromages à pâte persillée, pâtes à moisissure interne, bleus"
+
+msgid ""
+"Fromages à pâte persillée français, pâtes à moisissure interne français, "
+"bleus français"
+msgstr ""
+"Fromages à pâte persillée français, pâtes à moisissure interne français, "
+"bleus français"
+
+msgid "Fromages à pâte persillée français"
+msgstr "Fromages à pâte persillée français"
+
+msgid "Fromages à pâte molle à croûte naturelle"
+msgstr "Fromages à pâte molle à croûte naturelle"
+
+msgid "Fromages à pâte molle à croûte lavée"
+msgstr "Fromages à pâte molle à croûte lavée"
+
+msgid "Fromages à pâte molle à croûte fleurie"
+msgstr "Fromages à pâte molle à croûte fleurie"
+
+msgid "Fromages à pâte fraîche, Fromage frais"
+msgstr "Fromages à pâte fraîche, fromage frais"
+
+msgid "Fromages à pâte fondue"
+msgstr "Fromages à pâte fondue"
+
+msgid "Fromages à pâte filée"
+msgstr "Fromages à pâte filée"
+
+msgid "fromage de tête"
+msgstr "Fromage de tête"
+
+msgid "Fromage à pâte pressée cuite"
+msgstr "Fromage à pâte pressée cuite"
+
+msgid "Frites surgelées"
+msgstr "Frites surgelées"
+
+msgid "Frites"
+msgstr "Frites"
+
+msgid "Framboises"
+msgstr "Framboises"
+
+msgid "Fraises cultivés "
+msgstr "Fraises cultivées "
+
+msgid "Fraises"
+msgstr "Fraises"
+
+msgid "Frais"
+msgstr "Frais"
+
+msgid "Fourme de Montbrison"
+msgstr "Fourme de Montbrison"
+
+msgid "Fourme d'Ambert"
+msgstr "Fourme d'Ambert"
+
+msgid "Fouets catalans, fuet"
+msgstr "Fouets catalans, fuet"
+
+msgid "Fouets catalans"
+msgstr "Fouets catalans"
+
+msgid "Fouets aux pignons"
+msgstr "Fouets aux pignons"
+
+msgid "Fouets au roquefort"
+msgstr "Fouets au roquefort"
+
+msgid "Fonio"
+msgstr "Fonio"
+
+msgid "Fondues, fondue, fondues de fromage, fondue de fromage"
+msgstr "Fondues, fondue, fondues de fromage, fondue de fromage"
+
+msgid "Fondues savoyardes, fondue savoyarde"
+msgstr "Fondues savoyardes, fondue savoyarde"
+
+msgid "Fondues"
+msgstr "Fondues"
+
+msgid "Foies gras, Foie gras"
+msgstr "Foies gras, foie gras"
+
+msgid "Foies gras mi-cuits, foies gras mi-cuit, foie gras mi-cuit"
+msgstr "Foies gras mi-cuits, foies gras mi-cuit, foie gras mi-cuit"
+
+msgid "Foies gras de d'oies, Foie gras d'oies"
+msgstr "Foies gras de d'oies, foie gras d'oies"
+
+msgid "Foies gras de canard, Foie gras de canard"
+msgstr "Foies gras de canard, foie gras de canard"
+
+msgid "Foies gras cuits, foies gras cuit, foie gras cuit"
+msgstr "Foies gras cuits, foies gras cuit, foie gras cuit"
+
+msgid "Foies gras crus"
+msgstr "Foies gras crus"
+
+msgid "Foies gras"
+msgstr "Foies gras"
+
+msgid "foie gras entier"
+msgstr "Foie gras entier"
+
+msgid "Fleurs de sel de Guérande"
+msgstr "Fleurs de sel de Guérande"
+
+msgid "Fleurs de sel"
+msgstr "Fleurs de sel"
+
+msgid "Flammekueche, tarte flambée, flamme-küche, flamms, Flammkuchen"
+msgstr "Flammekueche, tarte flambée, flamme-küche, flamms, Flammkuchen"
+
+msgid "Flamiches"
+msgstr "Flamiches"
+
+msgid "Flamenkuches"
+msgstr "Flamenkuches"
+
+msgid "Flageolets en conserve"
+msgstr "Flageolets en conserve"
+
+msgid "Financiers, financier, visitandines, visitandine"
+msgstr "Financiers, financier, visitandines, visitandine"
+
+msgid "Filets de thon"
+msgstr "Filets de thon"
+
+msgid "Filets de sardines sans huile"
+msgstr "Filets de sardines sans huile"
+
+msgid "Filets de sardines à l’huile d’olive"
+msgstr "Filets de sardines à l’huile d’olive"
+
+msgid "Filets de sardines"
+msgstr "Filets de sardines"
+
+msgid "Filets de sardine, filet de sardine"
+msgstr "Filets de sardine, filet de sardine"
+
+msgid "Filets de sardine"
+msgstr "Filets de sardine"
+
+msgid "Filets de poulet"
+msgstr "Filets de poulet"
+
+msgid "Filets de poissons"
+msgstr "Filets de poissons"
+
+msgid "Filets de pangas"
+msgstr "Filets de pangas"
+
+msgid "Filets de merlan"
+msgstr "Filets de merlan"
+
+msgid "Filets de Maquereaux"
+msgstr "Filets de maquereaux"
+
+msgid "Filets de cabillaud"
+msgstr "Filets de cabillaud"
+
+msgid "Filets d’anchois"
+msgstr "Filets d’anchois"
+
+msgid "Figatellus"
+msgstr "Figatellus"
+
+msgid "fenouils"
+msgstr "Fenouils"
+
+msgid ""
+"Farines type Gruau 55, Farines de gruau T55, Farines de gruau type T55, Fine "
+"fleur de Froment"
+msgstr ""
+"Farines type Gruau 55, farines de gruau T55, farines de gruau type T55, fine "
+"fleur de froment"
+
+msgid "farines sans grumeaux"
+msgstr "Farines sans grumeaux"
+
+msgid "farines pâtissières, Farines pour pâtisseries"
+msgstr "Farines pâtissières, farines pour pâtisseries"
+
+msgid "Farines labellisées"
+msgstr "Farines labellisées"
+
+msgid "Farines label rouge"
+msgstr "Farines Label Rouge"
+
+msgid "Farines fermentante"
+msgstr "Farines fermentante"
+
+msgid "Farines de soja"
+msgstr "Farines de soja"
+
+msgid ""
+"Farines de seigle T85, farines bise de seigle, farines semi-complètes de "
+"seigle"
+msgstr ""
+"Farines de seigle T85, farines bise de seigle, farines semi-complètes de "
+"seigle"
+
+msgid "Farines de seigle T70, farines blanche de seigle"
+msgstr "Farines de seigle T70, farines blanche de seigle"
+
+msgid "Farines de seigle T170, farines intégrales de seigle"
+msgstr "Farines de seigle T170, farines intégrales de seigle"
+
+msgid "Farines de seigle T130, farines complètes de seigle"
+msgstr "Farines de seigle T130, farines complètes de seigle"
+
+msgid "Farines de seigle"
+msgstr "Farines de seigle"
+
+msgid "Farines de sarrasin, Farines de blé noir"
+msgstr "Farines de sarrasin, farines de blé noir"
+
+msgid "Farines de sarrasin T80, Farines de blé noir T80"
+msgstr "Farines de sarrasin T80, farines de blé noir T80"
+
+msgid "Farines de sarrasin T150, Farines de blé noir T150"
+msgstr "Farines de sarrasin T150, farines de blé noir T150"
+
+msgid "Farines de sarrasin T110, Farines de blé noir T110"
+msgstr "Farines de sarrasin T110, farines de blé noir T110"
+
+msgid "Farines de sarrasin"
+msgstr "Farines de sarrasin"
+
+msgid "Farines de riz, farine de riz"
+msgstr "Farines de riz, farine de riz"
+
+msgid "Farines de riz"
+msgstr "Farines de riz"
+
+msgid "Farines de quinoa"
+msgstr "Farines de quinoa"
+
+msgid "Farines de pommes de terre"
+msgstr "Farines de pommes de terre"
+
+msgid "Farines de pois chiche"
+msgstr "Farines de pois chiche"
+
+msgid "Farines de Petit Épeautre, Farines d'engrain"
+msgstr "Farines de petit épeautre, farines d'engrain"
+
+msgid "Farines de petit épeautre T80"
+msgstr "Farines de petit épeautre T80"
+
+msgid "Farines de petit épeautre T70"
+msgstr "Farines de petit épeautre T70"
+
+msgid "Farines de petit épeautre T65"
+msgstr "Farines de petit épeautre T65"
+
+msgid "Farines de petit épeautre T45"
+msgstr "Farines de petit épeautre T45"
+
+msgid "Farines de petit épeautre T150"
+msgstr "Farines de petit épeautre T150"
+
+msgid "Farines de petit épeautre T110"
+msgstr "Farines de petit épeautre T110"
+
+msgid ""
+"Farines de Petit Épeautre de Haute-Provence, Farine de Petit Épeautre de "
+"Haute-Provence"
+msgstr ""
+"Farines de petit épeautre de Haute-Provence, farine de petit épeautre de "
+"Haute-Provence"
+
+msgid "Farines de Petit Épeautre"
+msgstr "Farines de petit épeautre"
+
+msgid "Farines de millet"
+msgstr "Farines de millet"
+
+msgid "Farines de meule"
+msgstr "Farines de meule"
+
+msgid "Farines de méteil, Farines de blé et seigle, Mélanges de farines"
+msgstr "Farines de méteil, farines de blé et seigle, mélanges de farines"
+
+msgid "Farines de matza"
+msgstr "Farines de matza"
+
+msgid "Farines de Marque Déposée"
+msgstr "Farines de Marque Déposée"
+
+msgid "Farines de manioc"
+msgstr "Farines de manioc"
+
+msgid "Farines de malt de blé"
+msgstr "Farines de malt de blé"
+
+msgid "Farines de malt d’orge"
+msgstr "Farines de malt d’orge"
+
+msgid "Farines de malt"
+msgstr "Farines de malt"
+
+msgid "Farines de maïs, farine de maïs"
+msgstr "Farines de maïs, farine de maïs"
+
+msgid "Farines de maïs bleue"
+msgstr "Farines de maïs bleue"
+
+msgid "Farines de maïs"
+msgstr "Farines de maïs"
+
+msgid "Farines de lupin"
+msgstr "Farines de lupin"
+
+msgid "Farines de lin"
+msgstr "Farines de lin"
+
+msgid "Farines de lentilles"
+msgstr "Farines de lentilles"
+
+msgid "Farines de haricots"
+msgstr "Farines de haricots"
+
+msgid ""
+"Farines de gruau type 45, Farines de gruau T45, Farines de gruau type T45"
+msgstr ""
+"Farines de gruau type 45, farines de gruau T45, farines de gruau type T45"
+
+msgid "Farines de gruau"
+msgstr "Farines de gruau"
+
+msgid "Farines de gluten"
+msgstr "Farines de gluten"
+
+msgid "Farines de froment T80"
+msgstr "Farines de froment T80"
+
+msgid "Farines de froment T65"
+msgstr "Farines de froment T65"
+
+msgid "Farines de froment T55"
+msgstr "Farines de froment T55"
+
+msgid "Farines de froment T45"
+msgstr "Farines de froment T45"
+
+msgid "Farines de froment T150"
+msgstr "Farines de froment T150"
+
+msgid "Farines de froment T110"
+msgstr "Farines de froment T110"
+
+msgid "Farines de froment"
+msgstr "Farines de froment"
+
+msgid "Farines de fèves"
+msgstr "Farines de fèves"
+
+msgid "Farines de cossettes d'igname"
+msgstr "Farines de cossettes d'igname"
+
+msgid "Farines de châtaigne T110"
+msgstr "Farines de châtaigne T110"
+
+msgid "Farines de châtaigne"
+msgstr "Farines de châtaigne"
+
+msgid ""
+"Farines de blé variété Camp Rémy, Farines issu de la variété de blé Camp Rémy"
+msgstr ""
+"Farines de blé variété Camp Rémy, farines issu de la variété de blé Camp Rémy"
+
+msgid ""
+"Farines de blé type T80, Farines de blé T80, Farines de blé type 80, farines "
+"bises de blé, farines semi-complète de blé"
+msgstr ""
+"Farines de blé type T80, farines de blé T80, farines de blé type 80, farines "
+"bises de blé, farines semi-complète de blé"
+
+msgid ""
+"Farines de blé type T70, Farines de blé T70, Farines de blé type 70, farines "
+"de tradition québécoise de blé, farines Reblochonne de blé"
+msgstr ""
+"Farines de blé type T70, farines de blé T70, farines de blé type 70, farines "
+"de tradition québécoise de blé, farines Reblochonne de blé"
+
+msgid ""
+"Farines de blé type T65, Farines de blé T65, Farines de blé type 65, farines "
+"de tradition française de blé"
+msgstr ""
+"Farines de blé type T65, farines de blé T65, farines de blé type 65, farines "
+"de tradition française de blé"
+
+msgid ""
+"Farines de blé type T55, Farines de blé T55, Farines de blé type 55, farines "
+"blanches de blé"
+msgstr ""
+"Farines de blé type T55, farines de blé T55, farines de blé type 55, farines "
+"blanches de blé"
+
+msgid ""
+"Farines de blé type T45, Farines de blé T45, Farines de blé type 45, farines "
+"à pâtisserie de blé, fleurs de farine de blé"
+msgstr ""
+"Farines de blé type T45, farines de blé T45, farines de blé type 45, farines "
+"à pâtisserie de blé, fleurs de farine de blé"
+
+msgid ""
+"Farines de blé type T150, Farines de blé T150, Farines de blé type 150, "
+"farines intégrales de blé"
+msgstr ""
+"Farines de blé type T150, farines de blé T150, farines de blé type 150, "
+"farines intégrales de blé"
+
+msgid ""
+"Farines de blé type T110, Farines de blé T110, Farines de blé type 110, "
+"farines complètes de blé"
+msgstr ""
+"Farines de blé type T110, farines de blé T110, farines de blé type 110, "
+"farines complètes de blé"
+
+msgid "Farines de blé tendre"
+msgstr "Farines de blé tendre"
+
+msgid ""
+"Farines de blé Khorasan, Farines de kamut, Farines de Blé de Khorasan, "
+"Farines de Khorasan"
+msgstr ""
+"Farines de blé Khorasan, farines de kamut, farines de blé de Khorasan, "
+"farines de Khorasan"
+
+msgid "Farines de blé Khorasan T70, Farines de kamut T70"
+msgstr "Farines de blé Khorasan T70, farines de kamut T70"
+
+msgid "Farines de blé Khorasan T150, Farines de kamut T150"
+msgstr "Farines de blé Khorasan T150, farines de kamut T150"
+
+msgid "Farines de blé Khorasan T130, Farines de kamut T130"
+msgstr "Farines de blé Khorasan T130, farines de kamut T130"
+
+msgid "Farines de blé Khorasan T110, Farines de kamut T110"
+msgstr "Farines de blé Khorasan T110, farines de kamut T110"
+
+msgid "Farines de blé Khorasan"
+msgstr "Farines de blé Khorasan"
+
+msgid "Farines de blé dur"
+msgstr "Farines de blé dur"
+
+msgid "Farines de blé"
+msgstr "Farines de blé"
+
+msgid "Farines d’orge"
+msgstr "Farines d’orge"
+
+msgid "Farines d’épeautre T110"
+msgstr "Farines d’épeautre T110"
+
+msgid "Farines d'urad"
+msgstr "Farines d'urad"
+
+msgid "Farines d'épeautre, farines de grand épeautre"
+msgstr "Farines d'épeautre, farines de grand épeautre"
+
+msgid "Farines d'épeautre T65"
+msgstr "Farines d'épeautre T65"
+
+msgid "Farines d'épeautre"
+msgstr "Farines d'épeautre"
+
+msgid "Farines blanches"
+msgstr "Farines blanches"
+
+msgid "Farines bise"
+msgstr "Farines bise"
+
+msgid "farines biscuitières, Farines pour biscuits"
+msgstr "farines biscuitières, farines pour biscuits"
+
+msgid "Farines"
+msgstr "Farines"
+
+msgid "Farine Usage Spécial, Farine US"
+msgstr "Farine Usage Spécial, Farine US"
+
+msgid "Exhausteurs de goût, Exhausteur de goût"
+msgstr "Exhausteurs de goût, exhausteur de goût"
+
+msgid "Espárrago de Navarra"
+msgstr "Asperge de Navarre"
+
+msgid "Espárrago de Huétor-Tájar"
+msgstr "Asperge de Huétor-Tájar"
+
+msgid "Espadons fumés, espadon fumé"
+msgstr "Espadons fumés, espadon fumé"
+
+msgid "Escourgeon"
+msgstr "Escourgeon"
+
+msgid "Escalopes de poulet"
+msgstr "Escalopes de poulet"
+
+msgid "Epices"
+msgstr "Épices"
+
+msgid "Epicerie"
+msgstr "Épicerie"
+
+msgid "Épeautre"
+msgstr "Épeautre"
+
+msgid "Entrées, Entrée"
+msgstr "Entrées, entrée"
+
+msgid "Entrées et snacks surgelés"
+msgstr "Entrées et snacks surgelés"
+
+msgid "Engrain"
+msgstr "Engrain"
+
+msgid "Emmentals suisses"
+msgstr "Emmentals suisses"
+
+msgid "Emmentals rapés"
+msgstr "Emmentals rapés"
+
+msgid "Emmentals français est-central"
+msgstr "Emmentals français est-central"
+
+msgid "Emmentals français"
+msgstr "Emmentals français"
+
+msgid "Emmentals de Savoie"
+msgstr "Emmentals de Savoie"
+
+msgid "Emmental, emmenthal, emmentaler"
+msgstr "Emmental, emmenthal, emmentaler"
+
+msgid "Emmental AOC, emmenthal AOC, emmentaler AOC"
+msgstr "Emmental AOC, emmenthal AOC, emmentaler AOC"
+
+msgid "Éleusine"
+msgstr "Éleusine"
+
+msgid "Édulcorants de table, Édulcorant de table"
+msgstr "Édulcorants de table, édulcorant de table"
+
+msgid "Édulcorants"
+msgstr "Édulcorants"
+
+msgid "Eaux, eau"
+msgstr "Eaux, eau"
+
+msgid "Eaux-de-vie, Eau-de-vie"
+msgstr "Eaux-de-vie, Eau-de-vie"
+
+msgid ""
+"Eaux-de-vie tunisiennes, Eau-de-vie tunisienne, Eaux-de-vie de Tunisie, Eau-"
+"de-vie de Tunisine"
+msgstr ""
+"Eaux-de-vie tunisiennes, eau-de-vie tunisienne, eaux-de-vie de Tunisie, eau-"
+"de-vie de Tunisie"
+
+msgid "Eaux-de-vie tunisiennes"
+msgstr "Eaux-de-vie tunisiennes"
+
+msgid ""
+"Eaux-de-vie suisses, Eau-de-vie suisse, Eaux-de-vie de Suisse, Eau-de-vie de "
+"Suisse"
+msgstr ""
+"Eaux-de-vie suisses, eau-de-vie suisse, eaux-de-vie de Suisse, eau-de-vie de "
+"Suisse"
+
+msgid "Eaux-de-vie suisses"
+msgstr "Eaux-de-vie suisses"
+
+msgid "Eaux-de-vie"
+msgstr "Eaux-de-vie"
+
+msgid "Eaux minérales, eau minérale"
+msgstr "Eaux minérales, eau minérale"
+
+msgid "Eaux minérales naturelles, eau minérale naturelle"
+msgstr "Eaux minérales naturelles, eau minérale naturelle"
+
+msgid ""
+"Eaux minérales gazeuses, eau minérale gazeuse, eaux minérales pétillantes, "
+"eau minérale pétillante"
+msgstr ""
+"Eaux minérales gazeuses, eau minérale gazeuse, eaux minérales pétillantes, "
+"eau minérale pétillante"
+
+msgid "Eaux minérales"
+msgstr "Eaux minérales"
+
+msgid "Eaux gazeuses, eau gazeuse, eaux pétillantes, eau pétillante"
+msgstr "Eaux gazeuses, eau gazeuse, eaux pétillantes, eau pétillante"
+
+msgid "Eaux gazeuses"
+msgstr "Eaux gazeuses"
+
+msgid "Eaux de sources, Eau de source"
+msgstr "Eaux de sources, eau de source"
+
+msgid "Eaux de montagne, eau de montagne"
+msgstr "Eaux de montagne, eau de montagne"
+
+msgid "Eaux arômatisées, eau arômatisée"
+msgstr "Eaux arômatisées, eau arômatisée"
+
+msgid "Doux long des Landes"
+msgstr "Doux long des Landes"
+
+msgid "Doux de Valence"
+msgstr "Doux de Valence"
+
+msgid "Doux California Wonder"
+msgstr "Doux California Wonder"
+
+msgid "Dorades, daurades"
+msgstr "Dorades, daurades"
+
+msgid "Dorades fumées, dorade fumée"
+msgstr "Dorades fumées, dorade fumée"
+
+msgid "Diots"
+msgstr "Diots"
+
+msgid "Diot de Savoie"
+msgstr "Diot de Savoie"
+
+msgid "Dindes de Noël, Dinde de Noël"
+msgstr "Dindes de Noël, dinde de Noël"
+
+msgid "Digitaria sanguinalis"
+msgstr "Digitaire sanguine"
+
+msgid "Digitaria iburua"
+msgstr "Digitaria iburua"
+
+msgid "Digitaria cruciata"
+msgstr "Digitaria cruciata"
+
+msgid "Digitaria"
+msgstr "Digitaria"
+
+msgid "Desserts végétaliens, desserts vegetaux, desserts sans lait"
+msgstr "Desserts végétaliens, desserts vegetaux, desserts sans lait"
+
+msgid "Desserts lactés pour bébé"
+msgstr "Desserts lactés pour bébé"
+
+msgid "Desserts et Bacs de glaces surgelés"
+msgstr "Desserts et bacs de glaces surgelés"
+
+msgid "Desserts de soja au cacao, Desserts de soja au chocolat"
+msgstr "Desserts de soja au cacao, desserts de soja au chocolat"
+
+msgid "Desserts de soja à la vanille"
+msgstr "Desserts de soja à la vanille"
+
+msgid "Desserts de riz au cacao, Desserts de riz au chocolat"
+msgstr "Desserts de riz au cacao, desserts de riz au chocolat"
+
+msgid "Desserts de riz"
+msgstr "Desserts de riz"
+
+msgid "Desserts au soja, Desserts soja"
+msgstr "Desserts au soja, desserts soja"
+
+msgid "Desserts au fruit pour bébé"
+msgstr "Desserts au fruit pour bébé"
+
+msgid "Desserts au chocolat"
+msgstr "Desserts au chocolat"
+
+msgid "Desserts"
+msgstr "Desserts"
+
+msgid "Dès 24 mois"
+msgstr "Dès 24 mois"
+
+msgid "Dès 18 mois"
+msgstr "Dès 18 mois"
+
+msgid "Dès 15 mois"
+msgstr "Dès 15 mois"
+
+msgid "Dès 12 mois, dès 1 an, dès un an"
+msgstr "Dès 12 mois, dès 1 an, dès un an"
+
+msgid "Dès 10 mois"
+msgstr "Dès 10 mois"
+
+msgid "Dès 08 mois, Dès 8 mois"
+msgstr "Dès 08 mois, dès 8 mois"
+
+msgid "Dès 06 mois, Dès 6 mois"
+msgstr "Dès 06 mois, dès 6 mois"
+
+msgid "Dès 04 mois, Dès 4 mois"
+msgstr "Dès 04 mois, dès 4 mois"
+
+msgid "Dentifrices, dentifrice"
+msgstr "Dentifrices, dentifrice"
+
+msgid "De Árbol"
+msgstr "De Árbol"
+
+msgid "Dattes"
+msgstr "Dattes"
+
+msgid "Damassine"
+msgstr "Damassine"
+
+msgid "Dagobert"
+msgstr "Dagobert"
+
+msgid "Curry, kari"
+msgstr "Curry, kari"
+
+msgid "Cubanelle, cascabel, petit hochet"
+msgstr "Cubanelle, cascabel, petit hochet"
+
+msgid "Crustacés"
+msgstr "Crustacés"
+
+msgid "Croquettes pour chien"
+msgstr "Croquettes pour chien"
+
+msgid "Croquettes pour chat"
+msgstr "Croquettes pour chat"
+
+msgid "Croque-monsieur, Croque-messieurs, croquemonsieur, croque"
+msgstr "Croque-monsieur, Croque-messieurs, croquemonsieur, croque"
+
+msgid "Croque-monsieur"
+msgstr "Croque-monsieur"
+
+msgid "Croque-madame, croquemadame"
+msgstr "Croque-madame, croquemadame"
+
+msgid "croque tartiflette"
+msgstr "Croque tartiflette"
+
+msgid "croque sucré"
+msgstr "Croque sucré"
+
+msgid "croque provençal"
+msgstr "Croque provençal"
+
+msgid "croque norvégien"
+msgstr "Croque norvégien"
+
+msgid "croque hawaïen"
+msgstr "Croque hawaïen"
+
+msgid "croque caramélisé"
+msgstr "Croque caramélisé"
+
+msgid "croque auvergnat"
+msgstr "Croque auvergnat"
+
+msgid "Crevettes roses"
+msgstr "Crevettes roses"
+
+msgid ""
+"Crevettes nordiques, Crevette nordique, Crevette nordique du Canada, "
+"Pandalus borealis"
+msgstr ""
+"Crevettes nordiques, crevette nordique, crevette nordique du Canada, "
+"pandalus borealis"
+
+msgid ""
+"Crevettes grises, Crangon crangon, Boucaut, Sauterelle, Garnote, Karkalec "
+"deti i kafenjtë, Nordseegarnele, Sandgarnele, Brown shrimp, Camba d'alguer, "
+"Almindelig hestereje, Garnaal, Gewone garnaal, Grijze garnaal, "
+"Noordzeegarnaal, Garnela nakrapiana, Hästräka"
+msgstr ""
+"Crevettes grises, crangon crangon, boucaut, sauterelle, garnote, karkalec "
+"deti i kafenjtë, nordseegarnele, sandgarnele, brown shrimp, camba d'alguer, "
+"almindelig hestereje, garnaal, Gewone garnaal, grijze garnaal, "
+"noordzeegarnaal, garnela nakrapiana, hästräka"
+
+msgid "Crevettes géantes tigrées, Crevette géante tigrée, Penaeus monodon"
+msgstr "Crevettes géantes tigrées, crevette géante tigrée, penaeus monodon"
+
+msgid "Crevettes"
+msgstr "Crevettes"
+
+msgid "Crêpes et galettes"
+msgstr "Crêpes et galettes"
+
+msgid "Crêpes de froment, crêpe de froment"
+msgstr "Crêpes de froment, crêpe de froment"
+
+msgid "Crêpes"
+msgstr "Crêpes"
+
+msgid "Crèmes, Crème"
+msgstr "Crèmes, crème"
+
+msgid "Crèmes glacées, crème glacée"
+msgstr "Crèmes glacées, crème glacée"
+
+msgid "Crèmes glacées"
+msgstr "Crèmes glacées"
+
+msgid "Crèmes fraîches, Crème fraîche"
+msgstr "Crèmes fraîches, crème fraîche"
+
+msgid "Crèmes fraîches liquides, Crème fraîche liquide, Crème liquide"
+msgstr "Crèmes fraîches liquides, crème fraîche liquide, crème liquide"
+
+msgid "Crèmes fraîches épaisses, Crème fraîche épaisse"
+msgstr "Crèmes fraîches épaisses, crème fraîche épaisse"
+
+msgid ""
+"Crèmes fraîches allégées en matière grasse, Crème fraîche allégée, Crèmes "
+"fraîches allégées, Crème fraîche allegée en matière grasse"
+msgstr ""
+"Crèmes fraîches allégées en matière grasse, crème fraîche allégée, crèmes "
+"fraîches allégées, crème fraîche allégée en matière grasse"
+
+msgid "Crèmes fraîches"
+msgstr "Crèmes fraîches"
+
+msgid "Crèmes entières, Crème entière"
+msgstr "Crèmes entières, crème entière"
+
+msgid "Crèmes entières"
+msgstr "Crèmes entières"
+
+msgid "Crèmes dessert chocolat noir"
+msgstr "Crèmes dessert chocolat noir"
+
+msgid "Crèmes dessert chocolat"
+msgstr "Crèmes dessert chocolat"
+
+msgid "Crèmes dessert"
+msgstr "Crèmes dessert"
+
+msgid "Crèmes chantilly, Crème chantilly, chantilly"
+msgstr "Crèmes chantilly, crème chantilly, chantilly"
+
+msgid "Crème Fraîche d'Isigny"
+msgstr "Crème fraîche d'Isigny"
+
+msgid "Crabes"
+msgstr "Crabes"
+
+msgid "Couscous préparés, couscous préparé"
+msgstr "Couscous préparés, couscous préparé"
+
+msgid "Couscous"
+msgstr "Couscous"
+
+msgid "Coulommiers"
+msgstr "Coulommiers"
+
+msgid "Cornichons malossol"
+msgstr "Cornichons malossol"
+
+msgid "Cornichons extra-fins"
+msgstr "Cornichons extra-fins"
+
+msgid "Cornichons au vinaigre"
+msgstr "Cornichons au vinaigre"
+
+msgid "Cornichons"
+msgstr "Cornichons"
+
+msgid "Corn-flakes, pétales de maïs"
+msgstr "Corn-flakes, pétales de maïs"
+
+msgid "Cordons bleus de poulet"
+msgstr "Cordons bleus de poulet"
+
+msgid "Cordons bleus de dinde"
+msgstr "Cordons bleus de dinde"
+
+msgid "Cordons bleus"
+msgstr "Cordons bleus"
+
+msgid "Coquillettes, coquillette"
+msgstr "Coquillettes, coquillette"
+
+msgid ""
+"Coquille Saint-Jacques, Pecten maximus, noix de Saint-Jacques, Placopecten "
+"magellanicus, Chlamys islandica, Pétoncle chilien, Patinopecten yessoensis"
+msgstr ""
+"Coquille Saint-Jacques, pecten maximus, noix de Saint-Jacques, placopecten "
+"magellanicus, chlamys islandica, pétoncle chilien, patinopecten yessoensis"
+
+msgid "Coques"
+msgstr "Coques"
+
+msgid "Coq au vin jaune, Coq au vin jaune et aux morilles"
+msgstr "Coq au vin jaune, coq au vin jaune et aux morilles"
+
+msgid "Coq au vin de chanturgue"
+msgstr "Coq au vin de chanturgue"
+
+msgid "Coq au vin"
+msgstr "Coq au vin"
+
+msgid "Cookies aux amandes"
+msgstr "Cookies aux amandes"
+
+msgid "Cookies au raisin"
+msgstr "Cookies aux raisins"
+
+msgid "Cookies au chocolat et aux noisettes"
+msgstr "Cookies au chocolat et aux noisettes"
+
+msgid "Cookies au chocolat et à la nougatine"
+msgstr "Cookies au chocolat et à la nougatine"
+
+msgid "Cookies au chocolat et à la noix de coco"
+msgstr "Cookies au chocolat et à la noix de coco"
+
+msgid "Cookies au chocolat au lait"
+msgstr "Cookies au chocolat au lait"
+
+msgid "Cookies au chocolat"
+msgstr "Cookies au chocolat"
+
+msgid "Cookies"
+msgstr "Cookies"
+
+msgid "Conserves"
+msgstr "Conserves"
+
+msgid "Confitures diététiques"
+msgstr "Confitures diététiques"
+
+msgid "Confitures de fraises"
+msgstr "Confitures de fraises"
+
+msgid "Confitures de figues"
+msgstr "Confitures de figues"
+
+msgid "Confitures d’orange"
+msgstr "Confitures d’orange"
+
+msgid "Confitures d’abricot"
+msgstr "Confitures d’abricot"
+
+msgid "Confitures artisanales"
+msgstr "Confitures artisanales"
+
+msgid "Confitures allégées"
+msgstr "Confitures allégées"
+
+msgid "Confitures"
+msgstr "Confitures"
+
+msgid "Confiture de roses"
+msgstr "Confiture de roses"
+
+msgid "Confiture d’agrumes"
+msgstr "Confiture d’agrumes"
+
+msgid "Confits de canard, confit de canard"
+msgstr "Confits de canard, confit de canard"
+
+msgid "Confits d’oie, Confit d’oie"
+msgstr "Confits d’oie, confit d’oie"
+
+msgid "Confiseries du Nord-Pas-de-Calais"
+msgstr "Confiseries du Nord-Pas-de-Calais"
+
+msgid "Confiseries de France"
+msgstr "Confiseries de France"
+
+msgid "Confiseries"
+msgstr "Confiseries"
+
+msgid "Cônes et batonnets surgelés"
+msgstr "Cônes et batonnets surgelés"
+
+msgid "Cônes"
+msgstr "Cônes"
+
+msgid "Condiments à tartiner, Condiment à tartiner"
+msgstr "Condiments à tartiner, condiment à tartiner"
+
+msgid "Condiments"
+msgstr "Condiments"
+
+msgid "Comté"
+msgstr "Comté"
+
+msgid "Compotes pour bébé, compote pour bébé, compotes pour bébés"
+msgstr "Compotes pour bébé, compote pour bébé, compotes pour bébés"
+
+msgid "Compotes pommes rhubarbe"
+msgstr "Compotes pommes rhubarbe"
+
+msgid "Compotes pommes poires"
+msgstr "Compotes pommes poires"
+
+msgid "Compotes pommes nature"
+msgstr "Compotes pommes nature"
+
+msgid "Compotes pommes myrtille"
+msgstr "Compotes pommes myrtille"
+
+msgid "Compotes pommes mûre"
+msgstr "Compotes pommes mûre"
+
+msgid "Compotes pommes mangue"
+msgstr "Compotes pommes mangue"
+
+msgid "Compotes pommes framboise"
+msgstr "Compotes pommes framboise"
+
+msgid "Compotes pommes fraise"
+msgstr "Compotes pommes fraise"
+
+msgid "Compotes pommes coing"
+msgstr "Compotes pommes coing"
+
+msgid "Compotes pommes châtaigne"
+msgstr "Compotes pommes châtaigne"
+
+msgid "Compotes pommes cassis"
+msgstr "Compotes pommes cassis"
+
+msgid "Compotes mangues"
+msgstr "Compotes mangues"
+
+msgid "Compotes fraise myrtille"
+msgstr "Compotes fraise myrtille"
+
+msgid "Compotes fraise groseille"
+msgstr "Compotes fraise groseille"
+
+msgid "Compotes de pomme"
+msgstr "Compotes de pomme"
+
+msgid "Compotes de fraise"
+msgstr "Compotes de fraise"
+
+msgid "Compotes allégées, Compote allégée"
+msgstr "Compotes allégées, compote allégée"
+
+msgid "Compotes à boire"
+msgstr "Compotes à boire"
+
+msgid "Compotes"
+msgstr "Compotes"
+
+msgid "Compotée de lièvre"
+msgstr "Compotée de lièvre"
+
+msgid "Colorants pour oeufs, colorant pour oeufs"
+msgstr "Colorants pour œufs, colorant pour œufs"
+
+msgid "Colorants alimentaire, Colorant alimentaire, colorant"
+msgstr "Colorants alimentaire, colorant alimentaire, colorant"
+
+msgid "Colorants alimentaire"
+msgstr "Colorants alimentaire"
+
+msgid "Colins"
+msgstr "Colins"
+
+msgid "Coix - lacryma-jobi"
+msgstr "Coix - lachryma-jobi"
+
+msgid "Coix"
+msgstr "Coix"
+
+msgid "Cognac"
+msgstr "Cognac"
+
+msgid "Coeurs de palmier, choux palmistes, chou palmiste"
+msgstr "Coeurs de palmier, choux palmistes, chou palmiste"
+
+msgid "Coeurs de palmier en conserve"
+msgstr "Coeurs de palmier en conserve"
+
+msgid "Coeurs de palmier"
+msgstr "Coeurs de palmier"
+
+msgid "Cocktail de fruits au sirop, Mélange de fruits au sirop"
+msgstr "Cocktail de fruits au sirop, mélange de fruits au sirop"
+
+msgid "Clémentines"
+msgstr "Clémentines"
+
+msgid "Clairette de Die"
+msgstr "Clairette de Die"
+
+msgid "Civet de zourites"
+msgstr "Civet de zourites"
+
+msgid "Civet de tangue"
+msgstr "Civet de tangue"
+
+msgid "Civet de sanglier"
+msgstr "Civet de sanglier"
+
+msgid "Civet de porc"
+msgstr "Civet de porc"
+
+msgid "Civet de lièvre"
+msgstr "Civet de lièvre"
+
+msgid "Civet de lapin à la créole"
+msgstr "Civet de lapin à la créole"
+
+msgid "Civet de lapin"
+msgstr "Civet de lapin"
+
+msgid "Civet de langouste"
+msgstr "Civet de langouste"
+
+msgid "Civet de chevreuil"
+msgstr "Civet de chevreuil"
+
+msgid "Civet de cerf"
+msgstr "Civet de cerf"
+
+msgid "Civet de boeuf"
+msgstr "Civet de bœuf"
+
+msgid "Civet"
+msgstr "Civet"
+
+msgid "Citrons"
+msgstr "Citrons"
+
+msgid "Citronnade"
+msgstr "Citronnade"
+
+msgid "Cidres, jus de pommes fermenté, Boisson fermentée à base de pommes"
+msgstr "Cidres, jus de pommes fermenté, boisson fermentée à base de pommes"
+
+msgid "Cidres traditionnels, sidra natural, cidre basque, sagarno, Apfelwein"
+msgstr ""
+"Cidres traditionnels, sidra natural, cidre basque, sagarno, Apfelwein"
+
+msgid "Cidres rosés"
+msgstr "Cidres rosés"
+
+msgid "Cidres doux, Cidre doux"
+msgstr "Cidres doux, cidre doux"
+
+msgid "Cidres demi-secs, Cidre demi-sec, Cidres bruts, Cidre brut"
+msgstr "Cidres demi-secs, cidre demi-sec, cidres bruts, cidre brut"
+
+msgid "Cidres de glace, Cidre de glace"
+msgstr "Cidres de glace, cidre de glace"
+
+msgid "Cidres bouchés, Cidre bouché"
+msgstr "Cidres bouchés, cidre bouché"
+
+msgid "Cidres artisanaux, Cidre artisanal"
+msgstr "Cidres artisanaux, cidre artisanal"
+
+msgid "Cidres"
+msgstr "Cidres"
+
+msgid "Ciboulette"
+msgstr "Ciboulette"
+
+msgid "Choux en conserve"
+msgstr "Choux en conserve"
+
+msgid "Choux de conserve"
+msgstr "Choux de conserve"
+
+msgid "Choux de Bruxelles en conserve"
+msgstr "Choux de Bruxelles en conserve"
+
+msgid "Choucroutes"
+msgstr "Choucroutes"
+
+msgid "Chorizos, Chorizo"
+msgstr "Chorizos, chorizo"
+
+msgid "Chocolats, chocolat"
+msgstr "Chocolats, chocolat"
+
+msgid "Chocolats Suisse"
+msgstr "Chocolats Suisse"
+
+msgid "Chocolats pur beurre de cacao"
+msgstr "Chocolats pur beurre de cacao"
+
+msgid "Chocolats noirs, chocolat noir"
+msgstr "Chocolats noirs, chocolat noir"
+
+msgid "Chocolats noirs extra fin"
+msgstr "Chocolats noirs extra fin"
+
+msgid "Chocolats noirs"
+msgstr "Chocolats noirs"
+
+msgid "Chocolats fourrés au praliné"
+msgstr "Chocolats fourrés au praliné"
+
+msgid ""
+"Chocolats en poudre, chocolat en poudre, cacao en poudre, cacaos en poudre"
+msgstr ""
+"Chocolats en poudre, chocolat en poudre, cacao en poudre, cacaos en poudre"
+
+msgid "Chocolats diététiques"
+msgstr "Chocolats diététiques"
+
+msgid "Chocolats dessert, chocolats desserts, chocolat dessert"
+msgstr "Chocolats dessert, chocolats desserts, chocolat dessert"
+
+msgid "Chocolats de Pâques, Chocolat de Pâques"
+msgstr "Chocolats de Pâques, chocolat de Pâques"
+
+msgid "Chocolats de Pâques"
+msgstr "Chocolats de Pâques"
+
+msgid ""
+"Chocolats de dégustation, chocolat de dégustation, chocolats dégustation"
+msgstr ""
+"Chocolats de dégustation, chocolat de dégustation, chocolats dégustation"
+
+msgid "Chocolats blancs, chocolat blanc"
+msgstr "Chocolats blancs, chocolat blanc"
+
+msgid "Chocolats avec amandes"
+msgstr "Chocolats avec amandes"
+
+msgid "Chocolats au lait, chocolat au lait"
+msgstr "Chocolats au lait, chocolat au lait"
+
+msgid "Chocolats au lait extra fin"
+msgstr "Chocolats au lait extra fin"
+
+msgid "Chocolats au lait"
+msgstr "Chocolats au lait"
+
+msgid "Chips, Chips de légumes"
+msgstr "Chips, chips de légumes"
+
+msgid "Chips et frites"
+msgstr "Chips et frites"
+
+msgid "Chips de pommes de terre, Chips de pomme de terre"
+msgstr "Chips de pommes de terre, Chips de pomme de terre"
+
+msgid "Chips de pommes de terre rouge"
+msgstr "Chips de pommes de terre rouge"
+
+msgid "Chips de pommes de terre à l’huile de tournesol"
+msgstr "Chips de pommes de terre à l’huile de tournesol"
+
+msgid "Chips de pommes de terre"
+msgstr "Chips de pommes de terre"
+
+msgid "Chips de patate douce"
+msgstr "Chips de patate douce"
+
+msgid "Chips de panais"
+msgstr "Chips de panais"
+
+msgid "Chips croustillantes"
+msgstr "Chips croustillantes"
+
+msgid "Chips"
+msgstr "Chips"
+
+msgid "Chipolatas aux herbes, Chipolats herbes"
+msgstr "Chipolatas aux herbes, chipolatas herbes"
+
+msgid "Chipolatas"
+msgstr "Chipolatas"
+
+msgid "Chimayo"
+msgstr "Chimayo"
+
+msgid "Chiltepin"
+msgstr "Chiltepin"
+
+msgid ""
+"Chewing-gum, gomme à mâcher, pâte à mâcher, chiclette, chique, chiclet, "
+"bubble-gum"
+msgstr ""
+"Chewing-gum, gomme à mâcher, pâte à mâcher, chiclette, chique, chiclet, "
+"bubble-gum"
+
+msgid "Chérimoles"
+msgstr "Chérimoles"
+
+msgid "Cheeseburger"
+msgstr "Cheeseburger"
+
+msgid "Charcuteries diverses"
+msgstr "Charcuteries diverses"
+
+msgid "Charcuteries cuites, Charcuterie cuite"
+msgstr "Charcuteries cuites, charcuterie cuite"
+
+msgid "Charcuteries à teneur réduite en sel"
+msgstr "Charcuteries à teneur réduite en sel"
+
+msgid "Charcuteries à cuire, charcuterie à cuire"
+msgstr "Charcuteries à cuire, charcuterie à cuire"
+
+msgid "Charcuteries"
+msgstr "Charcuteries"
+
+msgid "Chapons"
+msgstr "Chapons"
+
+msgid "Champignons surgelés"
+msgstr "Champignons surgelés"
+
+msgid "Champignons en conserve, conserves de campignons"
+msgstr "Champignons en conserve, conserves de campignons"
+
+msgid "Champignons de Paris"
+msgstr "Champignons de Paris"
+
+msgid "Champignons"
+msgstr "Champignons"
+
+msgid "Champagne, champagnes, vins de Champagne"
+msgstr "Champagne, champagnes, vins de Champagne"
+
+msgid "Cerises au sirop"
+msgstr "Cerises au sirop"
+
+msgid "Cerises"
+msgstr "Cerises"
+
+msgid "Céréales préparées, céréale préparée"
+msgstr "Céréales préparées, céréale préparée"
+
+msgid "Céréales préparées"
+msgstr "Céréales préparées"
+
+msgid ""
+"Céréales pour petit-déjeuner, céréale pour petit-déjeuner, Céréales petit-"
+"déjeuner, Céréales type petit déjeuner, Céréales du petit déjeuner"
+msgstr ""
+"Céréales pour petit-déjeuner, céréale pour petit-déjeuner, céréales petit-"
+"déjeuner, céréales type petit déjeuner, céréales du petit déjeuner"
+
+msgid "Céréales pour petit-déjeuner"
+msgstr "Céréales pour petit-déjeuner"
+
+msgid "Céréales pour bébé, céréales bébé"
+msgstr "Céréales pour bébé, céréales bébé"
+
+msgid "Céréales IGP"
+msgstr "Céréales IGP"
+
+msgid "Céréales"
+msgstr "Céréales"
+
+msgid "céleris"
+msgstr "Céleris"
+
+msgid "Céleri en conserve"
+msgstr "Céleri en conserve"
+
+msgid "Céleri"
+msgstr "Céleri"
+
+msgid "Caviars, Caviar"
+msgstr "Caviars, caviar"
+
+msgid "Caviars sauvages"
+msgstr "Caviars sauvages"
+
+msgid "Caviars d'élevage"
+msgstr "Caviars d'élevage"
+
+msgid "Caviar sterlet, Acipenser ruthenus"
+msgstr "Caviar sterlet, Acipenser ruthenus"
+
+msgid ""
+"Caviar sevruga, Caviar de sevruga, Acipenser stellatus, Caviar d'esturgeon "
+"étoilé"
+msgstr ""
+"Caviar sevruga, caviar de sevruga, Acipenser stellatus, caviar d'esturgeon "
+"étoilé"
+
+msgid ""
+"Caviar osciètre, Caviar d'osciètre, Caviar ossiètre, Caviar d'ossiètre, "
+"Acipenser Gueldenstaedtii, Acipenser Persicus"
+msgstr ""
+"Caviar osciètre, caviar d'osciètre, caviar ossiètre, caviar d'ossiètre, "
+"Acipenser Gueldenstaedtii, Acipenser Persicus"
+
+msgid "caviar de paddlefish"
+msgstr "Caviar de paddlefish"
+
+msgid "caviar de hackeleback"
+msgstr "Caviar de hackeleback"
+
+msgid ""
+"Caviar de Acipenser gueldenstaedtii, Caviar d'esturgeon russe, Caviar "
+"d'esturgeon du Danube, Diamond Sturgeon"
+msgstr ""
+"Caviar de Acipenser gueldenstaedtii, caviar d'esturgeon russe, caviar "
+"d'esturgeon du Danube, Diamond Sturgeon"
+
+msgid "Caviar d'esturgeon blanc, Acipenser transmontanus"
+msgstr "Caviar d'esturgeon blanc, acipenser transmontanus"
+
+msgid "Caviar béluga, Caviar de béluga, Caviar d'Huso Huso"
+msgstr "Caviar béluga, caviar de béluga, caviar d'Huso Huso"
+
+msgid "Caviar Baeri, Baeri, Caviar d'esturgeon sibérien, Acipenser baerii"
+msgstr "Caviar Baeri, Baeri, caviar d'esturgeon sibérien, Acipenser baerii"
+
+msgid "Cassoulets"
+msgstr "Cassoulets"
+
+msgid "cassonades"
+msgstr "Cassonades"
+
+msgid "Carrés d'Aurillac, Bleus d'Aurillac"
+msgstr "Carrés d'Aurillac, bleus d'Aurillac"
+
+msgid "Carottes râpées"
+msgstr "Carottes râpées"
+
+msgid "Carottes en conserve"
+msgstr "Carottes en conserve"
+
+msgid "Cardons"
+msgstr "Cardons"
+
+msgid "Cardon épineux argenté de Plainpalais, cardon genevois"
+msgstr "Cardon épineux argenté de Plainpalais, cardon genevois"
+
+msgid "Caramels au beurre salé"
+msgstr "Caramels au beurre salé"
+
+msgid "Caramels"
+msgstr "Caramels"
+
+msgid "Capsicum frutescens"
+msgstr "Capsicum frutescens"
+
+msgid "Cantals"
+msgstr "Cantals"
+
+msgid "Canneberges"
+msgstr "Canneberges"
+
+msgid "Canards"
+msgstr "Canards"
+
+msgid "Canard laqué, Canard laqué de Pékin"
+msgstr "Canard laqué, canard laqué de Pékin"
+
+msgid "Canapés"
+msgstr "Canapés"
+
+msgid "Camemberts pasteurisés, camembert pasteurisé"
+msgstr "Camemberts pasteurisés, camembert pasteurisé"
+
+msgid "Camemberts non pasteurisés, camembert non pasteurisé"
+msgstr "Camemberts non pasteurisés, camembert non pasteurisé"
+
+msgid "Camemberts de Normandie"
+msgstr "Camemberts de Normandie"
+
+msgid "Camemberts au lait thermisé"
+msgstr "Camemberts au lait thermisé"
+
+msgid "Camemberts au lait microfiltré"
+msgstr "Camemberts au lait microfiltré"
+
+msgid "Camemberts au lait cru"
+msgstr "Camemberts au lait cru"
+
+msgid "Camemberts"
+msgstr "Camemberts"
+
+msgid "Calvados"
+msgstr "Calvados"
+
+msgid "Cafés moulus, café moulu"
+msgstr "Cafés moulus, café moulu"
+
+msgid ""
+"Cafés en poudre, café en poudre, cafés instantanés, cafés solubles, café "
+"instantané, café soluble"
+msgstr ""
+"Cafés en poudre, café en poudre, cafés instantanés, cafés solubles, café "
+"instantané, café soluble"
+
+msgid "Cafés décaféinés, café décaféiné"
+msgstr "Cafés décaféinés, café décaféiné"
+
+msgid "Cafés"
+msgstr "Cafés"
+
+msgid "Cacahuètes au chocolat"
+msgstr "Cacahuètes au chocolat"
+
+msgid "Cabillauds"
+msgstr "Cabillauds"
+
+msgid "Burrito"
+msgstr "Burrito"
+
+msgid "Brioches vendéennes, Brioche vendéenne"
+msgstr "Brioches vendéennes, brioche vendéenne"
+
+msgid "Brioches pur beurre, Brioche pur beurre"
+msgstr "Brioches pur beurre, brioche pur beurre"
+
+msgid "Brioches au fruit"
+msgstr "Brioches au fruit"
+
+msgid "Brioches au chocolat"
+msgstr "Brioches au chocolat"
+
+msgid "Brioches a l'abricot"
+msgstr "Brioches a l'abricot"
+
+msgid "Brioches"
+msgstr "Brioches"
+
+msgid "Bresse Bleu, Bleus de Bresse"
+msgstr "Bresse Bleu, bleus de Bresse"
+
+msgid "Bourgogne, vins de Bourgogne"
+msgstr "Bourgogne, vins de Bourgogne"
+
+msgid "Bourbons, whiskeys"
+msgstr "Bourbons, whiskeys"
+
+msgid "Bouquets garnis, Bouquet garni"
+msgstr "Bouquets garnis, bouquet garni"
+
+msgid "Boukha"
+msgstr "Boukha"
+
+msgid "Boudoirs"
+msgstr "Boudoirs"
+
+msgid "Boudins, Boudin"
+msgstr "Boudins, boudin"
+
+msgid "Boudins noirs"
+msgstr "Boudins noirs"
+
+msgid "Boudins noir aux oignons"
+msgstr "Boudins noir aux oignons"
+
+msgid "Boudins blancs"
+msgstr "Boudins blancs"
+
+msgid "Boudins blanc à l'ancienne"
+msgstr "Boudins blanc à l'ancienne"
+
+msgid "Boudins"
+msgstr "Boudins"
+
+msgid "Bordeaux"
+msgstr "Bordeaux"
+
+msgid "Bonbons"
+msgstr "Bonbons"
+
+msgid "Boissons pour bébé, boisson pour bébé"
+msgstr "Boissons pour bébé, boisson pour bébé"
+
+msgid "Boissons lyophilisées, Boisson lyophilisée"
+msgstr "Boissons lyophilisées, boisson lyophilisée"
+
+msgid "Boissons lights, boisson light"
+msgstr "Boissons lights, boisson light"
+
+msgid "Boissons light"
+msgstr "Boissons light"
+
+msgid ""
+"Boissons gazeuses, boissons à bulles, boissons effervescentes, boissons "
+"pétillantes, boisson gazeuse, boisson à bulles, boisson effervescente, "
+"boisson pétillante"
+msgstr ""
+"Boissons gazeuses, boissons à bulles, boissons effervescentes, boissons "
+"pétillantes, boisson gazeuse, boisson à bulles, boisson effervescente, "
+"boisson pétillante"
+
+msgid "Boissons énergisantes"
+msgstr "Boissons énergisantes"
+
+msgid "Boissons énergétiques"
+msgstr "Boissons énergétiques"
+
+msgid "Boissons chaudes instantanées, boisson chaude instantanées"
+msgstr "Boissons chaudes instantanées, boisson chaude instantanées"
+
+msgid "Boissons chaudes"
+msgstr "Boissons chaudes"
+
+msgid "Boissons alcoolisées, boisson alcoolisée, alcool, alcools"
+msgstr "Boissons alcoolisées, boisson alcoolisée, alcool, alcools"
+
+msgid "Boissons"
+msgstr "Boissons"
+
+msgid "bloc de foie gras avec morceaux"
+msgstr "Bloc de foie gras avec morceaux"
+
+msgid "bloc de foie gras"
+msgstr "Bloc de foie gras"
+
+msgid "Blinis"
+msgstr "Blinis"
+
+msgid "Bleus du Vercors, bleu de Sassenage"
+msgstr "Bleus du Vercors, bleu de Sassenage"
+
+msgid "Bleus des Causses, bleu de l'Aveyron"
+msgstr "Bleus des Causses, bleu de l'Aveyron"
+
+msgid "Bleus de Termignon"
+msgstr "Bleus de Termignon"
+
+msgid "Bleus de Laqueuille"
+msgstr "Bleus de Laqueuille"
+
+msgid "Bleus de Gex, bleus du Haut-Jura, bleus de Septmoncel"
+msgstr "Bleus de Gex, bleus du Haut-Jura, bleus de Septmoncel"
+
+msgid "Bleus d'Auvergne"
+msgstr "Bleus d'Auvergne"
+
+msgid "Blettes, bettes"
+msgstr "Blettes, bettes"
+
+msgid "Blettes"
+msgstr "Blettes"
+
+msgid "Blés tendre"
+msgstr "Blés tendre"
+
+msgid "Blés Norin 10"
+msgstr "Blés Norin 10"
+
+msgid "Blés durs"
+msgstr "Blés durs"
+
+msgid "Blés de Khorasan"
+msgstr "Blés de Khorasan"
+
+msgid "Blés"
+msgstr "Blés"
+
+msgid "Blended whisky, blend"
+msgstr "Blended whisky, blend"
+
+msgid "Blended whisky"
+msgstr "Blended whisky"
+
+msgid "Blend écossais"
+msgstr "Blend écossais"
+
+msgid "Blé"
+msgstr "Blé"
+
+msgid "Blanquette de Limoux"
+msgstr "Blanquette de Limoux"
+
+msgid "Blancs de poulet, Jambons de poulet, Jambon de poulet"
+msgstr "Blancs de poulet, jambons de poulet, jambon de poulet"
+
+msgid "Biscuits, biscuit"
+msgstr "Biscuits, biscuit"
+
+msgid "Biscuits secs"
+msgstr "Biscuits secs"
+
+msgid "Biscuits sans gluten"
+msgstr "Biscuits sans gluten"
+
+msgid "Biscuits pour bébé"
+msgstr "Biscuits pour bébé"
+
+msgid "Biscuits feuilletés"
+msgstr "Biscuits feuilletés"
+
+msgid "Biscuits diététiques"
+msgstr "Biscuits diététiques"
+
+msgid "Biscuits au chocolat, biscuit au chocolat"
+msgstr "Biscuits au chocolat, biscuit au chocolat"
+
+msgid "Biscuits à la fraise, biscuit à la fraise"
+msgstr "Biscuits à la fraise, biscuit à la fraise"
+
+msgid "Biscuits à la fraise"
+msgstr "Biscuits à la fraise"
+
+msgid "Biscottes pauvres en sel"
+msgstr "Biscottes pauvres en sel"
+
+msgid "Biscottes complètes"
+msgstr "Biscottes complètes"
+
+msgid "Biscottes aux céréales"
+msgstr "Biscottes aux céréales"
+
+msgid "Biscottes au froment"
+msgstr "Biscottes au froment"
+
+msgid "Biscottes à la farine d'épeautre, Biscottes d’épeautre"
+msgstr "Biscottes à la farine d'épeautre, biscottes d’épeautre"
+
+msgid "Biscottes"
+msgstr "Biscottes"
+
+msgid "Bières sans alcool, bière sans alcool"
+msgstr "Bières sans alcool, bière sans alcool"
+
+msgid "Bières sans alcool"
+msgstr "Bières sans alcool"
+
+msgid "Bières rousses, bière rousse"
+msgstr "Bières rousses, bière rousse"
+
+msgid "Bières fortes"
+msgstr "Bières fortes"
+
+msgid "Bières brunes, bière brune"
+msgstr "Bières brunes, bière brune"
+
+msgid "Bières blondes, bière blonde"
+msgstr "Bières blondes, bière blonde"
+
+msgid "Bières blanches, bière blanche"
+msgstr "Bières blanches, bière blanche"
+
+msgid "Bières avec des fruits"
+msgstr "Bières avec des fruits"
+
+msgid "Bières artisanales"
+msgstr "Bières artisanales"
+
+msgid "Bières ambrées"
+msgstr "Bières ambrées"
+
+msgid "Bières à la cerise"
+msgstr "Bières à la cerise"
+
+msgid "Bières"
+msgstr "Bières"
+
+msgid "Bière de gingembre, ginger beer"
+msgstr "Bière de gingembre, ginger beer"
+
+msgid "Beurres, beurre"
+msgstr "Beurres, beurre"
+
+msgid "Beurres salés, beurre salé"
+msgstr "Beurres salés, beurre salé"
+
+msgid "Beurres pasteurisés"
+msgstr "Beurres pasteurisés"
+
+msgid "Beurres moulés, Beurre moulé"
+msgstr "Beurres moulés, beurre moulé"
+
+msgid "Beurres doux, beurre doux"
+msgstr "Beurres doux, beurre doux"
+
+msgid "Beurres demi-sel, beurre demi-sel"
+msgstr "Beurres demi-sel, beurre demi-sel"
+
+msgid "Beurres de cacahuètes, beurres d’arachide"
+msgstr "Beurres de cacahuètes, beurres d’arachide"
+
+msgid "Beurres allégés, Beurre allegé"
+msgstr "Beurres allégés, beurre allégé"
+
+msgid "Béa du Roussillon, pomme de terre primeur du Roussillon"
+msgstr "Béa du Roussillon, pomme de terre primeur du Roussillon"
+
+msgid "Bâtonnets, battonets, battonnets, eskimos"
+msgstr "Bâtonnets, battonets, battonnets, eskimos"
+
+msgid "Bâtonnets au chocolat"
+msgstr "Bâtonnets au chocolat"
+
+msgid "Bâtonnets à la vanille"
+msgstr "Bâtonnets à la vanille"
+
+msgid "Bâtonnets"
+msgstr "Bâtonnets"
+
+msgid "Bars"
+msgstr "Bars"
+
+msgid "Barres, Barre"
+msgstr "Barres, barre"
+
+msgid "Barres glacées"
+msgstr "Barres glacées"
+
+msgid ""
+"Barres de céréales, Barre de céréales, Barres céréalières, Barres aux "
+"céréales"
+msgstr ""
+"Barres de céréales, barre de céréales, barres céréalières, barres aux "
+"céréales"
+
+msgid "Barres chocolatées, barre chocolatée"
+msgstr "Barres chocolatées, barre chocolatée"
+
+msgid "Barres"
+msgstr "Barres"
+
+msgid "Barquettes à la fraise"
+msgstr "Barquettes à la fraise"
+
+msgid "Barquettes"
+msgstr "Barquettes"
+
+msgid "Banyuls"
+msgstr "Banyuls"
+
+msgid "Bananes séchées"
+msgstr "Bananes séchées"
+
+msgid "Bananes rouges"
+msgstr "Bananes rouges"
+
+msgid "Bananes plantains, banane plantain, banane farine, bananes farines"
+msgstr "Bananes plantains, banane plantain, banane farine, bananes farines"
+
+msgid "Bananes plantains"
+msgstr "Bananes plantains"
+
+msgid "Bananes"
+msgstr "Bananes"
+
+msgid "Bai Mu Dan, Pai Mu Tan"
+msgstr "Bai Mu Dan, Pai Mu Tan"
+
+msgid "Bai Hao Yin Zhen"
+msgstr "Bai Hao Yin Zhen"
+
+msgid "Baguettes, baguette"
+msgstr "Baguettes, baguette"
+
+msgid "Bacon, lard, lardum, lard hypodermique, bardière"
+msgstr "Bacon, lard, lardum, lard hypodermique, bardière"
+
+msgid "bacon en tranche, bacon en tranches"
+msgstr "Bacon en tranche, bacon en tranches"
+
+msgid "Bacon"
+msgstr "Bacon"
+
+msgid "Avoines"
+msgstr "Avoines"
+
+msgid "Avocats"
+msgstr "Avocats"
+
+msgid "Avena"
+msgstr "Avena"
+
+msgid "Attention produits multiples"
+msgstr "Attention produits multiples"
+
+msgid "Assortiments de chocolats"
+msgstr "Assortiments de chocolats"
+
+msgid "Assiettes pour bébé"
+msgstr "Assiettes pour bébé"
+
+msgid "Assaisonnements, assaisonnement"
+msgstr "Assaisonnements, assaisonnement"
+
+msgid "Asperges, asperge"
+msgstr "Asperges, asperge"
+
+msgid "Asperges violettes"
+msgstr "Asperges violettes"
+
+msgid "Asperges vertes"
+msgstr "Asperges vertes"
+
+msgid "Asperges sauvages"
+msgstr "Asperges sauvages"
+
+msgid "Asperges pelées à la main"
+msgstr "Asperges pelées à la main"
+
+msgid "Asperges miniatures"
+msgstr "Asperges miniatures"
+
+msgid "Asperges italiennes IGP, asperges d'Italie IGP"
+msgstr "Asperges italiennes IGP, asperges d'Italie IGP"
+
+msgid "Asperges italiennes IGP"
+msgstr "Asperges italiennes IGP"
+
+msgid "Asperges italiennes"
+msgstr "Asperges italiennes"
+
+msgid "Asperges IGP"
+msgstr "Asperges IGP"
+
+msgid "Asperges françaises IGP, asperges de France IGP"
+msgstr "Asperges françaises IGP, asperges de France IGP"
+
+msgid "Asperges françaises IGP"
+msgstr "Asperges françaises IGP"
+
+msgid "Asperges françaises"
+msgstr "Asperges françaises"
+
+msgid "Asperges fraîches"
+msgstr "Asperges fraîches"
+
+msgid "Asperges espagnoles IGP, Asperges d'Espagne IGP"
+msgstr "Asperges espagnoles IGP, asperges d'Espagne IGP"
+
+msgid "Asperges espagnoles IGP"
+msgstr "Asperges espagnoles IGP"
+
+msgid "Asperges espagnoles"
+msgstr "Asperges espagnoles"
+
+msgid "Asperges en conserve"
+msgstr "Asperges en conserve"
+
+msgid "asperges du Marshfeld, Marchfeldspargel"
+msgstr "Asperges du Marshfeld, Marchfeldspargel"
+
+msgid "Asperges des sables des Landes"
+msgstr "Asperges des sables des Landes"
+
+msgid "Asperges blanches"
+msgstr "Asperges blanches"
+
+msgid "Asperges autrichiennes IGP, asperges d'Autriche IGP"
+msgstr "Asperges autrichiennes IGP, asperges d'Autriche IGP"
+
+msgid "Asperges autrichiennes IGP"
+msgstr "Asperges autrichiennes IGP"
+
+msgid "Asperges autrichiennes"
+msgstr "Asperges autrichiennes"
+
+msgid "Asperges allemandes IGP, asperges d'Allemagne IGP"
+msgstr "Asperges allemandes IGP, asperges d'Allemagne IGP"
+
+msgid "Asperges allemandes IGP"
+msgstr "Asperges allemandes IGP"
+
+msgid "Asperges allemandes"
+msgstr "Asperges allemandes"
+
+msgid "asperge de Schrobenhausen, Schrobenhausener Spargel"
+msgstr "Asperge de Schrobenhausen, Schrobenhausener Spargel"
+
+msgid "asperge de Franconie, Spargel aus Franken"
+msgstr "Asperge de Franconie, Spargel aus Franken"
+
+msgid "asperge de Bornheimer, Bornheimer Spargel"
+msgstr "Asperge de Bornheimer, Bornheimer Spargel"
+
+msgid "Aspartames"
+msgstr "Aspartames"
+
+msgid "Asparago verde di Altedo"
+msgstr "Asperge verte d'Altedo"
+
+msgid "Asparago di Badoere"
+msgstr "Asperge de Badoere"
+
+msgid "Asparago bianco di Cimadolmo"
+msgstr "Asperge blanche de Cimadolmo"
+
+msgid "Artichauts, artichaut"
+msgstr "Artichauts, artichaut"
+
+msgid "Artichauts en conserve"
+msgstr "Artichauts en conserve"
+
+msgid "Arômes, Arôme, Arômes alimentaires, Arôme alimentaire"
+msgstr "Arômes, arôme, arômes alimentaires, arôme alimentaire"
+
+msgid "Arômes pâtisserie, Arôme pâtisserie"
+msgstr "Arômes pâtisserie, arôme pâtisserie"
+
+msgid "Armagnacs, Armagnac"
+msgstr "Armagnacs, Armagnac"
+
+msgid "Araignées de mer"
+msgstr "Araignées de mer"
+
+msgid "Aquavit"
+msgstr "Aquavit"
+
+msgid "Apéritif"
+msgstr "Apéritif"
+
+msgid "Ananas au sirop"
+msgstr "Ananas au sirop"
+
+msgid "Ananas"
+msgstr "Ananas"
+
+msgid ""
+"Anaheim, Capsicum annuum Anaheim, aji Colorado, piment de Californie, piment "
+"du Nouveau Mexique, piment du Rio Grande"
+msgstr ""
+"Anaheim, Capsicum annuum Anaheim, aji Colorado, piment de Californie, piment "
+"du Nouveau Mexique, piment du Rio Grande"
+
+msgid ""
+"Amandes en poudre, poudres d’amande, poudre d’amande, Amande en poudre"
+msgstr ""
+"Amandes en poudre, poudres d’amande, poudre d’amande, amande en poudre"
+
+msgid "Amandes"
+msgstr "Amandes"
+
+msgid "Alumettes de poulet"
+msgstr "Alumettes de poulet"
+
+msgid "Alpiste"
+msgstr "Alpiste"
+
+msgid "allumettes de bacon"
+msgstr "allumettes de bacon"
+
+msgid ""
+"Aliments pour bébé, aliment pour bébé, alimentation pour bébé, aliment bébé, "
+"alimentation bébé, aliments bébé"
+msgstr ""
+"Aliments pour bébé, aliment pour bébé, alimentation pour bébé, aliment bébé, "
+"alimentation bébé, aliments bébé"
+
+msgid "Algues"
+msgstr "Algues"
+
+msgid "Alcools forts, alcool fort"
+msgstr "Alcools forts, alcool fort"
+
+msgid "Alcools artisanaux"
+msgstr "Alcools artisanaux"
+
+msgid "Agrumes"
+msgstr "Agrumes"
+
+msgid "Additifs alimentaires"
+msgstr "Additifs alimentaires"
+
+msgid "Abricots secs, abricot sec, abricot séché, abricots séchés"
+msgstr "Abricots secs, abricot sec, abricot séché, abricots séchés"
+
+msgid "Abricots au sirop"
+msgstr "Abricots au sirop"
+
+msgid "Abricots"
+msgstr "Abricots"
+
+msgid "Abricotine"
+msgstr "Abricotine"

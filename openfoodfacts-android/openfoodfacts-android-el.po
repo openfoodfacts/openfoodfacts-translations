@@ -1,0 +1,151 @@
+# Greek translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-03 21:39+0000\n"
+"Last-Translator: mara sdr <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Σύνδεση"
+
+#: logout
+msgid "Sign-out"
+msgstr "Αποσύνδεση"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Αναζήτηση προϊόντος με όνομα ή μάρκα:"
+
+#: search_button
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Σαρώστε το barcode για να βρείτε ή να προσθέσετε ένα προϊόν:"
+
+#: scan
+msgid "Scan"
+msgstr "Σάρωση"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Το Open "
+"Food Facts συλλέγει πληροφορίες και δεδομένα για προϊόντα διατροφής από όλο "
+"τον κόσμο σε μια ελεύθερη και ανοικτή βάση δεδομένων.</p>"
+
+#: back
+msgid "Back"
+msgstr "Πίσω"
+
+#: close
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr ""
+"Συνδεθείτε για να προσθέσετε προϊόντα ή να επεξεργαστείτε σελίδες προϊόντων."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Όνομα χρήστη ή διεύθυνση email:"
+
+#: password
+msgid "Password:"
+msgstr "Κωδικός:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Δεν έχετε λογαριασμό; <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Δημιουργία λογαριασμού</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Προτιμώμενη γλώσσα:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Η αναζήτηση θα επιστρέφει με σειρά προτεραιότητας τα προϊόντα της "
+"επιλεγμένης γλώσσας, ενώ τα προϊόντα που προσθέτετε θα συμπεριληφθούν στην "
+"αντίστοιχη έκδοση του Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Παράμετροι"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Γεια σας $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Αποστολή σε εξέλιξη"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Η εικόνα ελήφθη, ευχαριστούμε!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Αδυναμία αποστολής εικόνας"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Προσπαθήστε ξανά"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Αναζήτηση σε εξέλιξη"
+
+#: connecting
+msgid "Connecting"
+msgstr "Γίνεται σύνδεση"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Αποτυχία σύνδεσης: μήπως δεν υπάρχει δίκτυο;"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Εσφαλμένο όνομα χρήστη ή κωδικός"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Γίνεται φόρτωση προϊόντος από τη βάση δεδομένων του Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Προϊόν $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Προσθήκη προϊόντος χωρίς barcode"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Barcode: $1"

@@ -1,0 +1,1478 @@
+# Czech translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-03-23 08:17+0000\n"
+"Last-Translator: Tadeáš Pařík <tadeas.parik@gmail.com>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+msgid " and "
+msgstr " a "
+
+msgid "(non-accented letters, digits and/or dashes)"
+msgstr "(písmena bez psaného přízvuku, číslice a/nebo pomlčky)"
+
+msgid "(Optional) - Create a column for every:"
+msgstr "(Nepovinné) - Vytvořit sloupec pro každý:"
+
+msgid ""
+"['January 'February 'March 'April 'May 'June 'July 'August 'September "
+"'October 'November 'December']"
+msgstr ""
+"['Leden 'Únor 'Březen 'Duben 'Květen 'Červen 'Červenec 'Srpen 'Září 'Říjen "
+"'Listopad 'Prosinec']"
+
+msgid "['Sunday 'Monday 'Tuesday 'Wednesday 'Thursday 'Friday 'Saturday']"
+msgstr "['Neděle 'Pondělí 'Úterý 'Středa 'Čtvrtek 'Pátek 'Sobota']"
+
+msgid "% of difference"
+msgstr "% se liší"
+
+msgid ""
+"%d products match the search criterias, of which %i products have a known "
+"production place."
+msgstr ""
+"%d produktů se shoduje s kritérii vyhledávání, z toho pro %i je znám původ."
+
+msgid ""
+"%d products match the search criterias, of which %i products have defined "
+"values for the graph's axis."
+msgstr ""
+
+msgid "%d products:"
+msgstr "%d produktů:"
+
+msgid "%s in %s"
+msgstr "%s z %s"
+
+msgid ""
+"→ With Chrome, Firefox and Safari, you can select multipe pictures (product, "
+"ingredients, nutrition facts .) by clicking them while holding the Ctrl key "
+"pressed to add them all in one shot."
+msgstr ""
+"→ S prohlížeči Chrome, Firefox a Safari můžete vybrat více obrázků "
+"(produktů, přísad či nutričních údajů.) kliknutím s přidržením klávesy Ctrl, "
+"tímto je dostanete do jednoho výběru."
+
+msgid ""
+"<p>Thanks for joining. You can now sign-in on the site to add and edit "
+"products.</p>"
+msgstr ""
+"<p>Děkujeme, že jste se přidali. Nyní se můžete přihlásit na stránky a "
+"můžete přidávat nebo upravovat produkty.</p>"
+
+msgid "<p>Your account parameters have been changed.</p>"
+msgstr "<p>Nastavení účtu bylo změněno.</p>"
+
+msgid "1 product:"
+msgstr "1 produkt:"
+
+msgid "10th centile"
+msgstr "10. percentil"
+
+msgid "2 l, 250 g, 1 kg, 25 cl, 6 fl oz, 1 pound"
+msgstr "2 l, 250 g, 1 kg, 25 cl, 6 tekutých uncí, 1 libra"
+
+msgid "5<sup>th</supe> centile"
+msgstr "<sup>5.</supe> percentil"
+
+msgid "60 g, 12 oz, 20cl, 2 fl oz"
+msgstr "60 g, 12 uncí, 20cl, 2 tekuté unce"
+
+msgid "90th centile"
+msgstr "95. percentil"
+
+msgid "95<sup>th</supe> centile"
+msgstr "<sup>95.</supe> percentil"
+
+msgid ""
+"A collaborative, free and open database of ingredients, nutrition facts and "
+"information on food products from around the world"
+msgstr ""
+
+msgid "A product already exists with the new code"
+msgstr "Produkt již existuje s novým kódem"
+
+msgid "About me"
+msgstr "O mně"
+
+msgid "Account parameters"
+msgstr "Nastavení účtu"
+
+msgid "add a brand"
+msgstr "přidat značku"
+
+msgid "add a category"
+msgstr "přidat kategorii"
+
+msgid "add a label"
+msgstr "přidat popisek"
+
+msgid "Add a nutrient"
+msgstr "Přidat nutriční hodnoty"
+
+msgid "Add a picture"
+msgstr "Přidat obrázek"
+
+msgid "add a place"
+msgstr "přidat místo"
+
+msgid "Add a product"
+msgstr "Přidat produkt"
+
+msgid "add a store"
+msgstr "přidat obchod"
+
+msgid "add a type, shape or material"
+msgstr "přidat typ, tvar nebo materiál"
+
+msgid "add an origin"
+msgstr "přidat původ"
+
+msgid "Add date"
+msgstr "Přidat datum"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "Added:"
+msgstr "Přidáno:"
+
+msgid "additive"
+msgstr "přísada"
+
+msgid "additives"
+msgstr "přísady"
+
+msgid "Advanced search and graphs"
+msgstr "Pokročilé vyhledávání a grafy"
+
+msgid "All missions"
+msgstr "Všechny úkoly"
+
+msgid "allergen"
+msgstr "alergen"
+
+msgid "allergens"
+msgstr "alergeny"
+
+msgid ""
+"An email with a link to reset your password has been sent to the e-mail "
+"address associated with your account."
+msgstr ""
+"Email s odkazem na obnovení hesla byl zaslán na emailovou adresu, která je "
+"připojena k vašemu účtu."
+
+msgid "An error occured while reading the data, try to refresh the page."
+msgstr "Při načítání dat nastala chyba, zkuste obnovit stránku."
+
+msgid ""
+"Average nutrition facts for the %d products of the %s category for which "
+"nutrition facts are known (out of %d products)."
+msgstr ""
+
+msgid "Barcode number:"
+msgstr "Číslo čárového kódu:"
+
+msgid "Barcode"
+msgstr "Čárový kód"
+
+msgid "Be the first to complete this mission!"
+msgstr "Buďte první, kdo dokončí tento úkol!"
+
+msgid "Belongs to:"
+msgstr "Náleží:"
+
+msgid "Best before date"
+msgstr "Nejlépe před datem"
+
+msgid "brand"
+msgstr "značka"
+
+msgid "Brands to be completed"
+msgstr "Značky k dokončení"
+
+msgid "brands"
+msgstr "značky"
+
+msgid ""
+"By adding information, data and/or images, you accept to place irrevocably "
+"your contribution under the <a "
+"href=http://opendatacommons.org/licenses/dbcl/1.0/>Database Contents Licence "
+"1.0</a> licence"
+msgstr ""
+"Přidáním informací, dat a/nebo obrázků souhlasíte s tím, že váš příspěvek je "
+"neodvolatelně publikován pod licencí <a "
+"href=http://opendatacommons.org/licenses/dbcl/1.0/>Database Contents Licence "
+"1.0</a>"
+
+msgid "by"
+msgstr "od"
+
+msgid "California, USA"
+msgstr "Kalifornie, USA"
+
+msgid "Categories to be completed"
+msgstr "Kategorie k dokončení"
+
+msgid "categories"
+msgstr "kategorie"
+
+msgid "category"
+msgstr "kategorie"
+
+msgid ""
+"Cereals 85.5% (wheat flour, whole-wheat flour 11%), malt extract, cocoa "
+"4,8%, ascorbic acid"
+msgstr ""
+"Obiloviny 85,5% (pšeničná mouka, celozrnná mouka 11%), sladový extrakt, "
+"kakao 4,8%, kyselina askorbová"
+
+msgid "Change search criteria"
+msgstr "Změnit kritéria vyhledávání"
+
+msgid "Change your account parameters"
+msgstr "Změnit nastavení účtu"
+
+msgid "Changed:"
+msgstr "Změněno:"
+
+msgid "Changes history"
+msgstr "Historie změn"
+
+msgid "Changes saved."
+msgstr "Změny uloženy."
+
+msgid "Changes summary"
+msgstr "Přehled změn"
+
+msgid "Changes to your public profile have been saved."
+msgstr "Změny pro veřejný profil byly uloženy."
+
+msgid "Character set: Unicode (UTF-8)). Separator: tabulation (tab)."
+msgstr "Znaková sada: Unicode (UTF-8)). Oddělovač: tabulátor (tab)."
+
+msgid "Characteristics completed"
+msgstr "Charakteristika dokončena"
+
+msgid "Characteristics to be completed"
+msgstr "Charakteristika k dokončení"
+
+msgid "Checked"
+msgstr "Vybraný"
+
+msgid "checker"
+msgstr "kontrolor"
+
+msgid "checkers"
+msgstr "kontroloři"
+
+msgid "Chinese"
+msgstr "čínština"
+
+msgid "Chocolate bar with milk and hazelnuts"
+msgstr "Čokoládová tyčinka s mlékem a s lískovými oříšky"
+
+msgid "choose a criteria..."
+msgstr "vybrat kritérium..."
+
+msgid "choose a nutriment..."
+msgstr "vybrat nutriční hodnotu..."
+
+msgid "cities"
+msgstr "města"
+
+msgid "City, state and country where purchased"
+msgstr "Město, stát a země nákupu"
+
+msgid "city"
+msgstr "město"
+
+msgid "Common name"
+msgstr "Běžné jméno"
+
+msgid "Comparison to average values of products in the same category :"
+msgstr "Srovnání průměrných hodnot produktů ve stejné kategorii:"
+
+msgid "Complete"
+msgstr "Dokončit"
+
+msgid "completed %d missions:"
+msgstr "ukončeno %d úkolů:"
+
+msgid "Completed by %d persons."
+msgstr "Dokončeno %d osobami."
+
+msgid "Confirm password"
+msgstr "Potvrďte heslo"
+
+msgid "Contains:"
+msgstr "Obsahuje:"
+
+msgid "contains"
+msgstr "obsahuje"
+
+msgid "contributor"
+msgstr "přispěvatel"
+
+msgid "contributors"
+msgstr "přispěvatelé"
+
+msgid "corrector"
+msgstr "korektor"
+
+msgid "correctors"
+msgstr "korektoři"
+
+msgid "Countries where sold"
+msgstr "Zěmě, kde se prodává"
+
+msgid ""
+"Countries where the product is widely available (non including stores "
+"specialising in foreign products)"
+msgstr ""
+"Země, kde je produkt většinou dostupný (nezahrnuje obchody specializující se "
+"na cizí produkty)"
+
+msgid "countries"
+msgstr "zěmě"
+
+msgid "country"
+msgstr "země"
+
+msgid "Criteria"
+msgstr "Kritéria"
+
+msgid "Current image:"
+msgstr "Stávající obrázek:"
+
+msgid "Data"
+msgstr "Údaje"
+
+msgid "Delete a product"
+msgstr "Smazat produkt"
+
+msgid "Delete an user"
+msgstr "Smazat uživatele"
+
+msgid "Delete the page"
+msgstr "Smazat stránku"
+
+msgid "Deleted:"
+msgstr "Smazáno:"
+
+msgid "Display results on a graph"
+msgstr "Zobrazit výsledky v grafu"
+
+msgid "Display results on a map"
+msgstr "Zobrazit výsledky na mapě"
+
+msgid "does not contain"
+msgstr "neobsahuje"
+
+msgid "Download results in CSV format (Excel, OpenOffice)"
+msgstr "Stáhnout výsledky ve formátu CSV (Excel, OpenOffice)"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Drilldown into products by:"
+msgstr "Rešerše na produkty podle:"
+
+msgid "Dutch"
+msgstr "holandština"
+
+msgid "e-mail address"
+msgstr "emailová adresa"
+
+msgid "Ecological footprint"
+msgstr "Ekologická stopa"
+
+msgid "Edit a product"
+msgstr "Upravit produkt"
+
+msgid "Edit date"
+msgstr "Datum editace"
+
+msgid "Edit the page"
+msgstr "Upravit stránku"
+
+msgid "Edit your public profile"
+msgstr "Upravit veřejný profil"
+
+msgid "edit"
+msgstr "upravit"
+
+msgid "EMB code"
+msgstr "kód EMB"
+
+msgid "EMB codes"
+msgstr "kódy EMB"
+
+msgid "Empty"
+msgstr "Prázdné"
+
+msgid "en_US"
+msgstr "en_US"
+
+msgid "en-US"
+msgstr "en-US"
+
+msgid "English"
+msgstr "angličtina"
+
+msgid "Enter a new password."
+msgstr "Zadejte nové heslo."
+
+msgid "Error while saving, please retry."
+msgstr "Chyba při ukládání, zkuste to prosím znovu."
+
+msgid "Error while uploading image"
+msgstr "Chyba při nahrávání obrázku"
+
+msgid "Evolution of the number of products on Open Food Facts"
+msgstr "Přehled o počtu výrobků v projektu Open Food Facts"
+
+msgid "Example:"
+msgstr "Příklad:"
+
+msgid "Examples:"
+msgstr "Příklady:"
+
+msgid "Excess drinking is harmful for health."
+msgstr "Přemíra pití je škodlivá pro zdraví."
+
+msgid "Expiration date completed"
+msgstr "Datum expirace kompletní"
+
+msgid "Expiration date to be completed"
+msgstr "Datum expirace k doplnění"
+
+msgid "Extract the ingredients from the picture"
+msgstr "Vybrat přísady z obrázku"
+
+msgid "Extracting ingredients"
+msgstr "Probíhá vyběr přísad"
+
+msgid "Fair trade"
+msgstr "Spravedlivý obchod"
+
+msgid "fair-trade"
+msgstr "Spravedlivý obchod"
+
+msgid "for 100 g / 100 ml"
+msgstr "na 100 g / 100 ml"
+
+msgid ""
+"For products without a barcode, an internal code is automatically set."
+msgstr "Produktům bez čárového kódu je nastaven automaticky kód interní."
+
+msgid "for"
+msgstr "pro"
+
+msgid "French"
+msgstr "francouzština"
+
+msgid "Fresh, Canned, Frozen, Bottle, Box, Glass, Plastic..."
+msgstr "Čerstvá, konzervovaná, mražená, láhev, krabice, sklo, plast ..."
+
+msgid "Front image"
+msgstr "Přední obrázek"
+
+msgid "Generate graph"
+msgstr "Vygenerovat graf"
+
+msgid "Generate the map"
+msgstr "Vygenerovat mapu"
+
+msgid "German"
+msgstr "němčina"
+
+msgid "Goal:"
+msgstr "Cíl:"
+
+msgid "Graph title"
+msgstr "Název grafu"
+
+msgid "Graph"
+msgstr "Graf"
+
+msgid "Hebrew"
+msgstr "hebrejština"
+
+msgid "Hello"
+msgstr "Ahoj"
+
+msgid "high quantity"
+msgstr "vysoké množství"
+
+msgid "High risks"
+msgstr "Vysoké riziko"
+
+msgid "high"
+msgstr "vysoké"
+
+msgid "Horizontal axis"
+msgstr "Horizontální osa"
+
+msgid ""
+"http://world.openfoodfacts.org/images/misc/openfoodfacts-logo-en-356.png"
+msgstr ""
+"http://world.openfoodfacts.org/images/misc/openfoodfacts-logo-en-356.png"
+
+msgid "If the barcode is not correct, please correct it here:"
+msgstr "Jestliže čárový kód není správný, můžete ho opravit zde:"
+
+msgid ""
+"If the carbon footprint is specified on the label (rarely at this time), "
+"indicate it for the same quantity than the nutritional composition."
+msgstr ""
+
+msgid ""
+"If the data is incomplete or incorrect, you can complete or correct it by "
+"editing this page."
+msgstr ""
+"Jestli jsou data neúplná nebo nejsou správná, můžete je doplnit nebo opravit "
+"úpravou této stránky."
+
+msgid ""
+"If the picture is sufficiently sharp and level, nutrition facts can be "
+"automatically extracted from the picture."
+msgstr ""
+
+msgid ""
+"If you already have an account on <SITE>, please sign-in before filling this "
+"form."
+msgstr ""
+"Jestliže již máte účet na stránce <SITE>, tak se prosím před vyplněním "
+"formuláře nejdříve přihlaste."
+
+msgid ""
+"If you have forgotten your password, fill-in your username or e-mail address "
+"to receive instructions for resetting your password."
+msgstr ""
+"Jestliže jste zapomněli své heslo, vyplňte své uživatelské jméno nebo "
+"emailovou adresu a obdržíte instrukce pro obnovu hesla."
+
+msgid "Image received"
+msgstr "Obrázek obdržen"
+
+msgid "Image saved"
+msgstr "Obrázek uložen"
+
+msgid ""
+"In Europe, code in an ellipse with the 2 country initials followed by a "
+"number and CE."
+msgstr ""
+
+msgid ""
+"Incorrect user name or password. <a href=\"/cgi/reset_password.pl\"Forgotten "
+"password?</a>"
+msgstr ""
+"Nesprávné uživatelské jméno nebo heslo. <a "
+"href=\"/cgi/reset_password.pl\"Zapomenuté heslo?</a>"
+
+msgid ""
+"Indicate ingredients from mentions like May contain traces of Made in a "
+"factory that also uses etc."
+msgstr ""
+
+msgid ""
+"Indicate only the most specific category. \"Parents\" categories will be "
+"automatically added."
+msgstr ""
+
+msgid ""
+"Indicate only the most specific labels. \"Parents\" labels will be added "
+"automatically."
+msgstr ""
+
+msgid "Indicate where you bought or saw the product (at least the country)"
+msgstr "Uveďte, kde jste produkt zakoupili nebo viděli (alespoň zemi)"
+
+msgid "Indifferent"
+msgstr "Nevalný"
+
+msgid ""
+"Information and data must come from the product package and label (and not "
+"from other sites or the manufacturer's site), and you must have taken the "
+"pictures yourself.<br/>"
+msgstr ""
+
+msgid "Information below is visible in your public profile."
+msgstr "Informace níže jsou viditelné ve veřejném profilu."
+
+msgid "informer"
+msgstr "informující"
+
+msgid "informers"
+msgstr "informující"
+
+msgid "ingredient from palm oil"
+msgstr "přísada z palmového oleje"
+
+msgid "ingredient that may be from palm oil"
+msgstr "přísada, která může být z palmového oleje"
+
+msgid "ingredient"
+msgstr "přísady"
+
+msgid "Ingredients are listed in order of importance (quantity)."
+msgstr "Přísady jsou uvedeny podle důležitosti (množsvtí)."
+
+msgid "Ingredients completed"
+msgstr "Přísady jsou kompletní"
+
+msgid "ingredients from or that may be from palm oil"
+msgstr "přísady, které mohou být nebo jsou z palmového oleje"
+
+msgid "ingredients from palm oil"
+msgstr "Přísady z palmového oleje"
+
+msgid "Ingredients image"
+msgstr "Obrázek přísad"
+
+msgid "Ingredients list"
+msgstr "Seznam přísad"
+
+msgid ""
+"Ingredients text could not be extracted. Try with a sharper image, with "
+"higher resolution or a better framing of the text."
+msgstr ""
+
+msgid ""
+"Ingredients text has been extracted. Text recognition is not perfect, so "
+"please check the text below and correct errors if needed."
+msgstr ""
+
+msgid "ingredients that may be from palm oil"
+msgstr "Přísady, které mohou být z palmového oleje"
+
+msgid "Ingredients to be completed"
+msgstr "Přísady k doplnění"
+
+msgid "ingredients-from-palm-oil"
+msgstr "přísady-z-palmového-oleje"
+
+msgid "ingredients-that-may-be-from-palm-oil"
+msgstr "přísady-které-mohou-být-z-palmového-oleje"
+
+msgid "ingredients"
+msgstr "přísady"
+
+msgid "Invalid address."
+msgstr "Neplatná adresa."
+
+msgid "Invalid e-mail address"
+msgstr "Neplatná e-mailová adresa"
+
+msgid "Invalid user."
+msgstr "Neplatný uživatel."
+
+msgid "Italian"
+msgstr "italština"
+
+msgid ""
+"Keep the order, indicate the % when specified, separate with a comma or - , "
+"use ( ) for ingredients of an ingredient"
+msgstr ""
+
+msgid "Kinder Bueno White, Kinder Bueno, Kinder, Ferrero"
+msgstr "Kinder Bueno bílé, Kider Bueno, Kinder, Ferrero"
+
+msgid "Kinder Bueno White"
+msgstr "Kinder Bueno bílé"
+
+msgid "known nutrient"
+msgstr "známá nutriční hodnota"
+
+msgid "known nutrients"
+msgstr "známé nutriční hodnoty"
+
+msgid "known-nutrients"
+msgstr "známé-nutriční-hodnoty"
+
+msgid "label"
+msgstr "štítek"
+
+msgid "Labels, certifications, awards"
+msgstr "Štítky, certifikace, ohodnocení"
+
+msgid "labels"
+msgstr "štítky"
+
+msgid "Language most present and most highlighted on the product"
+msgstr "Jazyk, který je nejvíce přítomen a zvýrazněn na produktu"
+
+msgid "Link to the product page on the official site of the producer"
+msgstr "Odkaz na oficiální stránku produktu daného výrobce"
+
+msgid "List of %s"
+msgstr "Seznam %s"
+
+msgid "low quantity"
+msgstr "Malé množství"
+
+msgid "Low risks"
+msgstr "Malé riziko"
+
+msgid "low"
+msgstr "nízký"
+
+msgid "Main language on the product"
+msgstr "Nejběžnější jazyk na produktu"
+
+msgid "Main language"
+msgstr "Hlavní jazyk"
+
+msgid "Map title"
+msgstr "Titulek mapy"
+
+msgid "Map"
+msgstr "Mapa"
+
+msgid "Maximum"
+msgstr "Maximum"
+
+msgid "Median"
+msgstr "Medián"
+
+msgid "Milk, Gluten, Nuts"
+msgstr "Mléko, lepek, ořechy"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "Mission: "
+msgstr "Úkol: "
+
+msgid "mission"
+msgstr "úkol"
+
+msgid "missions"
+msgstr "úkoly"
+
+msgid "moderate quantity"
+msgstr "mírné množství"
+
+msgid "Moderate risks"
+msgstr "mírné riziko"
+
+msgid "moderate"
+msgstr "mírný"
+
+msgid "Name of the shop or supermarket chain"
+msgstr "Název obchodu nebo řetězce"
+
+msgid "Name"
+msgstr "Název"
+
+msgid "News"
+msgstr "Novinky"
+
+msgid "Next"
+msgstr "Další"
+
+msgid "No product listed for barcode %s."
+msgstr "Žádný produkt v seznamu pro čárový kód %s."
+
+msgid "No products."
+msgstr "Žádný produkt."
+
+msgid "Normalize colors"
+msgstr "Standardizovat barvy"
+
+msgid ""
+"Note: this is a user generated graph. The title, represented products and "
+"axis of visualization have been chosen by the author of the graph."
+msgstr ""
+"Poznámka: tento graf byl vygenerován uživatelem. Titulek, zobrazené produkty "
+"a vizualizace os byla vybrána autorem grafu."
+
+msgid "Number of additives"
+msgstr "Počet přísad"
+
+msgid "Number of results by page"
+msgstr "Počet výsledků na stránku"
+
+msgid "nutrient level"
+msgstr "nutriční hodnota"
+
+msgid "Nutrient levels for 100 g:"
+msgstr "Nutriční hodnota na 100 g:"
+
+msgid "nutrient levels"
+msgstr "nutriční hodnoty"
+
+msgid "nutrient-level"
+msgstr "nutriční-hodnota"
+
+msgid "nutrient-levels"
+msgstr "nutriční-hodnoty"
+
+msgid "nutrient"
+msgstr "nutriční hodnota"
+
+msgid "nutrients"
+msgstr "nutriční hodnoty"
+
+msgid "nutriment"
+msgstr "výživa"
+
+msgid "nutriments"
+msgstr "výživy"
+
+msgid "Nutrition facts are not specified on the product."
+msgstr "Nutriční hodnoty nejsou pro tento produkt určeny."
+
+msgid "Nutrition facts completed"
+msgstr "Nutriční hodnoty jsou kompletní"
+
+msgid "Nutrition facts to be completed"
+msgstr "Nutriční hodnoty k doplnění"
+
+msgid "Nutrition facts"
+msgstr "Nutriční hodnoty"
+
+msgid "Open Food Facts"
+msgstr "Open Food Facts"
+
+msgid "OpenFoodFacts"
+msgstr "OpenFoodFacts"
+
+msgid "or :"
+msgstr "Nebo :"
+
+msgid "or"
+msgstr "nebo"
+
+msgid "Organic Fairtrade USA, Fair trade, TransFair..."
+msgstr ""
+
+msgid "Organic"
+msgstr "Biopotraviny"
+
+msgid "origin"
+msgstr "původ"
+
+msgid "origins"
+msgstr "původy"
+
+msgid "other language"
+msgstr "jiný jazyk"
+
+msgid "Other products"
+msgstr "Další produkty"
+
+msgid "out of _MAX_"
+msgstr "mimo _MAX_"
+
+msgid "packager code"
+msgstr "kód balírny"
+
+msgid "packager codes"
+msgstr "kód balíren"
+
+msgid "packager-code"
+msgstr "kód-balírny"
+
+msgid "packager-codes"
+msgstr "kód-balíren"
+
+msgid "packaging cities"
+msgstr "zabaleno v městech"
+
+msgid "packaging city"
+msgstr "zabaleno v městě"
+
+msgid "Packaging to be completed"
+msgstr "Balení k doplnění"
+
+msgid "Packaging type, format, material"
+msgstr "Typ, formát a materiál balení"
+
+msgid "packaging"
+msgstr "balení"
+
+msgid "Page %d out of %d."
+msgstr "Strana %d z %d."
+
+msgid "Pages:"
+msgstr "Stránky:"
+
+msgid "Password:"
+msgstr "Heslo:"
+
+msgid "Password"
+msgstr "Heslo"
+
+msgid "per serving"
+msgstr "v jedné porci"
+
+msgid ""
+"Permanent link to these results, shareable by e-mail and on social networks"
+msgstr ""
+"Stálý odkaz na tyto výsledky, můžete sdílet pomocí emailu nebo na sociálních "
+"sítích"
+
+msgid ""
+"Permanent link to this graph, shareable by e-mail and on social networks"
+msgstr ""
+"Stálý odkaz na tento graf, můžete sdílet pomocí emailu nebo na sociálních "
+"sítích"
+
+msgid ""
+"Permanent link to this map, shareable by e-mail and on social networks"
+msgstr ""
+"Stálý odkaz na tuto mapu, můžete sdílet pomocí emailu nebo na sociálních "
+"sítích"
+
+msgid "Permission denied."
+msgstr "Přístup odepřen."
+
+msgid "Photo on white background: try to remove the background"
+msgstr "Fotografie na bílém pozadí: zkuste odebrat pozadí"
+
+msgid "photographer"
+msgstr "fotograf"
+
+msgid "photographers"
+msgstr "fotografové"
+
+msgid "Photos to be uploaded"
+msgstr "Fotky k nahrání"
+
+msgid "Photos to be validated"
+msgstr "Fotky ke schválení"
+
+msgid "Photos uploaded"
+msgstr "Nahrané fotky"
+
+msgid "Photos validated"
+msgstr "Schválené fotky"
+
+msgid "Please correct the following errors:"
+msgstr "Opravte prosím následující chyby:"
+
+msgid ""
+"Please note: for each nutriment, the average is computed for products for "
+"which the nutriment quantity is known, not on all products of the category."
+msgstr ""
+
+msgid "Polish"
+msgstr "polština"
+
+msgid "Portuguese"
+msgstr "portugalština"
+
+msgid "Previous"
+msgstr "Předchozí"
+
+msgid "Product  name"
+msgstr "Název produktu"
+
+msgid "Product added on"
+msgstr "Produkt přidán"
+
+msgid "Product characteristics"
+msgstr "Charakteristika produktu"
+
+msgid "Product name to be completed"
+msgstr "Název produktu k doplnění"
+
+msgid "Product name"
+msgstr "Název produktu"
+
+msgid "Product picture with barcode:"
+msgstr "Obrázek produktu s čárovým kódem:"
+
+msgid "Product picture"
+msgstr "Obrázek produktu"
+
+msgid "Product without barcode"
+msgstr "Produkt bez čárového kódu"
+
+msgid "product"
+msgstr "produkt"
+
+msgid "Products added by %s"
+msgstr "Produkt přidán %s"
+
+msgid "Products from the %s brand"
+msgstr "Produktu od značky %s"
+
+msgid "Products from the %s category"
+msgstr "Produkty z kategorie %s"
+
+msgid "Products originating from %s"
+msgstr "Produkty pocházející z %s"
+
+msgid "Products packaged by the company with emb code %s"
+msgstr "Produkty balené společeností s kódem balení %s"
+
+msgid "Products packaged in the city of %s"
+msgstr "Produkty balené ve městě %s"
+
+msgid "Products search"
+msgstr "Vyhledávání produktů"
+
+msgid "Products sold at %s"
+msgstr "Produkty prodané na %s"
+
+msgid "Products sold in %s"
+msgstr "Produkty prodané v %s"
+
+msgid "Products that contain the ingredient %s"
+msgstr "Produkty, které obsahují přísadu %s"
+
+msgid "Products that contain the nutriment %s"
+msgstr "Produkty s výživou %s"
+
+msgid "Products that have the label %s"
+msgstr "Produkty, které mají štítek %s"
+
+msgid "Products that were added by the user %s"
+msgstr "Produkty, které byly přidány uživatelem %s"
+
+msgid "Products that were edited by the user %s"
+msgstr "Produkty, které byly upraveny uživatelem %s"
+
+msgid "Products with a %s packaging"
+msgstr "Produkty s balením %s"
+
+msgid "Products with complete information"
+msgstr "Produkty s úplnými informacemi"
+
+msgid "Products with the emb code %s"
+msgstr "Produkty s balícím kódem %s"
+
+msgid "Products you added or edited"
+msgstr "Produkty, které jste přidali nebo upravili"
+
+msgid "products"
+msgstr "produkty"
+
+msgid "purchase place"
+msgstr "místo nákupu"
+
+msgid "purchase places"
+msgstr "místa nákupu"
+
+msgid "purchase-place"
+msgstr "místo-nákupu"
+
+msgid "purchase-places"
+msgstr "místa-nákupu"
+
+msgid "Quantity to be completed"
+msgstr "Množství k doplnění"
+
+msgid "Quantity"
+msgstr "Množství"
+
+msgid "Reason for removal"
+msgstr "Důvod pro odstranění"
+
+msgid "Register"
+msgstr "Registrace"
+
+msgid "Remember me"
+msgstr "Zapamatovat si mě"
+
+msgid "Remember the place of purchase and store for the next product adds"
+msgstr "Zapamatovat si místo nákupu a obchod pro použití u dalšího produktu"
+
+msgid "Reset of your password on Open Food Facts"
+msgstr "Obnovení hesla na Open Food Facts"
+
+msgid "Reset password"
+msgstr "Obnovit heslo"
+
+msgid "Results graph"
+msgstr "Výsledky grafu"
+
+msgid "Results map"
+msgstr "Mapové výsledky"
+
+msgid "Risk"
+msgstr "Riziko"
+
+msgid "Rotate left"
+msgstr "Otočit doleva"
+
+msgid "Rotate right"
+msgstr "Otočit doprava"
+
+msgid ""
+"Rotate the image if necessary, then click and drag to select the interesting "
+"zone:"
+msgstr ""
+
+msgid "Russian"
+msgstr "ruština"
+
+msgid "salt equivalent"
+msgstr "ekvivalent soli"
+
+msgid "Sardines in olive oil, Orange juice from concentrate"
+msgstr "Sardinky v olivovém oleji, pomerančový džus z koncentrátu"
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Saved."
+msgstr "Uloženo."
+
+msgid "Saving image"
+msgstr "Ukládání obrázku"
+
+msgid "Saving."
+msgstr "Uládání."
+
+msgid "Scatter plot"
+msgstr "Bodový graf"
+
+msgid "Search a product, brand, ingredient, nutriment etc."
+msgstr "Vyhledat produkt, značku, přísadu, výživu atd."
+
+msgid ""
+"Search for words present in the product name, generic name, brands, "
+"categories, origins and labels"
+msgstr ""
+"Vyhledat slova, která jsou přítomna v názvu produktu, v obecném názvu, "
+"značce, kategorii, původu nebo štítku"
+
+msgid "Search results"
+msgstr "Výsledky vyhledávání"
+
+msgid "Search terms"
+msgstr "Hledané výrazy"
+
+msgid "Search:"
+msgstr "Vyhledat:"
+
+msgid "Search"
+msgstr "Vyhledat"
+
+msgid "See the product page"
+msgstr "Zobrazit stránku produktu"
+
+msgid "See you soon!"
+msgstr "Brzy nashledanou!"
+
+msgid "Selected images"
+msgstr "Vybrané obrázky"
+
+msgid "Send a picture..."
+msgstr "Poslat obrázek..."
+
+msgid "Sending image"
+msgstr "Zasílání obrázku"
+
+msgid "Serving size"
+msgstr "Velikost porce"
+
+msgid "Show detailed stats"
+msgstr "Zobrazit detailní statistiky"
+
+msgid "Sign-in and add the product"
+msgstr "Pro přidání produktu se přihlaste"
+
+msgid "Sign-in and edit the product"
+msgstr "Pro úpravu produktu se přihlaste"
+
+msgid "Sign-in"
+msgstr "Přihlásit se"
+
+msgid "Sign-out"
+msgstr "Odhlásit se"
+
+msgid "Site or blog address"
+msgstr "Adresa stránky nebo blogu"
+
+msgid "Sort by:"
+msgstr "Řadit podle:"
+
+msgid "Spanish"
+msgstr "španělština"
+
+msgid "standard deviation, minimum, maximum, 10th and 90th percentiles"
+msgstr ""
+
+msgid "Standard deviation"
+msgstr "Směrodatná odchylka"
+
+msgid "status"
+msgstr "stav"
+
+msgid "statuses"
+msgstr "stavy"
+
+msgid "store"
+msgstr "obchod"
+
+msgid "stores"
+msgstr "obchody"
+
+msgid "Subscribe to the newsletter (2 emails per month maximum)"
+msgstr "Přihlásit se k odběru novinek (2 emaily za měsíc)"
+
+msgid "Subscribe"
+msgstr "Odebírat"
+
+msgid "Thanks for joining Open Food Facts"
+msgstr "Děkujeme, že jste se připojili k projektu Open Food Facts"
+
+msgid ""
+"The e-mail address is already used by another user. Maybe you already have "
+"an account? You can  <a href=\"/cgi/reset_password.pl\">reset the "
+"password</a> of your other account."
+msgstr ""
+"Tato emailová adresa je již použita jiným uživatelem. Možná už máte účet? "
+"Můžete <a href=\"/cgi/reset_password.pl\">obnovit heslo</a> pro svůj další "
+"účet."
+
+msgid ""
+"The expiration date is a way to track product changes over time and to "
+"identify the most recent version."
+msgstr ""
+
+msgid ""
+"The graph will show only products for which displayed values are known."
+msgstr "Graf zobrazí pouze produkty, pro které jsou zobrazené hodnoty známy."
+
+msgid ""
+"The map will show only products for which the production place is known."
+msgstr "Mapa zobrazí pouze produkty, pro které jsou zobrazené hodnoty známy."
+
+msgid "The password and confirmation password are different."
+msgstr "Heslo a ověření hesla se heshodují."
+
+msgid "The password needs to be a least 6 characters long."
+msgstr "Heslo musí mít alespoň 6 znaků."
+
+msgid "The reset password link is invalid or has expired."
+msgstr "Odkaz pro obnovu hesla je neplatný nebo již vypršela jeho platnost."
+
+msgid ""
+"The table lists by default nutriments that are often specified. Leave the "
+"field blank if it's not on the label.<br/>You can add extra nutriments "
+"(vitamins, minerals, cholesterol etc.)"
+msgstr ""
+
+msgid ""
+"The user name must contain only unaccented letters, digits and dashes."
+msgstr ""
+"Uživatelské jméno musí obsahovat znaky bez přízvuku, číslice a pomlčky."
+
+msgid "There is no account with this email"
+msgstr "Pro tento email neexistuje žádný účet"
+
+msgid "This mission has been completed by:"
+msgstr "Úkol byl splněn:"
+
+msgid "This username already exists, please choose another."
+msgstr "Toto uživatelské jméno již existuje, vyberte prosím jiné."
+
+msgid "This username does not exist."
+msgstr "Uživatelské jméno neexistuje."
+
+msgid "To be checked"
+msgstr "Ke kontrole"
+
+msgid "To be completed"
+msgstr "K dokončení"
+
+msgid "trace"
+msgstr "stopa"
+
+msgid "traces"
+msgstr "stopy"
+
+msgid "Twitter username (optional)"
+msgstr "Uživatelské jméno na Twitteru (dobrovolné)"
+
+msgid "unknown nutrient"
+msgstr "neznámá nutriční hodnota"
+
+msgid "unknown nutrients"
+msgstr "neznámé nutriční hodnoty"
+
+msgid "unknown-nutrients"
+msgstr "neznámé-nutriční-hodnoty"
+
+msgid "Unsubscribe"
+msgstr "Zrušit odběr"
+
+msgid "Upload error"
+msgstr "Chyba při nahrávání"
+
+msgid "Uploaded images"
+msgstr "Nahrané obrázky"
+
+msgid "Uploading image"
+msgstr "Nahrávání obrázku"
+
+msgid "Use a different color for the following products:"
+msgstr "Použít odlišnou barvu pro následující produkty:"
+
+msgid "User name"
+msgstr "Uživatelské jméno"
+
+msgid "Username or e-mail address: "
+msgstr "Uživatelské jméno nebo e-mailová adresa: "
+
+msgid "Username or e-mail address:"
+msgstr "Uživatelské jméno nebo e-mailová adresa:"
+
+msgid "Username or email address"
+msgstr "Uživatelské jméno nebo e-mailová adresa"
+
+msgid "Validate and/or resize image"
+msgstr "Schválení a/nebo změna vělikosti obrázku"
+
+msgid "value for 100 g / 100 ml"
+msgstr "hodnota pro 100 g / 100 ml"
+
+msgid "Vertical axis"
+msgstr "Vertikální osa"
+
+msgid "Vietnamese"
+msgstr "vietnamština"
+
+msgid "View matching products from the entire world"
+msgstr "Zobrazit odpovídající produkty ze světa"
+
+msgid "View results from the entire world"
+msgstr ""
+
+msgid "View the list for matching products from the entire world"
+msgstr ""
+
+msgid "view"
+msgstr "zobrazit"
+
+msgid "with nutrition facts"
+msgstr "s nutričními hodnotami"
+
+msgid "With sweeteners"
+msgstr "se sladidly"
+
+msgid "With"
+msgstr "S"
+
+msgid "Without"
+msgstr "Bez"
+
+msgid "You are already signed in."
+msgstr "Jste již přihlášeni."
+
+msgid "You are connected as %s."
+msgstr "Jste připojen jako %s."
+
+msgid "You are connected with your Facebook account."
+msgstr "Jste připojeni pomocí svého Facebook účtu."
+
+msgid "You can unsubscribe from the lists at any time."
+msgstr "Z odběru novinek se můžete kdykoli odhlásit."
+
+msgid "You need to enter a name or nickname."
+msgstr "Musíte vložit jméno nebo přezdívku."
+
+msgid "You need to enter a user name"
+msgstr "Musíte zadat uživatelské jméno"
+
+msgid ""
+"Your password has been changed. You can now log-in with this password."
+msgstr "Heslo bylo změněno. Nyní se můžete přihlásit pomocí tohoto hesla."
+
+msgid "Open Food Facts - World"
+msgstr ""
+
+msgid "What's in my yogurt?"
+msgstr ""
+
+msgid "Let's open yogurts from all around the world!"
+msgstr ""
+
+msgid ""
+"On Open Data Day 2014, Open Food Facts launches the What's in my yogurt? "
+"project."
+msgstr ""
+
+msgid ""
+"Help us to collect information and data (ingredients, nutrition facts etc.) "
+"on food products from all around the world."
+msgstr ""
+
+msgid ""
+"In a few minutes, you can easily add products and contribute to improve food "
+"for everyone."
+msgstr ""
+
+msgid "The collected data is then usable and reusable freely:"
+msgstr ""
+
+msgid "To help you to make better choices"
+msgstr ""
+
+msgid "to decipher labels: which food additives should you avoid?"
+msgstr ""
+
+msgid "to compare products and to find better alternatives"
+msgstr ""
+
+msgid ""
+"to find products that do not contain (or contain less) substances that you "
+"want to avoid: fat, salt, additives, allergens etc."
+msgstr ""
+
+msgid "To motivate the industry to offer better products"
+msgstr ""
+
+msgid "by grading products and publishing nutritional comparisons."
+msgstr ""
+
+msgid ""
+"by checking allegations like 25% less sugar/salt/fat than other products "
+"from the same category."
+msgstr ""
+
+msgid "To help research"
+msgstr ""
+
+msgid ""
+"by combining the data with other data, researchers can find correlations and "
+"try to establish the link between some ingredients and affections."
+msgstr ""
+
+msgid "... and for all the other uses we have not thought about!"
+msgstr ""
+
+msgid ""
+"By making this data publicly available for free and for all uses, you are "
+"not limited by our imagination, and people from all around the world will "
+"find thousand of usage ideas that we would never have thought about."
+msgstr ""
+
+msgid "Got ideas? Share them on the Idea Forum!"
+msgstr ""
+
+msgid "Last products added:"
+msgstr ""
+
+msgid ""
+"products being added (in particular products added with the iPhone, Android "
+"and Windows Phone apps)"
+msgstr ""

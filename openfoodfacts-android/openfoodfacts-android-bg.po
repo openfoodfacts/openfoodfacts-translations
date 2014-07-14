@@ -1,0 +1,149 @@
+# Bulgarian translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-10 10:22+0000\n"
+"Last-Translator: Atanas Kovachki <Unknown>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Вход"
+
+#: logout
+msgid "Sign-out"
+msgstr "Изход"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Търси продукт по име или марка:"
+
+#: search_button
+msgid "Search"
+msgstr "Търси"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Сканиране на баркот за намиране или добавяне на продукт:"
+
+#: scan
+msgid "Scan"
+msgstr "Сканирай"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts предоставя информация и данни за хранителни продукти по целия свят от "
+"отворена и безплатна база от данни.</p>"
+
+#: back
+msgid "Back"
+msgstr "Назад"
+
+#: close
+msgid "Close"
+msgstr "Затвори"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Влезте, за да добавяте или редактирате информацията за продуктите."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Потребителско име или имейл адрес:"
+
+#: password
+msgid "Password:"
+msgstr "Парола:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Все още нямате профил? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Създаване на профил</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Предпочитан език:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Търсене на продукти се извършва съответно от избрания език, новите продукти "
+"ще се добавят към съответните версии на Open Food Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Параметри"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Здравей, $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Изпраща се"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Изображението е получено, благодарим ви!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Изображението не може да бъде изпратено"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Повторен опит"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Търси се"
+
+#: connecting
+msgid "Connecting"
+msgstr "Свързване"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Свързването е неуспешно, проверете имате ли мрежа?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Грешно потребителско име или парола"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Зареждане на продукт от базата данни на Open Food Facts"
+
+#: product_title
+msgid "Product $1"
+msgstr "Продукт $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Добави продукт без баркод"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Баркод: $1"

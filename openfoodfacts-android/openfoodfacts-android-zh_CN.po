@@ -1,0 +1,146 @@
+# Chinese (Simplified) translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-08 11:32+0000\n"
+"Last-Translator: ZhangCheng <skyxxzc@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "登入"
+
+#: logout
+msgid "Sign-out"
+msgstr "登出"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "按名称或品牌查找产品："
+
+#: search_button
+msgid "Search"
+msgstr "搜索"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "用扫描条码找到或添加产品："
+
+#: scan
+msgid "Scan"
+msgstr "扫描"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts 将全世界的食品信息收集在自由开放的数据库中。</p>"
+
+#: back
+msgid "Back"
+msgstr "返回"
+
+#: close
+msgid "Close"
+msgstr "关闭"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "要添加或修改产品页面，请先登录。"
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "用户名或邮件地址："
+
+#: password
+msgid "Password:"
+msgstr "密码:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"还没有账户？ <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>点此新建一个</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "语言偏好："
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr "会按权重返回对应语言的查找结果，且由您添加的产品会进入对应版本的 Open Food Facts 数据库中。"
+
+#: parameters
+msgid "Parameters"
+msgstr "参数"
+
+#: hello
+msgid "Hello $1!"
+msgstr "您好 $1！"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "正在上传"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "图片上传成功。谢谢！"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "图片上传失败"
+
+#: upload_retry
+msgid "Retry"
+msgstr "重试"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "查找中"
+
+#: connecting
+msgid "Connecting"
+msgstr "连接中"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "连接失败，请检查网络连接。"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "用户名或密码非法"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "产品加载中..."
+
+#: product_title
+msgid "Product $1"
+msgstr "产品：$1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "添加没有条码的产品"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "条码：$1"

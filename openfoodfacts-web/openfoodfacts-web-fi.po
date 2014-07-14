@@ -1,0 +1,1437 @@
+# Finnish translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-03-13 20:34+0000\n"
+"Last-Translator: Jiri Grönroos <Unknown>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+msgid " and "
+msgstr " ja "
+
+msgid "(non-accented letters, digits and/or dashes)"
+msgstr ""
+
+msgid "(Optional) - Create a column for every:"
+msgstr ""
+
+msgid ""
+"['January 'February 'March 'April 'May 'June 'July 'August 'September "
+"'October 'November 'December']"
+msgstr ""
+
+msgid "['Sunday 'Monday 'Tuesday 'Wednesday 'Thursday 'Friday 'Saturday']"
+msgstr ""
+
+msgid "% of difference"
+msgstr ""
+
+msgid ""
+"%d products match the search criterias, of which %i products have a known "
+"production place."
+msgstr ""
+
+msgid ""
+"%d products match the search criterias, of which %i products have defined "
+"values for the graph's axis."
+msgstr ""
+
+msgid "%d products:"
+msgstr "%d tuotetta:"
+
+msgid "%s in %s"
+msgstr ""
+
+msgid ""
+"→ With Chrome, Firefox and Safari, you can select multipe pictures (product, "
+"ingredients, nutrition facts .) by clicking them while holding the Ctrl key "
+"pressed to add them all in one shot."
+msgstr ""
+
+msgid ""
+"<p>Thanks for joining. You can now sign-in on the site to add and edit "
+"products.</p>"
+msgstr ""
+
+msgid "<p>Your account parameters have been changed.</p>"
+msgstr ""
+
+msgid "1 product:"
+msgstr ""
+
+msgid "10th centile"
+msgstr ""
+
+msgid "2 l, 250 g, 1 kg, 25 cl, 6 fl oz, 1 pound"
+msgstr ""
+
+msgid "5<sup>th</supe> centile"
+msgstr ""
+
+msgid "60 g, 12 oz, 20cl, 2 fl oz"
+msgstr ""
+
+msgid "90th centile"
+msgstr ""
+
+msgid "95<sup>th</supe> centile"
+msgstr ""
+
+msgid ""
+"A collaborative, free and open database of ingredients, nutrition facts and "
+"information on food products from around the world"
+msgstr ""
+
+msgid "A product already exists with the new code"
+msgstr ""
+
+msgid "About me"
+msgstr ""
+
+msgid "Account parameters"
+msgstr ""
+
+msgid "add a brand"
+msgstr "lisää tuotemerkki"
+
+msgid "add a category"
+msgstr "lisää luokka"
+
+msgid "add a label"
+msgstr ""
+
+msgid "Add a nutrient"
+msgstr ""
+
+msgid "Add a picture"
+msgstr "Lisää kuva"
+
+msgid "add a place"
+msgstr ""
+
+msgid "Add a product"
+msgstr "Lisää tuote"
+
+msgid "add a store"
+msgstr ""
+
+msgid "add a type, shape or material"
+msgstr ""
+
+msgid "add an origin"
+msgstr ""
+
+msgid "Add date"
+msgstr ""
+
+msgid "Add"
+msgstr "Lisää"
+
+msgid "Added:"
+msgstr "Lisätty:"
+
+msgid "additive"
+msgstr ""
+
+msgid "additives"
+msgstr ""
+
+msgid "Advanced search and graphs"
+msgstr "Tarkka haku ja kaaviot"
+
+msgid "All missions"
+msgstr ""
+
+msgid "allergen"
+msgstr ""
+
+msgid "allergens"
+msgstr ""
+
+msgid ""
+"An email with a link to reset your password has been sent to the e-mail "
+"address associated with your account."
+msgstr ""
+
+msgid "An error occured while reading the data, try to refresh the page."
+msgstr ""
+
+msgid ""
+"Average nutrition facts for the %d products of the %s category for which "
+"nutrition facts are known (out of %d products)."
+msgstr ""
+
+msgid "Barcode number:"
+msgstr "Viivakoodinumero:"
+
+msgid "Barcode"
+msgstr "Viivakoodi"
+
+msgid "Be the first to complete this mission!"
+msgstr ""
+
+msgid "Belongs to:"
+msgstr ""
+
+msgid "Best before date"
+msgstr ""
+
+msgid "brand"
+msgstr "tuotemerkki"
+
+msgid "Brands to be completed"
+msgstr ""
+
+msgid "brands"
+msgstr "tuoremerkit"
+
+msgid ""
+"By adding information, data and/or images, you accept to place irrevocably "
+"your contribution under the <a "
+"href=http://opendatacommons.org/licenses/dbcl/1.0/>Database Contents Licence "
+"1.0</a> licence"
+msgstr ""
+
+msgid "by"
+msgstr ""
+
+msgid "California, USA"
+msgstr ""
+
+msgid "Categories to be completed"
+msgstr ""
+
+msgid "categories"
+msgstr "luokat"
+
+msgid "category"
+msgstr "luokka"
+
+msgid ""
+"Cereals 85.5% (wheat flour, whole-wheat flour 11%), malt extract, cocoa "
+"4,8%, ascorbic acid"
+msgstr ""
+
+msgid "Change search criteria"
+msgstr ""
+
+msgid "Change your account parameters"
+msgstr ""
+
+msgid "Changed:"
+msgstr ""
+
+msgid "Changes history"
+msgstr ""
+
+msgid "Changes saved."
+msgstr "Muutokset tallennettu."
+
+msgid "Changes summary"
+msgstr "Muutosten yhteenveto"
+
+msgid "Changes to your public profile have been saved."
+msgstr ""
+
+msgid "Character set: Unicode (UTF-8)). Separator: tabulation (tab)."
+msgstr ""
+
+msgid "Characteristics completed"
+msgstr ""
+
+msgid "Characteristics to be completed"
+msgstr ""
+
+msgid "Checked"
+msgstr ""
+
+msgid "checker"
+msgstr ""
+
+msgid "checkers"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+
+msgid "Chocolate bar with milk and hazelnuts"
+msgstr ""
+
+msgid "choose a criteria..."
+msgstr ""
+
+msgid "choose a nutriment..."
+msgstr ""
+
+msgid "cities"
+msgstr ""
+
+msgid "City, state and country where purchased"
+msgstr ""
+
+msgid "city"
+msgstr "kaupunki"
+
+msgid "Common name"
+msgstr ""
+
+msgid "Comparison to average values of products in the same category :"
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "completed %d missions:"
+msgstr ""
+
+msgid "Completed by %d persons."
+msgstr ""
+
+msgid "Confirm password"
+msgstr "Vahvista salasana"
+
+msgid "Contains:"
+msgstr ""
+
+msgid "contains"
+msgstr ""
+
+msgid "contributor"
+msgstr ""
+
+msgid "contributors"
+msgstr ""
+
+msgid "corrector"
+msgstr ""
+
+msgid "correctors"
+msgstr ""
+
+msgid "Countries where sold"
+msgstr ""
+
+msgid ""
+"Countries where the product is widely available (non including stores "
+"specialising in foreign products)"
+msgstr ""
+
+msgid "countries"
+msgstr ""
+
+msgid "country"
+msgstr "maa"
+
+msgid "Criteria"
+msgstr ""
+
+msgid "Current image:"
+msgstr ""
+
+msgid "Data"
+msgstr ""
+
+msgid "Delete a product"
+msgstr "Poista tuote"
+
+msgid "Delete an user"
+msgstr ""
+
+msgid "Delete the page"
+msgstr "Poista sivu"
+
+msgid "Deleted:"
+msgstr "Poistettu:"
+
+msgid "Display results on a graph"
+msgstr ""
+
+msgid "Display results on a map"
+msgstr ""
+
+msgid "does not contain"
+msgstr "ei sisällä"
+
+msgid "Download results in CSV format (Excel, OpenOffice)"
+msgstr ""
+
+msgid "Download"
+msgstr "Lataa"
+
+msgid "Drilldown into products by:"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "e-mail address"
+msgstr "sähköpostiosoite"
+
+msgid "Ecological footprint"
+msgstr ""
+
+msgid "Edit a product"
+msgstr "Muokkaa tuotetta"
+
+msgid "Edit date"
+msgstr ""
+
+msgid "Edit the page"
+msgstr "Muokkaa sivua"
+
+msgid "Edit your public profile"
+msgstr "Muokkaa julkista profiiliasi"
+
+msgid "edit"
+msgstr "muokkaa"
+
+msgid "EMB code"
+msgstr ""
+
+msgid "EMB codes"
+msgstr ""
+
+msgid "Empty"
+msgstr ""
+
+msgid "en_US"
+msgstr ""
+
+msgid "en-US"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Enter a new password."
+msgstr ""
+
+msgid "Error while saving, please retry."
+msgstr ""
+
+msgid "Error while uploading image"
+msgstr ""
+
+msgid "Evolution of the number of products on Open Food Facts"
+msgstr ""
+
+msgid "Example:"
+msgstr "Esimerkki:"
+
+msgid "Examples:"
+msgstr ""
+
+msgid "Excess drinking is harmful for health."
+msgstr ""
+
+msgid "Expiration date completed"
+msgstr ""
+
+msgid "Expiration date to be completed"
+msgstr ""
+
+msgid "Extract the ingredients from the picture"
+msgstr ""
+
+msgid "Extracting ingredients"
+msgstr ""
+
+msgid "Fair trade"
+msgstr ""
+
+msgid "fair-trade"
+msgstr ""
+
+msgid "for 100 g / 100 ml"
+msgstr ""
+
+msgid ""
+"For products without a barcode, an internal code is automatically set."
+msgstr ""
+
+msgid "for"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Fresh, Canned, Frozen, Bottle, Box, Glass, Plastic..."
+msgstr ""
+
+msgid "Front image"
+msgstr ""
+
+msgid "Generate graph"
+msgstr ""
+
+msgid "Generate the map"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Goal:"
+msgstr ""
+
+msgid "Graph title"
+msgstr ""
+
+msgid "Graph"
+msgstr ""
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hello"
+msgstr ""
+
+msgid "high quantity"
+msgstr ""
+
+msgid "High risks"
+msgstr ""
+
+msgid "high"
+msgstr ""
+
+msgid "Horizontal axis"
+msgstr ""
+
+msgid ""
+"http://world.openfoodfacts.org/images/misc/openfoodfacts-logo-en-356.png"
+msgstr ""
+
+msgid "If the barcode is not correct, please correct it here:"
+msgstr ""
+
+msgid ""
+"If the carbon footprint is specified on the label (rarely at this time), "
+"indicate it for the same quantity than the nutritional composition."
+msgstr ""
+
+msgid ""
+"If the data is incomplete or incorrect, you can complete or correct it by "
+"editing this page."
+msgstr ""
+
+msgid ""
+"If the picture is sufficiently sharp and level, nutrition facts can be "
+"automatically extracted from the picture."
+msgstr ""
+
+msgid ""
+"If you already have an account on <SITE>, please sign-in before filling this "
+"form."
+msgstr ""
+
+msgid ""
+"If you have forgotten your password, fill-in your username or e-mail address "
+"to receive instructions for resetting your password."
+msgstr ""
+
+msgid "Image received"
+msgstr "Kuva vastaanotettu"
+
+msgid "Image saved"
+msgstr "Kuva tallennettu"
+
+msgid ""
+"In Europe, code in an ellipse with the 2 country initials followed by a "
+"number and CE."
+msgstr ""
+
+msgid ""
+"Incorrect user name or password. <a href=\"/cgi/reset_password.pl\"Forgotten "
+"password?</a>"
+msgstr ""
+
+msgid ""
+"Indicate ingredients from mentions like May contain traces of Made in a "
+"factory that also uses etc."
+msgstr ""
+
+msgid ""
+"Indicate only the most specific category. \"Parents\" categories will be "
+"automatically added."
+msgstr ""
+
+msgid ""
+"Indicate only the most specific labels. \"Parents\" labels will be added "
+"automatically."
+msgstr ""
+
+msgid "Indicate where you bought or saw the product (at least the country)"
+msgstr ""
+
+msgid "Indifferent"
+msgstr ""
+
+msgid ""
+"Information and data must come from the product package and label (and not "
+"from other sites or the manufacturer's site), and you must have taken the "
+"pictures yourself.<br/>"
+msgstr ""
+
+msgid "Information below is visible in your public profile."
+msgstr ""
+
+msgid "informer"
+msgstr ""
+
+msgid "informers"
+msgstr ""
+
+msgid "ingredient from palm oil"
+msgstr ""
+
+msgid "ingredient that may be from palm oil"
+msgstr ""
+
+msgid "ingredient"
+msgstr ""
+
+msgid "Ingredients are listed in order of importance (quantity)."
+msgstr ""
+
+msgid "Ingredients completed"
+msgstr ""
+
+msgid "ingredients from or that may be from palm oil"
+msgstr ""
+
+msgid "ingredients from palm oil"
+msgstr ""
+
+msgid "Ingredients image"
+msgstr ""
+
+msgid "Ingredients list"
+msgstr ""
+
+msgid ""
+"Ingredients text could not be extracted. Try with a sharper image, with "
+"higher resolution or a better framing of the text."
+msgstr ""
+
+msgid ""
+"Ingredients text has been extracted. Text recognition is not perfect, so "
+"please check the text below and correct errors if needed."
+msgstr ""
+
+msgid "ingredients that may be from palm oil"
+msgstr ""
+
+msgid "Ingredients to be completed"
+msgstr ""
+
+msgid "ingredients-from-palm-oil"
+msgstr ""
+
+msgid "ingredients-that-may-be-from-palm-oil"
+msgstr ""
+
+msgid "ingredients"
+msgstr ""
+
+msgid "Invalid address."
+msgstr "Virheellinen osoite."
+
+msgid "Invalid e-mail address"
+msgstr "Virheellinen sähköpostiosoite"
+
+msgid "Invalid user."
+msgstr "Virheellinen käyttäjä."
+
+msgid "Italian"
+msgstr ""
+
+msgid ""
+"Keep the order, indicate the % when specified, separate with a comma or - , "
+"use ( ) for ingredients of an ingredient"
+msgstr ""
+
+msgid "Kinder Bueno White, Kinder Bueno, Kinder, Ferrero"
+msgstr ""
+
+msgid "Kinder Bueno White"
+msgstr ""
+
+msgid "known nutrient"
+msgstr ""
+
+msgid "known nutrients"
+msgstr ""
+
+msgid "known-nutrients"
+msgstr ""
+
+msgid "label"
+msgstr ""
+
+msgid "Labels, certifications, awards"
+msgstr ""
+
+msgid "labels"
+msgstr ""
+
+msgid "Language most present and most highlighted on the product"
+msgstr ""
+
+msgid "Link to the product page on the official site of the producer"
+msgstr ""
+
+msgid "List of %s"
+msgstr ""
+
+msgid "low quantity"
+msgstr ""
+
+msgid "Low risks"
+msgstr ""
+
+msgid "low"
+msgstr ""
+
+msgid "Main language on the product"
+msgstr ""
+
+msgid "Main language"
+msgstr ""
+
+msgid "Map title"
+msgstr ""
+
+msgid "Map"
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "Median"
+msgstr ""
+
+msgid "Milk, Gluten, Nuts"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Mission: "
+msgstr ""
+
+msgid "mission"
+msgstr ""
+
+msgid "missions"
+msgstr ""
+
+msgid "moderate quantity"
+msgstr ""
+
+msgid "Moderate risks"
+msgstr ""
+
+msgid "moderate"
+msgstr ""
+
+msgid "Name of the shop or supermarket chain"
+msgstr ""
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "News"
+msgstr "Uutiset"
+
+msgid "Next"
+msgstr "Seuraava"
+
+msgid "No product listed for barcode %s."
+msgstr ""
+
+msgid "No products."
+msgstr "Ei tuotteita."
+
+msgid "Normalize colors"
+msgstr ""
+
+msgid ""
+"Note: this is a user generated graph. The title, represented products and "
+"axis of visualization have been chosen by the author of the graph."
+msgstr ""
+
+msgid "Number of additives"
+msgstr ""
+
+msgid "Number of results by page"
+msgstr ""
+
+msgid "nutrient level"
+msgstr ""
+
+msgid "Nutrient levels for 100 g:"
+msgstr ""
+
+msgid "nutrient levels"
+msgstr ""
+
+msgid "nutrient-level"
+msgstr ""
+
+msgid "nutrient-levels"
+msgstr ""
+
+msgid "nutrient"
+msgstr ""
+
+msgid "nutrients"
+msgstr ""
+
+msgid "nutriment"
+msgstr ""
+
+msgid "nutriments"
+msgstr ""
+
+msgid "Nutrition facts are not specified on the product."
+msgstr ""
+
+msgid "Nutrition facts completed"
+msgstr ""
+
+msgid "Nutrition facts to be completed"
+msgstr ""
+
+msgid "Nutrition facts"
+msgstr ""
+
+msgid "Open Food Facts"
+msgstr ""
+
+msgid "OpenFoodFacts"
+msgstr ""
+
+msgid "or :"
+msgstr ""
+
+msgid "or"
+msgstr "tai"
+
+msgid "Organic Fairtrade USA, Fair trade, TransFair..."
+msgstr ""
+
+msgid "Organic"
+msgstr ""
+
+msgid "origin"
+msgstr ""
+
+msgid "origins"
+msgstr ""
+
+msgid "other language"
+msgstr "muu kieli"
+
+msgid "Other products"
+msgstr ""
+
+msgid "out of _MAX_"
+msgstr ""
+
+msgid "packager code"
+msgstr ""
+
+msgid "packager codes"
+msgstr ""
+
+msgid "packager-code"
+msgstr ""
+
+msgid "packager-codes"
+msgstr ""
+
+msgid "packaging cities"
+msgstr ""
+
+msgid "packaging city"
+msgstr ""
+
+msgid "Packaging to be completed"
+msgstr ""
+
+msgid "Packaging type, format, material"
+msgstr ""
+
+msgid "packaging"
+msgstr ""
+
+msgid "Page %d out of %d."
+msgstr "Sivu %d/%d."
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Password:"
+msgstr "Salasana:"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "per serving"
+msgstr ""
+
+msgid ""
+"Permanent link to these results, shareable by e-mail and on social networks"
+msgstr ""
+
+msgid ""
+"Permanent link to this graph, shareable by e-mail and on social networks"
+msgstr ""
+
+msgid ""
+"Permanent link to this map, shareable by e-mail and on social networks"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Photo on white background: try to remove the background"
+msgstr ""
+
+msgid "photographer"
+msgstr ""
+
+msgid "photographers"
+msgstr ""
+
+msgid "Photos to be uploaded"
+msgstr ""
+
+msgid "Photos to be validated"
+msgstr ""
+
+msgid "Photos uploaded"
+msgstr ""
+
+msgid "Photos validated"
+msgstr ""
+
+msgid "Please correct the following errors:"
+msgstr ""
+
+msgid ""
+"Please note: for each nutriment, the average is computed for products for "
+"which the nutriment quantity is known, not on all products of the category."
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Previous"
+msgstr "Edellinen"
+
+msgid "Product  name"
+msgstr "Tuotteen nimi"
+
+msgid "Product added on"
+msgstr ""
+
+msgid "Product characteristics"
+msgstr ""
+
+msgid "Product name to be completed"
+msgstr ""
+
+msgid "Product name"
+msgstr "Tuotteen nimi"
+
+msgid "Product picture with barcode:"
+msgstr "Tuotteen kuva viivakoodin kera:"
+
+msgid "Product picture"
+msgstr "Tuotteen kuva"
+
+msgid "Product without barcode"
+msgstr "Tuote ilman viivakoodia"
+
+msgid "product"
+msgstr "tuote"
+
+msgid "Products added by %s"
+msgstr "Tuotteen lisäsi %s"
+
+msgid "Products from the %s brand"
+msgstr ""
+
+msgid "Products from the %s category"
+msgstr ""
+
+msgid "Products originating from %s"
+msgstr ""
+
+msgid "Products packaged by the company with emb code %s"
+msgstr ""
+
+msgid "Products packaged in the city of %s"
+msgstr ""
+
+msgid "Products search"
+msgstr ""
+
+msgid "Products sold at %s"
+msgstr ""
+
+msgid "Products sold in %s"
+msgstr ""
+
+msgid "Products that contain the ingredient %s"
+msgstr ""
+
+msgid "Products that contain the nutriment %s"
+msgstr ""
+
+msgid "Products that have the label %s"
+msgstr ""
+
+msgid "Products that were added by the user %s"
+msgstr ""
+
+msgid "Products that were edited by the user %s"
+msgstr ""
+
+msgid "Products with a %s packaging"
+msgstr ""
+
+msgid "Products with complete information"
+msgstr ""
+
+msgid "Products with the emb code %s"
+msgstr ""
+
+msgid "Products you added or edited"
+msgstr ""
+
+msgid "products"
+msgstr ""
+
+msgid "purchase place"
+msgstr ""
+
+msgid "purchase places"
+msgstr ""
+
+msgid "purchase-place"
+msgstr ""
+
+msgid "purchase-places"
+msgstr ""
+
+msgid "Quantity to be completed"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Reason for removal"
+msgstr "Poistamissyy"
+
+msgid "Register"
+msgstr ""
+
+msgid "Remember me"
+msgstr "Muista minut"
+
+msgid "Remember the place of purchase and store for the next product adds"
+msgstr ""
+
+msgid "Reset of your password on Open Food Facts"
+msgstr ""
+
+msgid "Reset password"
+msgstr ""
+
+msgid "Results graph"
+msgstr ""
+
+msgid "Results map"
+msgstr ""
+
+msgid "Risk"
+msgstr ""
+
+msgid "Rotate left"
+msgstr "Käännä vasemmalle"
+
+msgid "Rotate right"
+msgstr "Käännä oikealle"
+
+msgid ""
+"Rotate the image if necessary, then click and drag to select the interesting "
+"zone:"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "salt equivalent"
+msgstr ""
+
+msgid "Sardines in olive oil, Orange juice from concentrate"
+msgstr ""
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Saved."
+msgstr "Tallennettu."
+
+msgid "Saving image"
+msgstr "Tallennetaan kuvaa"
+
+msgid "Saving."
+msgstr ""
+
+msgid "Scatter plot"
+msgstr ""
+
+msgid "Search a product, brand, ingredient, nutriment etc."
+msgstr ""
+
+msgid ""
+"Search for words present in the product name, generic name, brands, "
+"categories, origins and labels"
+msgstr ""
+
+msgid "Search results"
+msgstr "Hakutulokset"
+
+msgid "Search terms"
+msgstr "Hakusanat"
+
+msgid "Search:"
+msgstr "Etsi:"
+
+msgid "Search"
+msgstr "Etsi"
+
+msgid "See the product page"
+msgstr "Avaa tuotesivu"
+
+msgid "See you soon!"
+msgstr "Nähdään pian!"
+
+msgid "Selected images"
+msgstr "Valitut kuvat"
+
+msgid "Send a picture..."
+msgstr "Lähetä kuva..."
+
+msgid "Sending image"
+msgstr ""
+
+msgid "Serving size"
+msgstr ""
+
+msgid "Show detailed stats"
+msgstr ""
+
+msgid "Sign-in and add the product"
+msgstr "Kirjaudu sisään ja lisää tuote"
+
+msgid "Sign-in and edit the product"
+msgstr "Kirjaudu sisään ja muokkaa tuotetta"
+
+msgid "Sign-in"
+msgstr "Kirjaudu"
+
+msgid "Sign-out"
+msgstr "Kirjaudu ulos"
+
+msgid "Site or blog address"
+msgstr "Sivuston tai blogin osoite"
+
+msgid "Sort by:"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "standard deviation, minimum, maximum, 10th and 90th percentiles"
+msgstr ""
+
+msgid "Standard deviation"
+msgstr ""
+
+msgid "status"
+msgstr "tila"
+
+msgid "statuses"
+msgstr ""
+
+msgid "store"
+msgstr ""
+
+msgid "stores"
+msgstr ""
+
+msgid "Subscribe to the newsletter (2 emails per month maximum)"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Thanks for joining Open Food Facts"
+msgstr "Kiitos Open Food Factsiin liittymisestä"
+
+msgid ""
+"The e-mail address is already used by another user. Maybe you already have "
+"an account? You can  <a href=\"/cgi/reset_password.pl\">reset the "
+"password</a> of your other account."
+msgstr ""
+
+msgid ""
+"The expiration date is a way to track product changes over time and to "
+"identify the most recent version."
+msgstr ""
+
+msgid ""
+"The graph will show only products for which displayed values are known."
+msgstr ""
+
+msgid ""
+"The map will show only products for which the production place is known."
+msgstr ""
+
+msgid "The password and confirmation password are different."
+msgstr ""
+
+msgid "The password needs to be a least 6 characters long."
+msgstr ""
+
+msgid "The reset password link is invalid or has expired."
+msgstr ""
+
+msgid ""
+"The table lists by default nutriments that are often specified. Leave the "
+"field blank if it's not on the label.<br/>You can add extra nutriments "
+"(vitamins, minerals, cholesterol etc.)"
+msgstr ""
+
+msgid ""
+"The user name must contain only unaccented letters, digits and dashes."
+msgstr ""
+
+msgid "There is no account with this email"
+msgstr ""
+
+msgid "This mission has been completed by:"
+msgstr ""
+
+msgid "This username already exists, please choose another."
+msgstr ""
+
+msgid "This username does not exist."
+msgstr "Käyttäjätunnusta ei ole olemassa."
+
+msgid "To be checked"
+msgstr ""
+
+msgid "To be completed"
+msgstr ""
+
+msgid "trace"
+msgstr ""
+
+msgid "traces"
+msgstr ""
+
+msgid "Twitter username (optional)"
+msgstr ""
+
+msgid "unknown nutrient"
+msgstr ""
+
+msgid "unknown nutrients"
+msgstr ""
+
+msgid "unknown-nutrients"
+msgstr ""
+
+msgid "Unsubscribe"
+msgstr ""
+
+msgid "Upload error"
+msgstr ""
+
+msgid "Uploaded images"
+msgstr ""
+
+msgid "Uploading image"
+msgstr ""
+
+msgid "Use a different color for the following products:"
+msgstr ""
+
+msgid "User name"
+msgstr "Käyttäjätunnus"
+
+msgid "Username or e-mail address: "
+msgstr "Käyttäjätunnus tai sähköpostiosoite: "
+
+msgid "Username or e-mail address:"
+msgstr "Käyttäjätunnus tai sähköpostiosoite:"
+
+msgid "Username or email address"
+msgstr "Käyttäjätunnus tai sähköpostiosoite"
+
+msgid "Validate and/or resize image"
+msgstr ""
+
+msgid "value for 100 g / 100 ml"
+msgstr ""
+
+msgid "Vertical axis"
+msgstr ""
+
+msgid "Vietnamese"
+msgstr ""
+
+msgid "View matching products from the entire world"
+msgstr ""
+
+msgid "View results from the entire world"
+msgstr ""
+
+msgid "View the list for matching products from the entire world"
+msgstr ""
+
+msgid "view"
+msgstr ""
+
+msgid "with nutrition facts"
+msgstr ""
+
+msgid "With sweeteners"
+msgstr ""
+
+msgid "With"
+msgstr ""
+
+msgid "Without"
+msgstr ""
+
+msgid "You are already signed in."
+msgstr ""
+
+msgid "You are connected as %s."
+msgstr ""
+
+msgid "You are connected with your Facebook account."
+msgstr ""
+
+msgid "You can unsubscribe from the lists at any time."
+msgstr ""
+
+msgid "You need to enter a name or nickname."
+msgstr ""
+
+msgid "You need to enter a user name"
+msgstr ""
+
+msgid ""
+"Your password has been changed. You can now log-in with this password."
+msgstr ""
+
+msgid "Open Food Facts - World"
+msgstr ""
+
+msgid "What's in my yogurt?"
+msgstr ""
+
+msgid "Let's open yogurts from all around the world!"
+msgstr ""
+
+msgid ""
+"On Open Data Day 2014, Open Food Facts launches the What's in my yogurt? "
+"project."
+msgstr ""
+
+msgid ""
+"Help us to collect information and data (ingredients, nutrition facts etc.) "
+"on food products from all around the world."
+msgstr ""
+
+msgid ""
+"In a few minutes, you can easily add products and contribute to improve food "
+"for everyone."
+msgstr ""
+
+msgid "The collected data is then usable and reusable freely:"
+msgstr ""
+
+msgid "To help you to make better choices"
+msgstr ""
+
+msgid "to decipher labels: which food additives should you avoid?"
+msgstr ""
+
+msgid "to compare products and to find better alternatives"
+msgstr ""
+
+msgid ""
+"to find products that do not contain (or contain less) substances that you "
+"want to avoid: fat, salt, additives, allergens etc."
+msgstr ""
+
+msgid "To motivate the industry to offer better products"
+msgstr ""
+
+msgid "by grading products and publishing nutritional comparisons."
+msgstr ""
+
+msgid ""
+"by checking allegations like 25% less sugar/salt/fat than other products "
+"from the same category."
+msgstr ""
+
+msgid "To help research"
+msgstr ""
+
+msgid ""
+"by combining the data with other data, researchers can find correlations and "
+"try to establish the link between some ingredients and affections."
+msgstr ""
+
+msgid "... and for all the other uses we have not thought about!"
+msgstr ""
+
+msgid ""
+"By making this data publicly available for free and for all uses, you are "
+"not limited by our imagination, and people from all around the world will "
+"find thousand of usage ideas that we would never have thought about."
+msgstr ""
+
+msgid "Got ideas? Share them on the Idea Forum!"
+msgstr ""
+
+msgid "Last products added:"
+msgstr ""
+
+msgid ""
+"products being added (in particular products added with the iPhone, Android "
+"and Windows Phone apps)"
+msgstr ""

@@ -1,0 +1,151 @@
+# Serbian Latin translation for openfoodfacts
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openfoodfacts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openfoodfacts\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-25 01:16+0900\n"
+"PO-Revision-Date: 2014-01-04 19:45+0000\n"
+"Last-Translator: Moki Ding <moki.forum@gmail.com>\n"
+"Language-Team: Serbian Latin <sr@latin@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-07-14 14:12+0000\n"
+"X-Generator: Launchpad (build 17111)\n"
+
+#: login
+msgid "Sign-in"
+msgstr "Prijavi se"
+
+#: logout
+msgid "Sign-out"
+msgstr "Odjavi se"
+
+#: search
+msgid "Search a product by name or brand:"
+msgstr "Тражи артикал по имену или бренду:"
+
+#: search_button
+msgid "Search"
+msgstr "Traži"
+
+#: scan_product
+msgid "Scan the barcode to find or add a product:"
+msgstr "Skeniraj barkod da pronadjete ili dodate artikal:"
+
+#: scan
+msgid "Scan"
+msgstr "Pretraži"
+
+#: description
+msgid ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts gathers information and data on food products from around the world in "
+"a free and open database.</p>"
+msgstr ""
+"<img src=openfoodfacts-logo-en.png alt=Open Food Facts /><br /><p>Open Food "
+"Facts sakuplja informacije i podatke o hranjljivim artiklima iz celog sveta "
+"u besplatnu i otvorenu bazu podataka.</p>"
+
+#: back
+msgid "Back"
+msgstr "Nazad"
+
+#: close
+msgid "Close"
+msgstr "Zatvori"
+
+#: please_login
+msgid "Sign-in to add products or edit product pages."
+msgstr "Пријави се да додаш или измениш странице са артиклима."
+
+#: userid
+msgid "Username or e-mail address:"
+msgstr "Korisničko ime ili e-mail adresa:"
+
+#: password
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: register
+msgid ""
+"No account yet? <a href=http://en.openfoodfacts.org/cgi/user.pl "
+"target=_blank>Create an account</a>"
+msgstr ""
+"Idalje nemate korisnički račun? <a "
+"href=http://en.openfoodfacts.org/cgi/user.pl target=_blank>Registrujte "
+"korisnicki račun</a>"
+
+#: language
+msgid "Preferred language:"
+msgstr "Izaberite jezik:"
+
+#: language_info
+msgid ""
+"Searching will return in priority products in the selected language, and "
+"products you add will be added to the corresponding version of Open Food "
+"Facts."
+msgstr ""
+"Pretraživanje će se vratiti u prioritetnim proizvodima na odabranom jeziku, "
+"a proizvodi koje dodate će biti dodati u odgovarajućoj verziji Open Food "
+"Facts."
+
+#: parameters
+msgid "Parameters"
+msgstr "Parametri"
+
+#: hello
+msgid "Hello $1!"
+msgstr "Zdravo $1!"
+
+#: uploading
+msgid "Sending in progress"
+msgstr "Slanje u toku"
+
+#: uploaded
+msgid "Image received, thank you!"
+msgstr "Slika primljena, hvala!"
+
+#: upload_problem
+msgid "The image could not be sent"
+msgstr "Slika ne može biti poslata"
+
+#: upload_retry
+msgid "Retry"
+msgstr "Pokušaj ponovo"
+
+#: search_in_progress
+msgid "Search in progress"
+msgstr "Pretraga u toku"
+
+#: connecting
+msgid "Connecting"
+msgstr "Povezivanje"
+
+#: connecting_failed
+msgid "Connecting failed: no network?"
+msgstr "Povezivanje bezuspešno: Nema mreže?"
+
+#: connecting_bad_password
+msgid "Bad username or password"
+msgstr "Pogrešno korisničko ime ili lozinka"
+
+#: loading_product
+msgid "Loading product from the Open Food Facts database"
+msgstr "Učavanje artikala iz Open Food Facts baze podataka"
+
+#: product_title
+msgid "Product $1"
+msgstr "Artikal $1"
+
+#: add_product_without_barcode
+msgid "Add a product without barcode"
+msgstr "Dodaj artikal bez barkoda"
+
+#: barcode
+msgid "Barcode: $1"
+msgstr "Barkod: $1"
