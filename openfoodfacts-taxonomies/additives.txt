@@ -1,0 +1,632 @@
+E1105 - Lysozyme
+E429 - peptone
+E307b - tocopherol
+E165 - E165 food additive
+E419 - Gum ghatti (thickener) (Stabilizer (food)stabiliser)
+E900 - Dimethyl polysiloxane
+E404 - Calcium alginate
+E540 - Dicalcium diphosphate
+E409 - Arabinogalactan
+E484 - Stearyl citrate
+E201 - Sodium sorbate
+E440aiv - Ammonium Pectate
+E414 - Acacia gum
+E1410 - Monostarch phosphate
+E624 - Monoammonium glutamate
+E235 - Natamycin
+E172 - Iron oxides and iron hydroxides
+E959 - Neohesperidine dihydrochalcone
+E249 - Potassium nitrite
+E1414 - Acetylated distarch phosphate
+E161g - Canthaxanthin
+E1503 - Castor oil
+E433 - Polyoxyethylene sorbitan monooleate
+E918 - Nitrogen oxides
+E585 - Ferrous lactate
+E1100 - Alpha-Amylase
+E1517 - Glyceryl diacetate
+E541ii - E541(ii) food additive
+E14XX - Modified Starch
+E160d - Lycopene
+E308 - Gamme-tocopherol
+E250 - Sodium nitrite
+E161e - Violaxanthin
+E302 - Calcium ascorbate
+E633 - Calcium inosinate
+E622 - Monopotassium glutamate
+E1420 - Acetylated starch
+E579 - Ferrous gluconate
+E1504 - ethyl acetate
+E132 - Indigotine
+E924 - Potassium bromate
+E630 - Inosinic acid
+E160aiii - Beta-carotene from blakeslea trispora
+E578 - Calcium gluconate
+E493 - Sorbitan monolaurate
+E317 - Erythorbin acid
+E311 - Octyl gallate
+E515ii - Potassium hydrogen sulphate
+E366 - Potassium fumarate
+E443 - Brominated vegetable oil
+E407 - Carrageenan
+E507 - Hydrochloric acid
+E411 - E411 food additive
+E319 - Tertiary-butylhydroquinone (tbhq)
+E450vi - Dicalcium diphosphate
+E174 - Silver
+E472b - Lactic acid esters of mono- and diglycerides of fatty acids
+E938 - Argon
+E541 - Sodium aluminium phosphate
+E422 - Glycerol
+E626 - Guanylic acid
+E402 - Potassium alginate
+E650 - Zinc acetate
+E471 - Mono- and diglycerides of fatty acids
+E470 - Sodium/potassium/calcium and magnesium salts of fatty acids
+E628 - Dipotassium guanylate
+E219 - Sodium methyl p-hydroxybenzoate
+E1413 - Phosphated distarch phosphate
+E442 - Ammonium phosphatides
+E131 - Patent blue v
+E1452 - Starch aluminium octenyl succinate
+E335i - Monosodium tartrate
+E942 - Nitrous oxide
+E324 - Ethoxyquin
+E351 - Potassium malate
+E172iii - E172(iii) food additive
+E527 - Ammonium hydroxide
+E203 - Calcium sorbate
+E450iv - dipotassium dihydrogenpyrophosphate
+E956 - Alitame
+E960 - Steviol glycosides
+E105 - E105 food additive
+E341ii - Dicalcium phosphate
+E487 - sodium dodecyl sulfate
+E634 - Calcium 5'-ribonucleotide
+E500 - Sodium carbonates
+E575 - Glucono-delta-lactone
+E539 - sodium thiosulfate
+E485 - Sodium stearoyl fumarate
+E15x - E15x food additive
+E472 - acid esters of mono- and diglycerides of fatty acids
+E571 - E571 food additive
+E475 - Polyglycerol esters of fatty acids
+E421 - Mannitol
+E407a - Processed eucheuma seaweed
+E304 - Fatty acid esters of ascorbic acid
+E1203 - Polyvinyl alcohol
+E502 - Carbonates
+E906 - Benzoin resin
+E233 - Thiabendazole
+E1518 - Glyceryl triacetate
+E710 - Spiramycin
+E1422 - Acetylated distarch adipate
+E221 - Sodium sulphite
+E900a - E900a food additive
+E385 - Calcium disodium ethylenediaminetetraacetate
+E160b - Annatto
+E440aii - Sodium pectate
+E262ii - Sodium diacetate
+E574 - Gluconic acid
+E554 - Sodium aluminium silicate
+E339i - Monosodium phosphate
+E325 - Sodium lactate
+E503i - Ammonium carbonate
+E122 - Azorubine
+E400 - Alginic acid
+E529 - Calcium oxide
+E427 - Cassia gum
+E1202 - Polyvinylpolypyrrolidone
+E955 - Sucralose
+E632 - Dipotassium inosinate
+E318 - Sodium erythorbin
+E153 - Vegetable carbon
+E503 - Ammonium carbonates
+E518 - Magnesium sulphate
+E932 - E932 food additive
+E310 - Propyl gallate
+E172i - E172(i) food additive
+E520 - Aluminium sulphate
+E162 - Beetroot red
+E282 - Calcium propionate
+E312 - Dodecyl gallate
+E914 - Oxidised polyethylene wax
+E910 - Wax ester
+E949 - Hydrogen
+E560 - Potassium silicate
+E905c - E905c food additive
+E521 - Aluminium sodium sulphate
+E181 - Tannin
+E1101 - Protease
+E557 - hemimorphite
+E102 - Tartrazine
+E911 - Fatty acid methyl ester
+E572 - Magnesium stearate
+E637 - Ethyl maltol
+E160ai - Beta-carotene
+E570 - Fatty acids
+E544 - Calcium polyphosphate
+E436 - Polyoxyethylene sorbitan tristearate
+E214 - Ethyl p-hydroxybenzoate
+E919 - Nitrosyl chloride
+E450viii - Magnesium pyrophosphate
+E182 - Orcein
+E341 - Calcium phosphates
+E639 - E639 food additive
+E486 - Calcium stearoyl fumarate
+E440ii - Amidated pectin
+E1423 - Acetylated distarch glycerol
+E1400 - Dextrin
+E640i - Glycine
+E337 - Potassium sodium tartrate
+E576 - Sodium gluconate
+E380 - Triammonium citrate
+E140ii - Chlorophyllins
+E307a - tocopherol
+E513 - Sulphuric acid
+E428 - Gelatine
+E573 - Aluminium stearate
+E631 - Disodium inosinate
+E343 - Magnesium phosphates
+E496 - Sorbitan trioleate
+E340ii - Dipotassium phosphate
+E331 - Sodium citrates
+E304ii - Ascorbyl stearate
+E107 - Yellow 2G
+E343i - Monomagnesium phosphate
+E344 - E344 food additive
+E500ii - Sodium hydrogen carbonate
+E923 - ammonium persulfate
+E111 - Orange GGN
+E304i - Ascorbyl palmitate
+E450i - Disodium diphosphate
+E210 - Benzoic acid
+E160aiv - Algal carotenes
+E228 - Potassium bisulphite
+E332i - Monopotassium citrate
+E1443 - Hydroxy propyl distarch glycerol
+E464 - Hydroxypropyl methyl cellulose
+E953 - Isomalt
+E458 - Gamma-Cyclodextrine
+E553ai - Magnesium silicate
+E514i - Sodium sulphate
+E904 - Shellac
+E155 - Brown ht
+E446 - Succistearin
+E163e - Peonidin
+E538 - Calcium ferrocyanide
+E559 - Aluminium silicate
+E481 - Sodium stearoyl-2-lactylate
+E473 - Sucrose esters of fatty acids
+E460i - Microcrystalline cellulose
+E150c - Ammonia caramel
+E964 - Polyglycitol syrup
+E466 - Sodium carboxy methyl cellulose
+E222 - Sodium bisulphite
+E965 - Maltitol
+E939 - Helium
+E333 - Calcium citrates
+E472e - Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids
+E406 - Agar
+E408 - Bakers yeast glycan
+E451ii - Pentapotassium triphosphate
+E150b - Caustic sulphite caramel
+E522 - Aluminium potassium sulphate
+E129 - Allura red ac
+E1102 - Glucose oxidase
+E263 - Calcium acetate
+E328 - ammonium lactate
+E200 - Sorbic acid
+E359 - ammonium adipate
+E954 - Saccharin and its Na
+E526 - Calcium hydroxide
+E1450 - Starch sodium octenyl succinate
+E941 - Nitrogen
+E336i - Monopotassium tartrate
+E556 - Calcium aluminium silicate
+E435 - Polyoxyethylene sorbitan monostearate
+E225 - Calcium Disulphite
+E465 - Ethyl methyl cellulose
+E1404 - Oxidised starch
+E130 - Indanthrene blue RS
+E958 - Glycyrrhizin
+E951 - Aspartame
+E1505 - Triethyl citrate
+E1000 - Cholic acid
+E101 - Riboflavin
+E343ii - Dimagnesium phosphate
+E517 - Ammonium sulphate
+E173 - Aluminium
+E141ii - Copper complexes of chlorophyllins
+E508 - Potassium chloride
+E403 - Ammonium alginate
+E924a - Potassium bromate
+E903 - Carnauba wax
+E330 - Citric acid
+E620 - Glutamic acid
+E101a - Riboflavin-5'-Phosphate
+E905 - Microcrystalline wax
+E470a - Sodium‚ potassium and calcium salts of fatty acids
+E902 - Candelilla wax
+E474 - Sucroglycerides
+E252 - Potassium nitrate
+E1442 - Hydroxypropyl distarch phosphate
+E535 - Sodium ferrocyanide
+E329 - Magnesium lactate
+E577 - Potassium gluconate
+E218 - Methyl p-hydroxybenzoate
+E1411 - Distarch glycerol (thickening agent)
+E425 - Konjac
+E635 - Disodium 5'-ribonucleotide
+E946 - octafluorocyclobutane
+E320 - Butylated hydroxyanisole (bha)
+E470b - Magnesium salts of fatty acids
+E1104 - lipase
+E514 - Sodium sulphates
+E100 - Curcumin
+E1402 - Alkaline modified starch
+E336 - Potassium tartrates
+E290 - Carbon dioxide
+E472f - Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids
+E1521 - Polyethylene glycol
+E280 - Propionic acid
+E336ii - Dipotassium tartrate
+E469 - Enzymatically hydrolysed carboxymethylcellulose
+E262 - Sodium acetates
+E515 - Potassium sulphates
+E154 - Brown FK
+E224 - Potassium metabisulphite
+E345 - Magnesium citrate
+E234 - Nisin
+E331ii - Disodium citrate
+E525 - Potassium hydroxide
+E641 - E641 food additive
+E1001 - Choline salt
+E1451 - Acetylated oxidised starch
+E962 - Salt of aspartame-acesulfame
+E459 - Beta-cyclodextrine
+E552 - Calcium silicate
+E501i - Potassium carbonate
+E180 - Litholrubine bk
+E161j - Astaxanthin
+E550 - Sodium silicate
+E928 - Benzole peroxide
+E354 - Calcium tartrate
+E314 - E314 food additive
+E440i - Pectin
+E405 - Propane-1‚2-diol alginate
+E264 - Ammonium acetate
+E1519 - Benzyl alcohol
+E335ii - Disodium tartrate
+E356 - Sodium adipate
+E150d - Sulphite ammonia caramel
+E963 - E963 food additive
+E133 - Brilliant blue FCF
+E460ii - Powdered cellulose
+E121 - Citrus Red 2
+E161a - Flavoxanthin
+E519 - Copper sulphate
+E236 - Formic acid
+E457 - Alpha-Cyclodextrine
+E399 - Lactobionic acid
+E536 - Potassium ferrocyanide
+E101i - Riboflavin
+E441 - Superglycerinated hydrogenated rapeseed oil
+E950 - Acesulfame k
+E450iii - Tetrasodium diphosphate
+E389 - E389 food additive
+E164 - E164 food additive
+E300 - Ascorbic acid
+E215 - Sodium ethyl p-hydroxybenzoate
+E488 - Ethoxylated Mono- and Di-Glycerides
+E163f - Petunidin
+E283 - Potassium propionate
+E500iii - Sodium sesquicarbonate
+E307 - Alpha-tocopherol
+E511 - Magnesium chloride
+E917 - Potassium iodate
+E417 - Tara gum
+E240 - Formaldehyde
+E352i - Calcium malate
+E297 - Fumaric acid
+E266 - Sodium dehydroacetate
+E341iii - Tricalcium phosphate
+E504 - Magnesium carbonates
+E543 - Calcium sodium polyphosphate
+E425ii - Konjac glucomannan
+E940 - Dichlorodifluoromethane
+E440 - Pectins
+E303 - Potassium ascorbate
+E1440 - Hydroxypropyl starch
+E1405 - Enzyme treated starch
+E335 - Sodium tartrates
+E452ii - Potassium polyphosphate
+E530 - Magnesium oxide
+E514ii - Sodium hydrogen sulphate
+E586 - 4-hexylresorcinol
+E341i - Monocalcium phosphate
+E516 - Calcium sulphate
+E948 - Oxygen
+E425i - Konjac gum
+E503ii - Ammonium hydrogen carbonate
+E472c - Citric acid esters of mono- and diglycerides of fatty acids
+E160c - Paprika extract
+E957 - Thaumatin
+E261 - Potassium acetate
+E528 - Magnesium hydroxide
+E551 - Silicon dioxide
+E232 - Sodium orthophenyl phenol
+E284 - Boric acid
+E128 - Red 2G
+E251 - Sodium nitrate
+E965i - Maltitol
+E491 - Sorbitan monostearate
+E1441 - Hydroxy propyl distarch glycerine
+E217 - Sodium propyl para-hydroxybenzoate
+E945 - chloropentafluoroethane
+E943b - Isobutane
+E627 - Disodium guanylate
+E242 - Dimethyl dicarbonate
+E905a - mineral oil
+E301 - Sodium ascorbate
+E340iii - Tripotassium phosphate
+E638 - E638 food additive
+E307c - tocopherol
+E420ii - Sorbitol syrup
+E340i - Monopotassium phosphate
+E209 - Heptylparaben
+E450v - Tetrapotassium diphosphate
+E495 - Sorbitan monopalmitate
+E392 - Extracts of rosemary
+E367 - Calcium fumarate
+E357 - Potassium adipate
+E160 - carotene
+E905g - E905g food additive
+E642 - E642 food additive
+E391 - Phytic acid
+E386 - E386 food additive
+E384 - E384 food additive
+E926 - Chlorine dioxide
+E140 - Chlorophylls and Chlorophyllins
+E414a - E414a food additive
+E161h - Zeaxanthin
+E163c - Malvidin
+E625 - Magnesium diglutamate
+E545 - Ammonium polyphosphate
+E472a - Acetic acid esters of mono- and diglycerides of fatty acids
+E262i - Sodium acetate
+E424 - Curdlan
+E333ii - Dicalcium citrate
+E106 - flavin mononucleotide
+E553a - Magnesium silicates
+E1201 - Polyvinylpyrrolidone
+E524 - Sodium hydroxide
+E352ii - Calcium hydrogen malate
+E220 - Sulphur dioxide
+E916 - Calcium iodate
+E166 - E166 food additive
+E387 - E387 food additive
+E230 - Biphenyl
+E452v - Ammonium polyphosphate
+E364 - E364 food additive
+E151 - Brilliant black bn
+E462 - Ethyl cellulose
+E333iii - Tricalcium citrate
+E1412 - Distarch phosphate
+E452 - Polyphosphates
+E420 - Sorbitol
+E141 - Copper complexes of chlorophylls and chlorophyllins
+E383 - Calcium glycerylphosphate
+E413 - Tragacanth
+E340 - Potassium phosphates
+E172ii - E172(ii) food additive
+E500i - Sodium carbonate
+E331iii - Trisodium citrate
+E460 - Cellulose
+E1103 - Invertase
+E363 - Succinic acid
+E355 - Adipic acid
+E160a - Alpha-carotene
+E580 - Magnesium Gluconate
+E332ii - Tripotassium citrate
+E365 - Sodium fumarate
+E1200 - Polydextrose
+E440b - pectin amide
+E426 - Soybean hemicellulose
+E913 - Lanolin
+E553aii - Magnesium trisilicate
+E140i - Chlorophylls
+E467 - Ethulose
+E216 - Propyl para-hydroxybenzoate
+E440a - Pectin
+E968 - Erythritol
+E243 - Ethyl lauroyl arginate
+E370 - 1‚4-Heptonolactone
+E231 - Orthophenyl phenol
+E931 - E931 food additive
+E160f - Ethyl ester of beta-apo-8'-carotenic acid (C 30)
+E450 - Diphosphates
+E629 - Calcium guanylate
+Exxx - Exxx food additive
+E124 - Ponceau 4r
+E321 - Butylated hydroxytoluene (bht)
+E412 - Guar gum
+E143 - Fast Green FCF
+E558 - Bentonite
+E313 - E313 food additive
+E342 - Ammonium phosphates: i monoammonium phosphate (ii) diammonium phosphate
+E451 - Triphosphates
+E908 - Rice bran wax
+E452iii - Sodium calcium polyphosphate
+E907 - Hydrogenated poly-1-decene
+E542 - Bone phosphate
+E265 - Dehydroacetic acid
+E375 - Nicotinic acid
+E323 - E323 food additive
+E350 - Sodium malates
+E1204 - Pullulan
+E434 - Polyoxyethylene sorbitan monopalmitate
+E515i - Potassium sulphate
+E212 - Potassium benzoate
+E952 - Cyclamic acid and its Na and Ca salts
+E227 - Calcium bisulphite
+E1510 - Ethanon
+E541i - E541(i) food additive
+E161d - Rubixanthin
+E1421 - Acetylated starch
+E270 - Lactic acid
+E163b - Delphinidin
+E450vii - Calcium dihydrogen diphosphate
+E476 - Polyglycerol polyricinoleate
+E452vi - Sodium tripolyphosphate
+E160e - Beta-apo-8′-carotenal (c30)
+E966 - Lactitol
+E163d - Pelargonidin
+E104 - Quinoline yellow
+E479b - Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids
+E316 - Sodium erythorbate
+E905e - E905e food additive
+E930 - calcium peroxide
+E929 - acetone peroxide
+E350ii - Sodium hydrogen malate
+E905d - E905d food additive
+E418 - Gellan gum
+E333i - Monocalcium citrate
+E315 - Erythorbic acid
+E127 - Erythrosine
+E306 - Tocopherol-rich extract
+E161c - Cryptoaxanthin
+E239 - Hexamethylene tetramine
+E921 - L-cysteine hydrochloride monohydrate
+E927b - Carbamide
+E339ii - Disodium phosphate
+E430 - Polyoxyethylene (8) stearate
+E349 - ammonium malate
+E961 - Neotame
+E510 - Ammonium chloride
+E327 - Calcium lactate
+E922 - Potassium persulfate
+E546 - E546 food additive
+E123 - Amaranth
+E713 - Tylosin
+E451i - Pentasodium triphosphate
+E640 - Glycine and its sodium salt
+E472d - Tartaric acid esters of mono- and diglycerides of fatty acids
+E161b - Lutein
+E636 - Maltol
+E492 - Sorbitan tristearate
+E103 - Alkannin
+E967 - Xylitol
+E461 - Methyl cellulose
+E621 - Monosodium glutamate
+E909 - Spermaceti
+E213 - Calcium benzoate
+E537 - ferrous hexacyanomanganate
+E477 - Propane-1‚2-diol esters of fatty acids
+E445 - Glycerol esters of wood rosin
+E175 - Gold
+E150a - Plain caramel
+E468 - Cross-linked sodium carboxymethylcellulose
+E944 - Propane
+E125 - Scarlet GN
+E381 - Ammoniumferrocitrate
+E523 - Aluminium ammonium sulphate
+E281 - Sodium propionate
+E388 - Thiodipropionic acid
+E237 - Sodium formiate
+E101ii - Riboflavin-5′-phosphate
+E226 - Calcium sulphite
+E322 - Lecithins
+E444 - Sucrose acetate isobutyrate
+E501 - Potassium carbonates
+E463 - Hydroxypropyl cellulose
+E490 - Propylene glycol
+E332 - Potassium citrates
+E211 - Sodium benzoate
+E163 - Anthocyanins
+E432 - Polyoxyethylene sorbitan monolaurate
+E410 - Locust bean gum
+Colour - color
+E416 - Karaya-gum
+E322ii - E322(ii) food additive
+E450ii - Trisodium diphosphate
+E440aiii - Potassium pectate
+E965ii - Maltitol syrup
+E152 - Black 7984
+E390 - E390 food additive
+E161i - Citranaxanthin
+E353 - Metatartaric acid
+E924b - Calcium bromate
+E160aii - Plant carotenes
+E494 - Sorbitan monooleate
+E223 - Sodium metabisulphite
+E431 - Polyoxyethylene (40) stearate
+E927 - E927 food additive
+E927a - Azodicarbonamide
+E509 - Calcium chloride
+E309 - Delta-tocopherol
+E401 - Sodium alginate
+E1520 - Propylene Glycol
+E555 - Potassium aluminium silicate
+E943a - Butane
+E489 - Methyl glucoside-coconut oil ester
+E1205 - Basic methacrylate copolymer
+E1403 - Bleached starch
+E338 - Phosphoric acid
+No12 - n12
+E925 - Chlorine
+E640ii - Sodiumglycinate
+E900b - E900b food additive
+E350i - Sodium malate
+E901 - White and Yellow Beeswax
+E142 - Green s
+E322i - Lecithin
+E504ii - Magnesium hydroxide carbonate
+E999 - Quillaia extract
+E505 - Ferrous carbonate
+E478 - Lactylated fatty acid esters of glycerol and propane-1
+E512 - Stannous chloride
+E296 - Malic acid
+E501ii - Potassium hydrogen carbonate
+E452i - Sodium polyphosphate
+E504i - Magnesium carbonate
+E483 - Stearyl tartrate
+E305 - Ascorbyl stearate
+E331i - Monosodium citrate
+E120 - Cochineal
+E161 - Xanthophylls
+E415 - Xanthan gum
+E623 - Calcium diglutamate
+E920 - L-cysteine hydrochloride
+E126 - Ponceau 6R
+E339 - Sodium phosphates
+E1401 - Modified starch
+E163a - Cyanidin
+E170 - Calcium carbonate
+E553 - Magnesium silicates
+E285 - Sodium tetraborate (borax)
+E912 - Montanic acid esters
+E339iii - Trisodium phosphate
+E482 - Calcium stearoyl-2-lactylate
+E150 - Caramel
+E141i - Copper complexes of chlorophylls
+E334 - L(+)-tartaric acid
+E241 - E241 food additive
+E352 - Calcium malates
+E368 - ammonium fumarate
+E915 - Esters of Colophane
+E326 - Potassium lactate
+E161f - Rhodoxanthin
+E420i - Sorbitol
+E238 - Calcium formiate
+E473a - E473a food additive
+E452iv - Calcium polyphosphate
+E110 - Sunset yellow FCF
+E260 - Acetic acid
+E553b - Talc
+E171 - Titanium dioxide
+E905f - E905f food additive
+E472g - Succinylated monoglycerides
+E202 - Potassium sorbate
+E1430 - Distarch glycerine
+E905b - petroleum jelly
