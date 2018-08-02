@@ -1,0 +1,41 @@
+Open and linked data: RDF export of data
+Les données d'<a href="https://fr.openfoodfacts.org">Open Food Facts</a> étaient déjà ouvertes et libres (en <i>open data</i> comme on dit), et maintenant elles sont aussi liées. Et oui, libres et liées à la fois&nbsp;!<br>
+<br>
+Libres car la licence ouverte permet aux données d'être utilisées par tous et pour tout usage, et liées parce que les données sont maintenant reliées non seulement entre elles, mais aussi avec d'autres jeux de données, par l'intermédiaire de la base DBPedia.<br>
+<br>
+J'explique en français&nbsp;: il y maintenant un gros fichier qui contient les données d'Open Food Facts sur les produits, leurs ingrédients et leur composition nutritionnelle. Les produits sont liés aux ingrédients qu'ils contiennent, et les ingrédients (certains pour commencer) font référence à leur page sur <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (une base de données issue des articles de Wikipedia). Ce fichier n'est pas destiné aux humains, mais aux programmes. Il est possible de l'interroger, de formuler des requêtes comme "quels sont les produits dont l'ingrédient principal est le sucre", et de le croiser facilement avec d'autres jeux de données.<br>
+<br>
+Grâce à ce fichier, les données d'OFF font maintenant partie de ce qu'on appelle <a href="https://fr.wikipedia.org/wiki/Web_des_donn%C3%A9es">"le Web des Données"</a>. Elles sont plus facilement réutilisables.<br>
+<br>
+<img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
+Bientôt les données d'Open Food Facts croisées avec plein d'autres jeux de données&nbsp;?<br>
+<br>
+<br>
+<h3><b>Les détails techniques&nbsp;:<br>
+</b></h3>
+J'ai participé au <b>Datalift Camp</b> auquel m'avait invité Charles Nepote de <a href="https://datalift.org/">Datalift</a>, et c'est d'abord avec l'outil Datalift qu'on a commencé à "jouer" avec les données d'OFF pour voir comment les exprimer en RDF.<br>
+<br>
+Les données sur les ingrédients et les nutriments sont décrites par une <a href="https://data.lirmm.fr/ontologies/food">ontologie food</a>&nbsp;que nous sommes en train de créer avec <b>François Scharffe</b> du Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier&nbsp;<a href="https://www.lirmm.fr/">LIRMM</a>&nbsp;et <b>Emmanuel Nauer</b> du Laboratoire Lorrain de Recherche en Informatique et ses Applications <a href="https://www.loria.fr/">LORIA</a>. L'idée est d'utiliser le même vocabulaire pour décrire une recette (comme celles utilisées par le projet <a href="https://taaable.fr/ ">Taaable</a>&nbsp;auquel participe Emmanuel), ou un produit alimentaire manufacturé.<br>
+<br>
+L'export RDF est ici&nbsp;:&nbsp;<a href="https://fr.openfoodfacts.org/data/fr.openfoodfacts.org.products.rdf">https://fr.openfoodfacts.org/data/fr.openfoodfacts.org.products.rdf</a>&nbsp;(en XML/RDF)<br>
+<br>
+Et il est <a href="https://datahub.io/dataset/open-food-facts">référencé sur The Data Hub</a>&nbsp;pour faciliter la découverte du jeu de données Open Food Facts.<br>
+<br>
+Les ingrédients sont parsés depuis la liste des ingrédients en texte, il subsiste des erreurs, le format des listes variant beaucoup d'un produit à l'autre. Je vais améliorer le parser, et en parallèle des contributeurs corrigent les fautes d'orthographe présentes dans les listes.<br>
+<br>
+Les URLs des produits et ingrédients retournent pour l'instant la page Web en HTML, mais je vais ajouter la négociation de contenu pour retourner du RDF.<br>
+<br>
+François a généré des équivalences entre les ingrédients Open Food Facts et les mêmes ingrédients sur DBPedia. Ils sont indiqués par la propriété owl:sameAs, par exemple&nbsp;:<br>
+<pre><rdf:description rdf:about="https://fr.openfoodfacts.org/ingredient/sorbate-de-potassium" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description>&lt;food:name&gt;Sorbate de potassium&lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://fr.dbpedia.org/resource/Sorbate_de_potassium"/&gt;<br>&lt;/rdf:Description&gt;</pre>
+<br>
+Il n'y a pour l'instant pas d'endpoint SPARQL. Vous pouvez par contre charger l'export RDF dans un outil comme Datalift pour exécuter des requêtes SPARQL. A titre d'exemple, voici l'une de mes premières requêtes (pour trouver les produits dont l'ingrédient principal est le sucre) :<br>
+<pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT&nbsp;?s&nbsp;?code WHERE {<br>&nbsp;&nbsp; ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food:FoodProduct .<br>&nbsp;&nbsp; ?s food:containsIngredient&nbsp;?i .
+&nbsp;&nbsp; ?i food:food <a class="moz-txt-link-rfc2396E" href="https://fr.openfoodfacts.org/ingredient/sucre">&lt;https://fr.openfoodfacts.org/ingredient/sucre&gt;</a> .
+&nbsp;&nbsp; ?i food:rank "1"
+&nbsp;&nbsp; OPTIONAL { ?s food:code&nbsp;?code } .<br>}</pre>
+<br>
+C'est bien sûr un travail en cours, il manque encore beaucoup de données dans l'export RDF (les marques, les catégories etc.). Elles vont être ajoutées progressivement.<br>
+<br>
+Vos idées, commentaires, suggestions etc. sont les bienvenues pour améliorer ces données, mieux les lier, mieux les représenter etc. De plus si vous utilisez les données, cela serait sympa de nous le dire. Merci d'avance&nbsp;!<br>
+<br>
+Et bien sûr un grand merci à Emmanuel et François pour leur aide&nbsp;!<br>
