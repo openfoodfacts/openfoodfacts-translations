@@ -25,3 +25,6 @@ files:
     
   - source: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
     translation: /blog/%locale%/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
+    
+  - source: /blog/how-many-different-food-products-are-there-in-the-world.html
+    translation: /blog/%locale%/how-many-different-food-products-are-there-in-the-world.html
