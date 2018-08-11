@@ -1,0 +1,1027 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.1\n"
+
+msgid "1% for the planet"
+msgstr "" 
+
+msgid "10% less fat"
+msgstr "" 
+
+msgid "10% less salt"
+msgstr "" 
+
+msgid "10% less sugar"
+msgstr "" 
+
+msgid "100% muscle"
+msgstr "" 
+
+msgid "100% natural"
+msgstr "" 
+
+msgid "15% less fat"
+msgstr "" 
+
+msgid "15% less salt"
+msgstr "" 
+
+msgid "15% less sugar"
+msgstr "" 
+
+msgid "20% less fat"
+msgstr "" 
+
+msgid "20% less salt"
+msgstr "" 
+
+msgid "20% less sugar"
+msgstr "" 
+
+msgid "2009 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2009 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2009 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2010 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2010 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2010 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2011 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2011 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2011 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2012 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2012 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2012 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2013 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2013 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2013 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2014 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2014 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2014 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2015 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2015 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2015 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2016 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2016 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2016 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2017 Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2017 Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "2017 Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "25% less fat"
+msgstr "" 
+
+msgid "25% less salt"
+msgstr "" 
+
+msgid "25% less sugar"
+msgstr "" 
+
+msgid "30% less fat"
+msgstr "" 
+
+msgid "30% less salt"
+msgstr "" 
+
+msgid "30% less sugar"
+msgstr "" 
+
+msgid "35% less fat"
+msgstr "" 
+
+msgid "35% less salt"
+msgstr "" 
+
+msgid "35% less sugar"
+msgstr "" 
+
+msgid "40% less fat"
+msgstr "" 
+
+msgid "40% less salt"
+msgstr "" 
+
+msgid "40% less sugar"
+msgstr "" 
+
+msgid "45% less fat"
+msgstr "" 
+
+msgid "45% less salt"
+msgstr "" 
+
+msgid "45% less sugar"
+msgstr "" 
+
+msgid "50% less fat"
+msgstr "" 
+
+msgid "50% less salt"
+msgstr "" 
+
+msgid "50% less sugar"
+msgstr "" 
+
+msgid "55% less fat"
+msgstr "" 
+
+msgid "55% less sugar"
+msgstr "" 
+
+msgid "60% less fat"
+msgstr "" 
+
+msgid "60% less sugar"
+msgstr "" 
+
+msgid "65% less fat"
+msgstr "" 
+
+msgid "Agri Natura"
+msgstr "" 
+
+msgid "Alimentos Artesanos de Navarra"
+msgstr "" 
+
+msgid "Alimentos de Castilla-La Mancha"
+msgstr "" 
+
+msgid "Alimentos de Extremadura"
+msgstr "" 
+
+msgid "Assured Food Standards"
+msgstr "" 
+
+msgid "Authentic Trappist Product"
+msgstr "" 
+
+msgid "Belgian hops"
+msgstr "" 
+
+msgid "Bio Suisse"
+msgstr "" 
+
+msgid "Biodynamic agriculture"
+msgstr "" 
+
+msgid "Biokreis"
+msgstr "" 
+
+msgid "Bioland"
+msgstr "" 
+
+msgid "BO-BIO-126"
+msgstr "" 
+
+msgid "British Lion Quality"
+msgstr "" 
+
+msgid "Bronze medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "Brown Dot India"
+msgstr "" 
+
+msgid "Cacao controlled by Ecocert SA"
+msgstr "" 
+
+msgid "Calcium source"
+msgstr "" 
+
+msgid "Calidad Certificada"
+msgstr "" 
+
+msgid "Canada Organic"
+msgstr "" 
+
+msgid "Carbon"
+msgstr "" 
+
+msgid "Carbon compensated product"
+msgstr "" 
+
+msgid "Carbon footprint"
+msgstr "" 
+
+msgid "Carrefour Quality"
+msgstr "" 
+
+msgid "CCOF certified organic"
+msgstr "" 
+
+msgid "Certified Belgian Abbey Beer"
+msgstr "" 
+
+msgid "Charte LU Harmony"
+msgstr "" 
+
+msgid "Class I"
+msgstr "" 
+
+msgid "Class II"
+msgstr "" 
+
+msgid "Coloring"
+msgstr "" 
+
+msgid "Contains gluten"
+msgstr "" 
+
+msgid "Contains milk"
+msgstr "" 
+
+msgid "Contains soy"
+msgstr "" 
+
+msgid "Cooperative product"
+msgstr "" 
+
+msgid "COR Kosher"
+msgstr "" 
+
+msgid "Cormorant fishing"
+msgstr "" 
+
+msgid "CRc Pareve"
+msgstr "" 
+
+msgid "Demeter"
+msgstr "" 
+
+msgid "DO Manzanilla-Sanlúcar de Barrameda"
+msgstr "" 
+
+msgid "DO Montilla-Moriles"
+msgstr "" 
+
+msgid "DO Navarra"
+msgstr "" 
+
+msgid "DO Toro"
+msgstr "" 
+
+msgid "DOCa Rioja"
+msgstr "" 
+
+msgid "Dolphin Safe"
+msgstr "" 
+
+msgid "EAC"
+msgstr "" 
+
+msgid "Ecocert"
+msgstr "" 
+
+msgid "EU Agriculture"
+msgstr "" 
+
+msgid "EU Organic"
+msgstr "" 
+
+msgid "EU/non-EU Agriculture"
+msgstr "" 
+
+msgid "European Fruit Juice Control System"
+msgstr "" 
+
+msgid "European Vegetarian Union"
+msgstr "" 
+
+msgid "European Vegetarian Union Lacto-vegetarian"
+msgstr "" 
+
+msgid "European Vegetarian Union Ovo-lacto-vegetarian"
+msgstr "" 
+
+msgid "European Vegetarian Union Ovo-vegetarian"
+msgstr "" 
+
+msgid "European Vegetarian Union Vegan"
+msgstr "" 
+
+msgid "FACE"
+msgstr "" 
+
+msgid "Fair trade"
+msgstr "" 
+
+msgid "Fairtrade International"
+msgstr "" 
+
+msgid "Fed without GMOs"
+msgstr "" 
+
+msgid "First grade TIS 3-1983"
+msgstr "" 
+
+msgid "Flavor"
+msgstr "" 
+
+msgid "Freedom Food"
+msgstr "" 
+
+msgid "French duck"
+msgstr "" 
+
+msgid "French pork"
+msgstr "" 
+
+msgid "FSC"
+msgstr "" 
+
+msgid "FSC Mix"
+msgstr "" 
+
+msgid "FSC Recycling"
+msgstr "" 
+
+msgid "Galicia Calidade"
+msgstr "" 
+
+msgid "German Agricultural Society"
+msgstr "" 
+
+msgid "Gluten-free"
+msgstr "" 
+
+msgid "GMOs"
+msgstr "" 
+
+msgid "Gold medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "GOST"
+msgstr "" 
+
+msgid "Green Dot"
+msgstr "" 
+
+msgid "Green Dot India"
+msgstr "" 
+
+msgid "Halal"
+msgstr "" 
+
+msgid "Halal Food Authority"
+msgstr "" 
+
+msgid "Halal Food Council of Europe"
+msgstr "" 
+
+msgid "Halal Monitoring Committee"
+msgstr "" 
+
+msgid "Hazard analysis and critical control points"
+msgstr "" 
+
+msgid "High fibres"
+msgstr "" 
+
+msgid "High in calcium"
+msgstr "" 
+
+msgid "High in Omega 3"
+msgstr "" 
+
+msgid "High proteins"
+msgstr "" 
+
+msgid "In braille"
+msgstr "" 
+
+msgid "Incorrect data on label"
+msgstr "" 
+
+msgid "Incorrect nutrition facts on label"
+msgstr "" 
+
+msgid "India Organic"
+msgstr "" 
+
+msgid "Integrated production"
+msgstr "" 
+
+msgid "IP-Suisse"
+msgstr "" 
+
+msgid "Irradiated"
+msgstr "" 
+
+msgid "Junta Islamica"
+msgstr "" 
+
+msgid "Kashrut division of the London Beth Din"
+msgstr "" 
+
+msgid "Kof-K"
+msgstr "" 
+
+msgid "Kosher"
+msgstr "" 
+
+msgid "Kosher Check"
+msgstr "" 
+
+msgid "Kosher Supervision of America"
+msgstr "" 
+
+msgid "Kosher under supervision of Rabbi Weitman Tnuva"
+msgstr "" 
+
+msgid "Kosher-parve"
+msgstr "" 
+
+msgid "Label Rouge"
+msgstr "" 
+
+msgid "Labels of distributors"
+msgstr "" 
+
+msgid "Lacto-vegetarian"
+msgstr "" 
+
+msgid "Lait Français (French milk)"
+msgstr "" 
+
+msgid "LEAF"
+msgstr "" 
+
+msgid "Li-bio-969"
+msgstr "" 
+
+msgid "Low fat"
+msgstr "" 
+
+msgid "Low or no fat"
+msgstr "" 
+
+msgid "Low or no salt"
+msgstr "" 
+
+msgid "Low or no sugar"
+msgstr "" 
+
+msgid "Low salt"
+msgstr "" 
+
+msgid "Low Sodium"
+msgstr "" 
+
+msgid "Low sugar"
+msgstr "" 
+
+msgid "Lowers cholesterol"
+msgstr "" 
+
+msgid "Made in France"
+msgstr "" 
+
+msgid "Made in Italy"
+msgstr "" 
+
+msgid "Made in Portugal"
+msgstr "" 
+
+msgid "Made in Spain"
+msgstr "" 
+
+msgid "Made in the UE"
+msgstr "" 
+
+msgid "Magen Tzedek"
+msgstr "" 
+
+msgid "Manchester Beth Din"
+msgstr "" 
+
+msgid "Max Havelaar"
+msgstr "" 
+
+msgid "Migros Bio"
+msgstr "" 
+
+msgid "MSG"
+msgstr "" 
+
+msgid "MT-ORG-01"
+msgstr "" 
+
+msgid "Multi Packaging Solutions Pharmaceutical and Healthcare Packaging Nottingham"
+msgstr "" 
+
+msgid "Muslim Consumer Group"
+msgstr "" 
+
+msgid "Muslim Council International"
+msgstr "" 
+
+msgid "NAPSI certified"
+msgstr "" 
+
+msgid "Natura-Beef"
+msgstr "" 
+
+msgid "Natura-Veal"
+msgstr "" 
+
+msgid "Naturafarm"
+msgstr "" 
+
+msgid "Natural colorings"
+msgstr "" 
+
+msgid "Natural flavors"
+msgstr "" 
+
+msgid "Natural product without vegetable oils"
+msgstr "" 
+
+msgid "Natural source of calcium"
+msgstr "" 
+
+msgid "Naturaplan"
+msgstr "" 
+
+msgid "NatureSuisse"
+msgstr "" 
+
+msgid "Naturland"
+msgstr "" 
+
+msgid "Never frozen"
+msgstr "" 
+
+msgid "New"
+msgstr "" 
+
+msgid "New recipe"
+msgstr "" 
+
+msgid "NL-BIO-01"
+msgstr "" 
+
+msgid "No added fat"
+msgstr "" 
+
+msgid "No added salt"
+msgstr "" 
+
+msgid "No added sugar"
+msgstr "" 
+
+msgid "No added thickener"
+msgstr "" 
+
+msgid "No additives"
+msgstr "" 
+
+msgid "No alcohol"
+msgstr "" 
+
+msgid "No artificial additives"
+msgstr "" 
+
+msgid "No artificial colors"
+msgstr "" 
+
+msgid "No artificial colours or flavours"
+msgstr "" 
+
+msgid "No artificial flavors"
+msgstr "" 
+
+msgid "No artificial flavour enhancer"
+msgstr "" 
+
+msgid "No artificial preservatives"
+msgstr "" 
+
+msgid "No artificial sweeteners"
+msgstr "" 
+
+msgid "No aspartame"
+msgstr "" 
+
+msgid "No Bisphenol-A"
+msgstr "" 
+
+msgid "No caffeine"
+msgstr "" 
+
+msgid "No cholesterol"
+msgstr "" 
+
+msgid "No colorings"
+msgstr "" 
+
+msgid "No eggs"
+msgstr "" 
+
+msgid "No fat"
+msgstr "" 
+
+msgid "No flavors"
+msgstr "" 
+
+msgid "No flavour enhancer"
+msgstr "" 
+
+msgid "No GMOs"
+msgstr "" 
+
+msgid "No hydrogenated fats"
+msgstr "" 
+
+msgid "No lactose"
+msgstr "" 
+
+msgid "No lecithine"
+msgstr "" 
+
+msgid "No milk"
+msgstr "" 
+
+msgid "No MSG"
+msgstr "" 
+
+msgid "No preservatives"
+msgstr "" 
+
+msgid "No salt"
+msgstr "" 
+
+msgid "No soy"
+msgstr "" 
+
+msgid "No sugar"
+msgstr "" 
+
+msgid "No thickening agent"
+msgstr "" 
+
+msgid "No Trans Fat"
+msgstr "" 
+
+msgid "NO-ØKO-01"
+msgstr "" 
+
+msgid "Non-EU Agriculture"
+msgstr "" 
+
+msgid "Non-vegetarian"
+msgstr "" 
+
+msgid "Not advised for children and pregnant women"
+msgstr "" 
+
+msgid "Not advised for pregnant women"
+msgstr "" 
+
+msgid "Not advised for specific people"
+msgstr "" 
+
+msgid "Not hardened"
+msgstr "" 
+
+msgid "Not recommended for children under 3 years"
+msgstr "" 
+
+msgid "Nutriscore experiment"
+msgstr "" 
+
+msgid "Nutriscore experiment Grade A"
+msgstr "" 
+
+msgid "Nutriscore experiment Grade B"
+msgstr "" 
+
+msgid "Nutriscore experiment Grade C"
+msgstr "" 
+
+msgid "Nutriscore experiment Grade D"
+msgstr "" 
+
+msgid "Nutriscore experiment Grade E"
+msgstr "" 
+
+msgid "Omega-3"
+msgstr "" 
+
+msgid "One hundred best goods of Russia"
+msgstr "" 
+
+msgid "One hundred best goods of Russia 2012"
+msgstr "" 
+
+msgid "One hundred best goods of Russia 2015"
+msgstr "" 
+
+msgid "Organic"
+msgstr "" 
+
+msgid "Organized Kashrut Kosher"
+msgstr "" 
+
+msgid "Orthodox Union Kosher"
+msgstr "" 
+
+msgid "Ovo-lacto-vegetarian"
+msgstr "" 
+
+msgid "Ovo-vegetarian"
+msgstr "" 
+
+msgid "Palm oil free"
+msgstr "" 
+
+msgid "PDO"
+msgstr "" 
+
+msgid "Peanut Free"
+msgstr "" 
+
+msgid "PGI"
+msgstr "" 
+
+msgid "Preservatives"
+msgstr "" 
+
+msgid "Pro Montagna"
+msgstr "" 
+
+msgid "Produced in Bretagne"
+msgstr "" 
+
+msgid "Pure beef"
+msgstr "" 
+
+msgid "Pure butter"
+msgstr "" 
+
+msgid "Pure cocoa butter"
+msgstr "" 
+
+msgid "Pure juice"
+msgstr "" 
+
+msgid "Pure pork"
+msgstr "" 
+
+msgid "Qualité France (French quality)"
+msgstr "" 
+
+msgid "Rainforest Alliance"
+msgstr "" 
+
+msgid "Real California Cheese"
+msgstr "" 
+
+msgid "Real California Milk"
+msgstr "" 
+
+msgid "Reduced fat"
+msgstr "" 
+
+msgid "Reduced salt"
+msgstr "" 
+
+msgid "Reduced sugar"
+msgstr "" 
+
+msgid "Reinheitsgebot"
+msgstr "" 
+
+msgid "Reyno Gourmet"
+msgstr "" 
+
+msgid "Rich in vitamin C"
+msgstr "" 
+
+msgid "Seafood"
+msgstr "" 
+
+msgid "Seine fishing"
+msgstr "" 
+
+msgid "Sephardi Kashrut Autority"
+msgstr "" 
+
+msgid "Silver medal of the Concours Mondial de Bruxelles"
+msgstr "" 
+
+msgid "Silver medal of the German Agricultural Society"
+msgstr "" 
+
+msgid "Smoked with beech wood"
+msgstr "" 
+
+msgid "Soil Association Organic"
+msgstr "" 
+
+msgid "Spanish protected product"
+msgstr "" 
+
+msgid "Spanish quality label"
+msgstr "" 
+
+msgid "Star-D Kosher"
+msgstr "" 
+
+msgid "Star-K Kosher"
+msgstr "" 
+
+msgid "Suisse Garantie"
+msgstr "" 
+
+msgid "Suitable for diabetics"
+msgstr "" 
+
+msgid "Superior quality"
+msgstr "" 
+
+msgid "Sustainable farming"
+msgstr "" 
+
+msgid "Sustainable fishery"
+msgstr "" 
+
+msgid "Sustainable Palm Oil"
+msgstr "" 
+
+msgid "Sustainable Seafood MSC"
+msgstr "" 
+
+msgid "Swiss AOC"
+msgstr "" 
+
+msgid "Swiss PGI"
+msgstr "" 
+
+msgid "Tablet-K Kosher"
+msgstr "" 
+
+msgid "Tav HaYosher"
+msgstr "" 
+
+msgid "TerraSuisse"
+msgstr "" 
+
+msgid "Tesco Nurture"
+msgstr "" 
+
+msgid "Thai fish sauce quality label"
+msgstr "" 
+
+msgid "Thai quality label"
+msgstr "" 
+
+msgid "Thailand Diversity & Refinement"
+msgstr "" 
+
+msgid "The Central Islamic Committee of Thailand"
+msgstr "" 
+
+msgid "Tierra de Sabor"
+msgstr "" 
+
+msgid "Tooth-health related labels"
+msgstr "" 
+
+msgid "Traditional Speciality Guaranteed"
+msgstr "" 
+
+msgid "TransFer"
+msgstr "" 
+
+msgid "USDA Organic"
+msgstr "" 
+
+msgid "UTZ Certified"
+msgstr "" 
+
+msgid "UTZ Certified Cacao"
+msgstr "" 
+
+msgid "UTZ Certified Coffee"
+msgstr "" 
+
+msgid "Vegan"
+msgstr "" 
+
+msgid "Vegan Action"
+msgstr "" 
+
+msgid "Vegan Society"
+msgstr "" 
+
+msgid "Vegetarian"
+msgstr "" 
+
+msgid "Vegetarian Society"
+msgstr "" 
+
+msgid "Vino de la Tierra"
+msgstr "" 
+
+msgid "Vino de Pago"
+msgstr "" 
+
+msgid "VP Campo de la Guardia"
+msgstr "" 
+
+msgid "VT Castilla"
+msgstr "" 
+
+msgid "Winner of the \consumer rights and quality of service\ (Russia)"
+msgstr "" 
+
+msgid "With sulfites"
+msgstr "" 
+
+msgid "With Sunflower oil"
+msgstr "" 
+
+msgid "With sweeteners"
+msgstr "" 
+
+msgid "Without"
+msgstr "" 
+
+msgid "Without addition of dairy products"
+msgstr "" 
+
+msgid "Without dyes or preservatives"
+msgstr "" 
+
+msgid "Without gelatin"
+msgstr "" 
+
+msgid "Without sweeteners"
+msgstr "" 
+
+msgid "Without vegetable oils"
+msgstr "" 
+
+msgid "World Beer Awards"
+msgstr "" 
