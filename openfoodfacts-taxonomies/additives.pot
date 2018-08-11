@@ -1,0 +1,1909 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.1\n"
+
+msgid "E1105 - Lysozyme"
+msgstr "" 
+
+msgid "E429 - peptone"
+msgstr "" 
+
+msgid "E307b - tocopherol"
+msgstr "" 
+
+msgid "E165 - E165 food additive"
+msgstr "" 
+
+msgid "E419 - Gum ghatti (thickener) (Stabilizer (food)stabiliser)"
+msgstr "" 
+
+msgid "E900 - Dimethyl polysiloxane"
+msgstr "" 
+
+msgid "E404 - Calcium alginate"
+msgstr "" 
+
+msgid "E540 - Dicalcium diphosphate"
+msgstr "" 
+
+msgid "E409 - Arabinogalactan"
+msgstr "" 
+
+msgid "E484 - Stearyl citrate"
+msgstr "" 
+
+msgid "E201 - Sodium sorbate"
+msgstr "" 
+
+msgid "E440aiv - Ammonium Pectate"
+msgstr "" 
+
+msgid "E414 - Acacia gum"
+msgstr "" 
+
+msgid "E1410 - Monostarch phosphate"
+msgstr "" 
+
+msgid "E624 - Monoammonium glutamate"
+msgstr "" 
+
+msgid "E235 - Natamycin"
+msgstr "" 
+
+msgid "E172 - Iron oxides and iron hydroxides"
+msgstr "" 
+
+msgid "E959 - Neohesperidine dihydrochalcone"
+msgstr "" 
+
+msgid "E249 - Potassium nitrite"
+msgstr "" 
+
+msgid "E1414 - Acetylated distarch phosphate"
+msgstr "" 
+
+msgid "E161g - Canthaxanthin"
+msgstr "" 
+
+msgid "E1503 - Castor oil"
+msgstr "" 
+
+msgid "E433 - Polyoxyethylene sorbitan monooleate"
+msgstr "" 
+
+msgid "E918 - Nitrogen oxides"
+msgstr "" 
+
+msgid "E585 - Ferrous lactate"
+msgstr "" 
+
+msgid "E1100 - Alpha-Amylase"
+msgstr "" 
+
+msgid "E1517 - Glyceryl diacetate"
+msgstr "" 
+
+msgid "E541ii - E541(ii) food additive"
+msgstr "" 
+
+msgid "E14XX - Modified Starch"
+msgstr "" 
+
+msgid "E160d - Lycopene"
+msgstr "" 
+
+msgid "E308 - Gamme-tocopherol"
+msgstr "" 
+
+msgid "E250 - Sodium nitrite"
+msgstr "" 
+
+msgid "E161e - Violaxanthin"
+msgstr "" 
+
+msgid "E302 - Calcium ascorbate"
+msgstr "" 
+
+msgid "E633 - Calcium inosinate"
+msgstr "" 
+
+msgid "E622 - Monopotassium glutamate"
+msgstr "" 
+
+msgid "E1420 - Acetylated starch"
+msgstr "" 
+
+msgid "E579 - Ferrous gluconate"
+msgstr "" 
+
+msgid "E1504 - ethyl acetate"
+msgstr "" 
+
+msgid "E132 - Indigotine"
+msgstr "" 
+
+msgid "E924 - Potassium bromate"
+msgstr "" 
+
+msgid "E630 - Inosinic acid"
+msgstr "" 
+
+msgid "E160aiii - Beta-carotene from blakeslea trispora"
+msgstr "" 
+
+msgid "E578 - Calcium gluconate"
+msgstr "" 
+
+msgid "E493 - Sorbitan monolaurate"
+msgstr "" 
+
+msgid "E317 - Erythorbin acid"
+msgstr "" 
+
+msgid "E311 - Octyl gallate"
+msgstr "" 
+
+msgid "E515ii - Potassium hydrogen sulphate"
+msgstr "" 
+
+msgid "E366 - Potassium fumarate"
+msgstr "" 
+
+msgid "E443 - Brominated vegetable oil"
+msgstr "" 
+
+msgid "E407 - Carrageenan"
+msgstr "" 
+
+msgid "E507 - Hydrochloric acid"
+msgstr "" 
+
+msgid "E411 - E411 food additive"
+msgstr "" 
+
+msgid "E319 - Tertiary-butylhydroquinone (tbhq)"
+msgstr "" 
+
+msgid "E450vi - Dicalcium diphosphate"
+msgstr "" 
+
+msgid "E174 - Silver"
+msgstr "" 
+
+msgid "E472b - Lactic acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E938 - Argon"
+msgstr "" 
+
+msgid "E541 - Sodium aluminium phosphate"
+msgstr "" 
+
+msgid "E422 - Glycerol"
+msgstr "" 
+
+msgid "E626 - Guanylic acid"
+msgstr "" 
+
+msgid "E402 - Potassium alginate"
+msgstr "" 
+
+msgid "E650 - Zinc acetate"
+msgstr "" 
+
+msgid "E471 - Mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E470 - Sodium/potassium/calcium and magnesium salts of fatty acids"
+msgstr "" 
+
+msgid "E628 - Dipotassium guanylate"
+msgstr "" 
+
+msgid "E219 - Sodium methyl p-hydroxybenzoate"
+msgstr "" 
+
+msgid "E1413 - Phosphated distarch phosphate"
+msgstr "" 
+
+msgid "E442 - Ammonium phosphatides"
+msgstr "" 
+
+msgid "E131 - Patent blue v"
+msgstr "" 
+
+msgid "E1452 - Starch aluminium octenyl succinate"
+msgstr "" 
+
+msgid "E335i - Monosodium tartrate"
+msgstr "" 
+
+msgid "E942 - Nitrous oxide"
+msgstr "" 
+
+msgid "E324 - Ethoxyquin"
+msgstr "" 
+
+msgid "E351 - Potassium malate"
+msgstr "" 
+
+msgid "E172iii - E172(iii) food additive"
+msgstr "" 
+
+msgid "E527 - Ammonium hydroxide"
+msgstr "" 
+
+msgid "E203 - Calcium sorbate"
+msgstr "" 
+
+msgid "E450iv - dipotassium dihydrogenpyrophosphate"
+msgstr "" 
+
+msgid "E956 - Alitame"
+msgstr "" 
+
+msgid "E960 - Steviol glycosides"
+msgstr "" 
+
+msgid "E105 - E105 food additive"
+msgstr "" 
+
+msgid "E341ii - Dicalcium phosphate"
+msgstr "" 
+
+msgid "E487 - sodium dodecyl sulfate"
+msgstr "" 
+
+msgid "E634 - Calcium 5'-ribonucleotide"
+msgstr "" 
+
+msgid "E500 - Sodium carbonates"
+msgstr "" 
+
+msgid "E575 - Glucono-delta-lactone"
+msgstr "" 
+
+msgid "E539 - sodium thiosulfate"
+msgstr "" 
+
+msgid "E485 - Sodium stearoyl fumarate"
+msgstr "" 
+
+msgid "E15x - E15x food additive"
+msgstr "" 
+
+msgid "E472 - acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E571 - E571 food additive"
+msgstr "" 
+
+msgid "E475 - Polyglycerol esters of fatty acids"
+msgstr "" 
+
+msgid "E421 - Mannitol"
+msgstr "" 
+
+msgid "E407a - Processed eucheuma seaweed"
+msgstr "" 
+
+msgid "E304 - Fatty acid esters of ascorbic acid"
+msgstr "" 
+
+msgid "E1203 - Polyvinyl alcohol"
+msgstr "" 
+
+msgid "E502 - Carbonates"
+msgstr "" 
+
+msgid "E906 - Benzoin resin"
+msgstr "" 
+
+msgid "E233 - Thiabendazole"
+msgstr "" 
+
+msgid "E1518 - Glyceryl triacetate"
+msgstr "" 
+
+msgid "E710 - Spiramycin"
+msgstr "" 
+
+msgid "E1422 - Acetylated distarch adipate"
+msgstr "" 
+
+msgid "E221 - Sodium sulphite"
+msgstr "" 
+
+msgid "E900a - E900a food additive"
+msgstr "" 
+
+msgid "E385 - Calcium disodium ethylenediaminetetraacetate"
+msgstr "" 
+
+msgid "E160b - Annatto"
+msgstr "" 
+
+msgid "E440aii - Sodium pectate"
+msgstr "" 
+
+msgid "E262ii - Sodium diacetate"
+msgstr "" 
+
+msgid "E574 - Gluconic acid"
+msgstr "" 
+
+msgid "E554 - Sodium aluminium silicate"
+msgstr "" 
+
+msgid "E339i - Monosodium phosphate"
+msgstr "" 
+
+msgid "E325 - Sodium lactate"
+msgstr "" 
+
+msgid "E503i - Ammonium carbonate"
+msgstr "" 
+
+msgid "E122 - Azorubine"
+msgstr "" 
+
+msgid "E400 - Alginic acid"
+msgstr "" 
+
+msgid "E529 - Calcium oxide"
+msgstr "" 
+
+msgid "E427 - Cassia gum"
+msgstr "" 
+
+msgid "E1202 - Polyvinylpolypyrrolidone"
+msgstr "" 
+
+msgid "E955 - Sucralose"
+msgstr "" 
+
+msgid "E632 - Dipotassium inosinate"
+msgstr "" 
+
+msgid "E318 - Sodium erythorbin"
+msgstr "" 
+
+msgid "E153 - Vegetable carbon"
+msgstr "" 
+
+msgid "E503 - Ammonium carbonates"
+msgstr "" 
+
+msgid "E518 - Magnesium sulphate"
+msgstr "" 
+
+msgid "E932 - E932 food additive"
+msgstr "" 
+
+msgid "E310 - Propyl gallate"
+msgstr "" 
+
+msgid "E172i - E172(i) food additive"
+msgstr "" 
+
+msgid "E520 - Aluminium sulphate"
+msgstr "" 
+
+msgid "E162 - Beetroot red"
+msgstr "" 
+
+msgid "E282 - Calcium propionate"
+msgstr "" 
+
+msgid "E312 - Dodecyl gallate"
+msgstr "" 
+
+msgid "E914 - Oxidised polyethylene wax"
+msgstr "" 
+
+msgid "E910 - Wax ester"
+msgstr "" 
+
+msgid "E949 - Hydrogen"
+msgstr "" 
+
+msgid "E560 - Potassium silicate"
+msgstr "" 
+
+msgid "E905c - E905c food additive"
+msgstr "" 
+
+msgid "E521 - Aluminium sodium sulphate"
+msgstr "" 
+
+msgid "E181 - Tannin"
+msgstr "" 
+
+msgid "E1101 - Protease"
+msgstr "" 
+
+msgid "E557 - hemimorphite"
+msgstr "" 
+
+msgid "E102 - Tartrazine"
+msgstr "" 
+
+msgid "E911 - Fatty acid methyl ester"
+msgstr "" 
+
+msgid "E572 - Magnesium stearate"
+msgstr "" 
+
+msgid "E637 - Ethyl maltol"
+msgstr "" 
+
+msgid "E160ai - Beta-carotene"
+msgstr "" 
+
+msgid "E570 - Fatty acids"
+msgstr "" 
+
+msgid "E544 - Calcium polyphosphate"
+msgstr "" 
+
+msgid "E436 - Polyoxyethylene sorbitan tristearate"
+msgstr "" 
+
+msgid "E214 - Ethyl p-hydroxybenzoate"
+msgstr "" 
+
+msgid "E919 - Nitrosyl chloride"
+msgstr "" 
+
+msgid "E450viii - Magnesium pyrophosphate"
+msgstr "" 
+
+msgid "E182 - Orcein"
+msgstr "" 
+
+msgid "E341 - Calcium phosphates"
+msgstr "" 
+
+msgid "E639 - E639 food additive"
+msgstr "" 
+
+msgid "E486 - Calcium stearoyl fumarate"
+msgstr "" 
+
+msgid "E440ii - Amidated pectin"
+msgstr "" 
+
+msgid "E1423 - Acetylated distarch glycerol"
+msgstr "" 
+
+msgid "E1400 - Dextrin"
+msgstr "" 
+
+msgid "E640i - Glycine"
+msgstr "" 
+
+msgid "E337 - Potassium sodium tartrate"
+msgstr "" 
+
+msgid "E576 - Sodium gluconate"
+msgstr "" 
+
+msgid "E380 - Triammonium citrate"
+msgstr "" 
+
+msgid "E140ii - Chlorophyllins"
+msgstr "" 
+
+msgid "E307a - tocopherol"
+msgstr "" 
+
+msgid "E513 - Sulphuric acid"
+msgstr "" 
+
+msgid "E428 - Gelatine"
+msgstr "" 
+
+msgid "E573 - Aluminium stearate"
+msgstr "" 
+
+msgid "E631 - Disodium inosinate"
+msgstr "" 
+
+msgid "E343 - Magnesium phosphates"
+msgstr "" 
+
+msgid "E496 - Sorbitan trioleate"
+msgstr "" 
+
+msgid "E340ii - Dipotassium phosphate"
+msgstr "" 
+
+msgid "E331 - Sodium citrates"
+msgstr "" 
+
+msgid "E304ii - Ascorbyl stearate"
+msgstr "" 
+
+msgid "E107 - Yellow 2G"
+msgstr "" 
+
+msgid "E343i - Monomagnesium phosphate"
+msgstr "" 
+
+msgid "E344 - E344 food additive"
+msgstr "" 
+
+msgid "E500ii - Sodium hydrogen carbonate"
+msgstr "" 
+
+msgid "E923 - ammonium persulfate"
+msgstr "" 
+
+msgid "E111 - Orange GGN"
+msgstr "" 
+
+msgid "E304i - Ascorbyl palmitate"
+msgstr "" 
+
+msgid "E450i - Disodium diphosphate"
+msgstr "" 
+
+msgid "E210 - Benzoic acid"
+msgstr "" 
+
+msgid "E160aiv - Algal carotenes"
+msgstr "" 
+
+msgid "E228 - Potassium bisulphite"
+msgstr "" 
+
+msgid "E332i - Monopotassium citrate"
+msgstr "" 
+
+msgid "E1443 - Hydroxy propyl distarch glycerol"
+msgstr "" 
+
+msgid "E464 - Hydroxypropyl methyl cellulose"
+msgstr "" 
+
+msgid "E953 - Isomalt"
+msgstr "" 
+
+msgid "E458 - Gamma-Cyclodextrine"
+msgstr "" 
+
+msgid "E553ai - Magnesium silicate"
+msgstr "" 
+
+msgid "E514i - Sodium sulphate"
+msgstr "" 
+
+msgid "E904 - Shellac"
+msgstr "" 
+
+msgid "E155 - Brown ht"
+msgstr "" 
+
+msgid "E446 - Succistearin"
+msgstr "" 
+
+msgid "E163e - Peonidin"
+msgstr "" 
+
+msgid "E538 - Calcium ferrocyanide"
+msgstr "" 
+
+msgid "E559 - Aluminium silicate"
+msgstr "" 
+
+msgid "E481 - Sodium stearoyl-2-lactylate"
+msgstr "" 
+
+msgid "E473 - Sucrose esters of fatty acids"
+msgstr "" 
+
+msgid "E460i - Microcrystalline cellulose"
+msgstr "" 
+
+msgid "E150c - Ammonia caramel"
+msgstr "" 
+
+msgid "E964 - Polyglycitol syrup"
+msgstr "" 
+
+msgid "E466 - Sodium carboxy methyl cellulose"
+msgstr "" 
+
+msgid "E222 - Sodium bisulphite"
+msgstr "" 
+
+msgid "E965 - Maltitol"
+msgstr "" 
+
+msgid "E939 - Helium"
+msgstr "" 
+
+msgid "E333 - Calcium citrates"
+msgstr "" 
+
+msgid "E472e - Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E406 - Agar"
+msgstr "" 
+
+msgid "E408 - Bakers yeast glycan"
+msgstr "" 
+
+msgid "E451ii - Pentapotassium triphosphate"
+msgstr "" 
+
+msgid "E150b - Caustic sulphite caramel"
+msgstr "" 
+
+msgid "E522 - Aluminium potassium sulphate"
+msgstr "" 
+
+msgid "E129 - Allura red ac"
+msgstr "" 
+
+msgid "E1102 - Glucose oxidase"
+msgstr "" 
+
+msgid "E263 - Calcium acetate"
+msgstr "" 
+
+msgid "E328 - ammonium lactate"
+msgstr "" 
+
+msgid "E200 - Sorbic acid"
+msgstr "" 
+
+msgid "E359 - ammonium adipate"
+msgstr "" 
+
+msgid "E954 - Saccharin and its Na"
+msgstr "" 
+
+msgid "E526 - Calcium hydroxide"
+msgstr "" 
+
+msgid "E1450 - Starch sodium octenyl succinate"
+msgstr "" 
+
+msgid "E941 - Nitrogen"
+msgstr "" 
+
+msgid "E336i - Monopotassium tartrate"
+msgstr "" 
+
+msgid "E556 - Calcium aluminium silicate"
+msgstr "" 
+
+msgid "E435 - Polyoxyethylene sorbitan monostearate"
+msgstr "" 
+
+msgid "E225 - Calcium Disulphite"
+msgstr "" 
+
+msgid "E465 - Ethyl methyl cellulose"
+msgstr "" 
+
+msgid "E1404 - Oxidised starch"
+msgstr "" 
+
+msgid "E130 - Indanthrene blue RS"
+msgstr "" 
+
+msgid "E958 - Glycyrrhizin"
+msgstr "" 
+
+msgid "E951 - Aspartame"
+msgstr "" 
+
+msgid "E1505 - Triethyl citrate"
+msgstr "" 
+
+msgid "E1000 - Cholic acid"
+msgstr "" 
+
+msgid "E101 - Riboflavin"
+msgstr "" 
+
+msgid "E343ii - Dimagnesium phosphate"
+msgstr "" 
+
+msgid "E517 - Ammonium sulphate"
+msgstr "" 
+
+msgid "E173 - Aluminium"
+msgstr "" 
+
+msgid "E141ii - Copper complexes of chlorophyllins"
+msgstr "" 
+
+msgid "E508 - Potassium chloride"
+msgstr "" 
+
+msgid "E403 - Ammonium alginate"
+msgstr "" 
+
+msgid "E924a - Potassium bromate"
+msgstr "" 
+
+msgid "E903 - Carnauba wax"
+msgstr "" 
+
+msgid "E330 - Citric acid"
+msgstr "" 
+
+msgid "E620 - Glutamic acid"
+msgstr "" 
+
+msgid "E101a - Riboflavin-5'-Phosphate"
+msgstr "" 
+
+msgid "E905 - Microcrystalline wax"
+msgstr "" 
+
+msgid "E470a - Sodium‚ potassium and calcium salts of fatty acids"
+msgstr "" 
+
+msgid "E902 - Candelilla wax"
+msgstr "" 
+
+msgid "E474 - Sucroglycerides"
+msgstr "" 
+
+msgid "E252 - Potassium nitrate"
+msgstr "" 
+
+msgid "E1442 - Hydroxypropyl distarch phosphate"
+msgstr "" 
+
+msgid "E535 - Sodium ferrocyanide"
+msgstr "" 
+
+msgid "E329 - Magnesium lactate"
+msgstr "" 
+
+msgid "E577 - Potassium gluconate"
+msgstr "" 
+
+msgid "E218 - Methyl p-hydroxybenzoate"
+msgstr "" 
+
+msgid "E1411 - Distarch glycerol (thickening agent)"
+msgstr "" 
+
+msgid "E425 - Konjac"
+msgstr "" 
+
+msgid "E635 - Disodium 5'-ribonucleotide"
+msgstr "" 
+
+msgid "E946 - octafluorocyclobutane"
+msgstr "" 
+
+msgid "E320 - Butylated hydroxyanisole (bha)"
+msgstr "" 
+
+msgid "E470b - Magnesium salts of fatty acids"
+msgstr "" 
+
+msgid "E1104 - lipase"
+msgstr "" 
+
+msgid "E514 - Sodium sulphates"
+msgstr "" 
+
+msgid "E100 - Curcumin"
+msgstr "" 
+
+msgid "E1402 - Alkaline modified starch"
+msgstr "" 
+
+msgid "E336 - Potassium tartrates"
+msgstr "" 
+
+msgid "E290 - Carbon dioxide"
+msgstr "" 
+
+msgid "E472f - Mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E1521 - Polyethylene glycol"
+msgstr "" 
+
+msgid "E280 - Propionic acid"
+msgstr "" 
+
+msgid "E336ii - Dipotassium tartrate"
+msgstr "" 
+
+msgid "E469 - Enzymatically hydrolysed carboxymethylcellulose"
+msgstr "" 
+
+msgid "E262 - Sodium acetates"
+msgstr "" 
+
+msgid "E515 - Potassium sulphates"
+msgstr "" 
+
+msgid "E154 - Brown FK"
+msgstr "" 
+
+msgid "E224 - Potassium metabisulphite"
+msgstr "" 
+
+msgid "E345 - Magnesium citrate"
+msgstr "" 
+
+msgid "E234 - Nisin"
+msgstr "" 
+
+msgid "E331ii - Disodium citrate"
+msgstr "" 
+
+msgid "E525 - Potassium hydroxide"
+msgstr "" 
+
+msgid "E641 - E641 food additive"
+msgstr "" 
+
+msgid "E1001 - Choline salt"
+msgstr "" 
+
+msgid "E1451 - Acetylated oxidised starch"
+msgstr "" 
+
+msgid "E962 - Salt of aspartame-acesulfame"
+msgstr "" 
+
+msgid "E459 - Beta-cyclodextrine"
+msgstr "" 
+
+msgid "E552 - Calcium silicate"
+msgstr "" 
+
+msgid "E501i - Potassium carbonate"
+msgstr "" 
+
+msgid "E180 - Litholrubine bk"
+msgstr "" 
+
+msgid "E161j - Astaxanthin"
+msgstr "" 
+
+msgid "E550 - Sodium silicate"
+msgstr "" 
+
+msgid "E928 - Benzole peroxide"
+msgstr "" 
+
+msgid "E354 - Calcium tartrate"
+msgstr "" 
+
+msgid "E314 - E314 food additive"
+msgstr "" 
+
+msgid "E440i - Pectin"
+msgstr "" 
+
+msgid "E405 - Propane-1‚2-diol alginate"
+msgstr "" 
+
+msgid "E264 - Ammonium acetate"
+msgstr "" 
+
+msgid "E1519 - Benzyl alcohol"
+msgstr "" 
+
+msgid "E335ii - Disodium tartrate"
+msgstr "" 
+
+msgid "E356 - Sodium adipate"
+msgstr "" 
+
+msgid "E150d - Sulphite ammonia caramel"
+msgstr "" 
+
+msgid "E963 - E963 food additive"
+msgstr "" 
+
+msgid "E133 - Brilliant blue FCF"
+msgstr "" 
+
+msgid "E460ii - Powdered cellulose"
+msgstr "" 
+
+msgid "E121 - Citrus Red 2"
+msgstr "" 
+
+msgid "E161a - Flavoxanthin"
+msgstr "" 
+
+msgid "E519 - Copper sulphate"
+msgstr "" 
+
+msgid "E236 - Formic acid"
+msgstr "" 
+
+msgid "E457 - Alpha-Cyclodextrine"
+msgstr "" 
+
+msgid "E399 - Lactobionic acid"
+msgstr "" 
+
+msgid "E536 - Potassium ferrocyanide"
+msgstr "" 
+
+msgid "E101i - Riboflavin"
+msgstr "" 
+
+msgid "E441 - Superglycerinated hydrogenated rapeseed oil"
+msgstr "" 
+
+msgid "E950 - Acesulfame k"
+msgstr "" 
+
+msgid "E450iii - Tetrasodium diphosphate"
+msgstr "" 
+
+msgid "E389 - E389 food additive"
+msgstr "" 
+
+msgid "E164 - E164 food additive"
+msgstr "" 
+
+msgid "E300 - Ascorbic acid"
+msgstr "" 
+
+msgid "E215 - Sodium ethyl p-hydroxybenzoate"
+msgstr "" 
+
+msgid "E488 - Ethoxylated Mono- and Di-Glycerides"
+msgstr "" 
+
+msgid "E163f - Petunidin"
+msgstr "" 
+
+msgid "E283 - Potassium propionate"
+msgstr "" 
+
+msgid "E500iii - Sodium sesquicarbonate"
+msgstr "" 
+
+msgid "E307 - Alpha-tocopherol"
+msgstr "" 
+
+msgid "E511 - Magnesium chloride"
+msgstr "" 
+
+msgid "E917 - Potassium iodate"
+msgstr "" 
+
+msgid "E417 - Tara gum"
+msgstr "" 
+
+msgid "E240 - Formaldehyde"
+msgstr "" 
+
+msgid "E352i - Calcium malate"
+msgstr "" 
+
+msgid "E297 - Fumaric acid"
+msgstr "" 
+
+msgid "E266 - Sodium dehydroacetate"
+msgstr "" 
+
+msgid "E341iii - Tricalcium phosphate"
+msgstr "" 
+
+msgid "E504 - Magnesium carbonates"
+msgstr "" 
+
+msgid "E543 - Calcium sodium polyphosphate"
+msgstr "" 
+
+msgid "E425ii - Konjac glucomannan"
+msgstr "" 
+
+msgid "E940 - Dichlorodifluoromethane"
+msgstr "" 
+
+msgid "E440 - Pectins"
+msgstr "" 
+
+msgid "E303 - Potassium ascorbate"
+msgstr "" 
+
+msgid "E1440 - Hydroxypropyl starch"
+msgstr "" 
+
+msgid "E1405 - Enzyme treated starch"
+msgstr "" 
+
+msgid "E335 - Sodium tartrates"
+msgstr "" 
+
+msgid "E452ii - Potassium polyphosphate"
+msgstr "" 
+
+msgid "E530 - Magnesium oxide"
+msgstr "" 
+
+msgid "E514ii - Sodium hydrogen sulphate"
+msgstr "" 
+
+msgid "E586 - 4-hexylresorcinol"
+msgstr "" 
+
+msgid "E341i - Monocalcium phosphate"
+msgstr "" 
+
+msgid "E516 - Calcium sulphate"
+msgstr "" 
+
+msgid "E948 - Oxygen"
+msgstr "" 
+
+msgid "E425i - Konjac gum"
+msgstr "" 
+
+msgid "E503ii - Ammonium hydrogen carbonate"
+msgstr "" 
+
+msgid "E472c - Citric acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E160c - Paprika extract"
+msgstr "" 
+
+msgid "E957 - Thaumatin"
+msgstr "" 
+
+msgid "E261 - Potassium acetate"
+msgstr "" 
+
+msgid "E528 - Magnesium hydroxide"
+msgstr "" 
+
+msgid "E551 - Silicon dioxide"
+msgstr "" 
+
+msgid "E232 - Sodium orthophenyl phenol"
+msgstr "" 
+
+msgid "E284 - Boric acid"
+msgstr "" 
+
+msgid "E128 - Red 2G"
+msgstr "" 
+
+msgid "E251 - Sodium nitrate"
+msgstr "" 
+
+msgid "E965i - Maltitol"
+msgstr "" 
+
+msgid "E491 - Sorbitan monostearate"
+msgstr "" 
+
+msgid "E1441 - Hydroxy propyl distarch glycerine"
+msgstr "" 
+
+msgid "E217 - Sodium propyl para-hydroxybenzoate"
+msgstr "" 
+
+msgid "E945 - chloropentafluoroethane"
+msgstr "" 
+
+msgid "E943b - Isobutane"
+msgstr "" 
+
+msgid "E627 - Disodium guanylate"
+msgstr "" 
+
+msgid "E242 - Dimethyl dicarbonate"
+msgstr "" 
+
+msgid "E905a - mineral oil"
+msgstr "" 
+
+msgid "E301 - Sodium ascorbate"
+msgstr "" 
+
+msgid "E340iii - Tripotassium phosphate"
+msgstr "" 
+
+msgid "E638 - E638 food additive"
+msgstr "" 
+
+msgid "E307c - tocopherol"
+msgstr "" 
+
+msgid "E420ii - Sorbitol syrup"
+msgstr "" 
+
+msgid "E340i - Monopotassium phosphate"
+msgstr "" 
+
+msgid "E209 - Heptylparaben"
+msgstr "" 
+
+msgid "E450v - Tetrapotassium diphosphate"
+msgstr "" 
+
+msgid "E495 - Sorbitan monopalmitate"
+msgstr "" 
+
+msgid "E392 - Extracts of rosemary"
+msgstr "" 
+
+msgid "E367 - Calcium fumarate"
+msgstr "" 
+
+msgid "E357 - Potassium adipate"
+msgstr "" 
+
+msgid "E160 - carotene"
+msgstr "" 
+
+msgid "E905g - E905g food additive"
+msgstr "" 
+
+msgid "E642 - E642 food additive"
+msgstr "" 
+
+msgid "E391 - Phytic acid"
+msgstr "" 
+
+msgid "E386 - E386 food additive"
+msgstr "" 
+
+msgid "E384 - E384 food additive"
+msgstr "" 
+
+msgid "E926 - Chlorine dioxide"
+msgstr "" 
+
+msgid "E140 - Chlorophylls and Chlorophyllins"
+msgstr "" 
+
+msgid "E414a - E414a food additive"
+msgstr "" 
+
+msgid "E161h - Zeaxanthin"
+msgstr "" 
+
+msgid "E163c - Malvidin"
+msgstr "" 
+
+msgid "E625 - Magnesium diglutamate"
+msgstr "" 
+
+msgid "E545 - Ammonium polyphosphate"
+msgstr "" 
+
+msgid "E472a - Acetic acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E262i - Sodium acetate"
+msgstr "" 
+
+msgid "E424 - Curdlan"
+msgstr "" 
+
+msgid "E333ii - Dicalcium citrate"
+msgstr "" 
+
+msgid "E106 - flavin mononucleotide"
+msgstr "" 
+
+msgid "E553a - Magnesium silicates"
+msgstr "" 
+
+msgid "E1201 - Polyvinylpyrrolidone"
+msgstr "" 
+
+msgid "E524 - Sodium hydroxide"
+msgstr "" 
+
+msgid "E352ii - Calcium hydrogen malate"
+msgstr "" 
+
+msgid "E220 - Sulphur dioxide"
+msgstr "" 
+
+msgid "E916 - Calcium iodate"
+msgstr "" 
+
+msgid "E166 - E166 food additive"
+msgstr "" 
+
+msgid "E387 - E387 food additive"
+msgstr "" 
+
+msgid "E230 - Biphenyl"
+msgstr "" 
+
+msgid "E452v - Ammonium polyphosphate"
+msgstr "" 
+
+msgid "E364 - E364 food additive"
+msgstr "" 
+
+msgid "E151 - Brilliant black bn"
+msgstr "" 
+
+msgid "E462 - Ethyl cellulose"
+msgstr "" 
+
+msgid "E333iii - Tricalcium citrate"
+msgstr "" 
+
+msgid "E1412 - Distarch phosphate"
+msgstr "" 
+
+msgid "E452 - Polyphosphates"
+msgstr "" 
+
+msgid "E420 - Sorbitol"
+msgstr "" 
+
+msgid "E141 - Copper complexes of chlorophylls and chlorophyllins"
+msgstr "" 
+
+msgid "E383 - Calcium glycerylphosphate"
+msgstr "" 
+
+msgid "E413 - Tragacanth"
+msgstr "" 
+
+msgid "E340 - Potassium phosphates"
+msgstr "" 
+
+msgid "E172ii - E172(ii) food additive"
+msgstr "" 
+
+msgid "E500i - Sodium carbonate"
+msgstr "" 
+
+msgid "E331iii - Trisodium citrate"
+msgstr "" 
+
+msgid "E460 - Cellulose"
+msgstr "" 
+
+msgid "E1103 - Invertase"
+msgstr "" 
+
+msgid "E363 - Succinic acid"
+msgstr "" 
+
+msgid "E355 - Adipic acid"
+msgstr "" 
+
+msgid "E160a - Alpha-carotene"
+msgstr "" 
+
+msgid "E580 - Magnesium Gluconate"
+msgstr "" 
+
+msgid "E332ii - Tripotassium citrate"
+msgstr "" 
+
+msgid "E365 - Sodium fumarate"
+msgstr "" 
+
+msgid "E1200 - Polydextrose"
+msgstr "" 
+
+msgid "E440b - pectin amide"
+msgstr "" 
+
+msgid "E426 - Soybean hemicellulose"
+msgstr "" 
+
+msgid "E913 - Lanolin"
+msgstr "" 
+
+msgid "E553aii - Magnesium trisilicate"
+msgstr "" 
+
+msgid "E140i - Chlorophylls"
+msgstr "" 
+
+msgid "E467 - Ethulose"
+msgstr "" 
+
+msgid "E216 - Propyl para-hydroxybenzoate"
+msgstr "" 
+
+msgid "E440a - Pectin"
+msgstr "" 
+
+msgid "E968 - Erythritol"
+msgstr "" 
+
+msgid "E243 - Ethyl lauroyl arginate"
+msgstr "" 
+
+msgid "E370 - 1‚4-Heptonolactone"
+msgstr "" 
+
+msgid "E231 - Orthophenyl phenol"
+msgstr "" 
+
+msgid "E931 - E931 food additive"
+msgstr "" 
+
+msgid "E160f - Ethyl ester of beta-apo-8'-carotenic acid (C 30)"
+msgstr "" 
+
+msgid "E450 - Diphosphates"
+msgstr "" 
+
+msgid "E629 - Calcium guanylate"
+msgstr "" 
+
+msgid "Exxx - Exxx food additive"
+msgstr "" 
+
+msgid "E124 - Ponceau 4r"
+msgstr "" 
+
+msgid "E321 - Butylated hydroxytoluene (bht)"
+msgstr "" 
+
+msgid "E412 - Guar gum"
+msgstr "" 
+
+msgid "E143 - Fast Green FCF"
+msgstr "" 
+
+msgid "E558 - Bentonite"
+msgstr "" 
+
+msgid "E313 - E313 food additive"
+msgstr "" 
+
+msgid "E342 - Ammonium phosphates: i monoammonium phosphate (ii) diammonium phosphate"
+msgstr "" 
+
+msgid "E451 - Triphosphates"
+msgstr "" 
+
+msgid "E908 - Rice bran wax"
+msgstr "" 
+
+msgid "E452iii - Sodium calcium polyphosphate"
+msgstr "" 
+
+msgid "E907 - Hydrogenated poly-1-decene"
+msgstr "" 
+
+msgid "E542 - Bone phosphate"
+msgstr "" 
+
+msgid "E265 - Dehydroacetic acid"
+msgstr "" 
+
+msgid "E375 - Nicotinic acid"
+msgstr "" 
+
+msgid "E323 - E323 food additive"
+msgstr "" 
+
+msgid "E350 - Sodium malates"
+msgstr "" 
+
+msgid "E1204 - Pullulan"
+msgstr "" 
+
+msgid "E434 - Polyoxyethylene sorbitan monopalmitate"
+msgstr "" 
+
+msgid "E515i - Potassium sulphate"
+msgstr "" 
+
+msgid "E212 - Potassium benzoate"
+msgstr "" 
+
+msgid "E952 - Cyclamic acid and its Na and Ca salts"
+msgstr "" 
+
+msgid "E227 - Calcium bisulphite"
+msgstr "" 
+
+msgid "E1510 - Ethanon"
+msgstr "" 
+
+msgid "E541i - E541(i) food additive"
+msgstr "" 
+
+msgid "E161d - Rubixanthin"
+msgstr "" 
+
+msgid "E1421 - Acetylated starch"
+msgstr "" 
+
+msgid "E270 - Lactic acid"
+msgstr "" 
+
+msgid "E163b - Delphinidin"
+msgstr "" 
+
+msgid "E450vii - Calcium dihydrogen diphosphate"
+msgstr "" 
+
+msgid "E476 - Polyglycerol polyricinoleate"
+msgstr "" 
+
+msgid "E452vi - Sodium tripolyphosphate"
+msgstr "" 
+
+msgid "E160e - Beta-apo-8′-carotenal (c30)"
+msgstr "" 
+
+msgid "E966 - Lactitol"
+msgstr "" 
+
+msgid "E163d - Pelargonidin"
+msgstr "" 
+
+msgid "E104 - Quinoline yellow"
+msgstr "" 
+
+msgid "E479b - Thermally oxidised soya bean oil interacted with mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E316 - Sodium erythorbate"
+msgstr "" 
+
+msgid "E905e - E905e food additive"
+msgstr "" 
+
+msgid "E930 - calcium peroxide"
+msgstr "" 
+
+msgid "E929 - acetone peroxide"
+msgstr "" 
+
+msgid "E350ii - Sodium hydrogen malate"
+msgstr "" 
+
+msgid "E905d - E905d food additive"
+msgstr "" 
+
+msgid "E418 - Gellan gum"
+msgstr "" 
+
+msgid "E333i - Monocalcium citrate"
+msgstr "" 
+
+msgid "E315 - Erythorbic acid"
+msgstr "" 
+
+msgid "E127 - Erythrosine"
+msgstr "" 
+
+msgid "E306 - Tocopherol-rich extract"
+msgstr "" 
+
+msgid "E161c - Cryptoaxanthin"
+msgstr "" 
+
+msgid "E239 - Hexamethylene tetramine"
+msgstr "" 
+
+msgid "E921 - L-cysteine hydrochloride monohydrate"
+msgstr "" 
+
+msgid "E927b - Carbamide"
+msgstr "" 
+
+msgid "E339ii - Disodium phosphate"
+msgstr "" 
+
+msgid "E430 - Polyoxyethylene (8) stearate"
+msgstr "" 
+
+msgid "E349 - ammonium malate"
+msgstr "" 
+
+msgid "E961 - Neotame"
+msgstr "" 
+
+msgid "E510 - Ammonium chloride"
+msgstr "" 
+
+msgid "E327 - Calcium lactate"
+msgstr "" 
+
+msgid "E922 - Potassium persulfate"
+msgstr "" 
+
+msgid "E546 - E546 food additive"
+msgstr "" 
+
+msgid "E123 - Amaranth"
+msgstr "" 
+
+msgid "E713 - Tylosin"
+msgstr "" 
+
+msgid "E451i - Pentasodium triphosphate"
+msgstr "" 
+
+msgid "E640 - Glycine and its sodium salt"
+msgstr "" 
+
+msgid "E472d - Tartaric acid esters of mono- and diglycerides of fatty acids"
+msgstr "" 
+
+msgid "E161b - Lutein"
+msgstr "" 
+
+msgid "E636 - Maltol"
+msgstr "" 
+
+msgid "E492 - Sorbitan tristearate"
+msgstr "" 
+
+msgid "E103 - Alkannin"
+msgstr "" 
+
+msgid "E967 - Xylitol"
+msgstr "" 
+
+msgid "E461 - Methyl cellulose"
+msgstr "" 
+
+msgid "E621 - Monosodium glutamate"
+msgstr "" 
+
+msgid "E909 - Spermaceti"
+msgstr "" 
+
+msgid "E213 - Calcium benzoate"
+msgstr "" 
+
+msgid "E537 - ferrous hexacyanomanganate"
+msgstr "" 
+
+msgid "E477 - Propane-1‚2-diol esters of fatty acids"
+msgstr "" 
+
+msgid "E445 - Glycerol esters of wood rosin"
+msgstr "" 
+
+msgid "E175 - Gold"
+msgstr "" 
+
+msgid "E150a - Plain caramel"
+msgstr "" 
+
+msgid "E468 - Cross-linked sodium carboxymethylcellulose"
+msgstr "" 
+
+msgid "E944 - Propane"
+msgstr "" 
+
+msgid "E125 - Scarlet GN"
+msgstr "" 
+
+msgid "E381 - Ammoniumferrocitrate"
+msgstr "" 
+
+msgid "E523 - Aluminium ammonium sulphate"
+msgstr "" 
+
+msgid "E281 - Sodium propionate"
+msgstr "" 
+
+msgid "E388 - Thiodipropionic acid"
+msgstr "" 
+
+msgid "E237 - Sodium formiate"
+msgstr "" 
+
+msgid "E101ii - Riboflavin-5′-phosphate"
+msgstr "" 
+
+msgid "E226 - Calcium sulphite"
+msgstr "" 
+
+msgid "E322 - Lecithins"
+msgstr "" 
+
+msgid "E444 - Sucrose acetate isobutyrate"
+msgstr "" 
+
+msgid "E501 - Potassium carbonates"
+msgstr "" 
+
+msgid "E463 - Hydroxypropyl cellulose"
+msgstr "" 
+
+msgid "E490 - Propylene glycol"
+msgstr "" 
+
+msgid "E332 - Potassium citrates"
+msgstr "" 
+
+msgid "E211 - Sodium benzoate"
+msgstr "" 
+
+msgid "E163 - Anthocyanins"
+msgstr "" 
+
+msgid "E432 - Polyoxyethylene sorbitan monolaurate"
+msgstr "" 
+
+msgid "E410 - Locust bean gum"
+msgstr "" 
+
+msgid "Colour - color"
+msgstr "" 
+
+msgid "E416 - Karaya-gum"
+msgstr "" 
+
+msgid "E322ii - E322(ii) food additive"
+msgstr "" 
+
+msgid "E450ii - Trisodium diphosphate"
+msgstr "" 
+
+msgid "E440aiii - Potassium pectate"
+msgstr "" 
+
+msgid "E965ii - Maltitol syrup"
+msgstr "" 
+
+msgid "E152 - Black 7984"
+msgstr "" 
+
+msgid "E390 - E390 food additive"
+msgstr "" 
+
+msgid "E161i - Citranaxanthin"
+msgstr "" 
+
+msgid "E353 - Metatartaric acid"
+msgstr "" 
+
+msgid "E924b - Calcium bromate"
+msgstr "" 
+
+msgid "E160aii - Plant carotenes"
+msgstr "" 
+
+msgid "E494 - Sorbitan monooleate"
+msgstr "" 
+
+msgid "E223 - Sodium metabisulphite"
+msgstr "" 
+
+msgid "E431 - Polyoxyethylene (40) stearate"
+msgstr "" 
+
+msgid "E927 - E927 food additive"
+msgstr "" 
+
+msgid "E927a - Azodicarbonamide"
+msgstr "" 
+
+msgid "E509 - Calcium chloride"
+msgstr "" 
+
+msgid "E309 - Delta-tocopherol"
+msgstr "" 
+
+msgid "E401 - Sodium alginate"
+msgstr "" 
+
+msgid "E1520 - Propylene Glycol"
+msgstr "" 
+
+msgid "E555 - Potassium aluminium silicate"
+msgstr "" 
+
+msgid "E943a - Butane"
+msgstr "" 
+
+msgid "E489 - Methyl glucoside-coconut oil ester"
+msgstr "" 
+
+msgid "E1205 - Basic methacrylate copolymer"
+msgstr "" 
+
+msgid "E1403 - Bleached starch"
+msgstr "" 
+
+msgid "E338 - Phosphoric acid"
+msgstr "" 
+
+msgid "No12 - n12"
+msgstr "" 
+
+msgid "E925 - Chlorine"
+msgstr "" 
+
+msgid "E640ii - Sodiumglycinate"
+msgstr "" 
+
+msgid "E900b - E900b food additive"
+msgstr "" 
+
+msgid "E350i - Sodium malate"
+msgstr "" 
+
+msgid "E901 - White and Yellow Beeswax"
+msgstr "" 
+
+msgid "E142 - Green s"
+msgstr "" 
+
+msgid "E322i - Lecithin"
+msgstr "" 
+
+msgid "E504ii - Magnesium hydroxide carbonate"
+msgstr "" 
+
+msgid "E999 - Quillaia extract"
+msgstr "" 
+
+msgid "E505 - Ferrous carbonate"
+msgstr "" 
+
+msgid "E478 - Lactylated fatty acid esters of glycerol and propane-1"
+msgstr "" 
+
+msgid "E512 - Stannous chloride"
+msgstr "" 
+
+msgid "E296 - Malic acid"
+msgstr "" 
+
+msgid "E501ii - Potassium hydrogen carbonate"
+msgstr "" 
+
+msgid "E452i - Sodium polyphosphate"
+msgstr "" 
+
+msgid "E504i - Magnesium carbonate"
+msgstr "" 
+
+msgid "E483 - Stearyl tartrate"
+msgstr "" 
+
+msgid "E305 - Ascorbyl stearate"
+msgstr "" 
+
+msgid "E331i - Monosodium citrate"
+msgstr "" 
+
+msgid "E120 - Cochineal"
+msgstr "" 
+
+msgid "E161 - Xanthophylls"
+msgstr "" 
+
+msgid "E415 - Xanthan gum"
+msgstr "" 
+
+msgid "E623 - Calcium diglutamate"
+msgstr "" 
+
+msgid "E920 - L-cysteine hydrochloride"
+msgstr "" 
+
+msgid "E126 - Ponceau 6R"
+msgstr "" 
+
+msgid "E339 - Sodium phosphates"
+msgstr "" 
+
+msgid "E1401 - Modified starch"
+msgstr "" 
+
+msgid "E163a - Cyanidin"
+msgstr "" 
+
+msgid "E170 - Calcium carbonate"
+msgstr "" 
+
+msgid "E553 - Magnesium silicates"
+msgstr "" 
+
+msgid "E285 - Sodium tetraborate (borax)"
+msgstr "" 
+
+msgid "E912 - Montanic acid esters"
+msgstr "" 
+
+msgid "E339iii - Trisodium phosphate"
+msgstr "" 
+
+msgid "E482 - Calcium stearoyl-2-lactylate"
+msgstr "" 
+
+msgid "E150 - Caramel"
+msgstr "" 
+
+msgid "E141i - Copper complexes of chlorophylls"
+msgstr "" 
+
+msgid "E334 - L(+)-tartaric acid"
+msgstr "" 
+
+msgid "E241 - E241 food additive"
+msgstr "" 
+
+msgid "E352 - Calcium malates"
+msgstr "" 
+
+msgid "E368 - ammonium fumarate"
+msgstr "" 
+
+msgid "E915 - Esters of Colophane"
+msgstr "" 
+
+msgid "E326 - Potassium lactate"
+msgstr "" 
+
+msgid "E161f - Rhodoxanthin"
+msgstr "" 
+
+msgid "E420i - Sorbitol"
+msgstr "" 
+
+msgid "E238 - Calcium formiate"
+msgstr "" 
+
+msgid "E473a - E473a food additive"
+msgstr "" 
+
+msgid "E452iv - Calcium polyphosphate"
+msgstr "" 
+
+msgid "E110 - Sunset yellow FCF"
+msgstr "" 
+
+msgid "E260 - Acetic acid"
+msgstr "" 
+
+msgid "E553b - Talc"
+msgstr "" 
+
+msgid "E171 - Titanium dioxide"
+msgstr "" 
+
+msgid "E905f - E905f food additive"
+msgstr "" 
+
+msgid "E472g - Succinylated monoglycerides"
+msgstr "" 
+
+msgid "E202 - Potassium sorbate"
+msgstr "" 
+
+msgid "E1430 - Distarch glycerine"
+msgstr "" 
+
+msgid "E905b - petroleum jelly"
+msgstr "" 

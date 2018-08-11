@@ -1,0 +1,58 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.1\n"
+
+msgid "Lupin"
+msgstr "" 
+
+msgid "Molluscs"
+msgstr "" 
+
+msgid "Sesame seeds"
+msgstr "" 
+
+msgid "Substances or products causing allergies or intolerances"
+msgstr "" 
+
+msgid "Soybeans"
+msgstr "" 
+
+msgid "Eggs"
+msgstr "" 
+
+msgid "Crustaceans"
+msgstr "" 
+
+msgid "Milk"
+msgstr "" 
+
+msgid "Fish"
+msgstr "" 
+
+msgid "Sulphur dioxide and sulphites"
+msgstr "" 
+
+msgid "Nuts"
+msgstr "" 
+
+msgid "Mustard"
+msgstr "" 
+
+msgid "Peanuts"
+msgstr "" 
+
+msgid "Celery"
+msgstr "" 
+
+msgid "Gluten"
+msgstr "" 
