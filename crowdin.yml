@@ -28,3 +28,9 @@ files:
     
   - source: /blog/how-many-different-food-products-are-there-in-the-world.html
     translation: /blog/%locale%/how-many-different-food-products-are-there-in-the-world.html
+  
+  - source: /blog/advanced-search-form-and-data-export.html
+    translation: /blog/%locale%/advanced-search-form-and-data-export.html
+  
+  - source: /blog/wrapping-it-up.html
+    translation: /blog/%locale%/wrapping-it-up.html
