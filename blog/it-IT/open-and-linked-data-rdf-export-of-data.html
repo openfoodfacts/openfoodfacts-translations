@@ -1,18 +1,18 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+I dati di <a href="https://world.openfoodfacts.org">Open Food Facts</a> erano già aperti e gratuiti (in <i>dati aperti</i> come si dice), ed ora sono anche collegati. E sì, gratis e collegati in una sola volta!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Gratuito perchè la licenza aperta consente ai dati di essere usati da tutti e per ogni scopo e collegati perchè i dati sono ora collegati non solo tra loro, ma anche ad altri database, tramite il database DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Lasciatemi ribadire che: ora c'è un grande file che contiene i dati sui prodotti di Open Food Facts, i loro ingredienti e la loro composizone nutrizionale. I prodotti sono correlati agli ingredienti che contengono, e gli ingredienti (alcuni per iniziare) si riferiscono alla loro pagina su<a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (un database da articoli di Wikipedia). Questo file non è per gli umani, ma per i programmi. Lo si può interrogare, formulare richieste come "quali sono i prodotti il cui ingrediente principale è lo zucchero", ed incrociarlo facilmente con altri set di dati.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Grazie a questo file, i dati OFF fanno ora parte di ciò che è chiamato <a href="https://en.wikipedia.org/wiki/Linked_data">"Dati Collegati" o "il Web dei Dati"</a> . I dati sono più facilmente riutilizzabili.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+I dati di Open Food Facts saranno presto collegati con molti altri set di dati?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>I dettagli tecnici:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Ho partecipato nel <b>Datalift Camp a</b> cui Charles Nepote di <a href="https://datalift.org/">Datalift</a> mi ha invitato ed è stata la mia prima volta con lo strumento Datalift. We started to "play" with the OFF data to see how to express it in RDF.<br>
 <br>
 The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
 <br>
