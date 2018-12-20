@@ -2,27 +2,27 @@ Les données d'<a href="https://world.openfoodfacts.org">Open Food Facts</a> ét
 <br>
 Libres parce que la licence ouverte permet l'utilisation des données par tous et à toutes fins, et liées parce que les données sont maintenant liées non seulement entre elles mais aussi à d'autres ensembles de données via la base de données DBPedia.<br>
 <br>
-Permettez-moi de reformuler : il existe maintenant un grand fichier qui contient les données Open Food Facts sur les produits, leurs ingrédients et leur composition nutritionnelle. Les produits sont liés aux ingrédients qu’ils contiennent, et les ingrédients (certains pour commencer) se réfèrent à leur page sur <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (une base de données dérivée d'articles Wikipédia). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Permettez-moi de reformuler : il existe maintenant un grand fichier qui contient les données Open Food Facts sur les produits, leurs ingrédients et leur composition nutritionnelle. Les produits sont liés aux ingrédients qu’ils contiennent, et les ingrédients (certains pour commencer) se réfèrent à leur page sur <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (une base de données dérivée d'articles Wikipédia). Ce fichier n'est pas pour les humains, mais pour les programmes. Il est possible de l'interroger, de formuler des requêtes sous la forme "quels sont les produits dont l'ingrédient principal est le sucre" et de le croiser facilement avec d'autres ensembles de données.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Grâce à ce fichier, les données OFF font maintenant partie de ce qu'on appelle <a href="https://en.wikipedia.org/wiki/Linked_data">"les données liées" ou "le Web des données" </a> . Les données sont plus facilement réutilisables.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Les données Open Food Facts seront-elles bientôt liées à de nombreux autres jeux de données ?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Les détails techniques :<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+J'ai pris part au <b>Datalift Camp</b> auquel Charles Nepote de <a href="https://datalift.org/">Datalift</a> m'a invité et c'était ma première fois avec l'outil Datalift. Nous avons commencé à « jouer » avec les données OFF pour voir comment les exprimer en RDF.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Les données sur les ingrédients et les nutriments sont décrites par un <a href="https://data.lirmm.fr/ontologies/food">aliment ontologique </a> que nous créons avec <b> François Scharffe</b> du Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> et <b>Emmanuel Nauer</b> du Laboratoire Lorrain de Recherche en Informatique et ses Applications <a href="https://www.loria.fr/">LORIA</a>. L’idée est d’utiliser le même vocabulaire pour décrire une recette (comme celles utilisées par le projet <a href="https://taaable.fr/">Taaable</a> auquel Emmanuel participe), ou un produit alimentaire manufacturé.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+L'export RDF se trouve ici : <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf"> https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (en XML / RDF)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+Et il est <a href="https://datahub.io/dataset/open-food-facts">référencé sur le Data Hub</a> pour faciliter la découverte du jeu de données Open Food Facts.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Les ingrédients sont analysés à partir de la liste des ingrédients dans le texte, il y a des erreurs, le format des listes varie beaucoup d'un produit à l'autre. Je vais améliorer l'analyseur et, parallèlement, des contributeurs corrigent les fautes d'orthographe présentes dans les listes.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+Les URL de produit et d'ingrédient renvoient actuellement la page Web HTML, mais je vais ajouter la négociation de contenu pour renvoyer le RDF.<br>
 <br>
 François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
