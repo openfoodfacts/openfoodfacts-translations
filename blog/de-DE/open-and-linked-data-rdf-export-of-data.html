@@ -1,8 +1,8 @@
-Die Daten von <a href="https://world.openfoodfacts.org">Open Food Facts</a> waren bereits öffentlich und frei verfügbar (in <i>open data</i> so nannte sich das), aber jetzt sind sie auch verknüpft. Und ja, frei und verlinkt zugleich!<br>
+Die Daten von <a href="https://world.openfoodfacts.org">Open Food Facts</a> waren bereits öffentlich und frei verfügbar (in <i>Open Data</i>, so nannte sich das), aber jetzt sind sie auch verknüpft. Und ja, frei und verlinkt zugleich!<br>
 <br>
 Frei, weil die offene Lizenz es erlaubt, dass jeder die Daten zu jedem Zweck verwenden darf und verknüpft, weil die Daten nun nicht nur innerhalb miteinander verknüpft sind, sondern auch mit Datenbeständen anderer über die Datenbank DBPedia.<br>
 <br>
-Lassen Sie mich das anders formulieren: Es gibt jetzt eine große Datei, die frei zugängliche Produktdaten von Lebensmitteln, deren Inhaltsstoffe und Nährstoffzusammensetzung enthält. Die Produkte beziehen sich auf die Zutaten, die sie enthalten, und die Zutaten (einige am Anfang) beziehen sich auf deren Seite <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (eine Datenbank aus Wikipedia-Artikeln). Diese Datei ist nicht für Menschen lesbar, nur von Computerprogrammen. Es ist möglich sie zu durchsuchen, indem man eine Abfrage formuliert wie "Welches sind die Produkte, deren Zutat hauptsächlich aus Zucker besteht" um es dann leicht mit anderen Datenbeständen abgleichen zu können.<br>
+Lassen Sie mich das anders formulieren: Es gibt jetzt eine große Datei, die frei zugängliche Produktdaten von Lebensmitteln, deren Inhaltsstoffe und Nährstoffzusammensetzung enthält. Die Produkte beziehen sich auf die Zutaten, die sie enthalten, und die Zutaten (einige am Anfang) beziehen sich auf deren Seite <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (eine Datenbank aus Wikipedia-Artikeln). Diese Datei ist nicht für Menschen lesbar, nur von Computerprogrammen. Es ist möglich, sie zu durchsuchen, indem man eine Abfrage formuliert wie "Welches sind die Produkte, deren Zutat hauptsächlich aus Zucker besteht", um es dann leicht mit anderen Datenbeständen abgleichen zu können.<br>
 <br>
 Dank dieser Datei sind die OFF-Daten nun Teil der sogenannten <a href="https://en.wikipedia.org/wiki/Linked_data">"verknüpften Daten" oder des "Internet der Daten"</a>. Die Daten sind leichter wiederverwendbar.<br>
 <br>
@@ -14,18 +14,18 @@ Werden Open-Food-Facts-Daten bald mit vielen anderen Datenbeständen verknüpft?
 </b></h3>
 Ich habe am <b>Datalift Camp</b> teilgenommen, wozu mich Charles Nepote von <a href="https://datalift.org/">Datalift</a> einlud. Für mich war es der erste Kontakt mit dem Datalift-Tool. Wir begannen mit den OFF-Daten zu "spielen", um zu sehen, wie sie in RDF dargestellt werden können.<br>
 <br>
-Die Daten zu Inhaltsstoffen und Nährstoffen werden durch eine <a href="https://data.lirmm.fr/ontologies/food">Lebensmittel-Ontologie</a> beschrieben, die wir mit <b>François Scharffe</b> vom Labor für Informatik, Robotik und Mikroelektronik von Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> und <b>Emmanuel Nauer</b> vom Lorrain-Laboratorium für Informatikforschung und seiner <a href="https://www.loria.fr/">LORIA</a>-Anwendungen erschufen. Die Idee ist, das Gleiche Vokabular zu verwenden, um eine Rezeptur oder ein Nahrungsmittelprodukt zu beschreiben (wie das, welches im Projekt <a href="https://taaable.fr/">Taaable in</a> verwendet wird, an dem Emmanuel teilnimmt).<br>
+Die Daten zu Inhaltsstoffen und Nährstoffen werden durch eine <a href="https://data.lirmm.fr/ontologies/food">Lebensmittel-Ontologie</a> beschrieben, die wir mit <b>François Scharffe</b> vom Labor für Informatik, Robotik und Mikroelektronik von Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> und <b>Emmanuel Nauer</b> vom Lorrain-Laboratorium für Informatikforschung und seiner <a href="https://www.loria.fr/">LORIA</a>-Anwendungen erschufen. Die Idee ist, das gleiche Vokabular zu verwenden, um eine Rezeptur oder ein Nahrungsmittelprodukt zu beschreiben (wie das, welches im Projekt <a href="https://taaable.fr/">Taaable in</a> verwendet wird, an dem Emmanuel teilnimmt).<br>
 <br>
 Die RDF-Datei ist hier zu beziehen: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
 <br>
 Und es wird auf <a href="https://datahub.io/dataset/open-food-facts">Data Hub verwiesen</a>, um die Erforschung von Open-Food-Facts-Datenbeständen zu erleichtern.<br>
 <br>
-Die Zutaten werden aus einer Zutatenliste in Textform herausgefiltert, was zu Fehlern führen kann. Das Format der Listen kann von Produkt zu Produkt sehr unterschiedlich sein. Ich bin dabei die Syntax für das Herausfiltern zu verbessern und zeitgleich korrigieren Mitwirkende Rechtschreibfehler in den Listen.<br>
+Die Zutaten werden aus einer Zutatenliste in Textform herausgefiltert, was zu Fehlern führen kann. Das Format der Listen kann von Produkt zu Produkt sehr unterschiedlich sein. Ich bin dabei, die Syntax für das Herausfiltern zu verbessern und zeitgleich korrigieren Mitwirkende Rechtschreibfehler in den Listen.<br>
 <br>
-Die Produkt- und Inhaltsstoffe-URLs verweisen derzeit auf unsere HTML-Webseite, aber ich bin dabei die URL-Abfrage-Funktion zu implementieren, um die jeweilige RDF zurückzugeben.<br>
+Die Produkt- und Inhaltsstoffe-URLs verweisen derzeit auf unsere HTML-Webseite, aber ich bin dabei, die URL-Abfrage-Funktion zu implementieren, um die jeweilige RDF zurückzugeben.<br>
 <br>
 François hat Äquivalenzen zwischen den Inhaltsstoffen von Open Food Facts und den gleichen Inhaltsstoffen auf DBPedia erzeugt. Sie werden durch das owl:sameAs Attribut angezeigt, zum Beispiel:<br>
-<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt;Potassium sorbate&lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
+<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Kaliumsorbat &lt;/food:name&gt; <br> <2 /> <br> &lt;/rdf:Description&gt;</pre>
 <br>
 Derzeit gibt es keinen SPARQL-Endpunkt. Sie können stattdessen den RDF-Export in ein Programm wie Datalift laden, um SPARQL-Abfragen ausführen zu können. Zum Beispiel ist hier eine meiner ersten Abfragen (Produkte finden, deren Hauptzutat Zucker ist):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
@@ -34,6 +34,6 @@ Derzeit gibt es keinen SPARQL-Endpunkt. Sie können stattdessen den RDF-Export i
 <br>
 Dies ist natürlich in Arbeit, es fehlen immer noch viele Daten im RDF-Export (Marken, Kategorien usw.). Sie werden mit der Zeit hinzugefügt.<br>
 <br>
-Ihre Ideen, Kommentare, Vorschläge usw. sind willkommen um diese Daten zu verbessern. Verknüpfe sie besser, stelle sie besser dar etc. Außerdem, wenn Sie die Daten nutzen, wäre es nett, wenn Sie uns davon in Kenntnis setzen. Vielen Dank im Voraus!<br>
+Ihre Ideen, Kommentare, Vorschläge usw. sind willkommen um diese Daten zu verbessern. Verknüpfe sie besser, stelle sie besser dar usw. Außerdem, wenn Sie die Daten nutzen, wäre es nett, wenn Sie uns davon in Kenntnis setzen. Vielen Dank im Voraus!<br>
 <br>
 Und natürlich ein großes Dankeschön an Emmanuel und François für ihre Hilfe!<br>
