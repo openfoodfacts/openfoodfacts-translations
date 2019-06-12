@@ -1,39 +1,39 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+De data van <a href="https://world.openfoodfacts.org"> Open Food Facts </a> was al open en gratis (in <i> open data </i> zoals ze zeggen), en nu zijn ze ook linked. En ja, vrij en verbonden tegelijk!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Vrij omdat de open licentie toelaat dat de gegevens door iedereen en voor elk doel kan worden gebruikt en gekoppeld omdat de gegevens nu niet alleen aan elkaar, maar ook aan andere gegevenssets zijn gekoppeld, via de database DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Laat me het anders zeggen: er is nu een groot bestand dat Open Food Facts data bevat over producten, ingrediënten en hun voedingswaarde. De producten bevatten ingrediënten en de ingrediënten (sommige om te beginnen) verwijzen naar hun pagina op <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia </a> (een database uit Wikipedia-artikelen). Dit bestand is niet voor mensen, maar voor programma's. Het is mogelijk om het te ondervrageb, om vragen te formuleren als "wat zijn de producten waarvan het hoofdbestanddeel suiker is", en om het gemakkelijk te kruisen met andere datasets.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Dankzij dit bestand zijn de OFF-gegevens nu onderdeel van wat <a href="https://en.wikipedia.org/wiki/Linked_data"> "Gelinkte data" of "het web van data" wordt genoemd </a> . De data is zo gemakkelijker herbruikbaar.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Wordt Open Food Facts-data binnenkort gekoppeld aan andere datasets?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Technische details<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Ik heb deelgenomen aan het <b>Datalift Camp</b>, waar Charles Nepote van <a href="https://datalift.org/">Datalift</a> mij voor had uitgenodigd, en het was mijn eerste ervaring met de Datalift tool. We begonnen met de OFF-gegevens te "spelen" om te zien hoe het in RDF beschreven kon worden.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+De ingrediënten- en voedingsstoffen-gegevens worden beschreven door een <a href="https://data.lirmm.fr/ontologies/food"> voedsel-ontologie</a> dat we maakten samen met <b> François Scharffe </b> van het Laboratorium voor Informatica, Robotica en Micro-elektronica van Montpellier <a href="https://www.lirmm.fr/">LIRMM </a> en <b> Emmanuel Nauer </b> van het Lorrain Laboratory of Research in Computer Science en zijn <a href="https://www.loria.fr/"> LORIA </a> applicaties. Het idee is om dezelfde woorden te gebruiken om een recept te beschrijven (zoals de woorden die worden gebruikt in het project <a href="https://taaable.fr/"> Taaable in </a> waaraan Emmanuel deelneemt), of een vervaardigd voedingsproduct.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+De RDF-export is hier te vinden: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf"> https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf </a> (in XML / RDF)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+En het is opgenomen in <a href="https://datahub.io/dataset/open-food-facts">The Data Hub </a> om het vinden van de Open Food Fact-dataset te vergemakkelijken.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Er wordt geprobeerd de ingrediënten uit de ingrediëntenlijst te halen (parsing). Hierbij treden fouten op, want de opmaak van de lijsten varieert sterk van het ene product tot het andere. Ik ga deze parser verbeteren en daarnaast zullen bijdragers de spelfouten in de lijsten corrigeren.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+De product- en ingrediënt-URL's retourneren momenteel een HTML-webpagina, maar ik ga de "content negotiation" toevoegen, zodat de data ook in RDF-formaat geretourneerd kan worden.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
+François heeft equivalenties gegenereerd tussen de ingrediënten van Open Food Facts enerzijds en dezelfde ingrediënten op DBPedia anderzijds. Ze worden aangegeven door de owl:sameAs-eigenschap, bijvoorbeeld:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
-<pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
-   ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
-   ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
+Er is bestaat momenteel geen SPARQL-eindpunt. Je kan in plaats daarvan de RDF-export in een tool als Datalift laden om SPARQL-query's uit te voeren. Als voorbeeld is hier een van mijn eerste vragen (om producten te vinden waarvan het hoofdbestanddeel suiker is):<br>
+<pre>PREFIX-voedsel: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a> <br> SELECT? S? WHERE code {<br>? S <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> voedsel: FoodProduct. <br>? S voedsel: bevatIngredient? I.
+   ? i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>.
+   ?i food: rang "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Dit is natuurlijk werk in uitvoering, er ontbreken nog veel gegevens in de RDF-export (merken, categorieën enz.). Deze zullen geleidelijk worden toegevoegd.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Jouw ideeën, opmerkingen, suggesties etc. zijn welkom om deze gegevens te verbeteren, ze beter te linken, beter te representeren, enz. Als je de gegevens gebruikt, zou het bovendien prettig zijn om ons dat te vertellen. Bij voorbaat dank!<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+En natuurlijk een grote dank aan Emmanuel en François voor hun hulp!<br>
