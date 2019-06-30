@@ -1,16 +1,16 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. Y sí, libre y vinculados a la vez!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Libre porque la licencia abierta permite que los datos sean utilizados por todos y para cualquier propósito, y vinculados porque los datos ahora están vinculados no solo entre sí, sino también a otros conjuntos de datos, a través de la base de datos DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). Este archivo no es para los humanos, sino para los programas. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . Los datos son más fácilmente reutilizables.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
 Will Open Food Facts data soon be linked with lots of other datasets?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Los detalles técnicos:<br>
 </b></h3>
 I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
 <br>
@@ -27,13 +27,13 @@ The product and ingredient URLs currently return the HTML webpage, but I'm going
 François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
+No hay ningún punto final SPARQL. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
    ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
 This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. ¡Gracias por adelantado!<br>
 <br>
 And of course a big thank you to Emmanuel and François for their help!<br>
