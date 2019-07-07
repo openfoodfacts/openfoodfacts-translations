@@ -41,5 +41,5 @@ files:
   - source: /blog/new-mobile-app-2019.html
     translation: /blog/%locale%/new-mobile-app-2019.html
     
-    - source: /blog/pro-nutriscore-petition.html
+  - source: /blog/pro-nutriscore-petition.html
     translation: /blog/%locale%/pro-nutriscore-petition.html
