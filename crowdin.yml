@@ -34,3 +34,12 @@ files:
   
   - source: /blog/wrapping-it-up.html
     translation: /blog/%locale%/wrapping-it-up.html
+    
+  - source: /blog/mailing-nutriscore.html
+    translation: /blog/%locale%/mailing-nutriscore.html
+    
+  - source: /blog/new-mobile-app-2019.html
+    translation: /blog/%locale%/new-mobile-app-2019.html
+    
+    - source: /blog/pro-nutriscore-petition.html
+    translation: /blog/%locale%/pro-nutriscore-petition.html
