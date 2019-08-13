@@ -4,7 +4,7 @@ Libre porque la licencia abierta permite que los datos sean utilizados por todos
 <br>
 Permítanme reformular eso: ahora hay un vasto archivo que contiene datos de Open Food Facts sobre productos, sus ingredientes y su composición nutricional. Los productos están relacionados con los ingredientes que contienen, y los ingredientes (algunos para empezar) se refieren a su página en <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (una base de datos de artículos de Wikipedia). Este archivo no es para los humanos, sino para los programas. Es posible consultarlo, formular consultas como "cuáles son los productos cuyo ingrediente principal es el azúcar", y cruzarlo fácilmente con otros conjuntos de datos.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . Los datos son más fácilmente reutilizables.<br>
+Gracias a este archivo, los datos OFF ahora son parte de lo que se denomina <a href="https://en.wikipedia.org/wiki/Linked_data">"Datos vinculados" o "la Web de datos"</a> . Los datos son más fácilmente reutilizables.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
 ¿Los datos de Open Food Facts pronto se vincularán con otros conjuntos de datos?<br>
@@ -12,22 +12,23 @@ Thanks to this file, the OFF data is now part of what is called <a href="https:/
 <br>
 <h3><b>Los detalles técnicos:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Participé en el <b>Datalift Camp</b> que Charles Nepote de <a href="https://datalift.org/">Datalift</a> me invitó, y fue mi primera vez con la herramienta de Datalift. Empezamos a "jugar" con los datos OFF para ver cómo expresarlo en formato RDF.<br>
 <br>
 The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. La idea es utilizar el mismo vocabulario para describir una receta (como las utilizadas por el proyecto <a href="https://taaable.fr/">Taaable en</a> la que Emmanuel participa), o un producto alimentario manufacturado.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+La exportación RDF está aquí: 
+<a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (en formato XML / RDF)<br>
 <br>
 And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Los ingredientes son analizados de la lista de ingredientes del texto, hay errores, el formato de las listas varía mucho de un producto a otro. Voy a mejorar el analizador y en paralelo los colaboradores corrigen los errores ortográficos presentes en las listas.<br>
 <br>
 Las URL de producto e ingrediente actualmente devuelven la página web HTML, pero voy a agregar la negociación de contenido para devolver el RDF.<br>
 <br>
 François generó equivalencias entre los ingredientes de los Productos de Open Food Facts y los mismos ingredientes en DBPedia. Están indicados por la propiedad owl: sameAs, por ejemplo:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Sorbato de potasio &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-No hay ningún punto final SPARQL. En su lugar, puedes cargar la exportación RDF en una herramienta como Datalift para ejecutar consultas SPARQL. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
+No hay ningún punto final SPARQL. En su lugar, puedes cargar la exportación RDF en una herramienta como Datalift para ejecutar consultas SPARQL. Como ejemplo, aquí hay una de mis primeras consultas (para encontrar productos cuyo ingrediente principal es el azúcar):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i alimento: alimento <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
    ? i food: rango "1" OPCIONAL {? s food: code? code}.<br>}</pre>
