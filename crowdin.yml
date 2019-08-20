@@ -43,3 +43,6 @@ files:
     
   - source: /blog/pro-nutriscore-petition.html
     translation: /blog/%locale%/pro-nutriscore-petition.html
+    
+  - source: /blog/mailing-newapp.html
+    translation: /blog/%locale%/mailing-newapp.html
