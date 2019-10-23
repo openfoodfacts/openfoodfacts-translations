@@ -46,3 +46,6 @@ files:
     
   - source: /blog/mailing-newapp.html
     translation: /blog/%locale%/mailing-newapp.html
+
+  - source: /blog/1-million-products.html
+    translation: /blog/%locale%/1-million-products.html
