@@ -28,12 +28,12 @@ François heeft equivalenties gegenereerd tussen de ingrediënten van Open Food 
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
 Er is bestaat momenteel geen SPARQL-eindpunt. Je kan in plaats daarvan de RDF-export in een tool als Datalift laden om SPARQL-query's uit te voeren. Als voorbeeld is hier een van mijn eerste vragen (om producten te vinden waarvan het hoofdbestanddeel suiker is):<br>
-<pre>PREFIX-voedsel: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a> <br> SELECT? S? WHERE code {<br>? S <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> voedsel: FoodProduct. <br>? S voedsel: bevatIngredient? I.
-   ? i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>.
+<pre>PREFIX-voedsel: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a> <br> SELECT? S? WHERE code {<br>? S <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> voedsel: FoodProduct. <br>? S voedsel: bevatIngredient?
+   i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>.
    ?i food: rang "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
 Dit is natuurlijk werk in uitvoering, er ontbreken nog veel gegevens in de RDF-export (merken, categorieën enz.). Deze zullen geleidelijk worden toegevoegd.<br>
 <br>
-Jouw ideeën, opmerkingen, suggesties etc. zijn welkom om deze gegevens te verbeteren, ze beter te linken, beter te representeren, enz. Als je de gegevens gebruikt, zou het bovendien prettig zijn om ons dat te vertellen. Bij voorbaat dank!<br>
+Jouw ideeën, opmerkingen, suggesties etc. zijn welkom om deze gegevens te verbeteren, ze beter te linken, beter te representeren, enz. Als je de gegevens gebruikt, zou het bovendien prettig zijn om ons dat te vertellen. Bovendien, als je de gegevens gebruikt, zou het leuk zijn om ons dat te vertellen. Bij voorbaat dank!<br>
 <br>
 En natuurlijk een grote dank aan Emmanuel en François voor hun hulp!<br>
