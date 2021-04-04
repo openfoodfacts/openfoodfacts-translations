@@ -1,6 +1,9 @@
 project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 files:
+  - source: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
+    translation: /blog/%locale%/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
+    
   - source: /blog/a-clever-device-to-photograph-tins.html
     translation: /blog/%locale%/a-clever-device-to-photograph-tins.html
 
