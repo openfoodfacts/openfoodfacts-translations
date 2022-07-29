@@ -1,39 +1,39 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+Данните на <a href="https://world.openfoodfacts.org">Open Food Facts</a> вече бяха отворени и безплатни (в <i>open data</i>, както се казва), а сега те също са свързани. И да, безплатни и свързани наведнъж!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Безплатно, защото отвореният лиценз позволява данните да се използват от всички и за всякакви цели и свързани, защото данните вече са свързани не само помежду си, но и с други набори от данни чрез базата данни DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Позволи ми да изясня това: сега има голям файл, който съдържа данни от Open Food Facts за продуктите, техните съставки и хранителния им състав. Продуктите са свързани със съставките, които съдържат, а съставките (някои за начало) препращат към тяхната страница на <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (база данни от статии в Wikipedia). Този файл не е за хора, а за програми. Възможно е да правите заявки, да формулирате заявки като „кои са продуктите, чиято основна съставка е захар“ и да го кръстосвате лесно с други набори от данни.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Благодарение на този файл OFF данните вече са част от това, което се нарича <a href="https://en.wikipedia.org/wiki/Linked_data">„Свързани данни“ или „Мрежата от данни“</a>. Данните са по-лесни за повторно използване.<br>
 <br>
 <img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Данните от Open Food Facts скоро ще бъдат ли свързани с много други набори от данни?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Техническите подробности:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Участвах в <b>Datalift Camp на</b> който Чарлз Непоте от <a href="https://datalift.org/">Datalift</a> ме покани, и това беше първият ми среща с инструмента Datalift. Започнахме да "играем" с OFF данните, за да видим как да ги изразим в RDF.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Данните за съставките и хранителните вещества са описани от <a href="https://data.lirmm.fr/ontologies/food">онтологична храна</a>, която създаваме с <b>François Scharffe</b> от Лабораторията по информатика, роботика и микроелектроника на Монпелие <a href="https://www.lirmm.fr/">LIRMM</a> и <b>Emmanuel Nauer</b> от Лабораторията за компютърни изследвания на Лорен и нейните приложения <a href="https://www.loria.fr/">LORIA</a>. Идеята е да се използва същият речник, за да се опише рецепта (като тези, използвани от проекта <a href="https://taaable.fr/">Taaable in</a>, в който Емануел участва) или произведен хранителен продукт.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+RDF износът е тук: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (в XML / RDF)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+И е <a href="https://datahub.io/dataset/open-food-facts">посочен в The Data Hub</a>, за да се улесни откриването на набора от данни Open Food Facts.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Съставките се анализират от списъка на съставките в текст, има грешки, форматът на списъците варира много от един продукт на друг. Ще подобря анализатора и успоредно с това сътрудниците коригират правописните грешки, присъстващи в списъците.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+URL адресите на продукта и съставката понастоящем връщат HTML уеб страницата, но ще добавя съгласуване на съдържанието, за да върна RDF.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
-<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
+François генерира еквивалентности между съставките на Open Food Facts и същите съставки в DBPedia. Те се обозначават със свойството owl:sameAs, например:<br>
+<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Калиев сорбат &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
-<pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
-   ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
-   ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
+Понастоящем няма крайна точка на SPARQL. Вместо това можете да заредите RDF износа в инструмент като Datalift, за да изпълнявате SPARQL заявки. Като пример, ето едно от първите ми запитвания (за намиране на продукти, чиято основна съставка е захар):<br>
+<pre>ПРЕФИКС храна: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE код {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> храна: FoodProduct.<br>   храна: съдържа съставка i.
+   ?i храна: храна <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>.
+   ?i храна: ранг "1" ПО ИЗБОР {?s храна: код?код}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Това, разбира се, е в процес на работа, все още липсват много данни в RDF износа (марки, категории и т. н.). Те ще се добавят постепенно.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Вашите идеи, коментари, предложения и т. н. са добре дошли за подобряване на тези данни, свързвайки ги по-добре, представяйки ги по-добре и т. н. Освен това, ако използвате данните, би било добре да ни кажете. Благодаря ви предварително !<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+И, разбира се, благодаря на Еманюел и Франсоа за помощта!<br>
