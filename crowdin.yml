@@ -2,52 +2,52 @@ project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 files:
   - source: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
-    dest: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
+    dist: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
     translation: /blog/%locale%/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
     preserve_hierarchy: true
     
   - source: /blog/a-clever-device-to-photograph-tins.html
-    dest: /blog/a-clever-device-to-photograph-tins.html
+    dist: /blog/a-clever-device-to-photograph-tins.html
     translation: /blog/%locale%/a-clever-device-to-photograph-tins.html
     preserve_hierarchy: true
 
   - source: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
-    dest: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
+    dist: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
     translation: /blog/%locale%/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
     preserve_hierarchy: true
 
   - source: /blog/graphs-in-3-clicks.html
-    dest: /blog/graphs-in-3-clicks.html
+    dist: /blog/graphs-in-3-clicks.html
     translation: /blog/%locale%/graphs-in-3-clicks.html
     preserve_hierarchy: true
     
   - source: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
-    dest: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
+    dist: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
     translation: /blog/%locale%/introducing-open-products-facts-all-your-product-are-belong-to-us.html
     preserve_hierarchy: true
     
   - source: /blog/launch-of-open-food-facts-join-the-food-revolution.html
-    dest: /blog/launch-of-open-food-facts-join-the-food-revolution.html
+    dist: /blog/launch-of-open-food-facts-join-the-food-revolution.html
     translation: /blog/%locale%/launch-of-open-food-facts-join-the-food-revolution.html
     preserve_hierarchy: true
     
   - source: /blog/made-near-eu-and-makes-you-curious.html
-    dest: /blog/made-near-eu-and-makes-you-curious.html
+    dist: /blog/made-near-eu-and-makes-you-curious.html
     translation: /blog/%locale%/made-near-eu-and-makes-you-curious.html
     preserve_hierarchy: true
     
   - source: /blog/open-and-linked-data-rdf-export-of-data.html
-    dest: /blog/open-and-linked-data-rdf-export-of-data.html
+    dist: /blog/open-and-linked-data-rdf-export-of-data.html
     translation: /blog/%locale%/open-and-linked-data-rdf-export-of-data.html
     preserve_hierarchy: true
     
   - source: /blog/scanning-is-already-contributing.html
-    dest: /blog/scanning-is-already-contributing.html
+    dist: /blog/scanning-is-already-contributing.html
     translation: /blog/%locale%/scanning-is-already-contributing.html
     preserve_hierarchy: true
     
   - source: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
-    dest: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
+    dist: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
     translation: /blog/%locale%/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
     preserve_hierarchy: true
     
