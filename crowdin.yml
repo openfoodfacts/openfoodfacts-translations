@@ -85,7 +85,12 @@ files:
     dist: /blog/1-million-products.html
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
-
+    
+  - source: /blog/agena-3000.html
+    dist: /blog/agena-3000.html
+    translation: /blog/%locale%/agena-3000.html
+    preserve_hierarchy: true
+    
   - source: /blog/ecoscore-launch.html
     dist: /blog/ecoscore-launch.html
     translation: /blog/%locale%/ecoscore-launch.html
