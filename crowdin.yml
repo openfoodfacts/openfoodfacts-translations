@@ -86,7 +86,7 @@ files:
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
 
-  - source: /blog/en-US/ecoscore-launch.html
-    dist: /blog/en-US/ecoscore-launch.html
+  - source: /blog/ecoscore-launch.html
+    dist: /blog/ecoscore-launch.html
     translation: /blog/%locale%/ecoscore-launch.html
     preserve_hierarchy: true
