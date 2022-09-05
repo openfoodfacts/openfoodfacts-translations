@@ -86,7 +86,7 @@ files:
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
     
-  - source: /blog/en-US/personal-search.html
-    dist: /blog/en-US/personal-search.html
+  - source: /blog/personal-search.html
+    dist: /blog/personal-search.html
     translation: /blog/%locale%/personal-search.html
     preserve_hierarchy: true
