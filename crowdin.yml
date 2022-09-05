@@ -90,3 +90,8 @@ files:
     dist: /blog/ecoscore-launch.html
     translation: /blog/%locale%/ecoscore-launch.html
     preserve_hierarchy: true
+
+  - source: /blog/personal-search.html
+    dist: /blog/personal-search.html
+    translation: /blog/%locale%/personal-search.html
+    preserve_hierarchy: true
