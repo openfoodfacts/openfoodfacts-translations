@@ -86,7 +86,7 @@ files:
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
 
-  - source: /blog/en-US/agena-3000.html
-    dist: /blog/en-US/agena-3000.html
+  - source: /blog/agena-3000.html
+    dist: /blog/agena-3000.html
     translation: /blog/%locale%/agena-3000.html
     preserve_hierarchy: true
