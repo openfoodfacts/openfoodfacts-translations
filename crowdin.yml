@@ -85,3 +85,8 @@ files:
     dest: /blog/1-million-products.html
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
+
+  - source: /blog/days-off.html
+    dist: /blog/days-off.html
+    translation: /blog/%locale%/days-off.html
+    preserve_hierarchy: true
