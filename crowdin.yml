@@ -106,7 +106,7 @@ files:
     translation: /blog/%locale%/personal-search.html
     preserve_hierarchy: true
     
-  - source: /blog/taxonomies-yukti.html
-    dist: /blog/taxonomies-yukti.html
-    translation: /blog/%locale%/taxonomies-yukti.html
+  - source: /blog/taxonomies-by-yukti.html
+    dist: /blog/taxonomies-by-yukti.html
+    translation: /blog/%locale%/taxonomies-by-yukti.html
     preserve_hierarchy: true
