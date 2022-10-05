@@ -110,3 +110,8 @@ files:
     dist: /blog/taxonomies-by-yukti.html
     translation: /blog/%locale%/taxonomies-by-yukti.html
     preserve_hierarchy: true
+    
+  - source: /blog/operation-toothpaste.html
+    dist: /blog/operation-toothpaste.html
+    translation: /blog/%locale%/operation-toothpaste.html
+    preserve_hierarchy: true
