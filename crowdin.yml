@@ -115,3 +115,18 @@ files:
     dist: /blog/operation-toothpaste.html
     translation: /blog/%locale%/operation-toothpaste.html
     preserve_hierarchy: true
+
+  - source: /blog/what-happened-at-the-open-food-facts-days-22.html
+    dist: /blog/what-happened-at-the-open-food-facts-days-22.html
+    translation: /blog/%locale%/what-happened-at-the-open-food-facts-days-22.html
+    preserve_hierarchy: true
+    
+  - source: /blog/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    dist: /blog/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    translation: /blog/%locale%/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    preserve_hierarchy: true
+    
+  - source: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    preserve_hierarchy: true
