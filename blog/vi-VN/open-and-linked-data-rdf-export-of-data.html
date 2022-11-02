@@ -1,39 +1,39 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+Dữ liệu của <a href="https://world.openfoodfacts.org">Open Food Facts</a> là dữ liễu mở và miễn phí (trong <i>dữ liệu mở</i> như họ nói), và cũng được liên kết với nhau. Và vâng, miễn phí và được liên kết cùng một lúc!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Miễn phí vì giấy phép mở cho phép mọi người sử dụng dữ liệu cho bất kỳ mục đích nào và được liên kết vì dữ liệu giờ đây không chỉ được liên kết với nhau mà còn với các bộ dữ liệu khác, thông qua cơ sở dữ liệu DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Xin nhắc lại rằng: hiện có một tệp lớn chứa dữ liệu Open Food Facts về các sản phẩm, thành phần và thông tin dinh dưỡng của chúng. Các sản phẩm có liên quan đến các thành phần mà chúng chứa, và các thành phần (một số) dẫn tham khảo đến trang của chúng trên <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (cơ sở dữ liệu từ các bài viết trên Wikipedia). Tệp này không dành cho con người, mà dành cho các chương trình. Ta hoàn toàn có thể truy vấn, lập công thức truy vấn như "đâu là sản phẩm có thành phần chính là đường" và dễ dàng kết nối nó với các bộ dữ liệu khác.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Nhờ tệp này, dữ liệu trên OFF hiện là một phần của cái được gọi là <a href="https://en.wikipedia.org/wiki/Linked_data">"Dữ liệu Liên kết" hoặc "Web Dữ liệu"</a>. Dữ liệu được tái sử dụng dễ dàng hơn.<br>
 <br>
 <img title="" src="https://blog.openfoodfacts.org/wp-content/uploads/2022/05/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Open Food Facts sẽ sớm được liên kết với nhiều bộ dữ liệu khác chứ?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Thông tin kỹ thuật:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Tôi đã tham gia <b> Datalift Camp</b> do Charles Nepote tại <a href="https://datalift.org/">Datalift</a> gửi lời mời, và đó cũng là lần đầu tiên tôi sử dụng công cụ Datalift. Chúng tôi bắt đầu "chơi" với dữ liệu trên OFF để xem cách thể hiện nó trong RDF.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Dữ liệu về các thành phần và chất dinh dưỡng được mô tả bởi một <a href="https://data.lirmm.fr/ontologies/food"> loại thực phẩm bản thể </a> mà chúng tôi đang tạo ra cùng với <b>François Scharffe</b> từ Phòng thí nghiệm Tin học, Người máy và Vi điện tử Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> và <b>Emmanuel Nauer</b> đến từ Phòng thí nghiệm Nghiên cứu Máy tính Lorrain Khoa học và <a href="https://www.loria.fr/">ứng dụng LORIA</a> của nó. Ý tưởng là sử dụng cùng một từ vựng để mô tả một công thức nấu ăn (như những công thức được sử dụng bởi dự án <a href="https://taaable.fr/">Taaable in</a> mà Emmanuel tham gia) hoặc một sản phẩm thực phẩm đã được sản xuất.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+Tệp xuất RDF ở đây: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (trong XML / RDF)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+Và nó được <a href="https://datahub.io/dataset/open-food-facts">tham chiếu trên Trung tâm Dữ liệu</a> để tạo điều kiện thuận lợi cho việc khám phá bộ dữ liệu Open Food Facts.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Các thành phần được phân tích cú pháp từ danh sách các thành phần trong văn bản, có sai sót, định dạng của danh sách khác nhau rất nhiều từ sản phẩm này sang sản phẩm khác. Tôi đang tiền hành cải thiện trình phân tích cú pháp, và song song đó, những người đóng góp sẽ sửa các lỗi chính tả có trong danh sách.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+URL sản phẩm và thành phần hiện trả lại trang web HTML, nhưng tôi sẽ bổ sung thêm phần bàn luận về mặt nội dung để trả lại RDF.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
+François đã tạo ra sự tương đương giữa các thành phần trên Open Food facts và các thành phần tương tự trên DBPedia. Chúng được biểu thị bằng thuộc tính owl: sameAs, ví dụ:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
+Hiện không có điểm cuối SPARQL. Thay vào đó, bạn có thể tải bản xuất RDF vào một công cụ như Datalift để thực hiện các truy vấn SPARQL. Ví dụ: đây là một trong những truy vấn đầu tiên của tôi (để tìm các sản phẩm có thành phần chính là đường):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
    ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Tất nhiên đây là một công việc đang được tiến hành, vẫn còn thiếu rất nhiều dữ liệu trong quá trình xuất RDF (nhãn hiệu, danh mục, v. v.). Chúng sẽ được bổ sung dần dần.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Chúng tôi hoan nghênh các ý tưởng, nhận xét, đề xuất, v. v. của bạn để cải thiện những dữ liệu này, liên kết chúng tốt hơn, trình bày chúng tốt hơn, v. v. Hơn nữa nếu khi bạn sử dụng dữ liệu, sẽ thật tốt nếu bạn cho chúng tôi biết. Xin gửi trước tới bạn lời cảm ơn!<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+Và tất nhiên, xin gửi lời cảm ơn sâu sắc tới Emmanuel và François vì sự giúp đỡ của họ!<br>
