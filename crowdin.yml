@@ -130,3 +130,8 @@ files:
     dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     preserve_hierarchy: true
+
+  - source: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    dist: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    preserve_hierarchy: true
