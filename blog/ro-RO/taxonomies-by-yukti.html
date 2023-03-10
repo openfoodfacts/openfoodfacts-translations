@@ -1,0 +1,35 @@
+<h2>Despre taxonomii</h2>
+
+<p><em>Această intrare de blog este scrisă de Yukti (care ni se alătură cu programul Outreachy). Ea ne-a dat cu amabilitate permisiunea de a o distribui aici, deoarece credem că explică foarte bine subiectul. Multumesc mult Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link către articolul original „Everybody Struggles”</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Suntem acum în săptămâna 3 a stagiului Outreachy! &rsquo;mulțime de puncte pe care le voi atinge în Blog au fost inspirate de unele dintre recomandările de scriere de la organizatorii Outreachy. În acest blog, voi scrie despre un termen de vocabular open source care a fost nou pentru mine<em>. În timpul Perioadei de solicitare de informare.</em></em></p>
+</blockquote>
+</figure>
+<p>Au fost o mulțime de cuvinte/concepte cu care am fost confundat în perioada de aplicare a Outreachy. Cuvântul care îmi iese cel mai mult în evidență acum este&nbsp;<code>Taxonomie&nbsp;<em>(plural: Taxonomii</em></code><em>).&nbsp;</em>Ca nou venit în comunitatea Open Food Facts, am observat că se vorbește mult despre acest termen, menționat în probleme și solicitări de atragere. &rsquo;mi-a luat prea mult timp să realizez că acest termen ar trebui să fie unul important în contextul proiectului.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Sursa: Google</figcaption>
+</figure>
+<p>Această definiție pare să o facă și mai confuză, nu? (&rsquo;urma urmei, nu este Open Animal Facts,&rsquo;Open Food Facts). În acel moment, am putut să înțeleg vag ce poate însemna acest termen în afara unui context biologic, dar încă nu am putut să-l relaționez cu adevărat&rsquo;proiect.</p>
+<h2>Mergând înainte</h2>
+<p>Desigur, am ezitat să-i cer unui membru al comunității să-l definească doar&nbsp;<em>&ldquo;&rdquo;</em>&nbsp;pentru mine, deoarece termenul s-a simțit atât de esențial pentru acest proiect, încât mi s-a părut corect să îmi acord câteva zile, să explorez baza de cod și să văd cum sunt lucrurile. lucrează în jur. Foarte firesc, acest cuvânt (și alte câteva concepte) au început să aibă sens pe măsură ce m-am familiarizat cu structura&rsquo;a depozitului în următoarele zile.</p>
+<h2>Deci... ce sunt taxonomiile? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link și către pagina wiki!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomiile</a>&nbsp;sunt în centrul structurii de date în Open Food Facts. Acestea sunt fișiere text brute&nbsp;<code>(.txt)</code>&nbsp;care conțin în principal traduceri, clasificări, etichete, liste de ingrediente și ierarhii.</p>
+<p>Pentru a simplifica un pic, funcția lor poate fi împărțită în 2 părți,</p>
+<ul>
+<li><strong><strong>Clasificare</strong>: </strong>Putem folosi taxonomii pentru a stabili ierarhii pentru consumabile. Acest lucru este explicat cel mai bine printr-un exemplu: Lăsați&rsquo;s să arunce o privire la această pagină de produs&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;legată&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">aici</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Notă: Aceste categorii sunt listate într-o ordine ierarhică. Acest produs este o gustare&nbsp;<strong>&ldquo;&rdquo;</strong>&nbsp;în primul rând, iar în cadrul gustărilor, o gustare&nbsp;<strong>&ldquo;dulce&rdquo;</strong>. În plus, am putea spune că aparține subclasei Biscuiți și coborând în clasamentul&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;, it&rsquo;sa&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+</figure>
+<ul>
+<li><strong>Traducere</strong>: Cu acestea putem menține o listă de traduceri pentru ingrediente, anumite expresii, unități de măsură, nutrienți și țări. Dacă sunteți bilingv la fel ca mine, poate știți deja că&nbsp;<em>Google Translate</em>&nbsp;doar nu o taie uneori&rsquo; Ar putea exista variații locale ale numelor, ortografii alternative, ingrediente neobișnuite, sinonime&nbsp;<strong>(nume alternative</strong>) și multe alte cazuri în care utilizarea unui instrument de traducere nu ar rezolva problema noastră&rsquo;</li>
+</ul>
+<h2>Ceva cool despre taxonomii</h2>
+<p>Puteți contribui la ele indiferent de familiaritatea dvs. cu Codarea.&nbsp;<em>Da, ai auzit bine!</em>&nbsp;Dacă găsiți ceva ce doriți să corectați sau să adăugați taxonomii, tot ce trebuie să faceți este să editați/adăugați fișierele text legate&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>aici</strong></a>&nbsp;și să vă propuneți modificarea printr-o cerere de extragere&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong></strong></a>. (legat la un ghid descriptiv)</p>
+<p><strong>Cuvinte separate</strong></p>
+<p>În curând voi veni cu un blog care este specific pentru a contribui&rsquo;taxonomiile Open Food Facts pentru cineva neinițiat cu codificare și/sau Git și GitHub.</p>
+<p>Rămâneți pe fază pentru asta!&nbsp;:)</p>
+<p>Închidere, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>

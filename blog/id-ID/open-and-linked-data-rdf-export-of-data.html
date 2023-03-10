@@ -1,39 +1,41 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+Data <a href="https://world.openfoodfacts.org">Open Food Facts</a> sudah terbuka dan gratis (dalam <i>data terbuka</i> seperti yang mereka katakan), dan sekarang mereka juga terhubung. Dan ya, gratis dan terhubung sekaligus!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Gratis karena lisensi terbuka memungkinkan data untuk digunakan oleh semua orang dan untuk tujuan apa pun, dan terhubung karena data sekarang terhubung tidak hanya dengan satu sama lain, tetapi juga dengan kumpulan data lain, melalui basis data DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Saya ulangi bahwa: sekarang ada sebuah berkas besar yang berisi data Open Food Facts tentang produk - produk, bahan - bahannya dan komposisi nutrisinya. Produk - produk terkait dengan bahan yang dikandungnya, dan bahan - bahannya (beberapa untuk memulai) merujuk pada halamannya di <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (sebuah basis data dari artikel Wikipedia). Berkas ini bukan untuk manusia, tetapi untuk program. Dimungkinkan untuk membuat kuerinya, untuk menyusun kueri dengan kategori "produk mana yang kandungan bahan utamanya adalah gula", dan untuk menyilangkannya dengan mudah dengan kumpulan data lainnya.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Berkat berkas ini, data OFF saat ini merupakan bagian dari apa yang disebut <a href="https://en.wikipedia.org/wiki/Linked_data">"Data yang Terhubung" atau "Web Data"</a>. Datanya lebih mudah untuk digunakan kembali.<br>
 <br>
-<img title="" src="https://fr.blog.openfoodfacts.org/images/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+<img title="" src="https://blog.openfoodfacts.org/wp-content/uploads/2022/05/off_linked_data.png" width="638" height="547" alt=""><br>
+Akankah data Open Food Facts segera dihubungkan dengan banyak kumpulan data lainnya?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Detail teknis:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Saya mengambil bagian dalam <b>Kamp Datalift</b> yang untuknya Charles Nepote dari <a href="https://datalift.org/">Datalift</a> mengundang saya, dan itu merupakan pertama kalinya saya menggunakan peralatan Datalift. Kami mulai "bermain" dengan data OFF untuk melihat bagaimana mengekspresikannya di RDF.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Data kandungan bahan dan nutrisinya dideskripsikan sebagai <a href="https://data.lirmm.fr/ontologies/food">ontologi makanan</a> yang kami buat dengan <b>François Scharffe</b> dari Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> dan <b>Emmanuel Nauer</b> dari Lorrain Laboratory of Research in Computer Science dan penerapan <a href="https://www.loria.fr/">LORIA</a>nya. Idenya adalah untuk menggunakan kosakata yang sama untuk mendeskripsikan sebuah resep (seperti yang digunakan oleh proyek <a href="https://taaable.fr/">Taaable</a> yang dalamnya Emmanuel berpartisipasi), atau sebuah produk makanan yang diproduksi.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+Ekpor EDFnya ada di sini:
+<a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a>
+(dalam XML/RDF)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+Dan ia <a href="https://datahub.io/dataset/open-food-facts">dirujuk ke The Data Hub</a> untuk memfasilitasi penemuan kumpulan data Open Food Facts.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Kandungan bahan diurai dari daftar kandungan bahan dalam teks, ada kesalahan, format daftarnya sangat bervariasi dari satu produk ke produk lainnya. Saya akan meningkatkan pengurai, dan secara bersamaan para kontributor akan memperbaiki kesalahan pengejaan yang ada dalam daftar.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+URL produk dan bahan saat ini mengembalikan halaman web HTML, tetapi saya akan menambahkan negosiasi konten untuk mengembalikan RDF.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
+François membuat kesetaraan antara kandungan bahan Open Food Facts dan kandungan bahan yang sama pada DBPedia. Mereka ditunjukkan oleh owl:sameAs property, misalnya:<br>
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
+Saat ini tidak ada titik akhir SPARQL. Sebagai gantinya Anda dapat memuat ekspor RDF ke dalam peralatan seperti Datalift untuk mengeksekusi kueri SPARQL. Sebagai contoh, berikut adalah salah satu kueri pertama saya (untuk menemukan produk - produk yang kandungan bahan utamanya adalah gula):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
    ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Ini tentu saja sedang dalam proses pengembangan, masih ada banyak data yang hilang dalam ekspor RDF (merek, kategori, dll.). Mereka akan ditambahkan secara bertahap.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Ide, komentar, saran, dll. dari Anda akan diterima untuk meningkatkan data ini, untuk menghubungkan mereka dengan lebih baik, untuk merepresentasikan mereka dengan lebih baik, dll. Apa lagi jika Anda menggunakan datanya, akan baik untuk memberi tahu kami. Terima kasih sebelumnya!<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+Dan tentu saja terima kasih yang sebesar - besarnya kepada Emmanuel dan François atas bantuan mereka!<br>
