@@ -1,0 +1,35 @@
+<h2>על טקסונומיות</h2>
+
+<p><em>רשומת הבלוג הזאת נכתבה על ידי יוקטי (שמצטרפת אלינו עם תוכנית Outreachy). היא נתנה לנו את אישורה לשתף את זה כאן כיוון שזה מפרט את הנושא בצורה נהדרת. תודה רבה יוקטי! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">קישור למאמר המקורי „לכל אחד יש מאבק”</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>אנחנו עכשיו בשבוע השלישי של התמחות Outreachy! הרבה מהנקודות שאגע בהן בבלוג הן בהשראת חלק מהנחיות הכתיבה של מארגני Outreachy. בבלוג הזה, אכתוב על מונחי קוד פתוח בהם נתקלתי לראשונה<em>. במהלך הגשת הבקשה ל־Outreachy.</em></em></p>
+</blockquote>
+</figure>
+<p>היו המון מילים/מושגים שבלבלו אותי במהלך תקופת הגשת הבקשה ל־Outreachy. המילה הבולטת ביותר בעיני כרגע היא טקסונומיה <em>(רבים: טקסונומיות</em></code><em>). </em>כמתנדבת חדשה בקהילת Open Food Facts, שמתי לב שהמונח הזה מאוד נפוץ, מוזכר בתיעודי תקלות ובקשות דחיפה. תוך זמן קצר הבנתי שהמונח הזה הוא ודאי חשוב בהקשר של המיזם.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>מקור: Google</figcaption>
+</figure>
+<p>ההגדרה הזאת רק מבלבלת עוד יותר, לא? (ככלות הכול, לא מדובר ב־Open Animal Facts, אלא ב־Open Food Facts). בשלב הזה, הצלחתי להסיק באופן מעורפל מה המשמעות של המונח הזה מחוץ להקשר הביולוגי אך עדיין לא הצלחתי לקשר אותו למיזם.</p>
+<h2>עם הפנים קדימה</h2>
+<p>מודה, היססתי לבקש מחברי הקהילה <em>„להסביר”</em> לי על המונחים כיוון שהמונח הרגיש כל כך מרכזי במיזם הזה שנראה לי הוגן להשקיע עוד כמה ימים לחקירת קוד המקור ולראות איך הדברים עובדים. באופן טבעי לחלוטין, המילה הזאת (ומגוון עקרונות נוספים) החלו לקבל משמעות כשלמדתי יותר לעומק את מבנה המאגר בימים הבאים.</p>
+<h2>סבבה… אז מה זה טקסונומיות? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(קישור לעמוד הוויקי בנוסף!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">טקסונומיות</a> הן בליבת מבנה הנתונים ב־Open Food Facts. אלו קובצי טקסט גולמיים <code>(‎.txt)</code> שמכילים בעיקר תרגומים, סיווגים, תוויות, רשימות רכיבים והיררכיות.</p>
+<p>לצורכי פישוט, אפשר לפרק את הצורך בהם לשני חלקים,</p>
+<ul>
+<li><strong><strong>סיווג</strong>: </strong>אפשר להשתמש בטקסונומיות כדי לבסס היררכיות למוצרי צריכה. אפשר להדגים זאת באמצעות דוגמה: נסתכל על <em><strong>„Nutella Biscuits”</strong></em> (רקיקי נוטלה) הקישור לעמוד המוצר נמצא <a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">כאן</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>כדאי לשים לב: הקטגוריות האלו מופיעות בסדר היררכי. המוצר הזה הוא קודם כל<strong>„Snack”</strong> (חטיף) והוא נגזרת של חטיפים מסוג <strong>„Sweet snack”</strong> (חטיף מתוק). יתרה מכך, נוכל לומר שהוא שייך לתת־המחלקה רקיקים (ביסקוויטים) תוך צלילה לסיווג <strong>„Biscuits”</strong> וסיווג תחת <strong>„Filled Biscuit”</strong> (רקיק/ביסקוויט ממולא).</figcaption>
+</figure>
+<ul>
+<li><strong>תרגום</strong>: אם אלו ניתן לתחזק רשימה של תרגומים לרכיבים, משפטים מסוימים, יחידות מידה, חומרי הזנה ומדינות. דו־לשוניים כמוני ודאי יודעים ש<em>התרגום של Google</em> לא מספק תוצאה הולמת בחלק מהמקרים. יש כל מיני הטיות מקומיות לשמות, איותים חלופיים, רכיבים לא נפוצים, <strong>שמות נרדפים (חלופיים)</strong> ומגוון מצבים נוספים בהם כלי תרגום לא פותרים את הבעיה כראוי.</li>
+</ul>
+<h2>משהו מגניב על טקסונומיות</h2>
+<p>אפשר לתרום להן ללא קשר לידע שלך בתכנות. <em>כן, ממש כך!</em> אם מצאת משהו שכדאי לתקן או להוסיף לטקסונומיות, כל שיש לעשות הוא לערוך/להוסיף בקובצי הטקסט המקושרים <a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>כאן</strong></a> ולהציע את השינוי דרך <a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>בקשת דחיפה</strong></a>. (מקושר למדריך מפורט)</p>
+<p><strong>מילות סיכום</strong></p>
+<p>בקרוב אקים בלוג ייעודי לתרומה לטקסונומיות של Open Food Facts כדי להקל על ההשתלבות של כאלו שטרם התנסו בתכנות ו/או ב־Git או GitHub.</p>
+<p>עוד עדכונים בקרוב! :)</p>
+<p>להתראות ותודה על הדגים, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">יוקטי</a></p>
