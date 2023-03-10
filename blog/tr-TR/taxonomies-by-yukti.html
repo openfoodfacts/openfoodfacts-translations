@@ -1,0 +1,35 @@
+<h2>Taksonomiler hakkında</h2>
+
+<p><em>Bu blog girişi, (Bize Outreachy programına katılan) Yukti tarafından yazılmıştır. Konuyu çok iyi anlattığını düşündüğümüz için burada paylaşmamıza izin verdi. Çok teşekkür ederim Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">"Herkes Mücadele Ediyor" başlıklı orijinal makaleye bağlantı</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Artık Outreachy stajının 3. Haftasındayız! &rsquo;değineceğim pek çok nokta, Outreachy organizatörlerinin bazı yazma istemlerinden ilham almıştır. Bu blogda benim için yeni olan bir açık kaynak kelime terimi hakkında yazacağım<em>. Sosyal Yardım Başvuru Döneminde.</em></em></p>
+</blockquote>
+</figure>
+<p>Outreachy başvuru döneminde kafamı karıştıran tonlarca kelime/kavram vardı. The word that sticks out to me the most right now is&nbsp;<code>Taxonomy&nbsp;<em>(plural: Taxonomies</em></code><em>).&nbsp;</em>As a newcomer to the Open Food Facts community, I noticed this term being talked about a lot, mentioned in issues and pull requests. Bu terimin proje bağlamında önemli olması gerektiğini anlamak&rsquo;benim için çok uzun sürmedi.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Kaynak: Google</figcaption>
+</figure>
+<p>Bu tanım durumu daha da karıştırıyor gibi görünüyor değil mi? (sonuçta,&rsquo;Open Animal Facts değil, Open Food Facts&rsquo;). Bu noktada, biyolojik bir bağlamın dışında bu terimin ne anlama gelebileceğini belli belirsiz anlayabiliyordum ama yine de onu&rsquo;gerçekten ilişkilendiremedim.</p>
+<h2>İleriye gidiyorum</h2>
+<p>Kuşkusuz, bir topluluk üyesinden benim için&nbsp;<em>&ldquo;tanımlamasını&rdquo;</em>&nbsp;istemekte tereddüt ettim çünkü terim bu proje için o kadar merkeziydi ki kendime sadece birkaç gün ayırmanın, kod tabanını keşfetmenin ve işlerin nasıl yürüdüğünü görmenin adil olduğunu hissettim. Doğal olarak, bu kelime (ve diğer birkaç kavram), önümüzdeki birkaç gün içinde depo&rsquo;s yapısına daha aşina olduğum için anlamlı olmaya başladı.</p>
+<h2>Peki... taksonomi nedir? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Wiki sayfasına da bağlantı verin!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taksonomiler</a>&nbsp;, Open Food Facts'de Veri Yapısının merkezinde yer alır. Bunlar, esas olarak çeviriler, sınıflandırmalar, etiketler, içerik listeleri ve hiyerarşiler içeren ham metin dosyalarıdır &nbsp;<code>(.txt)</code>&nbsp;.</p>
+<p>Biraz basitleştirmek için işlevleri genel olarak 2 parçaya bölünebilir,</p>
+<ul>
+<li><strong><strong>Sınıflandırma</strong>: </strong>Sarf malzemeleri için hiyerarşiler oluşturmak için taksonomileri kullanabiliriz. Bu en iyi bir örnekle açıklanır:&rsquo;şuna bir göz atalım&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;ürün sayfasına bağlantı&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">burada</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Not: Bu kategoriler hiyerarşik bir sırayla listelenir. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+</figure>
+<ul>
+<li><strong>Tercüme</strong>: Bunlarla, içerikler, belirli ifadeler, ölçü birimleri, besinler ve ülkeler için çevirilerin bir listesini tutabiliriz. Benim gibi iki dilliyseniz,&nbsp;<em>Google Translate</em>&nbsp;bazen&rsquo;t sizi kesmediğini zaten biliyor olabilirsiniz. &rsquo;yerel varyasyonlar, alternatif yazımlar, yaygın olmayan içerikler,&nbsp;<strong>eş anlamlılar (alternatif isimler</strong>) için bir çeviri aracı kullanmanın sorunumuzu çözmeyeceği daha birçok durum olabilir.</li>
+</ul>
+<h2>Taksonomiler hakkında harika bir şey</h2>
+<p>Kodlama bilginiz ne olursa olsun onlara katkıda bulunabilirsiniz.&nbsp;<em>Evet, doğru duydunuz!</em>&nbsp;Düzeltmek veya Taksonomilere eklemek istediğiniz bir şey bulursanız, tek yapmanız gereken&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>burada</strong></a>&nbsp;bağlantısı verilen metin dosyalarını düzenlemek/eklemenizi yapmak ve&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>çekme talebi ile değişikliğinizi önermek.</strong></a>. (açıklayıcı bir kılavuza bağlı)</p>
+<p><strong>Ayrılık sözleri</strong></p>
+<p>Yakında, kodlamaya ve/veya Git ve GitHub'a başlamamış biri için Open Food Facts taksonomilerine katkıda bulunmaya özel&rsquo;s bir blog ile geleceğim.</p>
+<p>Bunun için Takipte Kalın!&nbsp;:)</p>
+<p>Oturum kapatılıyor, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
