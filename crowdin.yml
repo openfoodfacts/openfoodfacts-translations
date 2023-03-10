@@ -130,3 +130,8 @@ files:
     dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     preserve_hierarchy: true
+
+  - source: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    dist: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    translation: /blog/%locale%/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    preserve_hierarchy: true
