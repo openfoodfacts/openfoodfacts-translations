@@ -1,0 +1,35 @@
+<h2>Về Taxonomies</h2>
+
+<p><em>Tiêu để Blog bởi Yukti (thành viên trong chương trình Outreachy). Cô ấy đã cho phép chúng tôi được đăng tải bài viết tại đây bởi chúng tôi đều nhận thấy bài viết giải thích rất chi tiết về chủ đề này. Cảm ơn bạn rất nhiều, Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Liên kết đến bài báo gốc "Everybody Struggles"</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Hiện chúng tôi đang trong tuần thứ 3 của khóa thực tập Outreachy! Có rất nhiều điểm mà tôi sẽ đề cập đến trong Blog này được truyền cảm hứng bởi những nghiên cứu từ các nhà tổ chức của Outreachy. Trong blog này, tôi sẽ viết về một thuật ngữ từ vựng nguồn mở mà cũng là điều mới đối với tôi<em>. Trong quá trình đăng kí tham gia Outreatchy.</em></em></p>
+</blockquote>
+</figure>
+<p>Có rất nhiều từ / khái niệm mà tôi đã nhầm lẫn trong thời gian đăng ký tham gia Outreachy. Từ khiến tôi thích thú nhất lúc này là&nbsp;<code>Taxonomy&nbsp;<em>(số nhiều: Taxonomies</em></code><em>).&nbsp;</em>Là một người mới tham gia cộng đồng Open Food Facts, tôi nhận thấy thuật ngữ này được nói đến rất nhiều, được đề cập trong các vấn đề và các yêu cầu kéo. Không mất&rsquo;nhiều thời gian để tôi nhận ra rằng thuật ngữ này phải là một thuật ngữ quan trọng trong bối cảnh của dự án.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Nguồn: Google</figcaption>
+</figure>
+<p>Định nghĩa này có vẻ càng khó hiểu hơn phải không? (xét cho cùng, nó không phải là Open Animal Facts, mà là Open Food Facts). Tại thời điểm đó, tôi có thể mơ hồ hiểu ra thuật ngữ này có thể có nghĩa ngay cả bên ngoài bối cảnh sinh học nhưng&rsquo;không thể thực sự liên hệ nó với dự án.</p>
+<h2>Tìm hiểu sâu hơn</h2>
+<p>Phải thừa nhận rằng, tôi đã do dự khi yêu cầu một thành viên cộng đồng chỉ&nbsp;<em>&ldquo;định nghĩa định&rdquo;</em>&nbsp; cho tôi vì thuật ngữ này có ý nghĩa rất quan trọng đối với dự án này đến nỗi tôi phải cần tự dành cho mình vài ngày để khám phá cơ sở mã và xem nó hoạt động xung quanh như thế nào. Rất tự nhiên, từ này (và một số khái niệm khác) bắt đầu có ý nghĩa hơn khi tôi trở nên quen thuộc hơn với cấu trúc của kho lưu trữ trong vài ngày sau đó.</p>
+<h2>Vậy ... taxonomies là gì? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Liên kết đến cả trang wiki!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;là trọng tâm của Cấu trúc Dữ liệu trong Open Food Facts. Đây là các tệp văn bản gốc&nbsp;<code>(.txt)</code>&nbsp;chủ yếu chứa các bản dịch, phân loại, nhãn, danh sách thành phần và phân cấp.</p>
+<p>Để đơn giản hóa hơn, chức năng của chúng có thể được chia thành 2 phần,</p>
+<ul>
+<li><strong><strong>Phân loại</strong>: </strong>Chúng ta có thể sử dụng các taxonomies để thiết lập thứ bậc cho vật tư tiêu hao. Điều này được giải thích rõ nhất bằng một ví dụ: Hãy cùng xem qua trang sản phẩm&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;này được liên kết&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">tại đây</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Lưu ý: Các danh mục này được liệt kê theo thứ tự phân cấp. Sản phẩm này là&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;đầu tiên và nằm trong các món ăn nhẹ,&nbsp;<strong>&ldquo;Sweet Snack&rdquo;</strong>. Hơn nữa, chúng ta có thể nói nó thuộc phân khúc Bánh quy và đi xuống phân loại&nbsp;<strong>&ldquo;Bánh quy&rdquo;</strong>&nbsp;, nó là &nbsp;<strong>&ldquo;Bánh quy có nhân</strong>&ldquo;.</figcaption>
+</figure>
+<ul>
+<li><strong>Bản dịch</strong>: Với những điều này, chúng tôi có thể duy trì một danh sách các bản dịch cho các thành phần, một số cụm từ, đơn vị đo lường, chất dinh dưỡng và các quốc gia. Nếu bạn là người song ngữ như tôi, bạn có thể đã biết rằng&nbsp;<em>Google Dịch</em>&nbsp;đôi&rsquo;không cắt bỏ phần này. Có thể có các cách gọi địa phương khác nhau đối với tên, cách viết thay thế, thành phần không phổ biến,&nbsp;<strong>từ đồng nghĩa (tên thay thế</strong>) và nhiều trường hợp khác mà việc sử dụng công cụ dịch sẽ không thể giải quyết được vấn đề.</li>
+</ul>
+<h2>Một vài điều hay ho về Taxonomies</h2>
+<p>Bạn có thể đóng góp bất kể mức độ quen thuộc của bạn với các Mã hóa.&nbsp;<em>Vâng, bạn đã nghe đúng!</em>&nbsp;Nếu bạn tìm thấy điều gì đó mà bạn muốn sửa hoặc thêm vào Taxonomies, tất cả những gì bạn cần làm là chỉnh sửa / bổ sung vào các tệp văn bản được liên kết&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>tại đây</strong></a>&nbsp;và đề xuất thay đổi của bạn thông qua yêu cầu kéo&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong></strong></a>. (được liên kết với một hướng dẫn mô tả)</p>
+<p><strong>Lời kết</strong></p>
+<p>Tôi sẽ sớm tạo ra một blog &rsquo;dành riêng cho việc đóng góp vào bảng Taxonomies của Open Food Facts cho những người chưa quen với lập trình và / hoặc Git và GitHub.</p>
+<p>Hãy theo dõi!&nbsp;:)</p>
+<p>Đang ký, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>

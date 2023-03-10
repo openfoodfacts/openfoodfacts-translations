@@ -1,0 +1,35 @@
+<h2>On taxonomies</h2>
+
+<p><em>Dette blogindlæg er skrevet af Yukti (som slutter sig til os med Outreachy-programmet). Hun gav os tilladelse til at dele det her, det forklarer emnet ganske godt. Mange tak, Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link til originalartiklen "Everybody Struggles"</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Vi er nu i 3. uge af Outreachy-praktikken! Mange af punkterne, jeg kommer ind på i bloggen, er blevet inspireret af nogle af skriveopfordringerne fra Outreachy-arrangørerne. I denne blog vil jeg skrive om et open-source sprogbegreb, der var nyt for mig<em>. Under Outreachy-ansøgningsperioden.</em></em></p>
+</blockquote>
+</figure>
+<p>Der var et væld af ord/begreber, som jeg blev forvirret over under Outreachy-ansøgningsperioden. Dét ord, der stikker mig mest lige nu, er&nbsp;<code>Taksonomi&nbsp;<em>(flertal: Taksonomier</em></code><em>).&nbsp;</em>Som ny i Open Food Facts-fællesskabet bemærkede jeg, at dette udtryk blev omtalt meget, nævnt i problematikker og pull-anmodninger. Det tog mig ikke længe at indse, at dette udtryk var vigtigt i forbindelse med projektet.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Kilde: Google</figcaption>
+</figure>
+<p>Denne definition lader til at forvirre endnu mere, ikke? (det er trods alt ikke Open Animal Facts, men Open Food Facts). På det tidspunkt kunne jeg vagt forstå, hvad dette udtryk kunne betyde i en ikke-biologisk kontekst, men kunne stadig ikke virkelig relaterer det til projektet.</p>
+<h2>Fremad</h2>
+<p>Indrømmet, jeg tøvede med blot at bede et fællesskabsmedlem &nbsp;<em>&ldquo;at definere&rdquo;</em>&nbsp;det for mig, fordi udtrykket føltes så centralt for dette projekt, at det kun føltes rimeligt at give mig selv et par dage, udforske kodebasen, og se hvordan ting fungerer. Meget naturligt begyndte dette ord (og flere andre begreber) at give mening, da jeg blev mere fortrolig med repo-strukturen i løbet af de næste par dage.</p>
+<h2>Så, hvad er taksonomier? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link til wiki-siden også!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taksonomier</a>&nbsp;er kernen i datastrukturen i Open Food Facts. Disse er råtekstfiler&nbsp;<code>(.txt)</code>&nbsp; fortrinsvis indeholdende oversættelser, klassifikationer, etiketter, ingredienslister og hierarkier.</p>
+<p>Lidt forenklet, kan deres funktion groft opdeles i 2 dele,</p>
+<ul>
+<li><strong><strong>Klassifikation</strong>: </strong>Taksonomier kan bruges til at etablere hierarkier for forbrugsvarer. Dette forklares bedst med et eksempel: Tag f.eks. denne&nbsp;<em><strong>&ldquo;Nutella-kiks&rdquo;</strong></em>&nbsp;produktside, der er linket til&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">her</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Bemærk: Disse kategorier er opført i hierarkisk rækkefølge. Dette produkt er føst og fremmest en&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;, og inden for snacks en&nbsp;<strong>&ldquo;Sød snack&rdquo;</strong>. Yderligere kan man sige, at den tilhører underklassen Kiks, og i klassifikationen&nbsp;<strong>&ldquo;Kiks&rdquo;</strong>&nbsp;, er den en&nbsp;<strong>&ldquo;Fyldt kiks</strong>&ldquo;.</figcaption>
+</figure>
+<ul>
+<li><strong>Oversættelse</strong>: Med disse kan der vedligeholdes en liste over oversættelser for ingredienser, visse sætninger, måleenheder, næringsstoffer og lande. Er man som jeg tosproget, ved man nok allerede, at&nbsp;<em>Google Translate</em>&nbsp;nogle gange bare ikke er god nok. Der kan være lokale navnevarianter, alternative stavemåder, sjældne ingredienser,&nbsp;<strong>synonymer</strong> og mange flere tilfælde, hvor brug af et oversættelsesværktøj ikke vil løse opgaven.</li>
+</ul>
+<h2>Noget fedt ved taksonomier</h2>
+<p>Man kan bidrage til dem uanset ens kendskab til kodning.&nbsp;<em>Ja, det rigtigt!</em>&nbsp;Finder man noget, man ønsker at rette eller tilføje til taksonomierne, behøver man blot redigere/foretage sin tilføjelse til tekstfilerne, som er linket&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>her</strong></a>&nbsp;og foreslå sin ændring via en&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull-anmodning</strong></a>. (linket til en beskrivende vejledning)</p>
+<p><strong>Afskedsord</strong></p>
+<p>Jeg komme snart med en blog, specifikt for bidrag til Open Food Facts-taksonomierne, til dem, som ikke er nørder udi kodning og/eller Git og GitHub.</p>
+<p>Hold øje udkig efter den!&nbsp&nbsp:-)</p>
+<p>Farvel for nu, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
