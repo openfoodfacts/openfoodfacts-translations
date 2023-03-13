@@ -135,3 +135,8 @@ files:
     dist: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
     translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
     preserve_hierarchy: true
+
+  - source: /blog/pages/join-the-tackling-food-packaging-operation.html
+    dist: /blog/pages/join-the-tackling-food-packaging-operation.html
+    translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
+    preserve_hierarchy: true
