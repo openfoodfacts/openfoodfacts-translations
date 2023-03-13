@@ -135,3 +135,18 @@ files:
     dist: /blog/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
     translation: /blog/%locale%/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
     preserve_hierarchy: true
+    
+  - source: /blog/organise-a-scan-party-participative-workshop.html
+    dist: /blog/organise-a-scan-party-participative-workshop.html
+    translation: /blog/%locale%/organise-a-scan-party-participative-workshop.html
+    preserve_hierarchy: true
+    
+  - source: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    dist: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    preserve_hierarchy: true
+
+  - source: /blog/pages/join-the-tackling-food-packaging-operation.html
+    dist: /blog/pages/join-the-tackling-food-packaging-operation.html
+    translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
+    preserve_hierarchy: true
