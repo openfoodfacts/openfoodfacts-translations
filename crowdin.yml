@@ -131,7 +131,42 @@ files:
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     preserve_hierarchy: true
 
-  - source: /blog/operation-packaging-announcement .html
-    dist: /blog/operation-packaging-announcement .html
+  - source: /blog/operation-packaging-announcement.html
+    dist: /blog/operation-packaging-announcement.html
     translation: /blog/%locale%/operation-packaging-announcement.html
+    preserve_hierarchy: true
+    
+  - source: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    dist: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    translation: /blog/%locale%/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    preserve_hierarchy: true
+    
+  - source: /blog/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    dist: /blog/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    translation: /blog/%locale%/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    preserve_hierarchy: true
+    
+  - source: /blog/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    dist: /blog/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    translation: /blog/%locale%/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    preserve_hierarchy: true
+    
+  - source: /blog/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    dist: /blog/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    translation: /blog/%locale%/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    preserve_hierarchy: true
+    
+  - source: /blog/organise-a-scan-party-participative-workshop.html
+    dist: /blog/organise-a-scan-party-participative-workshop.html
+    translation: /blog/%locale%/organise-a-scan-party-participative-workshop.html
+    preserve_hierarchy: true
+    
+  - source: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    dist: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    preserve_hierarchy: true
+
+  - source: /blog/pages/join-the-tackling-food-packaging-operation.html
+    dist: /blog/pages/join-the-tackling-food-packaging-operation.html
+    translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
     preserve_hierarchy: true
