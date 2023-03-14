@@ -130,3 +130,8 @@ files:
     dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     preserve_hierarchy: true
+
+  - source: /blog/presenting-open-food-facts-at-events-a-case-study.html
+    dist: /blog/presenting-open-food-facts-at-events-a-case-study.html
+    translation: /blog/%locale%/presenting-open-food-facts-at-events-a-case-study.html
+    preserve_hierarchy: true
