@@ -1,0 +1,35 @@
+<h2>Sobre taxonomias</h2>
+
+<p><em>Esta entrada de blog foi escrita pela Yukti (que se junta a nós com o programa Outreachy). Ela nos autorizou a compartilhá-la aqui, pois pensamos que explica muito bem este tema. Muito obrigado, Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link para o artigo original "Todos se esforçam"</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Estamos agora na semana 3 do estágio do Outreachy! Vários dos assuntos que abordei no blog foram inspirados por algumas das sugestões de temas dos organizadores do Outreachy. Neste blog, vou escrever sobre um termo do vocabulário de código aberto que era novo para mim<em> durante o período de inscrição no programa.</em></em></p>
+</blockquote>
+</figure>
+<p>Havia uma tonelada de palavras/conceitos com os quais fiquei confusa durante o período de inscrição no Outreachy. A palavra que mais me chama a atenção é&nbsp;<code>Taxonomia&nbsp;<em>(plural: Taxonomias</em></code><em>).&nbsp;</em>Como recém-chegada à comunidade Open Food Facts, notei que esse termo era muito falado, mencionado em questões e pull requests. Não demorei para perceber que este termo era bem importante no contexto do projeto.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Fonte: Google</figcaption>
+</figure>
+<p>Essa definição parece tornar o termo ainda mais confuso (afinal, não se trata de Open Animal Facts, e sim Open Food Facts), certo? Nesse ponto, eu poderia explicar vagamente o que este termo pode significar fora de um contexto biológico, mas ainda não seria capaz de realmente relacioná-lo com o projeto.</p>
+<h2>Melhor a cada dia</h2>
+<p>Admito que hesitei em pedir a um membro da comunidade para apenas&nbsp;<em>&ldquo;definir&rdquo;</em>&nbsp;o termo, pois ele parecia tão central ao projeto que achei correto me dar mais alguns dias para explorar a base de código e ver se encontrava uma solução. Muito naturalmente, essa palavra (e vários outros conceitos) começou a fazer sentido à medida que me familiarizei com a estrutura do repositório, nos dias seguintes.</p>
+<h2>Então... o que são taxonomias? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link para a página wiki também!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomias</a>&nbsp;estão no centro da estrutura de dados no Open Food Facts. São arquivos de texto bruto&nbsp;<code>(.txt)</code>&nbsp;que contêm principalmente traduções, classificações, rótulos, listas de ingredientes e hierarquias.</p>
+<p>Para simplificar um pouco, sua função pode ser dividida em 2 partes:</p>
+<ul>
+<li><strong><strong>Classificação</strong>: </strong>Podemos usar taxonomias para estabelecer hierarquias de consumíveis. Isso é melhor explicado por um exemplo: vamos dar uma olhada nesta página do produto&nbsp;<em><strong>&ldquo;Biscoitos Nutella&rdquo;</strong></em>, anexa&nbsp;<a href="https://br.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">aqui</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Nota: Essas categorias estão listadas em uma ordem hierárquica. Este produto é primeiro um&nbsp;<strong>&ldquo;snack&rdquo;</strong>&nbsp;e, dentro de snacks, um&nbsp;<strong>&ldquo;snack doce&rdquo;</strong>. Além disso, podemos dizer que pertence à subclasse dos Biscoitos e, descendo a&nbsp;classificação <strong>&ldquo;Biscoitos&rdquo;</strong>, que é um&nbsp;<strong>&ldquo;Biscoito recheado</strong>&ldquo;.</figcaption>
+</figure>
+<ul>
+<li><strong>Tradução</strong>: com isso, podemos manter uma lista de traduções para ingredientes, certas frases, unidades de medida, nutrientes e países. Se você é bilíngue como eu, já deve saber que o&nbsp;<em>Google Translate</em>&nbsp;às vezes não é suficiente para esta finalidade. Pode haver variações locais para nomes, grafias alternativas, ingredientes incomuns,&nbsp;<strong>sinônimos (nomes alternativos</strong>) e muitos outros casos em que usar uma ferramenta de tradução não resolveria nosso problema.</li>
+</ul>
+<h2>Algo legal sobre as taxonomias</h2>
+<p>Você pode contribuir para elas, não importando sua familiaridade com programação.&nbsp;<em>Sim, você ouviu direito!</em>&nbsp;Se você encontrar algo que deseja corrigir ou adicionar às taxonomias, tudo o que precisa fazer é editar ou adicionar sua sugestão aos arquivos de texto anexos&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>aqui</strong></a>&nbsp;e propor sua alteração por meio de um&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a> (vinculado a um guia descritivo).</p>
+<p><strong>Conclusão</strong></p>
+<p>Em breve publicarei um blog específico para contribuir com as taxonomias do Open Food Facts aos que estão iniciando em programação e/ou Git e GitHub.</p>
+<p>Fique atento!&nbsp;:)</p>
+<p>Assinado, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>

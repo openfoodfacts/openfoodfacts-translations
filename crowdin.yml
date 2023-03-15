@@ -2,91 +2,186 @@ project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 files:
   - source: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
-    dest: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
+    dist: /blog/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
     translation: /blog/%locale%/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
     preserve_hierarchy: true
     
   - source: /blog/a-clever-device-to-photograph-tins.html
-    dest: /blog/a-clever-device-to-photograph-tins.html
+    dist: /blog/a-clever-device-to-photograph-tins.html
     translation: /blog/%locale%/a-clever-device-to-photograph-tins.html
     preserve_hierarchy: true
 
   - source: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
-    dest: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
+    dist: /blog/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
     translation: /blog/%locale%/discover-the-5 colors-A-B-C-D-E-nutrition-grade-of-X-country-products-on-openfoodfacts.html
     preserve_hierarchy: true
 
   - source: /blog/graphs-in-3-clicks.html
-    dest: /blog/graphs-in-3-clicks.html
+    dist: /blog/graphs-in-3-clicks.html
     translation: /blog/%locale%/graphs-in-3-clicks.html
     preserve_hierarchy: true
     
   - source: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
-    dest: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
+    dist: /blog/introducing-open-products-facts-all-your-product-are-belong-to-us.html
     translation: /blog/%locale%/introducing-open-products-facts-all-your-product-are-belong-to-us.html
     preserve_hierarchy: true
     
   - source: /blog/launch-of-open-food-facts-join-the-food-revolution.html
-    dest: /blog/launch-of-open-food-facts-join-the-food-revolution.html
+    dist: /blog/launch-of-open-food-facts-join-the-food-revolution.html
     translation: /blog/%locale%/launch-of-open-food-facts-join-the-food-revolution.html
     preserve_hierarchy: true
     
   - source: /blog/made-near-eu-and-makes-you-curious.html
-    dest: /blog/made-near-eu-and-makes-you-curious.html
+    dist: /blog/made-near-eu-and-makes-you-curious.html
     translation: /blog/%locale%/made-near-eu-and-makes-you-curious.html
     preserve_hierarchy: true
     
   - source: /blog/open-and-linked-data-rdf-export-of-data.html
-    dest: /blog/open-and-linked-data-rdf-export-of-data.html
+    dist: /blog/open-and-linked-data-rdf-export-of-data.html
     translation: /blog/%locale%/open-and-linked-data-rdf-export-of-data.html
     preserve_hierarchy: true
     
   - source: /blog/scanning-is-already-contributing.html
-    dest: /blog/scanning-is-already-contributing.html
+    dist: /blog/scanning-is-already-contributing.html
     translation: /blog/%locale%/scanning-is-already-contributing.html
     preserve_hierarchy: true
     
   - source: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
-    dest: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
+    dist: /blog/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
     translation: /blog/%locale%/support-open-food-facts-on-helloasso-and-lilo-and-be-a-part-the-hosting-of-the-project.html
     preserve_hierarchy: true
     
   - source: /blog/how-many-different-food-products-are-there-in-the-world.html
-    dest: /blog/how-many-different-food-products-are-there-in-the-world.html
+    dist: /blog/how-many-different-food-products-are-there-in-the-world.html
     translation: /blog/%locale%/how-many-different-food-products-are-there-in-the-world.html
     preserve_hierarchy: true
   
   - source: /blog/advanced-search-form-and-data-export.html
-    dest: /blog/advanced-search-form-and-data-export.html
+    dist: /blog/advanced-search-form-and-data-export.html
     translation: /blog/%locale%/advanced-search-form-and-data-export.html
     preserve_hierarchy: true
   
   - source: /blog/wrapping-it-up.html
-    dest: /blog/wrapping-it-up.html
+    dist: /blog/wrapping-it-up.html
     translation: /blog/%locale%/wrapping-it-up.html
     preserve_hierarchy: true
     
   - source: /blog/mailing-nutriscore.html
-    dest: /blog/mailing-nutriscore.html
+    dist: /blog/mailing-nutriscore.html
     translation: /blog/%locale%/mailing-nutriscore.html
     preserve_hierarchy: true
     
   - source: /blog/new-mobile-app-2019.html
-    dest: /blog/new-mobile-app-2019.html
+    dist: /blog/new-mobile-app-2019.html
     translation: /blog/%locale%/new-mobile-app-2019.html
     preserve_hierarchy: true
     
   - source: /blog/mailing-newapp.html
-    dest: /blog/mailing-newapp.html
+    dist: /blog/mailing-newapp.html
     translation: /blog/%locale%/mailing-newapp.html
     preserve_hierarchy: true
 
   - source: /blog/1-million-products.html
-    dest: /blog/1-million-products.html
+    dist: /blog/1-million-products.html
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
 
   - source: /blog/real-time-product-data-from-producers.html
     dest: /blog/real-time-product-data-from-producers.html
     translation: /blog/%locale%/real-time-product-data-from-producers.html
+    preserve_hierarchy: true
+    
+  - source: /blog/days-off-2022.html
+    dist: /blog/days-off-2022.html
+    translation: /blog/%locale%/days-off-2022.html
+    preserve_hierarchy: true
+    
+  - source: /blog/agena-3000.html
+    dist: /blog/agena-3000.html
+    translation: /blog/%locale%/agena-3000.html
+    preserve_hierarchy: true
+    
+  - source: /blog/ecoscore-launch.html
+    dist: /blog/ecoscore-launch.html
+    translation: /blog/%locale%/ecoscore-launch.html
+    preserve_hierarchy: true
+
+  - source: /blog/personal-search.html
+    dist: /blog/personal-search.html
+    translation: /blog/%locale%/personal-search.html
+    preserve_hierarchy: true
+    
+  - source: /blog/taxonomies-by-yukti.html
+    dist: /blog/taxonomies-by-yukti.html
+    translation: /blog/%locale%/taxonomies-by-yukti.html
+    preserve_hierarchy: true
+    
+  - source: /blog/operation-toothpaste.html
+    dist: /blog/operation-toothpaste.html
+    translation: /blog/%locale%/operation-toothpaste.html
+    preserve_hierarchy: true
+
+  - source: /blog/what-happened-at-the-open-food-facts-days-22.html
+    dist: /blog/what-happened-at-the-open-food-facts-days-22.html
+    translation: /blog/%locale%/what-happened-at-the-open-food-facts-days-22.html
+    preserve_hierarchy: true
+    
+  - source: /blog/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    dist: /blog/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    translation: /blog/%locale%/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
+    preserve_hierarchy: true
+    
+  - source: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+    preserve_hierarchy: true
+    
+   - source: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
+    dist: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
+    translation: /blog/%locale%/there-is-no-age-limit-for-a-packaging-workshop.html
+    preserve_hierarchy: true
+
+  - source: /blog/operation-packaging-announcement.html
+    dist: /blog/operation-packaging-announcement.html
+    translation: /blog/%locale%/operation-packaging-announcement.html
+    preserve_hierarchy: true
+    
+  - source: /blog/our-producers-platform-is-getting-a-makeover.html
+    dist: /blog/our-producers-platform-is-getting-a-makeover.html
+    translation: /blog/%locale%/our-producers-platform-is-getting-a-makeover.html
+    preserve_hierarchy: true
+    
+  - source: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    dist: /blog/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    translation: /blog/%locale%/feedback-from-people-who-are-weighing-in-on-the-tackling-packaging-operation.html
+    preserve_hierarchy: true
+    
+  - source: /blog/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    dist: /blog/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    translation: /blog/%locale%/the-agribalyse-3-1-update-and-its-impact-on-the-eco-score-in-open-food-facts.html
+    preserve_hierarchy: true
+    
+  - source: /blog/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    dist: /blog/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    translation: /blog/%locale%/discussions-on-a-harmonised-ecolabel-at-european-level-the-debate-is-moving-forward.html
+    preserve_hierarchy: true
+    
+  - source: /blog/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    dist: /blog/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    translation: /blog/%locale%/how-open-food-facts-uses-logos-to-get-information-on-food-products.html
+    preserve_hierarchy: true
+    
+  - source: /blog/organise-a-scan-party-participative-workshop.html
+    dist: /blog/organise-a-scan-party-participative-workshop.html
+    translation: /blog/%locale%/organise-a-scan-party-participative-workshop.html
+    preserve_hierarchy: true
+    
+  - source: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    dist: /blog/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
+    preserve_hierarchy: true
+
+  - source: /blog/pages/join-the-tackling-food-packaging-operation.html
+    dist: /blog/pages/join-the-tackling-food-packaging-operation.html
+    translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
     preserve_hierarchy: true

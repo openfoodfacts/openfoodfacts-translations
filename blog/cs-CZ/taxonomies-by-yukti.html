@@ -1,0 +1,35 @@
+<h2>V taxonomii</h2>
+
+<p><em>Tento příspěvek na blogu napsal Yukti (který se k nám připojil s programem Outreachy). Laskavě nám dal svolení to zde sdílet, protože si myslíme, že to téma velmi dobře vysvětluje. Děkujeme moc Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Odkaz na původní článek „Everybody Struggles“</a>).</em></p>
+<hr />
+<figure>
+<blockquote>
+<p><em>Nyní jsme ve 3. týdnu Outreachy stáže! Mnoho bodů, které na blogu zmíním;, bylo inspirováno některými podněty k psaní od organizátorů Outreachy. V tomto blogu budu psát o pro mě novém termínu ze slovníku open source<em>. Během období žádosti do Outreachy</em></em></p>
+</blockquote>
+</figure>
+<p>V období podávání přihlášky do programu Outreachy jsem si nevěděla rady se spoustou slov a pojmů. Slovo, které mě teď nejvíc zaujalo, je&nbsp;<code>Taxonomie&nbsp;<em>(množné číslo: Taxonomie</em></code><em>).&nbsp;</em>Jako nováček v komunitě Open Food Facts jsem si všiml, že se o tomto termínu hodně mluví, je zmiňován v Issues a pull requests. Netrvalo dlouho a uvědomil jsem si, že tento termín by měl být v kontextu projektu důležitý.</p>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
+<figcaption>Zdroj: Google</figcaption>
+</figure>
+<p>Zdá se, že tato definice je ještě více matoucí, že? (koneckonců, to není Open Animal Facts, to je Open Food Facts). V tu chvíli jsem mohl nejasně rozeznat, co tento termín může znamenat mimo biologický kontext, ale stále jsem nebyl schopen ho skutečně spojit s projektem.</p>
+<h2>Posun vpřed</h2>
+<p>Přiznám se, že jsem váhal, zda mám požádat člena komunity, aby to pro mě&nbsp;<em>&ldquo;definoval&dquo;</em>&nbsp;protože tento termín byl pro tento projekt tak ústřední, že mi přišlo spravedlivé dát si pár dní, prozkoumat kódovou základnu a zjistit, jak věci fungují. Toto slovo (a několik dalších pojmů) přirozeně začalo dávat smysl, když jsem se v příštích několika dnech blíže seznámil se strukturou úložiště.</p>
+<h2>Takže... co jsou taxonomie? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Odkaz také na stránku wiki!)</a></em></h2>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomie</a>&nbsp;jsou jádrem datové struktury v Open Food Facts. Jedná se o nezpracované textové soubory&nbsp;<code>(.txt)</code>&nbsp;, které obsahují hlavně překlady, klasifikace, štítky, seznamy složek a hierarchie.</p>
+<p>Abychom to trochu zjednodušili, jejich funkci lze široce rozdělit na 2 části,</p>
+<ul>
+<li><strong><strong>Klasifikace</strong>: </strong>K vytvoření hierarchie spotřebního zboží můžeme použít taxonomie. Nejlépe to vysvětlí příklad: Podívejme se&rsquo;na tuto stránku produktu&nbsp;<em><strong>&ldquo;Sušenky Nutella&rdquo;</strong></em>&nbsp;odkazovaná&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">zde</a>.</li>
+</ul>
+<figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
+<figcaption>Poznámka: Tyto kategorie jsou uvedeny v hierarchickém pořadí. Tento produkt je&nbsp;<strong>&ldquo;Svačina&rdquo;</strong>&nbsp;jako první a v rámci svačin&nbsp;<strong>&ldquo;Sladká svačina&rdquo;</strong>. Dále bychom mohli říci, že patří do podtřídy Sušenky a sestupem v kategorii&nbsp;<strong>&ldquo;Sušenky&dquo;</strong>&nbsp;je to&nbsp;<strong>&ldquo;Plněné sušenky</strong>&ldquo;. </figcaption>
+</figure>
+<ul>
+<li><strong>Překlady</strong>: Pomocí nich můžeme udržovat seznam překladů složek, určitých frází, měrných jednotek, živin a zemí. Pokud jste bilingvní jako já, možná už víte, že&nbsp;<em>Překladač Google</em>&nbsp; se občas netrefí. Mohou existovat místní variace názvů, alternativní pravopis, neobvyklé přísady,&nbsp;<strong>synonyma (alternativní názvy</strong>) a mnoho dalších případů, kdy by použití překladatelského nástroje náš problém nevyřešilo.</li>
+</ul>
+<h2>Něco skvělého o taxonomii</h2>
+<p>Můžete do nich přispívat bez ohledu na to, jak dobře znáte kódování.&nbsp;<em>Ano, slyšeli jste správně!</em>&nbsp;Pokud najdete něco, co byste chtěli opravit nebo přidat do taxonomií, stačí jen upravit/přidat do textových souborů odkazovaných&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>zde</strong></a>&nbsp;a navrhnout změnu prostřednictvím&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (související s popisným návodem)</p>
+<p><strong>Slova závěrem</strong></p>
+<p>Brzy přijdu s blogem, který bude specifický pro přispívání do taxonomií Open Food Facts pro někoho, kdo není zasvěcen do kódování a/nebo Git a GitHub.</p>
+<p>Zůstaňte naladěni!&nbsp;:)</p>
+<p>Odhlašuji se, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
