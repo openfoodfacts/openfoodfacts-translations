@@ -146,7 +146,7 @@ files:
     translation: /blog/%locale%/open-food-facts-is-getting-a-makeover.html
     preserve_hierarchy: true
     
-   - source: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
+  - source: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
     dist: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
     translation: /blog/%locale%/there-is-no-age-limit-for-a-packaging-workshop.html
     preserve_hierarchy: true
