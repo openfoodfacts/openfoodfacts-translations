@@ -130,6 +130,11 @@ files:
     dist: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     preserve_hierarchy: true
+    
+   - source: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
+    dist: /blog/there-is-no-age-limit-for-a-packaging-workshop.html
+    translation: /blog/%locale%/there-is-no-age-limit-for-a-packaging-workshop.html
+    preserve_hierarchy: true
 
   - source: /blog/operation-packaging-announcement.html
     dist: /blog/operation-packaging-announcement.html
