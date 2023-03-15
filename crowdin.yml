@@ -86,6 +86,11 @@ files:
     translation: /blog/%locale%/1-million-products.html
     preserve_hierarchy: true
 
+  - source: /blog/real-time-product-data-from-producers.html
+    dest: /blog/real-time-product-data-from-producers.html
+    translation: /blog/%locale%/real-time-product-data-from-producers.html
+    preserve_hierarchy: true
+    
   - source: /blog/days-off-2022.html
     dist: /blog/days-off-2022.html
     translation: /blog/%locale%/days-off-2022.html
