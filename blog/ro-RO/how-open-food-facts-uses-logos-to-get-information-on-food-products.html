@@ -69,11 +69,11 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>Cu casetele de delimitare, puteți vedea care sunt siglele corespunzătoare cu API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> unde coordonatele sunt în aceeași ordine cu cele returnate de model în casetele de delimitare.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>Iată un exemplu de ceea ce se întâmplă atunci când utilizați aceste API-uri cu următoarea imagine:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Convertiți imaginile logo-urilor în Vectori:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,23 +93,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Acum că putem accesa logo-uri, trebuie să le vectorizam</strong>. Pentru asta, folosim un model pre-antrenat de la OpenAI numit <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Chiar dacă modelul a fost antrenat inițial pentru a potrivi imaginile cu text, folosim doar partea „vizuală pe computer” a modelului pentru a obține înglobările (=logo-uri încorporate într-un spațiu vectorial) calculate de CLIP pentru fiecare logo.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>Avem astfel o imagine de logo ca intrare și un vector cu dimensiunea 512 ca ieșire. Cu cât distanța dintre doi vectori este mai mică, cu atât cele două sigle corespunzătoare sunt mai asemănătoare.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>Funcția <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> din Robotoff este responsabilă de aplicarea modelului logo-urilor și de salvarea înglobărilor în baza de date Robotoff postgresql.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find a more explicit code <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">here</a> to understand how we use CLIP to generate logos embeddings.</p>
+<p>Puteți găsi un cod mai explicit <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">aici</a> pentru a înțelege cum folosim CLIP pentru a genera încorporarea siglelor.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>3️⃣ </em>Find nearest neighbours:</h4>
+<h4><em>3️⃣ </em>Găsiți cei mai apropiați vecini:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,47 +117,47 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Pentru a găsi cei mai apropiați vecini ai unui logo, folosim un „index” pentru a stoca înglobările. Odată construit acest index, am putea folosi metoda <strong>„forță brută” 💪 care constă în calcularea distanței dintre logo-ul de interogare și toate celelalte sigle ale db și returnarea celor mai apropiate</strong>. Aceasta este metoda cea mai precisă, deoarece ne oferă „adevărații” cei mai apropiați vecini. Cu toate acestea, această metodă este prea lentă pentru a fi aplicată. Timpul necesar pentru extragerea celor mai apropiați vecini pentru fiecare logo atunci când numărul total de sigle este de 2,5 milioane este de aproximativ 3s 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Deoarece aveam nevoie de un timp de căutare mai bun și eram de acord să avem mai puțină precizie, am decis să folosim <strong>o metodă aproximativă</strong>. Cea pe care o folosește Robotoff se numește HNSW (hierarhical navigable small world). Puteți arunca o privire la <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">acest articol</a> pentru a înțelege mai bine căutarea vecinilor cei mai apropiați.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Folosind un index HNSW ElasticSearch, Robotoff este acum capabil să caute cei mai apropiați vecini ai fiecărei încorporare printre mai mult de 2,5 milioane de vectori cu o precizie uriașă (mai mult de 90% din cei mai apropiați 100 de vecini returnați sunt printre cei mai apropiați 100 de vecini adevărați) și un timp scurt de căutare mai mic de 100 ms 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Puteți utiliza următorul API pentru a obține cei mai apropiați vecini ai unui logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 A spoon of contributions: </strong>Where is it used?</h3>
+<h3><strong>🍯 O lingură de contribuții: </strong>Unde se folosește?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No automatic logo categorization is yet implemented in Robotoff. Everything I explained before is made only for <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<p>Nicio clasificare automată a logo-ului nu este încă implementată în Robotoff. Tot ce am explicat mai înainte este făcut doar pentru <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What is it ? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Ce este ? Este <strong>o platformă de adnotare </strong>dezvoltată de un colaborator pe nume Alexandre Fauquette care <strong>permite tuturor să răspundă la previziunile de verificare făcute de Robotoff și să clasifice logo-urile</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>You can try it. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
+<p><br>Poți să încerci. O introducere/tutorial rapidă vă va întâmpina și veți putea adnota sigle! 😉<br>Un tutorial video cu „Cum să folosești Jocurile Foamei?” ar trebui să iasă în curând… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">To play the Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Pentru a juca Jocurile Foamei: hunger.openfoodfacts.org</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Annotating logos enhance Open Food Facts as it grows the amount of data we have on products and its quality.</strong> And thanks to the models and algorithms used in the background, you can be way more powerful and have a greater impact on people daily alimentation 🥰.</p>
+<p><strong>Adnotarea siglelor îmbunătățește Open Food Facts pe măsură ce crește cantitatea de date pe care o avem despre produse și calitatea acestora.</strong> Și datorită modelelor și algoritmilor folosiți în fundal, puteți fi mult mai puternic și puteți avea un impact mai mare asupra alimentației zilnice a oamenilor 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Article by Gabriel</p>
+<p>Articol de Gabriel</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->
