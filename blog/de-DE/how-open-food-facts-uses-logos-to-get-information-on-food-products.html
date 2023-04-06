@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+So nutzt Open Food Facts Logos, um Informationen über Lebensmittelprodukte zu erhalten
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Eine Prise Kontext:</strong> „Logos”?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. These symbols are numerous and can give information on the brand of the product, its quality, its composition, the way it was made, in which bean to discard it, etc…&nbsp;</p>
+<p>Open Food Facts ist mit etwa <strong>3 Mio. Produkten</strong> gefüllt. Jedes Produkt hat eine Verpackung, die so gestaltet ist, dass sie so viele Verbraucher wie möglich anspricht. Zu diesem Zweck heben die Hersteller die Qualitäten ihrer Produkte mit<strong> auffälligen und eindeutigen Symbolen</strong> hervor. Diese Symbole sind zahlreich und geben Auskunft über die Marke des Produkts, seine Qualität, seine Zusammensetzung, die Art der Herstellung, in welcher Form es zu entsorgen ist, usw…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Um alle Symbole zu vereinheitlichen und den Verbrauchern zu helfen, Produkte zu finden, die zu ihnen passen, haben <strong>verschiedene Institutionen strenge Regeln aufgestellt, damit die Hersteller ihre Produkte mit bestimmten Symbolen kennzeichnen können, die wir „Logos”</strong> nennen. Es besteht also eine große Chance 🔥, durch die Erkennung dieser Logos Daten über Produkte zu erhalten!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>Wie soll Open Food Facts sie erkennen? Wie immer dank einer Mischung aus Technik und Mitwirkenden!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,27 +29,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, ein ehemaliger Mitarbeiter von Open Food Facts, der jetzt zum festen Team gehört und mein Praktikumsbetreuer ist, hatte in Robotoff* <strong>ein System entwickelt, um Logos aus Bildern zu extrahieren, sie in Vektoren umzuwandeln und die nächsten Nachbarn jedes Vektors zu finden.</strong> Das Ziel, die Nachbarn von Logos zu finden, war <strong>es den Teilnehmern zu ermöglichen, riesige Mengen von Logos gleichzeitig über eine Plattform namens <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉 zu „annotieren” (manuell zu kategorisieren).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Die damals verwendeten Modelle und Algorithmen lieferten jedoch nicht genügend effiziente Ergebnisse.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>Im September 2022 trat ich, ein Student der Ingenieurwissenschaften, dem Team für ein 6-monatiges Praktikum bei, das dem Bereich Logos gewidmet war, und ich arbeitete an der Überarbeitung des gesamten Prozesses! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Was ist Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> ist ein von Mitwirkenden entwickelter Dienst, der die Verarbeitung von Open Food Facts-Daten unterstützt. Ziel ist es, auf der Grundlage der bereits in der Datenbank vorhandenen Daten so viele Informationen wie möglich zu den einzelnen Produkten abzurufen und diese in die Datenbank aufzunehmen. Derzeit stammen die von Robotoff vorgenommenen Aktualisierungen aus der Bildanalyse, durch optische Zeichenerkennung oder allgemeinere Computer-Vision-Modelle. Einige Aktualisierungen werden automatisch in die Datenbank übernommen, andere müssen manuell durch Fragen oder Hunger Games validiert werden.<br><br><em><strong>Wenn Sie mehr über Robotoff erfahren möchten, schauen Sie <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">hier</a>!</strong></em> 👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Ein Hauch von Technik: </strong>Wie funktioniert die Verarbeitung von Logos genau?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Logos aus Produktfotos extrahieren:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -141,7 +141,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What is it ? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Was ist das? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
