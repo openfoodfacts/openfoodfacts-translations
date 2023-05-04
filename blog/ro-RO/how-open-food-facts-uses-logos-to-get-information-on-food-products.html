@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+Cum Open Food Facts folosește logo-urile pentru a obține informații despre produsele alimentare
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Un pic de context:</strong> „sigle”?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. These symbols are numerous and can give information on the brand of the product, its quality, its composition, the way it was made, in which bean to discard it, etc…&nbsp;</p>
+<p>Open Food Facts este plin cu aproximativ <strong>milioane de produse</strong>. Fiecare produs are un ambalaj care este făcut pentru a atrage cât mai mulți oameni. În acest sens, producătorii evidențiază calitățile produselor lor cu<strong> simboluri strălucitoare și explicite</strong>. Aceste simboluri sunt numeroase și pot oferi informații despre marca produsului, calitatea acestuia, compoziția sa, modul în care a fost făcut, în ce boabe să-l aruncați etc.…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Pentru a omogeniza toate simbolurile și a ajuta consumatorii să găsească produse care li se potrivesc, <strong>diferite instituții au creat reguli stricte pentru ca producătorii să își poată marca produsele cu simboluri specifice pe care le numim „logo-uri”</strong>. Există astfel o oportunitate uriașă 🔥 de a obține date despre produse prin detectarea acestor sigle!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>Cum ar trebui să le detecteze Open Food Facts? Datorită amestecului dintre tehnologie și colaboratori, ca întotdeauna!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,27 +29,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, un fost colaborator Open Food Facts, care acum face parte din echipa permanentă și supervizorul meu de stagiu, a dezvoltat în Robotoff* <strong>un sistem pentru a extrage sigle din imagini, a le converti în vectori și a găsi cei mai apropiați vecini ai fiecărui vector.</strong> Scopul găsirii vecinilor siglelor a fost <strong>acela de a permite colaboratorilor să „adnoteze” (să clasifice manual) cantități masive de sigle în același timp printr-o platformă, numită <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Cu toate acestea, modelele și algoritmii utilizați atunci nu puteau da rezultate suficient de eficiente.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>În septembrie 2022, eu, student la inginerie, m-am alăturat echipei pentru un stagiu de 6 luni care avea să fie dedicat logo-urilor și am lucrat la refactorizarea întregului proces! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Ce este Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> este un serviciu dezvoltat de colaboratori pentru a ajuta la procesarea datelor Open Food Facts. Pe baza datelor deja disponibile în baza de date, scopul este de a prelua cât mai multe informații despre fiecare produs și de a le adăuga în db. În prezent, actualizările realizate de Robotoff provin din analiza imaginilor, prin recunoașterea optică a caracterelor sau modele mai generale de Computer Vision. Unele actualizări sunt aplicate automat la db, dar altele necesită validare manuală prin întrebări sau Hunger Games.<br><br><em><strong>Pentru a afla mai multe despre Robotoff, aruncați o privire <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">aici</a>!</strong></em>👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Un strop de tehnologie: </strong>Cum funcționează exact procesarea logo-urilor?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Extrage siglele din imaginile produselor:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,15 +57,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Colaboratorii Open Food Facts au instruit un model de învățare automată pentru a recunoaște siglele în imagini. Punem o imagine ca intrare a modelului și primim mai multe casete de delimitare cu scorurile și clasele corespunzătoare. Clasele pe care a fost instruit modelul au fost „brand” și „label”.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Puteți găsi codul unde este numit modelul aici: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Puteți încerca folosind următorul API:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
