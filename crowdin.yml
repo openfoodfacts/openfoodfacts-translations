@@ -195,3 +195,13 @@ files:
     dist: /blog/pages/join-the-tackling-food-packaging-operation.html
     translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
     preserve_hierarchy: true
+
+  - source: blog/en-US/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    dist: /blog/pages/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    translation: /blog/%locale%/pages/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    preserve_hierarchy: true
+    
+  - source: blog/en-US/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    dist: /blog/pages/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    translation: /blog/%locale%/pages/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    preserve_hierarchy: true
