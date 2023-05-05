@@ -195,3 +195,23 @@ files:
     dist: /blog/pages/join-the-tackling-food-packaging-operation.html
     translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
     preserve_hierarchy: true
+
+  - source: blog/en-US/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    dist: /blog/pages/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    translation: /blog/%locale%/pages/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+    preserve_hierarchy: true
+    
+  - source: blog/en-US/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    dist: /blog/pages/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    translation: /blog/%locale%/pages/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+    preserve_hierarchy: true
+
+  - source: blog/en-US/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
+    dist: /blog/pages/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
+    translation: /blog/%locale%/pages/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
+    preserve_hierarchy: true
+    
+  - source: blog/en-US/a-contributors-story.html
+    dist: /blog/pages/a-contributors-story.html
+    translation: /blog/%locale%/pages/a-contributors-story.html
+    preserve_hierarchy: true
