@@ -215,3 +215,8 @@ files:
     dist: /blog/pages/a-contributors-story.html
     translation: /blog/%locale%/pages/a-contributors-story.html
     preserve_hierarchy: true
+
+  - source: blog/en-US/tackling-food-packaging-podcast.html
+    dist: blog/en-US/tackling-food-packaging-podcast.html
+    translation: /blog/%locale%/pages/tackling-food-packaging-podcast.html
+    preserve_hierarchy: true
