@@ -215,3 +215,8 @@ files:
     dist: /blog/pages/a-contributors-story.html
     translation: /blog/%locale%/pages/a-contributors-story.html
     preserve_hierarchy: true
+
+  - source: blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
+    dist: /blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
+    translation: /blog/%locale%/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
+    preserve_hierarchy: true
