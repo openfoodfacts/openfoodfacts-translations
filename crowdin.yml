@@ -12,6 +12,11 @@ files:
     translation: /blog/%locale%/join-our-worldwide-collaborative-effort-to-collect-info-on-the-packaging-of-food.html
     preserve_hierarchy: true
     
+  - source: /blog/pages/press-release-new-app.html
+    translation: /blog/%locale%/pages/press-release-new-app.html
+    dest: /blog/pages/press-release-new-app.html
+    preserve_hierarchy: true
+    
   - source: /blog/a-clever-device-to-photograph-tins.html
     dist: /blog/a-clever-device-to-photograph-tins.html
     translation: /blog/%locale%/a-clever-device-to-photograph-tins.html
