@@ -1,0 +1,106 @@
+Povestea unui colaborator
+
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong><em>Contribuitorul lui Open Food Facts, John, împărtășește experiența sa de a lucra la acest proiect de colaborare pentru prima dată! </em></strong>☄️</h4>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:media-text {"mediaId":3816,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3816","mediaType":"image","mediaWidth":21} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:21% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/john-1-675x1024.png" alt="" class="wp-image-3816 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>Lucrez cu computere de peste 40 de ani și întotdeauna mi-a plăcut să mă blochez în cod, în ciuda faptului că sunt numit „arhitect software”.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>De câțiva ani îmi doresc să găsesc o modalitate <strong>de a-mi folosi experiența pentru a contribui mai mult la societate, mai degrabă decât să-mi aflu buzunarele acționarilor companiei mele</strong>. După un recent atelier „scopul vieții” am ajuns să realizez că educarea oamenilor despre alimente și impactul acesteia asupra sănătății și mediului este cu adevărat importantă pentru mine. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Acest lucru nu ar fi trebuit să fie o surpriză, deoarece sunt vegetarian de peste 35 de ani și vegan de 3 ani, dar nu m-am simțit niciodată confortabil să predic oamenilor - <strong>Vreau doar să le ofer oamenilor faptele astfel încât pot lua propriile decizii în cunoștință de cauză</strong>.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p>Așa că, am început să fac câteva cercetări despre ce ar fi nevoie pentru a dezvolta tipul de aplicație la care mă gândeam. Am vrut o modalitate ca oamenii să enumere alimentele pe care plănuiau să le cumpere pentru o zi/săptămână și să le arate impactul asupra mediului al alegerilor lor și, eventual, să sugereze alternative care le-ar reduce amprenta globală.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Știam chiar înainte de a începe că <strong>date ar fi critice</strong> pentru asta, așa că am început să caut de unde aș putea obține asta. Iată harta minții pe care am folosit-o în timp ce am trecut prin acest proces:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">Harta mea mentală</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Am observat un număr mare de referințe la Open Food Facts, așa că m-am înscris în aplicație și am început să caut alimente pe care le consumam în mod regulat. Am fost foarte mulțumit de ceea ce am găsit, dar <strong>inițial dezamăgit pentru că multe dintre produsele vegane pe care le folosesc nu aveau Eco-Score</strong>. Am descoperit apoi că Open Food Facts era <strong>un proiect open source</strong>…</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nu am contribuit niciodată direct la open source, dar <strong>m-am gândit să încerc, așa că m-am înscris la Slack, am postat o introducere rapidă și am fost prezentat aproape imediat lui Stéphane, Alex, Pierre și echipa.</strong> Am întrebat cu ce aș putea ajuta cu care ar putea avea cel mai mare impact și am fost îndreptat către baza de cod <strong>„Product Opener” bazată pe Perl</strong>. Între timp, aveam un concediu anual de folosit pentru munca mea obișnuită, așa că am decis să-mi rezerv zilele libere de luni pentru a le putea dedica lucrului la Open Food Facts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nu am făcut prea mult Perl până acum, dar <strong>odată ce ați programat în mai mult de zece limbi, apoi adăugați o alta nu este mare lucru</strong>. Am început să mă instalez și am găsit câteva probleme care rulează cu Windows, așa că <strong>actualizat ghidurile de utilizare cu experiența mea și am creat prima mea cerere de extragere.</strong> Echipa a fost foarte promptă să înțeleagă acest lucru și a dorit să o aprobe cât mai curând posibil. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
+<p>Nu a existat birocrație sau sentiment de protecție, acesta este un proiect cu adevărat deschis.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Apoi m-am oferit să ajut cu ceva mai provocator: <strong>Open Food Facts are în prezent o încercare de a estima procentele fiecărui ingredient</strong>, pe baza ordinii în care sunt listate. De exemplu, dacă un produs are trei ingrediente, atunci al doilea produs nu poate depăși 50%, deoarece atunci ar fi mai mult decât primul produs listat. În mod similar, al treilea produs nu poate depăși 33%. Este un algoritm destul de simplu și grosier, dar este un început. Cu toate acestea, există anumite tipuri de ingrediente, cum ar fi aromele, care nu ocupă niciodată mai mult de 5% dintr-un produs, iar echipa a considerat că se poate face ceva pentru a ține cont de acest lucru.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Așadar, mi-am suflecat mânecile și <strong>a încercat să introducă un procent maxim față de un ingredient</strong>. Acest lucru mi-a oferit o introducere în lumea<strong> a taxonomiilor</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">un articol introductiv la taxonomii aici</a>) și o înțelegere mult mai profundă a potențialului platformei. De exemplu, în prezent sunt <strong>foarte interesat de sănătatea intestinală</strong> și de contribuția pe care microbii prietenoși care trăiesc în noi toți o fac la bunăstarea noastră fizică și mentală. Am putea extinde cu ușurință taxonomiile cu informații din cele mai recente cercetări și să oferim alte tipuri de „scor”. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Anterior îmi făcusem griji că s-ar putea să mă limitez lucrând la proiectul „altul”, dar mi-am dat seama că, lucrând împreună, am putea produce ceva care să se poată adapta oricăror priorități pe care le avea un individ, fie că este vorba de mediu, sănătate, ambalaj. , bunăstare sau combinații ale tuturor acestora.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Oricum, revenim la cod. Încă o dată, echipa a fost de mare ajutor cu toate problemele cu care m-am confruntat, cum ar fi actualizarea rezultatelor testelor unitare, iar cea de-a doua cerere de extragere a fost aprobată la aproximativ două săptămâni de la prima mea introducere în proiect.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p><strong>Acum mă simțeam suficient de încrezător pentru a aborda ceva mai semnificativ. </strong>Stéphane era conștient de interesul meu pentru mâncarea vegană și m-a îndrumat către cea mai recentă versiune a <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Copilotat de ADEME și INRAE, bazându-se pe colaborarea institutelor tehnice agricole și agroalimentare) care a adăugat o serie de alimente vegane categorii. Open Food Facts calculează în prezent Scorul Eco al unui produs prin maparea categoriei de produse la baza de date AGRIBALYSE, care conține informații despre impactul asupra mediului pentru peste 2000 de alimente. <strong>Sarcina mea ar fi să actualizez Open Food Facts pentru a utiliza cea mai recentă versiune de AGRIBALYSE.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Am abordat această problemă în două părți. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Prima a fost calcularea Scorului Eco pentru produsele care aveau deja unul. </strong>Modificările au dus la modificări Eco-Scores pentru peste 150.000 de produse. Eram puțin nervos că am avut un impact atât de mare într-un stadiu atât de timpuriu al implicării mele în proiect, dar echipa a fost întotdeauna încurajatoare și proactivă în revizuirea a ceea ce produceam. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Apoi, în sfârșit, am ajuns să adaug în noile categorii de produse vegane și alte produse care fuseseră recent introduse.</strong> Acest lucru însemna acum că aproximativ 9000 de produse au avut un Scor Eco, unde nu aveau unul înainte, inclusiv multe dintre produsele mele vegane preferate. Schimbarea a fost implementată în producție la puțin peste o lună după prima prezentare a echipei pe Slack 😃!</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">După cum am spus la începutul acestui articol, aceasta a fost <strong>mea aventură în a contribui la un proiect open source și mi-a plăcut foarte mult experiența. </strong>Acest proiect, în special, m-a inspirat și revigorat în moduri pe care nu mi le-am imaginat anterior, așa că aș încuraja din toată inima pe oricine are în vedere participarea, sub orice formă, să se scufunde!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🪪 Scris de John </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(🔎 🍊 În numele întregii echipe Open Food Facts: un cald <strong>MULȚUMESC</strong> din partea întregii comunități pentru munca pe care ați realizat-o într-un timp atât de scurt, John, ne-a plăcut foarte mult să colaborăm cu dvs. și suntem încântați să avem tu la bord!)</p>
+<!-- /wp:paragraph -->

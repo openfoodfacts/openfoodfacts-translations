@@ -1,0 +1,165 @@
+Bagaimana Open Food Facts menggunakan logo untuk mendapatkan informasi tentang produk makanan
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🧂Sedikit konteks:</strong> "logo" ?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Open Food Facts diisi dengan sekitar <strong>3 juta produk</strong>. Setiap produk memiliki kemasan yang dibuat untuk menarik sebanyak mungkin orang. Untuk hal ini, para produsen menyoroti kualitas produk mereka dengan <strong>simbol-simbol yang mencolok dan eksplisit</strong>. Simbol-simbol ini sangat banyak dan dapat memberikan informasi mengenai merek produk, kualitasnya, komposisinya, cara pembuatannya, kacang mana yang harus dibuang, dan lain-lain…&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Untuk menyeragamkan semua simbol dan membantu konsumen menemukan produk yang sesuai dengan mereka, <strong>berbagai lembaga telah membuat aturan yang ketat bagi produsen untuk dapat menandai produk mereka dengan simbol-simbol tertentu yang kita sebut sebagai "logo"</strong>. Dengan demikian, ada peluang besar 🔥 untuk mendapatkan data tentang produk dengan mendeteksi logo-logo ini!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Bagaimana seharusnya Open Food Facts mendeteksinya? Terima kasih untuk perpaduan antara teknologi dan kontributor, seperti biasa!</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Raphaël Bournhonesque, mantan kontributor Open Food Facts yang kini menjadi bagian dari tim tetap dan supervisor magang saya, telah mengembangkan Robotoff* <strong>sebuah sistem untuk mengekstrak logo dari gambar, mengonversikannya ke dalam vektor, dan menemukan tetangga terdekat dari setiap vektor.</strong> Tujuan dari menemukan tetangga logo ini adalah agar <strong>para kontributor dapat "membuat anotasi" (mengelompokkan secara manual) logo-logo dalam jumlah yang sangat banyak pada saat yang sama melalui platform yang diberi nama <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Namun, model dan algoritma yang digunakan pada saat itu tidak dapat memberikan hasil yang cukup efisien.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pada bulan September 2022, saya, seorang mahasiswa teknik, bergabung dengan tim untuk magang selama 6 bulan yang didedikasikan untuk logo, dan saya mengerjakan refactoring seluruh proses ini! 🥳&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Apa itu Robotoff? </strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> adalah sebuah layanan yang dikembangkan oleh para kontributor untuk membantu pemrosesan data Open Food Facts. Berdasarkan data yang sudah tersedia di database, tujuannya adalah untuk mengambil sebanyak mungkin informasi dari setiap produk dan menambahkannya ke dalam db. Saat ini, pembaruan yang dilakukan oleh Robotoff berasal dari analisis gambar, melalui Pengenalan Karakter Optik atau model Computer Vision yang lebih umum. Beberapa pembaruan diterapkan secara otomatis ke db, tetapi beberapa yang lain membutuhkan validasi manual melalui pertanyaan atau Hunger Games.<br><br><em><strong>Untuk mengetahui lebih lanjut tentang Robotoff, lihat <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">di sini</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🫗 Sepercik teknologi: </strong>Bagaimana cara kerja pemrosesan logo secara tepat?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>1️⃣ </em>Mengekstrak logo dari gambar produk:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Kontributor Open Food Facts melatih model Machine Learning untuk mengenali logo pada gambar. Kami menempatkan gambar sebagai input model dan kami menerima beberapa kotak pembatas dengan skor dan kelas yang sesuai. We place an image as the model input and we receive several bounding boxes with corresponding scores and classes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Anda dapat menemukan kode nama model di sini: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Anda dapat mencobanya dengan menggunakan API berikut:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan kotak pembatas, Anda dapat melihat logo apa saja yang sesuai dengan API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> di mana koordinat berada dalam urutan yang sama dengan yang dikembalikan oleh model dalam kotak pembatas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Berikut ini adalah contoh apa yang terjadi ketika menggunakan API ini dengan gambar berikut:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg" target="_blank" rel="noreferrer noopener">https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3425,"width":806,"height":252,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.34.51-1024x321.png" alt="" class="wp-image-3425" width="806" height="252"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>2️⃣ </em>Mengonversi gambar logo ke Vektor:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Sekarang kita dapat mengakses logo, kita perlu membuat vektornya</strong>. Untuk itu, kami menggunakan model yang sudah terlatih dari OpenAI yang disebut <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Meskipun model awalnya dilatih untuk mencocokkan gambar dengan teks, kami hanya menggunakan bagian "visi komputer" dari model untuk mendapatkan embedding (=logo yang disematkan dalam ruang vektor) yang dikomputasikan oleh CLIP untuk setiap logo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan demikian, kita memiliki gambar logo sebagai input dan vektor berdimensi 512 sebagai output. Semakin kecil jarak antara dua vektor, semakin mirip kedua logo yang bersangkutan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Fungsi <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> di Robotoff bertanggung jawab untuk menerapkan model ke logo dan menyimpan embeddings ke basis data postgresql Robotoff.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Anda dapat menemukan kode yang lebih eksplisit <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">di sini</a> untuk memahami bagaimana kami menggunakan CLIP untuk menghasilkan penyematan logo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>3️⃣ </em>Temukan tetangga terdekat:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Untuk menemukan tetangga terdekat dari sebuah logo, kami menggunakan "indeks" untuk menyimpan sematan. Setelah indeks ini dibuat, kita dapat menggunakan metode <strong>"brute force" 💪 yang terdiri dari penghitungan jarak antara logo kueri dengan semua logo lain di dalam db dan mengembalikan logo yang paling dekat</strong>. Itu adalah metode yang paling tepat karena memberikan kita tetangga terdekat yang "sebenarnya". Namun demikian, metode ini terlalu lambat untuk diterapkan. Waktu yang dibutuhkan untuk mengekstrak tetangga terdekat untuk setiap logo ketika jumlah total logo adalah 2,5 juta adalah sekitar 3 detik 😴</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Karena kami membutuhkan waktu pencarian yang lebih baik dan tidak keberatan dengan ketepatan yang kurang, kami memutuskan untuk menggunakan <strong>metode perkiraan</strong>. Salah satu yang digunakan Robotoff disebut HNSW (dunia kecil yang dapat dinavigasi secara hierarkis). Anda dapat melihat <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">artikel ini</a> untuk memahami pencarian tetangga terdekat dengan lebih baik.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dengan menggunakan indeks HNSW ElasticSearch, Robotoff sekarang dapat mencari tetangga terdekat dari setiap embedding di antara lebih dari 2,5 juta vektor dengan ketepatan yang luar biasa (lebih dari 90% dari 100 tetangga terdekat yang dikembalikan adalah di antara 100 tetangga terdekat yang sebenarnya) dan waktu pencarian yang singkat, yaitu kurang dari 100ms. 👏👏👏👏.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Anda dapat menggunakan API berikut ini untuk mendapatkan tetangga terdekat dari sebuah logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🍯 Sendok kontribusi: </strong>Di mana sendok ini digunakan?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Belum ada kategorisasi logo otomatis yang diimplementasikan di Robotoff. Semua yang saya jelaskan sebelumnya dibuat hanya untuk <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Apa itu ? Ini adalah <strong>platform anotasi </strong>yang dikembangkan oleh seorang kontributor bernama Alexandre Fauquette yang <strong>memungkinkan semua orang untuk menjawab prediksi yang dibuat oleh Robotoff dan mengkategorikan logo</strong>.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><br>Anda bisa mencobanya. Sebuah pengantar/tutorial singkat akan menyambut Anda dan Anda akan dapat membuat anotasi logo ! 😉<br>Video tutorial "Bagaimana cara menggunakan Hunger Games?" akan segera dirilis… ⏳</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Untuk bermain Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><strong>Menganotasi logo akan meningkatkan Open Food Facts karena meningkatkan jumlah data yang kami miliki mengenai produk dan kualitasnya</strong> Dan berkat model dan algoritme yang digunakan di latar belakang, Anda dapat menjadi jauh lebih kuat dan memberikan dampak yang lebih besar terhadap makanan sehari-hari 🥰.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Artikel oleh Gabriel</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignleft size-full is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Gabriel.png" alt="" class="wp-image-3418" width="167" height="167"/></figure>
+<!-- /wp:image -->

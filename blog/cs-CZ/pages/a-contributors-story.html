@@ -1,0 +1,106 @@
+Příběh přispěvatele
+
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong><em>Přispěvatel Open Food Facts John sdílí své zkušenosti s prací na tomto společném projektu vůbec poprvé! </em></strong>☄️</h4>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:media-text {"mediaId":3816,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3816","mediaType":"image","mediaWidth":21} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:21% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/john-1-675x1024.png" alt="" class="wp-image-3816 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>Pracuji s počítači více než 40 let a vždy mě bavilo zabřednout do kódu, přestože se mi nyní říká „softwarový architekt“.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Řadu let jsem chtěl najít <strong>, jak využít své odborné znalosti k většímu přínosu zpět do společnosti, než jen plnit kapsy akcionářům mé společnosti</strong>. Po nedávném workshopu „životní účel“ jsem došel k poznání, že vzdělávání lidí o jídle a jeho vlivu na zdraví a životní prostředí je pro mě opravdu důležité. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To by ve skutečnosti nemělo být překvapením, protože jsem vegetariánem více než 35 let a veganem 3 roky, ale nikdy mi nebylo příjemné kázat lidem – <strong>Chci jen lidem poskytnout fakta, aby mohou činit vlastní informovaná rozhodnutí</strong>.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p>Začal jsem tedy zkoumat, co by bylo zapotřebí k vývoji takové aplikace, o které jsem přemýšlel. Chtěl jsem, aby lidé mohli uvést seznam potravin, které plánují na den/týden koupit, a ukázat jim dopad jejich výběru na životní prostředí a případně navrhnout alternativy, které by snížily jejich globální stopu.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Věděli jsem, že <strong>data jsou pro to kritická</strong>, takže jsem začal zkoumat, odkud bych je mohl dostat. Zde je myšlenková mapa, kterou jsem používal, když jsem procházel tímto procesem:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">Moje myšlenková mapa</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Všiml jsem si velkého množství odkazů na Open Food Facts, a tak jsem se přihlásil do aplikace a začal hledat potraviny, které pravidelně konzumuji. Byl jsem velmi potěšen tím, co jsem našel, ale <strong>zpočátku zklamán, protože mnoho veganských produktů, které používám, nemělo Eco-Score</strong>. Pak jsem zjistil, že Open Food Facts je <strong>open source projekt</strong>…</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nikdy předtím jsem přímo nepřispíval do open source, ale řekl <strong>si, že to zkusím, a tak jsem se zaregistroval do Slacku, zveřejnil rychlý úvod a téměř okamžitě jsem byl představen Stéphanovi, Alexovi, Pierreovi a týmu.</strong> Zeptal jsem se, s čím bych mohl pomoci, co by mohlo mít největší dopad, a byl jsem nasměrován na <strong>kódovou základnu „Product Opener“ založenou na Perl</strong>. Mezitím jsem měl nějakou roční dovolenou, kterou jsem mohl vyčerpat na svou běžnou práci, a tak jsem se rozhodl zarezervovat si pondělky, abych je mohl věnovat práci na Open Food Facts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Předtím jsem Perl moc nedělal, ale <strong>když už programujete ve více než deseti jazycích, není problém přidat další</strong>. Začal jsem se nastavovat a našel jsem několik problémů se systémem Windows, takže <strong>aktualizoval návody podle svých zkušeností a vytvořil svůj první požadavek na stažení.</strong> Tým to velmi rychle převzal a chtěl to schválit co nejdříve. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
+<p>Nebyla tam žádná byrokracie ani pocit protekce, jde o skutečně otevřený projekt.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Pak jsem nabídl pomoc s něčím trochu náročnějším: <strong>Open Food Facts v současnosti dokáže odhadnout procenta každé složky</strong>na základě pořadí, ve kterém jsou uvedeny. Pokud má například produkt tři složky, pak druhý produkt nemůže být více než 50 %, protože by to bylo více než u prvního uvedeného produktu. Podobně třetí produkt nemůže být více než 33 %. Je to poměrně jednoduchý a hrubý algoritmus, ale je to začátek. Existují však určité typy přísad, jako jsou příchutě, které nikdy nezaberou více než 5 % produktu, a tým se domníval, že by se dalo něco udělat, aby se to vzalo v úvahu.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Takže jsem si vyhrnul rukávy a <strong>se pokusil zavést maximální procentní podíl proti složce</strong>. To mi dalo úvod do světa<strong> taxonomií</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">úvodní článek k taxonomiím zde</a>) a mnohem hlubší pochopení potenciálu platformy. V současné době se například velmi zajímám o zdraví střev <strong>a o to, jak přátelští mikrobi, kteří žijí v každém z nás, přispívají k našemu fyzickému a duševnímu pohodlí</strong>. Mohli bychom snadno rozšířit taxonomie o informace z nejnovějších výzkumů a poskytnout další typy „skóre“. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Dříve jsem se obával, že bych se mohl omezovat prací na projektu „někoho jiného“, ale uvědomil jsem si, že společnou prací bychom mohli vytvořit něco, co by se dalo přizpůsobit jakýmkoli prioritám jednotlivce, ať už to bylo životní prostředí, zdraví, obaly., blahobyt nebo kombinace všech z nich.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Každopádně zpět ke kódu. Tým byl opět opravdu nápomocný se všemi problémy, kterým jsem čelil, jako je aktualizace výsledků testů jednotek, a moje druhá žádost Pull request byla schválena asi dva týdny od mého prvního představení projektu.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p><strong>Nyní jsem se cítil dostatečně sebevědomý na to, abych se pustil do něčeho významnějšího. </strong>Stéphane si byl vědom mého zájmu o veganské jídlo a nasměroval mě na nejnovější verzi <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Co-pilotováno ADEME a INRAE, spoléhající na spolupráci zemědělských a zemědělsko-potravinářských technických institutů), která přidala řadu kategorií veganských potravin. Open Food Facts v současnosti vypočítává ekologické skóre produktu mapováním jeho produktové kategorie do databáze AGRIBALYSE, která obsahuje informace o dopadu na životní prostředí pro více než 2000 potravin. <strong>Mým úkolem by bylo aktualizovat Open Food Facts pro použití nejnovější verze AGRIBALYSE.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>S tím jsem se vypořádal ve dvou částech. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>První z nich bylo spočítat Eco-Score pro produkty, které ho již měly. </strong>Tyto změny vedly ke změně Eco-Scores u více než 150,000 produktů. Byl jsem trochu nervózní z toho, že jsem měl tak velký dopad v tak rané fázi mého zapojení do projektu, ale tým byl vždy povzbuzující a proaktivní při kontrole toho, co jsem vytvářel. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Nakonec jsem se dostal k přidání nových kategorií pro veganské a další produkty, které byly nedávno představeny.</strong> To nyní znamenalo, že přibližně 9 000 produktů mělo Eco-Score tam, kde ho dříve nemělo, včetně mnoha mých oblíbených veganských produktů. Změna byla nasazena do veřejného provozu něco málo přes měsíc po prvním představení týmu na Slacku.“!</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Jak jsem řekl na začátku tohoto článku, byl to <strong>můj první pokus o přispění k projektu s otevřeným zdrojovým kódem a tuto zkušenost jsem si užil. </strong>Tento projekt mě zejména inspiroval a povzbudil způsoby, které jsem si dříve nepředstavoval, takže bych z celého srdce povzbudil každého, kdo uvažuje o účasti v jakékoli formě, aby se do toho vrhl!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🪪 Napsal John </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(🔎 🍊 Jménem celého týmu Open Food Facts: srdečné <strong>DĚKUJEME</strong> z celé komunity za práci, kterou jste vykonali v tak krátké době, Johne, velmi jsme si užili spolupráci s vámi a jsme rádi, že jsi na palubě!)</p>
+<!-- /wp:paragraph -->

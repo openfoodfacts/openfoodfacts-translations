@@ -1,35 +1,35 @@
-<h2>On taxonomies</h2>
+<h2>Tentang taksonomi</h2>
 
-<p><em>This blog entry is written by Yukti (who joins us with the Outreachy program). She kindly gave us permission to share it here as we think it explains the topic very well. Thank you very much Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link to the original article "Everybody Struggles"</a>).</em></p>
+<p><em>Entri blog ini ditulis oleh Yukti (seseorang yang bergabung dengan kami dalam program Outreachy). Beliau dengan baik hati memberikan izin kepada kami untuk membagikannya di sini karena menurut kami hal ini menjelaskan topik tersebut dengan sangat baik. Terima kasih banyak Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Tautan ke artikel asli yang berjudul "Everybody Struggles"</a>).</em></p>
 <hr />
 <figure>
 <blockquote>
-<p><em>We are now in Week 3 of the Outreachy internship! A lot of points I&rsquo;ll touch on in the Blog have been inspired by some of the writing prompts from the Outreachy organizers. In this blog, I will be writing about an open source vocabulary term that was new for me<em>. During the Outreachy Application Period.</em></em></p>
+<p><em>Kita sekarang berada di minggu ke-3 magang di Outreachy! Banyak hal yang akan saya bahas di Blog ini terinspirasi oleh beberapa petunjuk penulisan dari penyelenggara Outreachy. Dalam blog ini, saya akan menulis tentang istilah kosakata open source yang merupakan hal baru bagi saya<em>. Selama Periode Aplikasi Penjangkauan.</em></em></p>
 </blockquote>
 </figure>
-<p>There were a ton of words/concepts that I was confused with during the Outreachy application period. The word that sticks out to me the most right now is&nbsp;<code>Taxonomy&nbsp;<em>(plural: Taxonomies</em></code><em>).&nbsp;</em>As a newcomer to the Open Food Facts community, I noticed this term being talked about a lot, mentioned in issues and pull requests. It didn&rsquo;t take too long for me to realize that this term should be an important one in the context of the project.</p>
+<p>Ada banyak sekali kata/konsep yang membuat saya bingung selama periode aplikasi Outreachy. Kata yang paling menonjol bagi saya saat ini adalah&nbsp;<code>Taksonomi&nbsp;<em>(jamak: Taksonomi</em></code><em>).&nbsp;</em>Sebagai pendatang baru dalam komunitas Open Food Facts, saya melihat istilah ini banyak dibicarakan, disebut-sebut di berbagai isu dan pull request. Tidak perlu waktu lama bagi saya untuk menyadari bahwa istilah ini harus menjadi istilah yang penting dalam konteks proyek ini.</p>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
-<figcaption>Source: Google</figcaption>
+<figcaption>Sumber: Google</figcaption>
 </figure>
-<p>This definition seems to make it even more confusing right? (after all, it&rsquo;s not Open Animal Facts, it&rsquo;s Open Food Facts). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
-<h2>Moving forward</h2>
-<p>Admittedly, I was hesitant to ask a community member to just&nbsp;<em>&ldquo;define&rdquo;</em>&nbsp;it for me because the term felt so central to this project that it only felt fair to give myself a few days, explore the codebase and see how stuff works around. Very naturally, this word (and several others concepts) started making sense as I became more familiar with the repository&rsquo;s structure over the next few days.</p>
-<h2>So... what are taxonomies ? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link to the wiki page too!)</a></em></h2>
+<p>Definisi ini tampaknya membuatnya semakin membingungkan, bukan? (bagaimanapun juga, ini bukan Open Animal Facts, tapi Open Food Facts). Pada saat itu, saya samar-samar dapat memahami apa arti istilah ini di luar konteks biologis, namun saya masih belum dapat mengaitkannya dengan proyek ini.</p>
+<h2>Kemudian</h2>
+<p>Harus diakui, saya ragu-ragu untuk meminta seorang anggota komunitas untuk&nbsp;<em>&ldquo;mendefinisikannya&rdquo;</em>&nbsp;untuk saya karena istilah ini terasa sangat penting dalam proyek ini, jadi saya merasa adil untuk memberikan diri saya waktu beberapa hari, menjelajahi basis kode, dan melihat bagaimana cara kerjanya. Secara alami, kata ini (dan beberapa konsep lainnya) mulai masuk akal ketika saya menjadi lebih akrab dengan struktur repositori selama beberapa hari berikutnya.</p>
+<h2>Jadi... apa itu taksonomi? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Tautan ke halaman wiki!)</a></em></h2>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
-<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;are at the heart of the Data Structure in Open Food Facts. These are raw text files&nbsp;<code>(.txt)</code>&nbsp;that mainly contain translations, classifications, labels, ingredients lists and hierarchies.</p>
-<p>For simplifying it a bit, their function can be broadly broken down into 2 parts,</p>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taksonomi</a>&nbsp;merupakan inti dari Struktur Data di Open Food Facts. Ini adalah file raw teks &nbsp;<code>(.txt)</code>&nbsp;yang terutama berisi terjemahan, klasifikasi, label, daftar bahan, dan hierarki.</p>
+<p>Untuk menyederhanakannya, secara garis besar, fungsinya dapat dibagi menjadi 2 bagian,</p>
 <ul>
-<li><strong><strong>Classification</strong>: </strong>We can use taxonomies to establish hierarchies for consumables. This is best explained by an example: Let&rsquo;s take a look at this&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;product page linked&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">here</a>.</li>
+<li><strong><strong>Klasifikasi</strong>: </strong>Kita dapat menggunakan taksonomi untuk menetapkan hierarki untuk bahan habis pakai. Hal ini paling baik dijelaskan dengan sebuah contoh: Mari kita lihat halaman produk&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;yang ditautkan&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">di sini</a>.</li>
 </ul>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
-<figcaption>Note: These categories are listed in a hierarchal order. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+<figcaption>Catatan: Kategori ini dicantumkan dalam urutan hierarki. Produk ini adalah&nbsp;<strong>&ldquo;Makanan ringan&rdquo;</strong>&nbsp;terlebih dahulu dan di dalam makanan ringan, termasuk ke dalam&nbsp;<strong>&ldquo;makanan ringan yang manis&rdquo;</strong>. Lebih lanjut, kita dapat mengatakan bahwa produk ini termasuk dalam subkelas Biskuit dan masuk ke dalam klasifikasi&nbsp;<strong>&ldquo;Biskuit&rdquo;</strong>&nbsp;, ini adalah&nbsp;<strong>&ldquo;Biskuit Isi</strong>&ldquo;.</figcaption>
 </figure>
 <ul>
-<li><strong>Translation</strong>: With these we can maintain a list of translations for ingredients, certain phrases, measuring units, nutrients and countries. If you are bilingual like me, you may already know that&nbsp;<em>Google Translate</em>&nbsp;just doesn&rsquo;t cut it sometimes. There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
+<li><strong>Terjemahan</strong>: Dengan ini, kami dapat menyimpan daftar terjemahan untuk bahan, frasa tertentu, unit pengukuran, nutrisi, dan negara. Jika Anda seorang dwibahasa seperti saya, Anda mungkin sudah tahu bahwa&nbsp;<em>Google Translate</em>&nbsp;terkadang tidak cukup. Mungkin ada variasi lokal pada nama, ejaan alternatif, bahan yang tidak umum,&nbsp;<strong>sinonim (nama alternatif</strong>), dan masih banyak lagi kasus lain di mana menggunakan alat penerjemahan tidak akan menyelesaikan masalah.</li>
 </ul>
-<h2>Something cool about Taxonomies</h2>
-<p>You can contribute to them regardless of your familiarity with Coding.&nbsp;<em>Yes, you heard that right!</em>&nbsp;If you find something you wish to correct or add to the Taxonomies, all you need to do is edit/make your addition to the text files linked&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>here</strong></a>&nbsp;and propose your change through a&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (linked to a descriptive guide)</p>
-<p><strong>Parting words</strong></p>
-<p>I will soon be coming up with a blog that&rsquo;s specific to contributing to the Open Food Facts taxonomies for someone uninitiated with coding and/or Git and GitHub.</p>
-<p>Stay Tuned for that!&nbsp;:)</p>
-<p>Signing off, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
+<h2>Hal yang menarik tentang Taksonomi</h2>
+<p>Anda dapat berkontribusi di dalamnya terlepas dari keakraban Anda dengan Pengkodean.&nbsp;<em>Ya, Anda tidak salah dengar!</em>&nbsp;Jika Anda menemukan sesuatu yang ingin Anda perbaiki atau tambahkan pada Taksonomi, yang perlu Anda lakukan adalah menyunting/membuat tambahan pada berkas teks yang ditautkan&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>di sini</strong></a>&nbsp;dan ajukan perubahan melalui&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>permohonan penarikan perubahan</strong></a>. (tertaut ke panduan deskriptif)</p>
+<p><strong>Penutup</strong></p>
+<p>Saya akan segera membuat sebuah blog yang khusus untuk berkontribusi pada taksonomi Open Food Facts bagi mereka yang belum mengetahui tentang pengkodean dan/atau Git dan GitHub.</p>
+<p>Nantikan saja!&nbsp;:)</p>
+<p>Terima kasih, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>

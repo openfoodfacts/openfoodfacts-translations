@@ -1,0 +1,106 @@
+En bidragsyders historie
+
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong><em>Open Food Facts-bidragsyderen John deler sin erfaring med at arbejde på dette samarbejdsprojekt for første gang! </em></strong> ☄️</h4>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:media-text {"mediaId":3816,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3816","mediaType":"image","mediaWidth":21} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:21% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/john-1-675x1024.png" alt="" class="wp-image-3816 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>Jeg har arbejdet med computere i flere end 40 år, og jeg har altid nydt at blive hængende i koden, på trods af at jeg nu bliver kaldt en "softwarearkitekt".</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I en årrække har jeg ønsket at finde en <strong>måde, hvorpå jeg kan bruge min ekspertise til at bidrage mere tilbage til samfundet, i stedet for blot at fore min virksomhedsaktionærers lommer</strong>. Efter en nylig "livsformål"-workshop kom jeg til den erkendelse, at det virkelig var vigtigt for mig at oplyse folk om mad og dens indvirkning på sundhed og miljø. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dette burde egentlig ikke være kommet som en overraskelse, da jeg har været vegetar i flere end 35 år og veganer i 3 år, men jeg har aldrig følt mig tryg ved at prædike for folk — <strong>Jeg vil bare give folk fakta, så de kan træffe deres egne informerede beslutninger</strong>.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p>Så jeg begyndte at undersøge, hvad det ville kræve at udvikle den slags app, jeg tænkte på. Jeg ønskede en måde, hvorpå folk kunne opliste de fødevarer, de planlagde at købe til dagen/ugen, og vise dem miljøpåvirkningen af deres valg og potentielt foreslå alternativer, som ville mindske det globale fodaftryk.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jeg vidste, før jeg overhovedet startede, at <strong>data ville være kritisk</strong> for dette, så jeg begyndte at undersøge, hvor jeg kunne få dem fra. Her er den mindmap, jeg brugte, da jeg gennemgik denne proces:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">Min mindmap</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Jeg bemærkede et stort antal referencer til Open Food Facts, så jeg tilmeldte mig appen og begyndte at lede efter fødevarer, som jeg regelmæssigt indtog. Jeg var meget tilfreds med det, jeg fandt, men <strong>skuffede i starten, fordi mange af de veganske produkter, jeg bruger, ikke havde en Eco-Score</strong>. Jeg opdagede så, at Open Food Facts var <strong>open-source projekt</strong>…</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jeg har aldrig bidraget direkte til open-source før, men <strong>Jeg tænkte, at jeg ville give det en chance, så jeg tilmeldte mig Slack, postede en hurtig introduktion og blev næsten øjeblikkeligt introduceret til Stéphane, Alex, Pierre og teamet.</strong> Jeg spurgte, hvad jeg kunne hjælpe med, der kunne have den største indvirkning og blev peget i retning af den <strong>Perl-baserede "Product Opener"-kodebase</strong>. I mellemtiden havde jeg lidt årlig orlov tilgode fra mit almindelige arbejde, så jeg besluttede at booke mandage fri, så jeg kunne dedikere disse til at arbejde med Open Food Facts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jeg har ikke lavet meget Perl før, men <strong>, når du har programmeret på mere end ti sprog, så er det at tilføje endnu ét ikke noget særligt</strong>. Jeg begyndte at gøre mig klar og fandt et par problemer med Windows, så jeg <strong>opdaterede vejledningerne med min erfaring og oprettede min første pull-anmodning.</strong> Holdet var meget hurtige til at tage dette op og ivrige efter at godkende det så hurtigt som muligt. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
+<p>Der var intet bureaukrati eller følelse af beskyttelse, dette er et virkelig åbent projekt.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Jeg tilbød så at hjælpe med noget lidt mere udfordrende: <strong>Open Food Facts må pt. estimere procenterne af hver ingrediens</strong>, baseret på den rækkefølge, de er opført i. For example, if a product has three ingredients then the second product can’t be more than 50% as it would then be more than the first listed product. Similarly the third product can’t be more than 33%. Det er en ret simpel og grov algoritme, men det er en begyndelse. Der er dog visse typer ingredienser, såsom smagsstoffer, der aldrig udgør mere end 5 % af et produkt, og teamet mente, at der kunne gøres noget for at tage højde for dette.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Så jeg smøgede ærmerne op og <strong>prøvede at indføre en maksimal procentdel for en ingrediens</strong>. Dette gav mig en introduktion til<strong> verdenen af taksonomier</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">en introduktionsartikel til taksonomier her</a>) og en meget dybere forståelse af platformens potentiale. F.eks. er jeg også <strong>pt. meget interesseret i tarmsundhed</strong> og det bidrag, som de venlige mikrober, som lever i os alle, yder til vores fysiske og mentale velvære. Vi kunne nemt udvide taksonomierne med information fra den seneste forskning og give andre typer "score". </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Jeg havde tidligere været bekymret for, at jeg måske begrænsede mig selv ved at arbejde på "en andens" projekt, men jeg indså, at vi ved at arbejde sammen kunne producere noget, der kunne tilpasse sig de prioriteter en person havde, hvad enten det var miljø, sundhed, emballage, velfærd eller kombinationer heraf.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Nå, men tilbage til koden. Endnu en gang var holdet virkelig hjælpsomt med alle de problemer, jeg stod over for, såsom opdatering af enhedstestresultater, og min anden pull-anmodning blev godkendt omkring to uger siden min første introduktion til projektet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p><strong>Jeg følte mig nu sikker nok til at tackle noget mere betydningsfuldt. </strong>Stéphane kendte til min interesse for vegansk mad og henviste mig til den seneste version af <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Meddeltager ADEME og INRAE, afhængig af samarbejdet mellem landbrugs- og agrifood tekniske institutter), der tilføjede en række veganske fødevarekategorier. Open Food Facts beregner pt. et produkts Øko-Score ved at kortlægge dets produktkategori til AGRIBALYSE-databasen indeholdende miljøpåvirkningsoplysninger for flere end 2.000 fødevarer. <strong>Min opgave var at opdatere Open Food Facts til brug med den seneste AGRIBALYSE-version.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jeg håndterede dette i to dele. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Den første var at beregne Øko-Score for produkter, som allerede havde én. </strong>Ændringerne resulterede i ændrede Øko-Score for flere end 150.000 produkter. Jeg var lidt nervøs for at have så stor indflydelse på et så tidligt tidspunkt i min involvering i projektet, men teamet var altid opmuntrende og proaktive med at gennemgå, hvad jeg producerede. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Så fik jeg endelig tilføjet de nye kategorier for veganske og andre produkter, som for nylig var blevet introduceret.</strong> Det betød nu, at ca. 9.000 produkter havde en Øko-Score, hvor de ikke havde en før, inkl. mange af mine veganske yndlingsprodukter. Ændringen blev udrullet til produktion godt en måned efter den første introduktion på Slack 😃 !</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Som jeg sagde i begyndelsen af denne artikel, var dette <strong>første satsning på at bidrage til et open-source projekt, og jeg har virkelig nydt oplevelsen. </strong>Især dette projekt har inspireret og opmuntret mig på måder, jeg ikke tidligere havde forestillet mig, så jeg vil helhjertet opfordre alle, som overvejer deltagelse, uanset i hvilken form, til blot at gå til den!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🪪 Skrevet af John </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(🔎 🍊 På vegne af hele Open Food Facts-teamet: En varm <strong>TAK</strong> fra hele fællesskabet for det arbejde, du har udført på så kort tid, John, vi nød at samarbejde med dig og er glade for at have dig med!)</p>
+<!-- /wp:paragraph -->

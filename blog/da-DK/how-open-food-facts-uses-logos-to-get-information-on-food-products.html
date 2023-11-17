@@ -1,0 +1,165 @@
+Hvordan Open Food Facts bruger logoer til at få information om fødevareprodukter
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🧂Et drys kontekst:</strong> "Logoer"?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Open Food Facts indeholder omkring <strong>3 millioner produkter</strong>. Hver produktemballage er designet mhp. at tiltrække flest mulige kunder. Til det formål fremhæver producenterne produkternes kvaliteter med<strong> prangende og letgenkendelige symboler</strong>. Disse symboler er talrige, typisk med oplysninger om produktbrand, kvalitet, sammensætning, fremstillingsmåde, affaldstype mv.…&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For at homogenisere alle symboler og hjælpe forbrugerne til at finde relevante produkter, <strong>har forskellige institutioner lavet strenge regler, så producenter kan mærke deres produkter med bestemte symboler refereret til som "logoer"</strong>. Der er således en kæmpe mulighed 🔥 for at få produktdata ved at detektere disse logoer!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Hvordan skal Open Food Facts detektere dem? Gennem et miks af teknologi og bidragsydere, som altid!</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Raphaël Bournhonesque, en tidligere Open Food Facts-bidragsyder, der nu er en del af det faste team og min praktikvejleder, havde i Robotoff* <strong>udviklet et system til at udtrække logoer fra fotos, konvertere dem til vektorer og finde de nærmeste naboer til hver vektor.</strong> Målet med at finde logoers naboer var <strong>at give bidragsydere mulighed for at "annotere" (manuelt kategorisere) enorme mængder af logoer på samme tid gennem en platform kaldet <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>De dengang anvendte modeller og algoritmer kunne dog ikke levere tilstrækkeligt effektive resultater.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I september 2022 tilsluttede jeg, en ingeniørstuderende, mig holdet i et 6 måneders praktikophold, der skulle være dedikeret til logoer, og jeg arbejdede på at omstrukturere hele denne proces! 🥳&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Hvad er Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> er en bidragsyderudviklet tjeneste til at hjælpe med Open Food Facts-databehandling. Baseret på de allerede tilgængelige data i databasen, er målet at hente så mange informationer som muligt om hvert produkt og føje dem til db'en. Pt. kommer opdateringerne lavet af Robotoff fra billedanalyse, gennem Optical Character Recognition eller mere generelle Computer Vision-modeller. Nogle opdateringer anvendes automatisk i db'en, mens andre kræver manuel validering via spørgsmål eller Hunger Games.<br><br><em><strong>For at vide mere om Robotoff, tag et kig <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">hér</a>!</strong></em>👀</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🫗 En regn af teknologi: </strong>Præcist hvordan fungerer logobehandling?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>1️⃣ </em>Udtræk logoer fra produktfotos:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Open Food Facts-bidragsydere trænede en Machine Learning-model til at genkende logoer på fotos. Et foto bruges som input til modellen, og der modtages flere afgrænsningsbokse med korresponderede scorer og klasser. Klasserne, modellen blev trænet med, var "brand" og "etiket".</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Koden til modelkaldet findes her: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Det kan aftestes ved brug af flg. API:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Med afgrænsningsfelterne kan man med API'en se, hvilke som er de korresponderende logoer: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a>, hvor koordinaterne er i samme rækkefølge som dem, modellen returnerer i afgrænsningsboksene.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Her er et eks. på, hvad der sker, når disse API'er bruges med flg. foto:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg" target="_blank" rel="noreferrer noopener">https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3425,"width":806,"height":252,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.34.51-1024x321.png" alt="" class="wp-image-3425" width="806" height="252"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>2️⃣ </em>Konvertér logofotos til vektorer:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Nu, hvor logoerne kan tilgås, skal de vektoriseres</strong>. Til det bruges en prætrænet model fra OpenAI kaldet <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Selvom modellen oprindeligt blev trænet til at matche billeder med tekst, bruges kun "computervision"-delen af modellen til at få indlejringsdata (=logoer indlejret i et vektorrum) beregnet af CLIP for hvert logo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Der har således et logobillede som input og en vektor med dimension 512 som output. Jo kortere afstand mellem to vektorer, jo mere ens er de to tilsvarende logoer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Funktionen <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> i Robotoff styrer anvendelsen af modellen på logoer og gemmer indlejringer til Robotoff postgresql-databasen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>En mere eksplicit kode kan findes <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">hér</a> for at forstå, hvordan CLIP bruges til at generere logo-indlejringer.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>3️⃣ </em>Find nærmeste naboer:</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For at finde de nærmeste naboer til et logo bruges et "indeks" til lagring af indlejringerne. Når dette indeks er bygget, kunne der bruges <strong>"brute force"-metoden 💪, der består i at beregne afstanden mellem forespørgselslogoet og alle øvrige logoer i db'en, og returnere de nærmeste</strong>. Det er den mest præcise metode, da den giver de "reelle" nærmeste naboer. Denne metode er dog for langsom i praksis. Tiden til at udtrække de nærmeste naboer for hvert logo, når det samlede logoantal er 2,5M, udgør ca. 3s 😴</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Da der var behov for en bedre søgetid og en lavere præcision var OK, blev <strong>en omtrentlig metode</strong> valgt. Den, Robotoff bruger, kaldes HNSW (hierarchical navigable small world). Tag evt. et kig på <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">denne artikel</a> for bedre at forstå nærmeste nabosøgning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vha. et HNSW ElasticSearch-indeks er Robotoff nu i stand til at lede efter de nærmeste naboer til hver indlejring blandt flere end 2,5 millioner vektorer med en enorm præcision (flere end 90 % af de 100 nærmeste naboer, som returneres, er blandt de nøjagtige 100 reelle nærmeste naboer) og en kort søgetid på under 100ms 👏👏👏👏.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Flg. API kan bruges til at få de nærmeste naboer til et logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🍯 En ske af bidrag: </strong>Hvor bruges det?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Ingen automatisk logokategorisering er endnu implementeret i Robotoff. Alt det tidligere forklarede er kun implementeret i <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hvad er det? Det er <strong>en annotationsplatform </strong>udviklet af en bidragyder ved navn Alexandre Fauquette, der <strong>giver alle mulighed for at besvare tjekforudsigelser udført af Robotoff samt kategorisere logoer</strong>.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><br>Man kan selv prøve det. En hurtig introduktion/guide byder velkommen, og man vil også kunne kommentere logoer! 😉<br>En videoguide til "Hvordan bruges Hunger Games?" skulle snart ude… ⏳</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">For at spille Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><strong>Annoterende logoer forbedrer Open Food Facts, da det øger mængden af data om produkter og deres kvalitet.</strong> Takket være de modeller og algoritmer, som bruges i baggrunden, kan man være meget mere kraftfuld og have en større indflydelse på personers daglige kost 🥰.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Artikel af Gabriel</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignleft size-full is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Gabriel.png" alt="" class="wp-image-3418" width="167" height="167"/></figure>
+<!-- /wp:image -->

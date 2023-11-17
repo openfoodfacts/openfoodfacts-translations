@@ -1,0 +1,165 @@
+Comment Open Food Facts utilise les logos pour obtenir des informations produits
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🧂Une pincée de contexte :</strong> “logos” ?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Open Food Facts contient environ <strong>3 millions de produits</strong>. Chaque produit est enrobé dans un emballage conçu pour être aussi attractif que possible. À cette fin, les producteurs mettent en valeur les qualités de leurs produits avec des <strong>symboles criards et explicites</strong>. Il existe de nombreux symboles différents fournissant des informations sur la marque, la qualité, la composition, les conditions de fabrication, ses consignes de recyclage, etc…&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pour homogénéiser les symboles et aider les consommateurs à trouver les produits qui leur conviennent, <strong>plusieurs institutions ont édité des règles strictes contraignant les producteurs à signaler leurs produits avec des symboles spécifiques, les "logos"</strong>. C'est une formidable opportunité 🔥 de récolter des données en détectant ces logos !</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Comment devraient-ils être reconnus par Open Food Facts ? Par un mélange de technologie et de contributions humaines, comme toujours !</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Raphaël Bournhonesque, ancien bénévole Open Food Facts désormais membre de l'équipe permanente qui m'a supervisé en stage, avait développé sur Robotoff* <strong>un système pour extraire les logos d'une image donnée, les convertir en images vectorielles et trouver leurs cousins les plus proches.</strong> Le but était de <strong>permettre à nos contributeurs d'annoter (catégoriser manuellement) d'énormes quantités de logos en même temps à travers la plateforme <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Toutefois, les modèles et algorithmes utilisés ne fournissaient pas de résultats suffisamment efficaces.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>En septembre 2022, je menais des études d'ingénierie. J'ai rejoint l'équipe pour un stage de 6 mois dédiés aux logos, et j'ai travaillé à réimplémenter tout ce processus ! 🥳&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Qu'est-ce que Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> est un service développé par nos contributeurs pour aider à traiter les données d'Open Food Facts. D'après les données déjà disponibles dans la base de données, l'objectif est de récupérer autant d'informations que possible sur chaque produits et de les ajouter à la base de données. Actuellement, les mises à jour Robotoff s'appuient sur l'analyse d'images à travers la reconnaissance optique de caractères ou d'autres modèles de vision par ordinateur plus généraux. Certaines mises à jour sont appliquées automatiquement, d'autres doivent être validées manuellement.<br><br><em><strong>Pour en savoir plus sur Robotoff, regardez <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">ici</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🫗 Un filet de technologie : </strong>Comment fonctionne le traitement des logos ?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>1️⃣ </em>Extraire les logos d'images produits :</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Les contributeurs Open Food Facts ont entraîné un modèle de machine learning à reconnaître les logos dans les images. Nous renseignons une image en entrée du modèle et l'algorithme sépare les différents logos en cadres délimités avec des scores et classes associés. Le modèle a été entraîné sur les classes "marque" et "label".</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vous pouvez trouver le code ici : <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vous pouvez l'essayer à travers l'API suivante :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vous pouvez distinguer les différents logos en cadres délimités avec l'API :<a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> où les coordonnées sont dans le même ordre que celles renvoyées par le modèle dans les cadres délimités.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Voilà, par exemple, ce qu'il se passe en utilisant ces APIs avec l'image suivante :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg" target="_blank" rel="noreferrer noopener">https://images.openfoodfacts.org/images/products/322/982/012/9488/front_fr.194.400.jpg</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3425,"width":806,"height":252,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.34.51-1024x321.png" alt="" class="wp-image-3425" width="806" height="252"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>2️⃣ </em>Convertir les images de logos en images vectorielles :</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Maintenant que nous pouvons accéder aux logos, il faut les vectoriser</strong>. Pour cela, nous utilisons un modèle OpenAI pré-entraîné appelé <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Bien que le modèle ait été initialement entraîné pour faire correspondre des images avec du texte, nous n'utilisons que la fonctionnalité "vision par ordinateur" du modèle pour récupérer les intégrations (les logos transférés dans un espace vectoriel) calculés par CLIP pour chaque logo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nous avons donc une image de logo en entrée et une image vectorielle de dimension 512 en sortie. Plus courte est la distance entre deux vecteurs, plus les deux logos correspondants sont similaires.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>La fonction <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> dans Robotoff est chargée d'appliquer le modèle aux logos et de sauvegarder les intégrations dans la base de données postgresql de Robotoff.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vous pouvez trouver des exemples de code plus explicites <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">ici</a> pour comprendre comment CLIP génère des intégrations de logos.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+<h4><em>3️⃣ </em>Trouver les voisins les plus proches :</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Pour trouver les proches voisins d'un logo, nous utilisons un "index" pour stocker les intégrations. Une fois que l'index est établi, nous pouvons utiliser la <strong>"force brute"💪 qui consiste à calculer la distance entre le logo renseigné et tous les autres logos de la base de données pour récupérer les voisins les plus proches</strong>. C'est la méthode la plus précise, renvoyant les "vrais" voisins proches. Toutefois, cette méthode est trop lente pour être utilisée. Avec 2,5 millions de logos, il faut environ trois secondes pour extraire les voisins de chaque logo 😴</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Puisque nous souhaitions accélérer la recherche et que nous acceptions de réduire la précision, nous avons décidé d'utiliser <strong>une méthode approximative</strong>. Celui qu'utilise Robotoff s'appelle HNSW (hierarchical navigable small world). Vous pouvez consulter <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">cet article</a> pour mieux comprendre la recherche par voisins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Grâce à un index ElasticSearch HNSW, Robotoff peut maintenant rechercher les proches voisins de chaque intégration parmi plus de 2.5 millions de vecteurs avec une grande précision (plus de 90% des 100 voisins renvoyés sont parmi les 100 plus proches voisins) et un court temps de recherche de moins de 100ms 👏👏👏👏.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Vous pouvez utiliser l'API suivante pour obtenir les plus proches voisins d'un logo : <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3><strong>🍯 Une cuillère de contributions : </strong>Où est-ce utilisé ?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Pour l'instant, Robotoff n'implémente pas encore la catégorisation automatique par logos. Tous les exemples précédents sont uniquement appliqués à <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Qu'est-ce donc ? C'est une <strong>plateforme d'annotations </strong>développée par un contributeur, Alexandre Fauquette, qui <strong>permet à tout le monde de vérifier les prédictions de Robotoff et catégoriser les logos</strong>.&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><br>Vous pouvez l'essayer. Après un rapide tutoriel, vous pourrez annoter des logos ! 😉<br>Un tutoriel vidéo devrait bientôt paraître… ⏳</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Pour utiliser Hunger Games : hunger.openfoodfacts.org</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><strong>Annoter les logos améliore Open Food Facts en complétant nos données sur les produits et leur qualité.</strong> Et grâce aux modèles et algorithmes utilisés en fond, vous pouvez impacter l'alimentation quotidienne des utilisateurs plus fortement que jamais 🥰.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Article par Gabriel</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignleft size-full is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Gabriel.png" alt="" class="wp-image-3418" width="167" height="167"/></figure>
+<!-- /wp:image -->

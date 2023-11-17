@@ -1,0 +1,106 @@
+Cerita dari seorang kontributor
+
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong><em>Kontributor Open Food Facts, John, berbagi pengalamannya dalam mengerjakan proyek kolaboratif ini untuk pertama kalinya! </em></strong> ☄️</h4>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:media-text {"mediaId":3816,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3816","mediaType":"image","mediaWidth":21} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:21% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/john-1-675x1024.png" alt="" class="wp-image-3816 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>Saya telah bekerja dengan komputer selama lebih dari 40 tahun dan saya selalu menikmati saat-saat terjebak dalam kode, meskipun sekarang saya disebut sebagai "arsitek perangkat lunak".</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selama beberapa tahun saya ingin mencari cara <strong>untuk menggunakan keahlian saya untuk berkontribusi lebih banyak kepada masyarakat, bukan hanya untuk memenuhi kebutuhan pemegang saham perusahaan</strong>. Setelah mengikuti lokakarya "tujuan hidup" baru-baru ini, saya menyadari bahwa mengedukasi masyarakat tentang makanan dan dampaknya terhadap kesehatan dan lingkungan sangatlah penting bagi saya. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hal ini seharusnya tidak terlalu mengejutkan, karena saya telah menjadi vegetarian selama lebih dari 35 tahun dan vegan selama 3 tahun, tetapi saya tidak pernah merasa nyaman berkhotbah kepada orang lain - <strong>Saya hanya ingin memberikan fakta-fakta kepada orang lain agar mereka dapat mengambil keputusan berdasarkan informasi yang mereka miliki</strong>.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p>Jadi, saya mulai melakukan penelitian tentang apa yang diperlukan untuk mengembangkan jenis aplikasi yang saya pikirkan. Saya menginginkan cara bagi orang-orang untuk membuat daftar makanan yang mereka rencanakan untuk dibeli pada hari / minggu itu dan menunjukkan kepada mereka dampak lingkungan dari pilihan mereka dan berpotensi menyarankan alternatif yang akan mengurangi jejak global mereka.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Saya tahu bahkan sebelum memulai bahwa <strong>data akan menjadi sangat penting</strong> untuk ini, jadi saya mulai mencari tahu dari mana saya bisa mendapatkannya. Berikut adalah peta pikiran yang saya gunakan saat saya menjalani proses ini:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">Peta pikiran (mind map) saya</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Saya melihat ada banyak sekali referensi tentang Open Food Facts, jadi saya mendaftar ke aplikasi ini dan mulai mencari makanan yang biasa saya konsumsi. Saya sangat senang dengan apa yang saya temukan, tetapi <strong>awalnya kecewa karena banyak produk vegan yang saya gunakan tidak memiliki Eco-Score</strong>. Saya kemudian menemukan bahwa Open Food Facts adalah <strong>sebuah proyek sumber terbuka</strong>…</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Saya belum pernah berkontribusi secara langsung pada open source sebelumnya, namun <strong>saya pikir saya akan mencobanya, jadi saya mendaftar ke Slack, memposting perkenalan singkat dan segera diperkenalkan pada Stéphane, Alex, Pierre, dan tim.</strong> Saya bertanya apa yang dapat saya bantu yang dapat memberikan dampak paling besar, dan saya diarahkan ke <strong>basis kode "Pembuka Produk" berbasis Perl</strong>. Sementara itu, saya memiliki cuti tahunan yang harus saya gunakan untuk pekerjaan rutin saya, jadi saya memutuskan untuk mengambil cuti di hari Senin agar saya dapat mendedikasikannya untuk mengerjakan Open Food Facts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Saya belum pernah menggunakan Perl sebelumnya, tetapi <strong>setelah Anda memprogram dalam lebih dari sepuluh bahasa, maka menambahkan bahasa lain bukanlah masalah besar</strong>. Saya mulai menyiapkan diri dan menemukan beberapa masalah yang terjadi pada Windows, jadi saya <strong>memperbarui panduan cara menggunakan Windows dengan pengalaman saya dan membuat pull request pertama saya.</strong> Tim sangat cepat mengambil alih dan ingin menyetujuinya sesegera mungkin. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
+<p>Tidak ada birokrasi atau rasa protektif, ini adalah proyek yang benar-benar terbuka.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Saya kemudian menawarkan diri untuk membantu dengan sesuatu yang lebih menantang: <strong>Open Food Facts saat ini sedang mengestimasi persentase setiap bahan makanan</strong>, berdasarkan urutan yang tertera. Misalnya, jika suatu produk memiliki tiga bahan, maka produk kedua tidak boleh lebih dari 50% karena akan lebih banyak dari produk pertama yang terdaftar. Demikian pula produk ketiga tidak boleh lebih dari 33%. Ini adalah algoritma yang cukup sederhana dan kasar, tetapi ini adalah permulaan. Namun, ada beberapa jenis bahan tertentu, seperti perasa, yang tidak pernah menggunakan lebih dari 5% dari suatu produk dan tim merasa bahwa ada sesuatu yang bisa dilakukan untuk mempertimbangkan hal ini.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jadi, saya menyingsingkan lengan baju dan <strong>mencoba memperkenalkan persentase maksimum terhadap suatu bahan</strong>. Hal ini memberi saya pengenalan pada <strong>dunia taksonomi </strong>(<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">artikel pengantar taksonomi di sini</a>) dan pemahaman yang lebih dalam tentang potensi platform ini. Sebagai contoh, saya juga <strong>saat ini sangat tertarik dengan kesehatan usus</strong> dan kontribusi yang diberikan oleh mikroba ramah yang hidup di dalam tubuh kita semua terhadap kesehatan fisik dan mental kita. Kami dapat dengan mudah memperluas taksonomi dengan informasi dari penelitian terbaru dan memberikan jenis "skor" lainnya. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Sebelumnya saya khawatir bahwa saya akan membatasi diri saya sendiri dengan mengerjakan proyek "orang lain", tetapi saya menyadari bahwa dengan bekerja sama, kami dapat menghasilkan sesuatu yang dapat beradaptasi dengan prioritas apa pun yang dimiliki oleh seseorang, entah itu lingkungan, kesehatan, pengemasan, kesejahteraan, atau kombinasi dari semuanya.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Pokoknya, kembali ke kodenya. Sekali lagi, tim ini sangat membantu dengan semua masalah yang saya hadapi, seperti memperbarui hasil unit test, dan pull request kedua saya disetujui sekitar dua minggu sejak perkenalan pertama saya dengan proyek ini.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p><strong>Saya sekarang merasa cukup percaya diri untuk menangani sesuatu yang lebih signifikan. </strong>Stéphane menyadari ketertarikan saya pada makanan vegan dan mengarahkan saya ke versi terbaru <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Dirintis bersama oleh ADEME dan INRAE, dengan mengandalkan kolaborasi institut teknik pertanian dan agrifood) yang menambahkan sejumlah kategori makanan vegan. Open Food Facts saat ini menghitung Eco-Score sebuah produk dengan memetakan kategori produk tersebut ke dalam basis data AGRIBALYSE, yang berisi informasi dampak lingkungan untuk lebih dari 2000 makanan. <strong>Tugas saya adalah memperbarui Open Food Facts untuk menggunakan versi terbaru dari AGRIBALYSE.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Saya menanganinya dalam dua bagian. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Yang pertama adalah menghitung Eco-Score untuk produk yang sudah memilikinya. </strong>Perubahan tersebut menghasilkan perubahan Eco-Score untuk lebih dari 150.000 produk. Saya agak gugup karena memiliki dampak yang begitu besar pada tahap awal keterlibatan saya dalam proyek ini, tetapi tim selalu memberi semangat dan proaktif dalam meninjau apa yang saya hasilkan. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Saya akhirnya dapat menambahkan kategori baru untuk produk vegan dan produk lainnya yang baru saja diperkenalkan.</strong> Hal ini berarti sekitar 9000 produk memiliki Skor Ramah Lingkungan yang sebelumnya tidak ada, termasuk banyak produk vegan favorit saya. Perubahan tersebut telah diterapkan ke produksi hanya lebih dari sebulan setelah perkenalan pertama dengan tim di Slack 😃!</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Seperti yang saya katakan di awal artikel ini, ini adalah <strong>usaha pertama saya untuk berkontribusi pada proyek open source dan saya sangat menikmati pengalaman ini. </strong>Proyek ini, khususnya, telah menginspirasi dan menyegarkan saya dengan cara yang tidak pernah saya bayangkan sebelumnya, sehingga saya dengan sepenuh hati mendorong siapa pun yang mempertimbangkan untuk berpartisipasi, dalam bentuk apa pun, untuk terjun langsung!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🪪 Ditulis oleh John </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(🔎 🍊 Atas nama seluruh tim Open Food Facts: <strong>TERIMA KASIH</strong> yang hangat dari seluruh komunitas atas kerja keras yang telah Anda capai dalam waktu yang singkat, John, kami sangat senang berkolaborasi dengan Anda dan kami sangat senang Anda bergabung dengan kami!)</p>
+<!-- /wp:paragraph -->

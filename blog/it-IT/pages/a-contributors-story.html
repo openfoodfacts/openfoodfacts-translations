@@ -1,0 +1,106 @@
+La storia di un collaboratore
+
+
+<!-- wp:heading {"level":4} -->
+<h4 class="wp-block-heading"><strong><em>John, collaboratore di Open Food Facts condivide la propria esperienza di lavoro su questo progetto collaborativo, per la prima volta! </em></strong> ☄️</h4>
+<!-- /wp:heading -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:media-text {"mediaId":3816,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3816","mediaType":"image","mediaWidth":21} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:21% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/john-1-675x1024.png" alt="" class="wp-image-3816 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p>Ho lavorato in informatica per oltre 40 e mi è sempre piaciuto darmi da fare con il codice, nonostante sia ora chiamato un "architetto del software".</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Per svariati anni, ho cercato un modo <strong>per utilizzare la mia esperienza per contribuire di più alla società, piuttosto che limitarmi a riempire le tasche degli azionisti della mia società</strong>. Dopo un recente laboratorio sullo "scopo della vita", sono giunto alla conclusione che educare le persone sul cibo e sul suo impatto sullsalute e l'ambiente, è davvero importante per me. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Questa non dovrebbe davvero essere un sorpresa, essendo stato vegetariano per oltre 35 anni e vegano per 3, ma non mi sono mai sentito a mio agio nel predicare alle persone: <strong>Voglio soltanto alla gente le nozioni, così che possano intraprendere le proprie decisioni informate</strong>.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph -->
+<p>Quindi, ho iniziato a ricercare riguardo cosa ci sarebbe voluto per sviluppare l'app a cui stato pensando. Volevo un modo, per le persone, di elencare gli alimenti desiderati da acquistare per il giorno / la settimana e mostrare loro l'impatto ambientale delle loro scelte, potenzialmente suggerendo delle alternative che avrebbero ridotto la loro impronta carbonica.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ancor prima di iniziare sapevo che i <strong>dati sarebbero stati fondamentali</strong> per farlo, quindi, ho iniziaato cercare dove li avrei potuti trovare. Ecco la mappa mentale che ho utilizzato durante questo processo:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">La mia mappa mentale</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Ho notato un gran numero di riferimenti a Open Food Facts, quindi mi sono registrato all'app, iniziando cercare gli alimenti che consumavo regolarmente. Ero davvero contento di ciò che avevo trovato, sebbene <strong>inizialmente deluso perché molti prodotti vegani che utilizzo non avessero un Eco-Score</strong>. Poi, ho scoperto che Open Food Facts fosse <strong>un progetto open source</strong>…</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Non ho mai contribuito direttamente all'open source prima d'ora, ma <strong>ho pensato di provarci, quindi mi sono iscritto su Slack, ho pubblicato una rapida presentazione e, quasi immediatamente, sono stato introdotto aa Stéphane, Alex, Pierre e il team.</strong> Ho chiesto come potessi aaiutare per dare il massimo imptto e sono stato indirizzato alla <strong>base di codice, basata su Perl, di "Product Opener"</strong>. Nel frattemo, avevo delle ferie annuali da utilizzare per il mio lavoro regolare, quindi ho deciso di prendermi i lunedì, per poterli dedicare al lavoro su Open Food Facts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Non avevo mai fatto molto in Perl prima, ma <strong>quando hai programmato in più di dieci linguaggi, aggiungerne un'altra non è un grosso problema</strong>. Ho iniziato a prepararmi e ho scoperto alcuni problemi con Windows, quindi, <strong>ho aggiornato le guide pratiche con la mia esperienza e ho creato la mia prima richiesta di pull.</strong> Il team è stato davvero rapido a selezionarla, nonché desideroso di approvarlo il prima possibile. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
+<p>Non c'era burocrazia o senso di protezione, questo è davvero un progetto aperto.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Quindi, mi sono offerto di aiutare con qualcosa di un po' più impegnativo: <strong>Open Food Facts, al momento, sta tentando di stimare le percentuali di ogni ingrediente</strong>, a seconda dell'ordine di elenco. Ad esempio, se un prodotto contiene tre ingredienti, allora il secondo non può essere superiore al 50%, poiché sarebbe maggiore del primo ingrediente elencato. Similmente, il terzo non può essere superiore al 33%. È un algoritmo abbastanza semplice e grossolano, ma è un inizio. Tuttavia, esistono certi tipi di ingredienti, come gli aromi, che non compongono mai più del 5% di un prodotto e, il team, ha ritenuto che si potesse fare qualcosa a riguardo.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Quindi, mi sono rimboccato le maniche e <strong>ho provato a introdurre una percentuale massima, rispetto a un ingrediente</strong>. Questo mi ha introdotto al <strong>mondo delle tassonomie</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">trovate qui un articolo introduttivo</a>) e a una comprensione molto più approfondita sul potenziale della piattaforma. Ad esempio, <strong>al momento, sono anche molto interessato alla salute intestinale</strong> e ai contributi apportati dai microbi "amichevoli" che vivono dentro di noi, al nostro benessere fisico e mentale. Potremmo facilmente estendere le tassonomie con informazioni dalle ricerce più recenti e fornire altri tipi di "punteggi". </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Precedentemente, ero preoccupato dal dovermi limitare per lavorare a un progetto "altrui", ma ho realizzato che, collaborando, avremmo potuto produrre qualcosa che potesse adattarsi alle priorità di qualsiasi individuo, che fossero l'ambiente, la salute, l'imballaggio, la ricchezza o le combinazioni di ognuna di esse.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Comunque, torniamo al codice. Ancora una volta, il team è stato di grande aiuto con tutti i problemi che ho incontrato, come aggiornare i risultati dei test unitari e, la mia seconda richiesta di pull, è stata approvata all'incirca dopo due settimane dalla mia prima introduzione al progetto.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
+<p><strong>Ora ero abbastanza fiducioso di poter affrontare qualcosa di più significativo. </strong>Stéphane era a conoscenza del mio interesse per il cibo vegano e mi ha diretto all'ultima versione di <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Co-pilotata da ADEME e INRAE, si affida alla collaborazione di istituti tecnici agricoli e agroalimentari), che aggiungeva numerose categorie alimentari vegane. Open Food Facts, al momento, calcola l'Eco-Score di un prodotto mappandone la categoria rispetto al database di AGRIBALYSE, contenente le informazioni sull'impatto ambientale per oltre 2000 alimenti. <strong>Il mio lavoro sarebbe stato quello di aggiornare Open Food Facts per utilizzare la versione più recente di AGRIBALYSE.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>L'ho affrontato in due parti. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>La prima è stata calcolare l'Eco-Score per i prodotti che ne avessero già una. </strong>Le modifiche sono risultate negli Eco-Score per oltre 150.000 prodotti. Ero un po' nervoso nell'avere un impatto così grande in una fase così precoce del mio coinvolgimento nel progetto, ma il team è sempre stato incoraggiante e proattivo nel revisionare quanto stessi producendo. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Poi, infine, ho avuto modo di aggiungere le nuove categorie per i prodotti vegani e non solo, introdotte di recente.</strong> Questo, ora, significava che all'incirca 9000 prodotti avessero finalmente un Eco-Score, inclusi molti dei miei prodotti vegani preferiti. La modifica è stata distribuita alla produzione, a poco più di un mese dalla mia prima introduzione al team su Slack 😃 !</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Come detto all'inizio di questo articolo, questa è stata la <strong>mia prima avventura di contribuzione a un progetto open source e, l'esperienza, mi è piaciuta molto. </strong>Questo progetto, in prticolare, mi ha ispirato e rinvigorito in modi che, precedentemente, non avrei potuto immaginare, quindi vorrei incoraggiare con tutto il cuore chiunque stia contemplando di partecipare, indipendentemente dalla forma che ciò potrebbe prendere, di tuffarsi!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>🪪 Scritto da John </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>(🔎 🍊 Per conto dell'intero team di Open Food Facts: un caloroso <strong>GRAZIE</strong> dall'intera community per il lavoro che hai compiuto in un tempo così breve, John, ci è piaciuto molto collaborare con te e siamo lieti di averti a bordo!)</p>
+<!-- /wp:paragraph -->
