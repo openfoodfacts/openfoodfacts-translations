@@ -93,3 +93,13 @@ files:
     translation: /blog/%locale%/more-than-10k-products-to-explore.html
   - source: blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
     translation: /blog/%locale%/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
+  - source: blog/en-US/next-mobile-app-results-of-our-co-construction.html
+    translation: /blog/%locale%/next-mobile-app-results-of-our-co-construction.html
+  - source: blog/en-US/open-food-facts-days-2023-celebrating-community.html
+    translation: /blog/%locale%/open-food-facts-days-2023-celebrating-community.html
+  - source: blog/en-US/open-food-facts-mentioned-in-the-guardian.html
+    translation: /blog/%locale%/open-food-facts-mentioned-in-the-guardian.html
+  - source: blog/en-US/the-new-open-food-facts-app-is-now-on-f-droid.html
+    translation: /blog/%locale%/the-new-open-food-facts-app-is-now-on-f-droid.html
+  - source: blog/en-US/blog/en-US/search-a-licious-wants-to-make-searching-a-delicious-experience.html
+    translation: /blog/%locale%/search-a-licious-wants-to-make-searching-a-delicious-experience.html
