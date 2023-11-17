@@ -89,5 +89,7 @@ files:
     translation: /blog/%locale%/pages/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
   - source: blog/en-US/a-contributors-story.html
     translation: /blog/%locale%/pages/a-contributors-story.html
+  - source: blog/en-US/more-than-10k-products-to-explore.html
+    translation: /blog/%locale%/more-than-10k-products-to-explore.html
   - source: blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
     translation: /blog/%locale%/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
