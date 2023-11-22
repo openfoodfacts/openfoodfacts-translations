@@ -81,25 +81,25 @@ files:
     translation: /blog/%locale%/we-go-green-2-days-in-berlin-for-the-international-green-week.html
   - source: /blog/pages/join-the-tackling-food-packaging-operation.html
     translation: /blog/%locale%/pages/join-the-tackling-food-packaging-operation.html
-  - source: blog/en-US/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
+  - source: /blog/en-US/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
     translation: /blog/%locale%/pages/testimonial-the-win-win-partnership-between-mylabel-and-open-food-facts.html
-  - source: blog/en-US/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
+  - source: /blog/en-US/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
     translation: /blog/%locale%/pages/towards-1-million-users-and-beyond-for-open-food-facts-mobile-app.html
-  - source: blog/en-US/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
+  - source: /blog/en-US/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
     translation: /blog/%locale%/pages/italia-here-we-come-a-look-back-at-our-presence-at-cibus-parma.html
-  - source: blog/en-US/a-contributors-story.html
+  - source: /blog/en-US/a-contributors-story.html
     translation: /blog/%locale%/pages/a-contributors-story.html
-  - source: blog/en-US/more-than-10k-products-to-explore.html
+  - source: /blog/en-US/more-than-10k-products-to-explore.html
     translation: /blog/%locale%/more-than-10k-products-to-explore.html
-  - source: blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
+  - source: /blog/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
     translation: /blog/%locale%/Using-the-Open-Food-Facts-app-to-accompany-scientific-research-yes-we-scan.html
-  - source: blog/en-US/next-mobile-app-results-of-our-co-construction.html
+  - source: /blog/en-US/next-mobile-app-results-of-our-co-construction.html
     translation: /blog/%locale%/next-mobile-app-results-of-our-co-construction.html
-  - source: blog/en-US/open-food-facts-days-2023-celebrating-community.html
+  - source: /blog/en-US/open-food-facts-days-2023-celebrating-community.html
     translation: /blog/%locale%/open-food-facts-days-2023-celebrating-community.html
-  - source: blog/en-US/open-food-facts-mentioned-in-the-guardian.html
+  - source: /blog/en-US/open-food-facts-mentioned-in-the-guardian.html
     translation: /blog/%locale%/open-food-facts-mentioned-in-the-guardian.html
-  - source: blog/en-US/the-new-open-food-facts-app-is-now-on-f-droid.html
+  - source: /blog/en-US/the-new-open-food-facts-app-is-now-on-f-droid.html
     translation: /blog/%locale%/the-new-open-food-facts-app-is-now-on-f-droid.html
-  - source: blog/en-US/blog/en-US/search-a-licious-wants-to-make-searching-a-delicious-experience.html
+  - source: /blog/en-US/search-a-licious-wants-to-make-searching-a-delicious-experience.html
     translation: /blog/%locale%/search-a-licious-wants-to-make-searching-a-delicious-experience.html
