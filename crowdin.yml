@@ -103,3 +103,5 @@ files:
     translation: /blog/%locale%/the-new-open-food-facts-app-is-now-on-f-droid.html
   - source: /blog/en-US/search-a-licious-wants-to-make-searching-a-delicious-experience.html
     translation: /blog/%locale%/search-a-licious-wants-to-make-searching-a-delicious-experience.html
+  - source: /blog/en-US/a-glimpse-into-what-the-eu-is-shaping-for-the-future-of-internet.html
+    translation: /blog/%locale%/a-glimpse-into-what-the-eu-is-shaping-for-the-future-of-internet.html
