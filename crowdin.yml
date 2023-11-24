@@ -105,3 +105,5 @@ files:
     translation: /blog/%locale%/search-a-licious-wants-to-make-searching-a-delicious-experience.html
   - source: /blog/en-US/a-glimpse-into-what-the-eu-is-shaping-for-the-future-of-internet.html
     translation: /blog/%locale%/a-glimpse-into-what-the-eu-is-shaping-for-the-future-of-internet.html
+  - source: blog/en-US/introducing-the-v490-of-the-open-food-facts-app-a-polished-experience.html
+    translation: /blog/%locale%/introducing-the-v490-of-the-open-food-facts-app-a-polished-experience.html
