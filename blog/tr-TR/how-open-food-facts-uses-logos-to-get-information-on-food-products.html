@@ -13,7 +13,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
+<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -21,7 +21,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>How should Open Food Facts detect them ? Her zaman olduğu gibi teknoloji ve katkıda bulunanların karışımı sayesinde!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -33,7 +33,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Ancak o dönemde kullanılan modeller ve algoritmalar yeterince verimli sonuçlar veremiyordu.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41,7 +41,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Veritabanında halihazırda mevcut olan verilere dayanarak amaç, her ürün hakkında mümkün olduğunca fazla bilgi almak ve bunları veritabanına eklemektir. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
@@ -57,7 +57,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. Modelin girdisi olarak bir görüntü koyarız ve ilgili puan ve sınıflara sahip birden fazla sınırlayıcı kutu alırız. The classes on which the model was trained were “brand” and “label”.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Logo resimlerini Vektörlere dönüştürün:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,7 +93,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. Bunun için OpenAI'nin <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>adlı önceden eğitilmiş bir modelini kullanıyoruz. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Now that we can access logos, we need to vectorise them</strong>. Bunun için OpenAI'nin <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>adlı önceden eğitilmiş bir modelini kullanıyoruz. Model başlangıçta görüntüleri metinle eşleştirmek üzere eğitilmiş olsa da, her logo için CLIP tarafından hesaplanan yerleştirmeleri (=bir vektör uzayına gömülü logolar) elde etmek için modelin yalnızca "bilgisayarlı görme" kısmını kullanıyoruz.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -117,7 +117,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Bir logonun en yakın komşularını bulmak için, yerleştirmeleri saklayacak bir "dizin" kullanırız. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
