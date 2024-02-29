@@ -13,7 +13,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
+<p>Open Food Facts yaklaşık <strong>3 milyon ürünle</strong> doludur. Each product has a packaging which is made to attract as many people as possible. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -21,7 +21,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Her zaman olduğu gibi teknoloji ve katkıda bulunanların karışımı sayesinde!</strong></p>
+<p><strong>Open Food Facts bunları nasıl tespit etmelidir? Her zaman olduğu gibi teknoloji ve katkıda bulunanların karışımı sayesinde!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -57,7 +57,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. Modelin girdisi olarak bir görüntü koyarız ve ilgili puan ve sınıflara sahip birden fazla sınırlayıcı kutu alırız. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Open Food Facts'e katkıda bulunanlar, resimlerdeki logoları tanımak için bir Makine Öğrenimi modeli eğitti. Modelin girdisi olarak bir görüntü koyarız ve ilgili puan ve sınıflara sahip birden fazla sınırlayıcı kutu alırız. The classes on which the model was trained were “brand” and “label”.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -117,7 +117,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Bir logonun en yakın komşularını bulmak için, yerleştirmeleri saklayacak bir "dizin" kullanırız. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Bir logonun en yakın komşularını bulmak için, yerleştirmeleri saklayacak bir "dizin" kullanırız. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. Bu bize "gerçek" en yakın komşuları verdiği için en kesin yöntemdir. Ancak bu yöntemin uygulanması çok yavaştır. Toplam logo miktarı 2,5 milyon olduğunda her logo için en yakın komşuları çıkarmak için gereken süre 3 saniye civarındadır 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
