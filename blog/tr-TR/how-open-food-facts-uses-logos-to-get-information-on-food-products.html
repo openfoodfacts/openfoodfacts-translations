@@ -1,4 +1,4 @@
-How Open Food Facts uses logos to get information on food products
+Open Food Facts, gıda ürünleri hakkında bilgi almak için logoları nasıl kullanıyor
 
 <!-- wp:paragraph -->
 <p></p>
@@ -13,7 +13,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts yaklaşık <strong>3 milyon ürünle</strong> doludur. Each product has a packaging which is made to attract as many people as possible. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
+<p>Open Food Facts yaklaşık <strong>3 milyon ürünle</strong> doludur. Her ürünün mümkün olduğunca çok insanın ilgisini çekecek şekilde yapılmış bir ambalajı vardır. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -37,11 +37,11 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>Eylül 2022'de mühendislik öğrencisi olarak logolara yönelik 6 aylık bir staj için ekibe katıldım ve tüm bu süreci yeniden düzenlemek için çalıştım! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Veritabanında halihazırda mevcut olan verilere dayanarak amaç, her ürün hakkında mümkün olduğunca fazla bilgi almak ve bunları veritabanına eklemektir. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Veritabanında halihazırda mevcut olan verilere dayanarak amaç, her ürün hakkında mümkün olduğunca fazla bilgi almak ve bunları veritabanına eklemektir. Şu anda Robotoff tarafından yapılan güncellemeler, Optik Karakter Tanıma veya daha genel Bilgisayarlı Görme modelleri yoluyla görüntü analizinden gelmektedir. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
@@ -121,11 +121,11 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. Robotoff'un kullandığına HNSW (hiyerarşik gezilebilir küçük dünya) adı verilir. You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Robotoff, HNSW ElasticSearch indeksini kullanarak artık 2,5 milyondan fazla vektör arasında yer alan her bir vektörün en yakın komşularını büyük bir hassasiyetle arayabiliyor (geri dönen 100 en yakın komşunun %90'ından fazlası tam 100 gerçek en yakın komşu arasındadır) ve 100 ms'den daha kısa bir arama süresi 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
