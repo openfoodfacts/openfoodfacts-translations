@@ -1,39 +1,39 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+<a href="https://world.openfoodfacts.org">Open Food Factsin</a> tiedot olivat jo avoimia ja ilmaisia ( <i>avoimessa datassa</i>, kuten sanotaan), ja nyt ne on myös linkitetty. Ja kyllä, ilmainen ja linkitetty kerralla!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Ilmainen, koska avoin lisenssi mahdollistaa tietojen käytön kaikkien ja mihin tahansa tarkoitukseen ja linkitettynä, koska tiedot on nyt linkitetty paitsi toisiinsa, myös muihin tietokokonaisuuksiin DBPedia-tietokannan kautta.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Sanon tämän uudelleen: nyt on olemassa suuri tiedosto, joka sisältää Open Food Facts -tiedot tuotteista, niiden ainesosista ja ravintokoostumuksesta. Tuotteet liittyvät niiden sisältämiin ainesosiin, ja ainesosat (jotkut aluksi) viittaavat heidän sivulleen <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (tietokanta Wikipedian artikkeleista). Tämä tiedosto ei ole ihmisille, vaan ohjelmille. Sitä on mahdollista tiedustella, muotoilla kyselyitä "mitkä ovat ne tuotteet, joiden pääainesosa on sokeri" ja risteyttää se helposti muiden tietoaineistojen kanssa.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Tämän tiedoston ansiosta OFF-tiedot ovat nyt osa sitä, mitä kutsutaan <a href="https://en.wikipedia.org/wiki/Linked_data">"Linkitetyksi dataksi" tai "Datan Verkoksi"</a>. Tietoja on helpompi käyttää uudelleen.<br>
 <br>
 <img title="" src="https://blog.openfoodfacts.org/wp-content/uploads/2022/05/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Linkitetäänkö Open Food Facts -tiedot pian moniin muihin tietokokonaisuuksiin?<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Tekniset tiedot:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Osallistuin <b>Datalift Campille</b>, johon Charles Nepote <a href="https://datalift.org/">Datalift</a>ilta kutsui minut, ja se oli ensimmäinen kerta, kun käytin Datalift-työkalua. Aloimme "leikkiä" OFF-datan kanssa nähdäksemme kuinka se ilmaistaan RDF:ssä.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Ainesosien ja ravintoaineiden tiedot on kuvattu <a href="https://data.lirmm.fr/ontologies/food">ontologia ruualla</a>, jota luomme yhdessä <b>François Scharffen</b> kanssa Montpellierin informatiikan, robotiikan ja mikroelektroniikan laboratoriosta <a href="https://www.lirmm.fr/">LIRMM</a> ja <b>Emmanuel Nauer</b> Lorrainin tietojenkäsittelytieteen tutkimuslaboratoriosta ja sen <a href="https://www.loria.fr/">LORIA</a>-sovelluksista. Ajatuksena on käyttää samaa sanastoa kuvailemaan reseptiä (kuten projektissa <a href="https://taaable.fr/">Taaable</a> johon Emmanuel osallistuu) tai valmistettua elintarviketuotetta.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+RDF-vienti on täällä: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (XML-/RDF-muodossa)<br>
 <br>
-And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
+Ja siihen on <a href="https://datahub.io/dataset/open-food-facts">viitattu The Data Hubissa</a> Open Food Facts -tietojoukon löytämisen helpottamiseksi.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Ainesosat on jäsennetty tekstissä olevasta ainesosaluettelosta, niissä on virheitä, luetteloiden muoto vaihtelee suuresti tuotteista toiseen. Aion parantaa jäsentäjää, ja rinnakkain avustajat korjaavat luetteloissa olevat kirjoitusvirheet.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+Tuotteiden ja ainesosien URL-osoitteet palauttavat tällä hetkellä HTML-verkkosivun, mutta aion lisätä sisältöneuvottelun RDF:n palauttamiseksi.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
-<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
+François loi vastaavuudet Open Food Factsin ainesosien ja samojen ainesosien välillä DBPediassa. Ne osoitetaan owl:sameAs-ominaisuuden avulla, esimerkiksi:<br>
+<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; kaliumsorbaatti &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
+Tällä hetkellä ei ole SPARQL-päätepistettä. Voit sen sijaan ladata RDF-viennin työkaluun, kuten Datalift, suorittaaksesi SPARQL-kyselyitä. Esimerkkinä tässä on yksi ensimmäisistä kyselyistäni (löytääkseni tuotteita, joiden pääainesosa on sokeri):<br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
    ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Tämä on tietysti työn alla, RDF-viennistä puuttuu vielä paljon dataa (brändit, kategoriat jne.). Niitä lisätään vähitellen.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Ideat, kommentit, ehdotukset jne. ovat tervetulleita parantamaan näitä tietoja, linkittämään niitä paremmin, edustamaan niitä paremmin jne. Lisäksi, jos käytät tietoja, olisi mukava kertoa meille. Kiitos jo etukäteen !<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+Ja tietysti iso kiitos Emmanuelille ja Françoisille avusta!<br>
