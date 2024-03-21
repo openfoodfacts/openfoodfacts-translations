@@ -57,6 +57,8 @@ files:
     translation: /blog/%locale%/meeting-more-than-400-producers-in-2-days-its-possible-thanks-to-sial.html
   - source: /blog/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
     translation: /blog/%locale%/how-open-food-facts-can-help-reduce-waste-and-improve-recycling.html
+  - source: /blog/opening-the-honeypot.html
+    translation: /blog/%locale%/opening-the-honeypot.html
   - source: /blog/presenting-open-food-facts-at-events-a-case-study.html
     translation: /blog/%locale%/presenting-open-food-facts-at-events-a-case-study.html
   - source: /blog/open-food-facts-is-getting-a-makeover.html
