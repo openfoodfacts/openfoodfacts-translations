@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+Kuinka Open Food Facts käyttää logoja saadakseen tietoa elintarviketuotteista
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Ripaus kontekstista:</strong> "logot" ?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. These symbols are numerous and can give information on the brand of the product, its quality, its composition, the way it was made, in which bean to discard it, etc…&nbsp;</p>
+<p>Open Food Facts on täytetty noin <strong>3 miljoonalla tuotteella</strong>. Jokaisella tuotteella on pakkaus, joka on tehty houkuttelemaan mahdollisimman paljon ihmisiä. Tässä suhteessa tuottajat korostavat tuotteidensa ominaisuuksia<strong> räikeillä ja selkeillä symboleilla</strong>. Näitä symboleita on lukuisia ja ne voivat antaa tietoa tuotteen merkistä, laadusta, koostumuksesta, valmistustavasta, mihin roskikseen se tulee hävittää jne…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Kaikkien symbolien homogenisoimiseksi ja kuluttajien auttamiseksi löytämään heille sopivia tuotteita, <strong>useat laitokset ovat luoneet tiukat säännöt tuottajille, jotta he voivat merkitä tuotteensa erityisillä symboleilla, joita kutsumme "logoiksi"</strong>. On siis huikea mahdollisuus 🔥 saada tietoa tuotteista tunnistamalla nämä logot!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>Miten Open Food Factsin pitäisi havaita ne? Kiitos tekniikan ja avustajien sekoituksen, kuten aina!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,27 +29,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, entinen Open Food Facts -avustaja, joka on nyt osa pysyvää tiimiä ja työharjoitteluohjaajani, oli kehittänyt Robotoffissa* <strong>järjestelmän logojen poimimiseksi kuvista, niiden muuntamiseksi vektoreiksi ja lähimpien vektorien naapureiden löytämiseksi.</strong> Logojen naapureiden löytämisen tavoitteena oli <strong>antaa kirjoittajille mahdollisuus "merkitä" (luokitella manuaalisesti) valtavia määriä logoja samanaikaisesti <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games -nimisen alustan kautta.</a> </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Tuolloin käytetyt mallit ja algoritmit eivät kuitenkaan antaneet tarpeeksi tehokkaita tuloksia.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>Syyskuussa 2022 minä, insinööriopiskelija, liityin tiimiin 6 kuukauden harjoitteluun, joka olisi omistettu logoille, ja työskentelin koko prosessin refaktoroinnin parissa! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Mikä on Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> on avustajien kehittämä palvelu, joka auttaa Open Food Facts -tietojen käsittelyssä. Tietokannassa jo olevien tietojen perusteella tavoitteena on hakea jokaisesta tuotteesta mahdollisimman paljon tietoa ja lisätä ne tietokantaan. Tällä hetkellä Robotoffin tekemät päivitykset tulevat kuva-analyysistä, optisen merkintunnistuksen tai yleisemmistä Computer Vision -malleista. Jotkut päivitykset otetaan automaattisesti käyttöön tietokannassa, mutta toiset tarvitsevat manuaalisen vahvistuksen kysymysten tai Nälkäpelien kautta.<br><br><em><strong>Jos haluat tietää lisää Robotoffista, katso <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">tästä</a>!</strong></em>👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Tihkua tekniikkaa: </strong>Miten logojen käsittely toimii tarkalleen?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Poimi logot tuotteiden kuvista:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,23 +57,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Open Food Facts -avustajat kouluttivat koneoppimismallin tunnistamaan logot kuvissa. Laitamme kuvan mallin syötteeksi ja saamme useita rajausruutuja vastaavilla pisteillä ja luokilla. Luokat, joissa mallia koulutettiin, olivat "brändi" ja "etiketti".</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Löydät mallin kutsun koodin täältä: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Voit kokeilla sitä seuraavan API:n avulla:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>Rajoituslaatikoiden avulla näet, mitkä ovat vastaavat logot API:lla: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> jossa koordinaatit ovat samassa järjestyksessä kuin mallin palauttamat rajoituslaatikoissa.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>Tässä on esimerkki siitä, mitä tapahtuu, kun näitä sovellusliittymiä käytetään seuraavan kuvan kanssa:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Muunna logokuvat vektoreiksi:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,23 +93,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Nyt kun voimme käyttää logoja, meidän on vektorisoitava ne</strong>. Tätä varten käytämme OpenAI:n esikoulutettua mallia nimeltä <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Vaikka malli oli alun perin opetettu sovittamaan kuvia tekstiin, käytämme vain mallin "tietokonenäköistä" osaa saadaksemme CLIP:n jokaiselle logolle laskemat upotteet (=logot upotettuina vektoritilaan).</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>Meillä on siis logokuva syötteenä ja vektori, jonka mitta on 512, lähtönä. Mitä pienempi etäisyys kahden vektorin välillä on, sitä samankaltaisempia kaksi vastaavaa logoa ovat.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>Robotoffin <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> -toiminto vastaa mallin soveltamisesta logoihin ja upotusten tallentamisesta Robotoffin postgresql-tietokantaan.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find a more explicit code <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">here</a> to understand how we use CLIP to generate logos embeddings.</p>
+<p>Löydät tarkemman koodin <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">täältä</a> ymmärtääksesi, kuinka käytämme CLIP:iä logojen upottamista varten.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>3️⃣ </em>Find nearest neighbours:</h4>
+<h4><em>3️⃣ </em>Etsi lähimmät naapurit:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,47 +117,47 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Logon lähimpien naapurien löytämiseksi käytämme "hakemistoa" upotusten tallentamiseen. Kun tämä indeksi on rakennettu, voimme käyttää <strong>"raaka voima" 💪 -menetelmää, jossa lasketaan kyselylogon ja kaikkien muiden db:n logojen välinen etäisyys ja palautetaan lähimmät</strong>. Se on tarkin menetelmä, koska se antaa meille "todelliset" lähimmät naapurit. Tämä menetelmä on kuitenkin liian hidas käytettäväksi. Jokaisen logon lähimpien naapureiden poimimiseen tarvittava aika, kun logoja on yhteensä 2,5M, on noin 3s 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Koska tarvitsimme parempaa hakuaikaa ja halusimme pienemmän tarkkuuden, päätimme käyttää <strong>likimääräistä menetelmää</strong>. Sitä, jota Robotoff käyttää, kutsutaan nimellä HNSW (hierarchical navigable small world). Voit katsoa <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">tätä artikkelia</a> ymmärtääksesi paremmin lähimpien naapureiden haun.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Käyttämällä HNSW ElasticSearch -indeksiä Robotoff pystyy nyt etsimään kunkin upotuksen lähimmät naapurit yli 2,5 miljoonan vektorin joukosta valtavalla tarkkuudella (yli 90 % palautetusta sadasta lähimmästä naapurista on täsmälleen 100 todellisen lähinaapurin joukossa) ja lyhyt hakuaika alle 100 ms 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Voit käyttää seuraavia sovellusliittymiä saadaksesi logon lähimmät naapurit: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 A spoon of contributions: </strong>Where is it used?</h3>
+<h3><strong>🍯 Lusikka lahjoituksia: </strong>Missä sitä käytetään?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No automatic logo categorization is yet implemented in Robotoff. Everything I explained before is made only for <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<p>Robotoffissa ei ole vielä otettu käyttöön automaattista logojen luokittelua. Kaikki mitä selitin aiemmin, on tehty vain <a href="https://hunger.openfoodfacts.org/">Nälkäpeliä</a> varten.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What is it ? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Mikä se on ? Se on <strong>merkintäalusta </strong>, jonka on kehittänyt avustaja nimeltä Alexandre Fauquette ja jonka <strong>avulla kaikki voivat vastata Robotoffin tekemiin tarkistusennusteisiin ja luokitella logot</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>You can try it. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
+<p><br>Voit kokeilla sitä. Nopea esittely/opastus toivottaa sinut tervetulleeksi ja voit merkitä logoja! 😉<br>Video-opastus aiheesta "Kuinka käyttää Nälkäpeliä?" pitäisi ilmestyä pian… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">To play the Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Nälkäpelin pelaaminen: hunger.openfoodfacts.org</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Annotating logos enhance Open Food Facts as it grows the amount of data we have on products and its quality.</strong> And thanks to the models and algorithms used in the background, you can be way more powerful and have a greater impact on people daily alimentation 🥰.</p>
+<p><strong>Merkintälogot parantavat Open Food Facts -palvelua, kun se lisää tuotteistamme ja niiden laadusta saatavan tiedon määrää.</strong> Ja taustalla käytettyjen mallien ja algoritmien ansiosta voit olla paljon tehokkaampi ja vaikuttaa ihmisten päivittäiseen ravintoon 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Article by Gabriel</p>
+<p>Artikkelin kirjoittanut Gabriel</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->

@@ -1,35 +1,35 @@
-<h2>On taxonomies</h2>
+<h2>Taksonomioista</h2>
 
-<p><em>This blog entry is written by Yukti (who joins us with the Outreachy program). She kindly gave us permission to share it here as we think it explains the topic very well. Thank you very much Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link to the original article "Everybody Struggles"</a>).</em></p>
+<p><em>Tämän blogimerkinnän on kirjoittanut Yukti (joka liittyy meihin Outreachy-ohjelman kanssa). Hän ystävällisesti antoi meille luvan jakaa sen täällä, koska mielestämme se selittää aiheen erittäin hyvin. Kiitos paljon Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Linkki alkuperäiseen artikkeliin "Everybody Struggles"</a>).</em></p>
 <hr />
 <figure>
 <blockquote>
-<p><em>We are now in Week 3 of the Outreachy internship! A lot of points I&rsquo;ll touch on in the Blog have been inspired by some of the writing prompts from the Outreachy organizers. In this blog, I will be writing about an open source vocabulary term that was new for me<em>. During the Outreachy Application Period.</em></em></p>
+<p><em>Olemme nyt Outreachy-harjoittelun viikolla 3! Monet kohdat, joita käsittelen blogissa, ovat saaneet inspiraationsa joistakin Outreachyn järjestäjien kirjoittamista kehotuksista. Tässä blogissa kirjoitan avoimen lähdekoodin sanaston termistä, joka oli minulle uusi<em>. Outreachy-hakemusjakson aikana.</em></em></p>
 </blockquote>
 </figure>
-<p>There were a ton of words/concepts that I was confused with during the Outreachy application period. The word that sticks out to me the most right now is&nbsp;<code>Taxonomy&nbsp;<em>(plural: Taxonomies</em></code><em>).&nbsp;</em>As a newcomer to the Open Food Facts community, I noticed this term being talked about a lot, mentioned in issues and pull requests. It didn&rsquo;t take too long for me to realize that this term should be an important one in the context of the project.</p>
+<p>Outreachyn hakuaikana oli paljon sanoja/käsitteitä, joista olin hämmentynyt. Sana, joka jää mieleeni tällä hetkellä eniten, on&nbsp;<code>Taxonomy&nbsp;<em>(monikko: Taxonomies</em></code><em>).&nbsp;</em>Uutena tulokkaana Open Food Facts -yhteisössä, huomasin, että tästä termistä puhutaan paljon, se mainitaan ongelmissa ja vetopyynnöissä. Ei kestänyt liian kauan tajuta, että tämän termin pitäisi olla tärkeä hankkeen yhteydessä.</p>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
-<figcaption>Source: Google</figcaption>
+<figcaption>Lähde: Google</figcaption>
 </figure>
-<p>This definition seems to make it even more confusing right? (after all, it&rsquo;s not Open Animal Facts, it&rsquo;s Open Food Facts). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
-<h2>Moving forward</h2>
-<p>Admittedly, I was hesitant to ask a community member to just&nbsp;<em>&ldquo;define&rdquo;</em>&nbsp;it for me because the term felt so central to this project that it only felt fair to give myself a few days, explore the codebase and see how stuff works around. Very naturally, this word (and several others concepts) started making sense as I became more familiar with the repository&rsquo;s structure over the next few days.</p>
-<h2>So... what are taxonomies ? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link to the wiki page too!)</a></em></h2>
+<p>Tämä määritelmä näyttää tekevän siitä vielä hämmentävämmän, eikö niin? (loppujen lopuksi se ei ole Open Animal Facts, se on Open Food Facts). Siinä vaiheessa saatoin epämääräisesti päätellä, mitä tämä termi saattaa tarkoittaa biologisen kontekstin ulkopuolella, mutta silti en kyennyt todella yhdistämään sitä projektiin.</p>
+<h2>Eteneminen</h2>
+<p>Tosin epäröin pyytää yhteisön jäsentä vain&nbsp;<em>&ldquo;määrittelemään&rdquo;</em>&nbsp;sen minulle, koska termi tuntui niin keskeiseltä tässä projektissa, että tuntui vain kohtuulliselta antaa itselleni muutama päivä, tutkia koodikantaa ja nähdä, miten asiat toimivat. Tämä sana (ja monet muut käsitteet) alkoivat luonnollisesti saada järkeä, kun tutustuin arkiston rakenteeseen lähipäivinä.</p>
+<h2>Joten... mitä taksonomiat ovat? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Linkki myös wikisivulle!)</a></em></h2>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
-<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;are at the heart of the Data Structure in Open Food Facts. These are raw text files&nbsp;<code>(.txt)</code>&nbsp;that mainly contain translations, classifications, labels, ingredients lists and hierarchies.</p>
-<p>For simplifying it a bit, their function can be broadly broken down into 2 parts,</p>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taksonomiat</a>&nbsp;ovat Open Food Facts -tietorakenteen ytimessä. Nämä ovat raakatekstitiedostoja&nbsp;<code>(.txt)</code>&nbsp;, jotka sisältävät pääasiassa käännöksiä, luokituksia, etikettejä, ainesosaluetteloita ja hierarkioita.</p>
+<p>Hieman yksinkertaistamiseksi niiden toiminta voidaan jakaa laajasti kahteen osaan,</p>
 <ul>
-<li><strong><strong>Classification</strong>: </strong>We can use taxonomies to establish hierarchies for consumables. This is best explained by an example: Let&rsquo;s take a look at this&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;product page linked&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">here</a>.</li>
+<li><strong><strong>Luokitus</strong>: </strong>Voimme käyttää taksonomioita hierarkioiden muodostamiseen tarvikkeille. Tämä selittyy parhaiten esimerkillä: Katsotaanpa tätä&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;tuotesivua, johon on linkki&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">täällä</a>.</li>
 </ul>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
-<figcaption>Note: These categories are listed in a hierarchal order. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+<figcaption>Huomautus: Nämä luokat on lueteltu hierarkkisessa järjestyksessä. Tämä tuote on&nbsp;<strong>&ldquo;välipala&rdquo;</strong>&nbsp;ensimmäinen ja välipalojen joukossa&nbsp;<strong>&ldquo;Makea välipala&rdquo;</strong>. Lisäksi voitaisiin sanoa, että se kuuluu keksien alaluokkaan ja &nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;luokituksen alapuolella, se on&nbsp;<strong>&ldquo;täytetty keksi</strong>&ldquo;. </figcaption>
 </figure>
 <ul>
-<li><strong>Translation</strong>: With these we can maintain a list of translations for ingredients, certain phrases, measuring units, nutrients and countries. If you are bilingual like me, you may already know that&nbsp;<em>Google Translate</em>&nbsp;just doesn&rsquo;t cut it sometimes. There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
+<li><strong>Käännös</strong>: Näiden avulla voimme ylläpitää luetteloa ainesosien, tiettyjen lauseiden, mittayksiköiden, ravintoaineiden ja maiden käännöksistä. Jos olet kaksikielinen kuten minä, saatat jo tietää, että&nbsp;<em>Google-kääntäjä</em>&nbsp;ei vain toimi joskus. Nimissä voi olla paikallisia muunnelmia, vaihtoehtoisia kirjoitusasuja, epätavallisia ainesosia,&nbsp;<strong>synonyymejä (vaihtoehtoisia nimiä</strong>) ja monia muita tapauksia, joissa käännöstyökalun käyttäminen ei ratkaise ongelmaamme.</li>
 </ul>
-<h2>Something cool about Taxonomies</h2>
-<p>You can contribute to them regardless of your familiarity with Coding.&nbsp;<em>Yes, you heard that right!</em>&nbsp;If you find something you wish to correct or add to the Taxonomies, all you need to do is edit/make your addition to the text files linked&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>here</strong></a>&nbsp;and propose your change through a&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (linked to a descriptive guide)</p>
-<p><strong>Parting words</strong></p>
-<p>I will soon be coming up with a blog that&rsquo;s specific to contributing to the Open Food Facts taxonomies for someone uninitiated with coding and/or Git and GitHub.</p>
-<p>Stay Tuned for that!&nbsp;:)</p>
-<p>Signing off, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
+<h2>Jotain siistiä taksonomioissa</h2>
+<p>Voit osallistua niihin riippumatta siitä, oletko perehtynyt koodaukseen.&nbsp;<em>Kyllä, kuulit oikein!</em>&nbsp;Jos löydät jotain, jota haluat korjata tai lisätä taksonomioihin, sinun tarvitsee vain muokkaa/lisää&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>täällä</strong></a>&nbsp;linkitettyihin tekstitiedostoihin&nbsp;ja ehdota muutosta&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>vetopyynnöllä</strong></a>. (linkki kuvaavaan oppaaseen)</p>
+<p><strong>Erotussanat</strong></p>
+<p>Aion pian laatia blogin, joka on nimenomaan edistänyt Open Food Facts -taksonomioita henkilöille, jotka eivät ole perehtyneet koodaukseen ja/tai Gitiin ja GitHubiin.</p>
+<p>Pysy kuulolla!&nbsp;:)</p>
+<p>Allekirjoitus, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
