@@ -1,35 +1,35 @@
-<h2>On taxonomies</h2>
+<h2>Про систематику</h2>
 
-<p><em>This blog entry is written by Yukti (who joins us with the Outreachy program). She kindly gave us permission to share it here as we think it explains the topic very well. Thank you very much Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link to the original article "Everybody Struggles"</a>).</em></p>
+<p><em>Цей запис у блозі написала Юкті (яка приєднується до нас із програмою Outreachy). Вона люб’язно дозволила нам поділитися ним тут, оскільки ми вважаємо, що це дуже добре пояснює тему. Вельми вдячні! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Посилання на оригінальну статтю «Everybody Struggles»</a>).</em></p>
 <hr />
 <figure>
 <blockquote>
-<p><em>We are now in Week 3 of the Outreachy internship! A lot of points I&rsquo;ll touch on in the Blog have been inspired by some of the writing prompts from the Outreachy organizers. In this blog, I will be writing about an open source vocabulary term that was new for me<em>. During the Outreachy Application Period.</em></em></p>
+<p><em>Зараз ми на третьому тижні стажування Outreachy! Багато моментів, яких я&rsquo;торкнуся в блозі, були натхненні деякими письмовими підказками організаторів Outreachy. У цьому блозі я буду писати про термін із словника з відкритим кодом, який був новим для мене<em>. Протягом періоду подачі заявок.</em></em></p>
 </blockquote>
 </figure>
-<p>There were a ton of words/concepts that I was confused with during the Outreachy application period. The word that sticks out to me the most right now is&nbsp;<code>Taxonomy&nbsp;<em>(plural: Taxonomies</em></code><em>).&nbsp;</em>As a newcomer to the Open Food Facts community, I noticed this term being talked about a lot, mentioned in issues and pull requests. It didn&rsquo;t take too long for me to realize that this term should be an important one in the context of the project.</p>
+<p>Була маса слів/понять, які мене плутали під час подачі заявок на Outreachy. Слово, яке зараз найбільше вирізняється для мене, - це "Таксономія" ( множина: таксономії). Як новачок у спільноті Open FoodFacts, я помітив, що це слово часто обговорюється, згадується у запитаннях на включення змін. Мені не зайняло занадто багато часу, щоб усвідомити, що цей термін повинен мати важливе значення в контексті проекту.</p>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
-<figcaption>Source: Google</figcaption>
+<figcaption>Джерело: Google</figcaption>
 </figure>
-<p>This definition seems to make it even more confusing right? (after all, it&rsquo;s not Open Animal Facts, it&rsquo;s Open Food Facts). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
-<h2>Moving forward</h2>
-<p>Admittedly, I was hesitant to ask a community member to just&nbsp;<em>&ldquo;define&rdquo;</em>&nbsp;it for me because the term felt so central to this project that it only felt fair to give myself a few days, explore the codebase and see how stuff works around. Very naturally, this word (and several others concepts) started making sense as I became more familiar with the repository&rsquo;s structure over the next few days.</p>
-<h2>So... what are taxonomies ? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link to the wiki page too!)</a></em></h2>
+<p>Це визначення, здається, робить його ще більш заплутаним, чи не так? (зрештою, це не відкриті факти про тварин, це відкриті факти про їжу). На той момент  я ледве уявляв собі, що цей термін може означати поза біологічним контекстом, але все одно&rsquo;не міг справді пов’язати його з проектом.</p>
+<h2>Продовжуємо</h2>
+<p>Щоправда, я не вагався попросити члена спільноти просто&nbsp;<em>&ldquo;визначити&rdquo;</em>&nbsp;це для мене, оскільки цей термін відчувався настільки важливий для цього проекту, що було справедливим дати собі кілька днів, вивчити кодову базу та подивитися, як все працює. Цілком природно, що це слово (і кілька інших понять) набуло сенсу, коли я ближче познайомився зі структурою протягом наступних кількох днів.</p>
+<h2>Отже... що таке таксономії? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Посилання на вікі-сторінку теж!)</a></em></h2>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
-<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;are at the heart of the Data Structure in Open Food Facts. These are raw text files&nbsp;<code>(.txt)</code>&nbsp;that mainly contain translations, classifications, labels, ingredients lists and hierarchies.</p>
-<p>For simplifying it a bit, their function can be broadly broken down into 2 parts,</p>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Таксономії</a>&nbsp;є основою структури даних у Open Food Facts. Це необроблені текстові файли&nbsp;<code>(.txt)</code>&nbsp;, які в основному містять переклади, класифікації, мітки, списки інгредієнтів та ієрархії.</p>
+<p>Щоб трохи спростити, їхню функцію можна в цілому розбити на 2 частини,</p>
 <ul>
-<li><strong><strong>Classification</strong>: </strong>We can use taxonomies to establish hierarchies for consumables. This is best explained by an example: Let&rsquo;s take a look at this&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;product page linked&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">here</a>.</li>
+<li><strong><strong>Класифікація</strong>: </strong>Ми можемо використовувати таксономії для встановлення ієрархії витратних матеріалів. Найкраще це пояснюється на прикладі. Розгляньмо сторінку продукту "Nutella Biscuits", за посиланням тут.</li>
 </ul>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
-<figcaption>Note: These categories are listed in a hierarchal order. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+<figcaption>Примітка: ці категорії перераховані в ієрархічному порядку. Цей продукт — перш за все “Снек”, а в межах снеків — “Солодкий десерт”. Цей продукт визначається як “солодка випічка”, входячи одночасно в підклас “Печиво” та класифікацію “Наповнене печиво”
 </figure>
 <ul>
-<li><strong>Translation</strong>: With these we can maintain a list of translations for ingredients, certain phrases, measuring units, nutrients and countries. If you are bilingual like me, you may already know that&nbsp;<em>Google Translate</em>&nbsp;just doesn&rsquo;t cut it sometimes. There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
+<li><strong>Переклад</strong>: за допомогою них ми можемо підтримувати список перекладів інгредієнтів, певних фраз, одиниць вимірювання, поживних речовин і країн. Якщо ви володієте двома мовами, як я, ви, можливо, вже знаєте, що&nbsp;<em>Перекладач Google</em>&nbsp; іноді не справляється. Можуть бути місцеві варіації назв, альтернативне написання,,&nbsp;<strong>синоніми (альтернативні назви</strong>) та багато інших випадків, коли використання інструмента перекладу не буде&rsquo;вирішувати нашу проблему.</li>
 </ul>
-<h2>Something cool about Taxonomies</h2>
-<p>You can contribute to them regardless of your familiarity with Coding.&nbsp;<em>Yes, you heard that right!</em>&nbsp;If you find something you wish to correct or add to the Taxonomies, all you need to do is edit/make your addition to the text files linked&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>here</strong></a>&nbsp;and propose your change through a&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (linked to a descriptive guide)</p>
-<p><strong>Parting words</strong></p>
-<p>I will soon be coming up with a blog that&rsquo;s specific to contributing to the Open Food Facts taxonomies for someone uninitiated with coding and/or Git and GitHub.</p>
-<p>Stay Tuned for that!&nbsp;:)</p>
-<p>Signing off, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
+<h2>Цікавий факт про таксономії</h2>
+<p>Ви можете зробити свій внесок в них, незалежно від того, наскільки ви знайомі з цією темою. Так, ви почули правильно. Якщо ви знаходите щось, що ви хочете виправити або додати до таксономії, все, що вам потрібно зробити, це відредагувати або додати свій внесок у текстові файли, пов’язані тут, і запропонувати ваші зміни через запит на редагування (з посиланням на описовий посібник). (посилання на описовий посібник)</p>
+<p><strong>Заключні слова</strong></p>
+<p>Незабаром з'явиться блог для створення таксономії Open Food Facts для тих, хто не знайомий із програмуванням та Git і GitHub.</p>
+<p>Слідкуйте за оновленнями!&nbsp;:)</p>
+<p>Прощавайте, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener"> Юкті</a></p>

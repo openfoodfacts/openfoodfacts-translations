@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+Open Food Facts, gıda ürünleri hakkında bilgi almak için logoları nasıl kullanıyor
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Bir tutam bağlam:</strong> “logolar” ?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
+<p>Open Food Facts yaklaşık <strong>3 milyon ürünle</strong> doludur. Her ürünün mümkün olduğunca çok insanın ilgisini çekecek şekilde yapılmış bir ambalajı vardır. Bu bağlamda üreticiler, ürünlerinin niteliklerini <strong>gösterişli ve açıklayıcı sembollerle</strong> vurgulamaktadırlar. Bu semboller çok sayıdadır ve ürünün markası, kalitesi, bileşimi, yapılma şekli, hangi çekirdeğin atılacağı vb. hakkında bilgi verebilir…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Tüm sembolleri homojenleştirmek ve tüketicilerin kendilerine uygun ürünleri bulmalarına yardımcı olmak için <strong>çeşitli kurumlar, üreticilerin ürünlerini "logo" olarak adlandırdığımız belirli sembollerle işaretleyebilmeleri için katı kurallar oluşturmuştur</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Tüm sembolleri homojenleştirmek ve tüketicilerin kendilerine uygun ürünleri bulmalarına yardımcı olmak için <strong>çeşitli kurumlar, üreticilerin ürünlerini "logo" olarak adlandırdığımız belirli sembollerle işaretleyebilmeleri için katı kurallar oluşturmuştur</strong>. Dolayısıyla bu logoları tespit ederek ürünler hakkında veri elde etmek için büyük bir fırsat 🔥 var!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>Open Food Facts bunları nasıl tespit etmelidir? Her zaman olduğu gibi teknoloji ve katkıda bulunanların karışımı sayesinde!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,27 +29,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Eski bir Open Food Facts katılımcısı olan ve şu anda kalıcı ekibin bir parçası olan ve staj danışmanım olan Raphaël Bournhonesque, Robotoff* <strong>'da görüntülerden logoları çıkarmak, bunları vektörlere dönüştürmek ve her vektörün en yakın komşularını bulmak için bir sistem geliştirmişti..</strong> Logoların komşularını bulmanın amacı, <strong>katkıda bulunanların, <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Açlık Oyunları</a> adlı bir platform aracılığıyla çok sayıda logoya aynı anda "açıklama eklemesine" (manuel olarak kategorilere ayırmasına) olanak sağlamaktı. </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Ancak o dönemde kullanılan modeller ve algoritmalar yeterince verimli sonuçlar veremiyordu.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>Eylül 2022'de mühendislik öğrencisi olarak logolara yönelik 6 aylık bir staj için ekibe katıldım ve tüm bu süreci yeniden düzenlemek için çalıştım! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Robotoff nedir?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a>, Open Food Facts verilerinin işlenmesine yardımcı olmak amacıyla katkıda bulunanlar tarafından geliştirilen bir hizmettir. Veritabanında halihazırda mevcut olan verilere dayanarak amaç, her ürün hakkında mümkün olduğunca fazla bilgi almak ve bunları veritabanına eklemektir. Şu anda Robotoff tarafından yapılan güncellemeler, Optik Karakter Tanıma veya daha genel Bilgisayarlı Görme modelleri yoluyla görüntü analizinden gelmektedir. Bazı güncellemeler veritabanına otomatik olarak uygulanır, ancak bazılarının sorular veya Açlık Oyunları aracılığıyla manuel olarak doğrulanması gerekir.<br><br><em><strong>Robotoff hakkında daha fazla bilgi edinmek için <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">buraya</a> göz atın! </strong></em> 👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Biraz teknoloji: </strong>Logo işleme tam olarak nasıl çalışıyor?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Ürün resimlerinden logoları dışarı çıkarın:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,23 +57,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Open Food Facts'e katkıda bulunanlar, resimlerdeki logoları tanımak için bir Makine Öğrenimi modeli eğitti. Modelin girdisi olarak bir görüntü koyarız ve ilgili puan ve sınıflara sahip birden fazla sınırlayıcı kutu alırız. Modelin eğitildiği sınıflar “marka” ve “etiket” idi.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Modelin çağrıldığı kodu burada bulabilirsiniz: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Aşağıdaki API'yi kullanarak deneyebilirsiniz:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</0 ></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>Sınırlayıcı kutularla, API'ye karşılık gelen logoların neler olduğunu görebilirsiniz: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min] &amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> burada koordinatlar, model tarafından sınırlayıcı kutularda döndürülenlerle aynı sıradadır.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>Bu API'leri aşağıdaki görüntüyle kullanırken neler olduğuna dair bir örneği burada bulabilirsiniz:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Logo resimlerini Vektörlere dönüştürün:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,19 +93,19 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. Bunun için OpenAI'nin <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>adlı önceden eğitilmiş bir modelini kullanıyoruz. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Artık logolara erişebildiğimize göre onları vektörleştirmemiz gerekiyor</strong>. Bunun için OpenAI'nin <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>adlı önceden eğitilmiş bir modelini kullanıyoruz. Model başlangıçta görüntüleri metinle eşleştirmek üzere eğitilmiş olsa da, her logo için CLIP tarafından hesaplanan yerleştirmeleri (=bir vektör uzayına gömülü logolar) elde etmek için modelin yalnızca "bilgisayarlı görme" kısmını kullanıyoruz.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>Böylece girdi olarak bir logo resmimiz ve çıktı olarak 512 boyutlu bir vektörümüz var. İki vektör arasındaki mesafe ne kadar küçük olursa, karşılık gelen iki logo da o kadar benzer olur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>Robotoff'taki <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> işlevi, modelin logolara uygulanmasından ve yerleştirmelerin Robotoff postgresql veritabanına kaydedilmesinden sorumludur.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find a more explicit code <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">here</a> to understand how we use CLIP to generate logos embeddings.</p>
+<p>Logo yerleştirmeleri oluşturmak için CLIP'i nasıl kullandığımızı anlamak için <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">burada</a> daha açık bir kod bulabilirsiniz.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -117,43 +117,43 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Bir logonun en yakın komşularını bulmak için, yerleştirmeleri saklayacak bir "dizin" kullanırız. Bu indeks oluşturulduktan sonra, sorgu logosu ile veri tabanının tüm diğer logoları arasındaki mesafeyi hesaplamayı ve en yakın olanları döndürmeyi içeren <strong>"kaba kuvvet" 💪 yöntemini</strong> kullanabiliriz. Bu bize "gerçek" en yakın komşuları verdiği için en kesin yöntemdir. Ancak bu yöntemin uygulanması çok yavaştır. Toplam logo miktarı 2,5 milyon olduğunda her logo için en yakın komşuları çıkarmak için gereken süre 3 saniye civarındadır 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Daha iyi bir arama süresine ihtiyacımız olduğundan ve daha az hassasiyete sahip olmaktan memnun olduğumuz için <strong>yaklaşık bir yöntem</strong> kullanmaya karar verdik. Robotoff'un kullandığına HNSW (hiyerarşik gezilebilir küçük dünya) adı verilir. En yakın komşu aramasını daha iyi anlamak için <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">bu makaleye</a> göz atabilirsiniz.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Robotoff, HNSW ElasticSearch indeksini kullanarak artık 2,5 milyondan fazla vektör arasında yer alan her bir vektörün en yakın komşularını büyük bir hassasiyetle arayabiliyor (geri dönen 100 en yakın komşunun %90'ından fazlası tam 100 gerçek en yakın komşu arasındadır) ve 100 ms'den daha kısa bir arama süresi 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Bir logonun en yakın komşularını bulmak için aşağıdaki API'yi kullanabilirsiniz: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 A spoon of contributions: </strong>Where is it used?</h3>
+<h3><strong>🍯 Bir kaşık katkı maddesi: </strong>Nerelerde kullanılır?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No automatic logo categorization is yet implemented in Robotoff. Everything I explained before is made only for <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<p>Robotoff'ta henüz otomatik logo sınıflandırması uygulanmamıştır. Daha önce anlattığım her şey yalnızca <a href="https://hunger.openfoodfacts.org/">Açlık Oyunları</a> için yapıldı.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Bu da nedir? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Bu da nedir? Alexandre Fauquette adlı bir katılımcı tarafından geliştirilen <strong>bir açıklama platformudur</strong> ve <strong>herkesin Robotoff tarafından yapılan çek tahminlerini yanıtlamasına ve logoları kategorilere ayırmasına olanak tanır</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>Deneyebilirsin. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
+<p><br>Deneyebilirsin. Hızlı bir tanıtım/öğretici sizi karşılayacak ve logolara açıklama ekleyebileceksiniz! 😉<br>“Açlık Oyunları nasıl kullanılır?” konulu eğitim videosu yakında çıkmalı… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">To play the Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Açlık Oyunlarını oynamak için: hunger.openfoodfacts.org</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Annotating logos enhance Open Food Facts as it grows the amount of data we have on products and its quality.</strong> And thanks to the models and algorithms used in the background, you can be way more powerful and have a greater impact on people daily alimentation 🥰.</p>
+<p><strong>Açıklamalı logolar, ürünler ve kalitesi hakkında sahip olduğumuz veri miktarını artırdıkça Open Food Facts'i geliştirir.</strong> Ayrıca arka planda kullanılan modeller ve algoritmalar sayesinde günlük beslenme konusunda çok daha güçlü olabilir ve insanlar üzerinde daha büyük bir etki bırakabilirsiniz. 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
