@@ -54,21 +54,21 @@ A história de um colaborador
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>I then offered to help with something a little more challenging: <strong>Open Food Facts currently has a go at estimating the percentages of each ingredient</strong>, based on the order in which they are listed. For example, if a product has three ingredients then the second product can’t be more than 50% as it would then be more than the first listed product. Similarly the third product can’t be more than 33%. It’s a fairly simple and coarse algorithm, but it’s a start. However, there are certain types of ingredient, like flavourings, that never take up more than 5% of a product and the team felt that something could be done to take this into account.</p>
+<p>Ofereci-me então para ajudar com algo um pouco mais desafiante: <strong>atualmente, o Open Food Facts tenta estimar as percentagens de cada ingrediente</strong>, com base na ordem em que estão listados. Por exemplo, se um produto tiver três ingredientes, o segundo produto não pode ter mais de 50%, pois seria mais do que o primeiro produto listado. Do mesmo modo, o terceiro produto não pode ser superior a 33%. Trata-se de um algoritmo bastante simples e grosseiro, mas é um começo. No entanto, há certos tipos de ingredientes, como os aromatizantes, que nunca ocupam mais de 5% de um produto e a equipa considerou que se poderia fazer algo para ter isso em conta.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So, I rolled my sleeves up and <strong>had a go at introducing a maximum percentage against an ingredient</strong>. This gave me an introduction to the<strong> world of taxonomies</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">an introductory article to taxonomies here</a>) and a much deeper understanding of the potential of the platform. For example, I’m also <strong>currently very interested in gut health</strong> and the contribution that the friendly microbes that live in all of us make to our physical and mental wellbeing. We could easily extend the taxonomies with information from the latest research and provide other types of “score”. </p>
+<p>Por isso, arregacei as mangas e <strong>experimentei introduzir uma percentagem máxima em relação a um ingrediente</strong>. Isso deu-me uma introdução ao <strong>mundo das taxonomias</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">um artigo introdutório às taxonomias aqui</a>) e uma compreensão muito mais profunda do potencial da plataforma. Por exemplo, estou <strong>atualmente muito interessado na saúde intestinal</strong> e na contribuição dos micróbios amigos que vivem em todos nós para o nosso bem-estar físico e mental. Poderíamos facilmente alargar as taxonomias com informações provenientes da investigação mais recente e fornecer outros tipos de "pontuação". </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
-<p class="has-text-color" style="color:#289fa7;font-size:23px">I had previously been worried that I might be limiting myself by working on “someone else’s” project, but I realised that by working together we could produce something that could adapt to whatever priorities an individual had, whether that was the environment, health, packaging, welfare or combinations of all of them.</p>
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Anteriormente, receava estar a limitar-me ao trabalhar no projeto de "outra pessoa", mas apercebi-me de que, ao trabalharmos em conjunto, podíamos produzir algo que se adaptasse às prioridades de cada um, quer fossem o ambiente, a saúde, a embalagem, o bem-estar ou combinações de todos eles.</p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>Anyway, back to the code. Once again the team was really helpful with all the issues I faced, such as updating unit test results, and my second pull request was approved about two weeks since my first introduction to the project.</p>
+<p>De qualquer forma, voltemos ao código. Mais uma vez, a equipa foi muito prestável em todas as questões com que me deparei, como a atualização dos resultados dos testes unitários, e o meu segundo pull request foi aprovado cerca de duas semanas após a minha primeira introdução ao projeto.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -77,30 +77,30 @@ A história de um colaborador
 
 <!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
-<p><strong>I now felt confident enough to tackle something more significant. </strong>Stéphane was aware of my interest in vegan food and directed me to the latest version of <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Co-piloted by ADEME and INRAE, relying on the collaboration of agricultural and agrifood technical institutes) that added a number of vegan food categories. Open Food Facts currently calculates the Eco-Score of a product by mapping its product category to the AGRIBALYSE database, which contains environmental impact information for over 2000 foods. <strong>My job would be to update Open Food Facts to use the latest version of AGRIBALYSE.</strong></p>
+<p><strong>Sentia-me agora suficientemente confiante para enfrentar algo mais significativo. </strong>Stéphane estava ciente do meu interesse em comida vegana e direcionou-me para a versão mais recente do <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Co-pilotado pela ADEME e pelo INRAE, contando com a colaboração de institutos técnicos agrícolas e agro-alimentares) que acrescentou uma série de categorias de alimentos veganos. Atualmente, o Open Food Facts calcula o Eco-Score de um produto através do mapeamento da sua categoria de produto para a base de dados AGRIBALYSE, que contém informações sobre o impacto ambiental de mais de 2000 alimentos. <strong>A minha tarefa consistiria em atualizar o Open Food Facts de modo a utilizar a versão mais recente do AGRIBALYSE.</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I tackled this in two parts. </p>
+<p>Abordei esta questão em duas partes. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>The first was to calculate the Eco-Score for products that already had one. </strong>The changes resulted in changed Eco-Scores for over 150,000 products. I was a bit nervous about having such a big impact at such an early stage in my involvement in the project, but the team were always encouraging and proactive in reviewing what I was producing. </p>
+<p><strong>A primeira foi calcular o Eco-Score para os produtos que já tinham um. </strong>As alterações resultaram na alteração das classificações ecológicas de mais de 150 000 produtos. Estava um pouco nervoso por ter um impacto tão grande numa fase tão precoce do meu envolvimento no projeto, mas a equipa foi sempre encorajadora e pró-ativa na análise do que eu estava a produzir. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>I then, finally, got to add in the new categories for vegan and other products that had recently been introduced.</strong> This now meant that around 9000 products had an Eco-Score where they didn’t have one before, including many of my favourite vegan products. The change was deployed to production just over a month after that first introduction to the team on Slack 😃 !</p>
+<p><strong>Depois, finalmente, consegui adicionar as novas categorias para produtos veganos e outros produtos que tinham sido recentemente introduzidos.</strong> Isto significava que cerca de 9000 produtos tinham um Eco-Score onde não tinham antes, incluindo muitos dos meus produtos veganos favoritos. A alteração foi implementada na produção pouco mais de um mês após a primeira apresentação à equipa no Slack 😃 !</p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
-<p class="has-text-color" style="color:#289fa7;font-size:23px">As I said at the beginning of this article, this was <strong>my first venture into contributing to an open source project and I have thoroughly enjoyed the experience. </strong>This project, in particular, has inspired and invigorated me in ways that I had not previously imagined so I would wholeheartedly encourage anyone who is contemplating participation, in whatever form that might take, to dive right in!</p>
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Como disse no início deste artigo, esta foi <strong>a minha primeira tentativa de contribuir para um projeto de código aberto e gostei muito da experiência. </strong>Este projeto, em particular, inspirou-me e revigorou-me de uma forma que não tinha imaginado anteriormente, pelo que encorajo de todo o coração qualquer pessoa que esteja a pensar em participar, seja de que forma for, a mergulhar de cabeça!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>🪪 Written by John </p>
+<p>🪪 Escrito por John </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>(🔎 🍊 On the behalf of the entire Open Food Facts team: a warm <strong>THANK YOU</strong> from the entire community for the work you've accomplished in such a short time, John, we thoroughly enjoyed collaborating with you and are delighted to have you on board !)</p>
+<p>(🔎 🍊 Em nome de toda a equipa do Open Food Facts: um caloroso <strong>OBRIGADO</strong> de toda a comunidade pelo trabalho que realizou em tão pouco tempo, John, gostámos muito de colaborar consigo e estamos muito satisfeitos por tê-lo a bordo!)</p>
 <!-- /wp:paragraph -->
