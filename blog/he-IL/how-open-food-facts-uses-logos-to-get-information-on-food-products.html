@@ -21,7 +21,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>איך אמור Open Food Facts לזהות אותם? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>איך אמור Open Food Facts לזהות אותם? תודות לערבוב בין טכנולוגיה ומתנדבים, כמו תמיד!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -45,11 +45,11 @@
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 טיפונת טכנולוגיה: </strong>איך בדיוק עובד עיבוד לוגואים?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>חילוץ לוגואים מתמונות מוצרים:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,15 +57,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>מתנדבי Open Food Facts אימנו מודל למידת מכונה כדי שיזהה לוגואים בתמונות. אנו מספקים תמונה כקלט למודל ומקבלים מספר תיבות תוחמות עם דירוגים וסיווגים בהתאמה. הסיווגים שעליהן אומן המודל הן „מותג“ ו„תווית”.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>כאן אפשר למצוא את הקוד שקורא למודל: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>אפשר להתנסות בו דרך ה־API הבא:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -117,7 +117,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>כדי למצוא את השכנים הקרובים ביותר של לוגו, אני משתמשים ב„מפתח” כדי לאחסן את ההטמעות. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>כדי למצוא את השכנים הקרובים ביותר של לוגו, אני משתמשים ב„מפתח” כדי לאחסן את ההטמעות. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. עם זאת, השיטה הזאת איטית מכדי ליישם אותה. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
