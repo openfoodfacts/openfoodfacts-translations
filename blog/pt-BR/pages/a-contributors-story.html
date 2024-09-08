@@ -24,51 +24,51 @@ A história de um colaborador
 <!-- /wp:media-text -->
 
 <!-- wp:paragraph -->
-<p>So, I started doing some research on what it would take to develop the kind of app I was thinking of. I wanted a way for people to list the foods they were planning to buy for the day / week and show them the environmental impact of their choices and potentially suggest alternatives that would lessen their global footprint.</p>
+<p>Então, comecei a pesquisar sobre o que seria necessário para desenvolver o aplicativo que eu estava pensando. Eu queria uma maneira para as pessoas listarem os alimentos que planejavam comprar para o dia/semana e mostrar a elas o impacto ambiental de suas escolhas e, potencialmente, sugerir alternativas que reduziriam sua pegada global.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I knew before I even started that <strong>data would be critical</strong> for this, so I started looking into where I might get this from. Here’s the mind map I was using as I went through this process:</p>
+<p>Eu sabia, antes mesmo de começar, que <strong>dados seriam essenciais</strong> para isso, então comecei a pesquisar de onde poderia obtê-los. Aqui está o mapa mental que usei durante esse processo:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":3817,"width":718,"height":661,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">My mind map</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/mindmap-1024x943.png" alt="" class="wp-image-3817" width="718" height="661"/><figcaption class="wp-element-caption">Meu mapa mental</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>I noticed a large number of references to Open Food Facts, so I signed up for the app and started looking for foods that I regularly consumed. I was very pleased with what I found, but <strong>initially disappointed because a lot of the vegan products that I use didn’t have an Eco-Score</strong>. I then discovered that Open Food Facts was <strong>an open source project</strong>…</p>
+<p>Notei um grande número de referências ao Open Food Facts, então me inscrevi no aplicativo e comecei a procurar alimentos que eu consumia regularmente. Fiquei muito satisfeito com o que encontrei, mas inicialmente fiquei <strong>decepcionado porque muitos dos produtos veganos que uso não tinham um Eco-Score</strong>. Descobri então que o Open Food Facts era <strong>um projeto de código aberto</strong>…</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I’ve never contributed directly to open source before, but <strong>I thought I’d give it a try so I signed up to Slack, posted a quick introduction and was almost immediately introduced to Stéphane, Alex, Pierre and team.</strong> I asked what I could help with that could have the biggest impact and was pointed towards the <strong>Perl-based “Product Opener” codebase</strong>. In the meantime I had some annual leave to use up for my regular work, so I decided to book Mondays off so I could dedicate these to working on Open Food Facts.</p>
+<p>Nunca contribuí diretamente para o código aberto antes, mas <strong>pensei em tentar, então me inscrevi no Slack, postei uma introdução rápida e fui quase imediatamente apresentado a Stéphane, Alex, Pierre e equipe.</strong> Perguntei em que eu poderia ajudar que pudesse ter o maior impacto e me indicaram o <strong>código-base "Product Opener" baseado em Perl</strong>. Enquanto isso, eu tinha algumas férias anuais para usar no meu trabalho regular, então decidi reservar as segundas-feiras para poder dedicá-las ao trabalho no Open Food Facts.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I haven’t done much Perl before, but <strong>once you’ve programmed in more than ten languages then adding another is no big deal</strong>. I started setting myself up and found a few issues running with Windows, so I <strong>updated the how-to guides with my experience and created my first pull request.</strong> The team were very quick to pick this up and keen to approve it as soon as possible. </p>
+<p>Eu não tinha usado muito Perl antes, mas <strong>depois que você programou em mais de dez linguagens, adicionar outra não é grande coisa</strong>. Comecei a me configurar e encontrei alguns problemas ao executar o Windows, então <strong>atualizei os guias de instruções com minha experiência e criei minha primeira "pull request".</strong> A equipe foi muito rápida em entender isso e ansiosa para aprovar o mais rápido possível. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
 <blockquote class="wp-block-quote has-text-color" style="color:#289fa7;font-size:23px"><!-- wp:paragraph -->
-<p>There was no bureaucracy or sense of protectiveness, this is a truly open project.</p>
+<p>Não havia burocracia nem senso de proteção, este é um projeto verdadeiramente aberto.</p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>I then offered to help with something a little more challenging: <strong>Open Food Facts currently has a go at estimating the percentages of each ingredient</strong>, based on the order in which they are listed. For example, if a product has three ingredients then the second product can’t be more than 50% as it would then be more than the first listed product. Similarly the third product can’t be more than 33%. It’s a fairly simple and coarse algorithm, but it’s a start. However, there are certain types of ingredient, like flavourings, that never take up more than 5% of a product and the team felt that something could be done to take this into account.</p>
+<p>Então me ofereci para ajudar com algo um pouco mais desafiador: <strong>O Open Food Facts está tentando estimar as porcentagens de cada ingrediente</strong>, com base na ordem em que eles são listados. Por exemplo, se um produto tem três ingredientes, o segundo produto não pode ter mais de 50%, pois seria mais do que o primeiro produto listado. Da mesma forma, o terceiro produto não pode ter mais de 33%. É um algoritmo bastante simples e grosseiro, mas é um começo. No entanto, há certos tipos de ingredientes, como aromatizantes, que nunca ocupam mais de 5% de um produto e a equipe sentiu que algo poderia ser feito para levar isso em consideração.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>So, I rolled my sleeves up and <strong>had a go at introducing a maximum percentage against an ingredient</strong>. This gave me an introduction to the<strong> world of taxonomies</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">an introductory article to taxonomies here</a>) and a much deeper understanding of the potential of the platform. For example, I’m also <strong>currently very interested in gut health</strong> and the contribution that the friendly microbes that live in all of us make to our physical and mental wellbeing. We could easily extend the taxonomies with information from the latest research and provide other types of “score”. </p>
+<p>Então, arregacei as mangas e <strong>tentei introduzir uma porcentagem máxima contra um ingrediente</strong>. Isso me deu uma introdução ao<strong> mundo das taxonomias</strong> (<a rel="noreferrer noopener" href="https://blog.openfoodfacts.org/en/news/on-taxonomies#respond" target="_blank">um artigo introdutório às taxonomias aqui</a>) e uma compreensão muito mais profunda do potencial da plataforma. Por exemplo, também estou <strong>atualmente muito interessado na saúde intestinal</strong> e na contribuição que os micróbios amigáveis que vivem em todos nós fazem para o nosso bem-estar físico e mental. Poderíamos facilmente estender as taxonomias com informações das pesquisas mais recentes e fornecer outros tipos de “pontuação”. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
 <blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
-<p class="has-text-color" style="color:#289fa7;font-size:23px">I had previously been worried that I might be limiting myself by working on “someone else’s” project, but I realised that by working together we could produce something that could adapt to whatever priorities an individual had, whether that was the environment, health, packaging, welfare or combinations of all of them.</p>
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Anteriormente, eu estava preocupado que pudesse estar me limitando ao trabalhar no projeto de "outra pessoa", mas percebi que, trabalhando juntos, poderíamos produzir algo que se adaptasse a quaisquer prioridades que um indivíduo tivesse, fosse meio ambiente, saúde, embalagem, bem-estar ou uma combinação de todos eles.</p>
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
-<p>Anyway, back to the code. Once again the team was really helpful with all the issues I faced, such as updating unit test results, and my second pull request was approved about two weeks since my first introduction to the project.</p>
+<p>De qualquer forma, voltando ao código. Mais uma vez, a equipe foi muito útil com todos os problemas que enfrentei, como atualizar os resultados dos testes de unidade, e minha segunda "solicitação de pull" foi aprovada cerca de duas semanas após minha primeira introdução ao projeto.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -77,24 +77,24 @@ A história de um colaborador
 
 <!-- wp:media-text {"mediaId":3825,"mediaLink":"https://blog.openfoodfacts.org/?attachment_id=3825","mediaType":"image","mediaWidth":31} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:31% auto"><figure class="wp-block-media-text__media"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/03/eco-score-535x1024.png" alt="" class="wp-image-3825 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph -->
-<p><strong>I now felt confident enough to tackle something more significant. </strong>Stéphane was aware of my interest in vegan food and directed me to the latest version of <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Co-piloted by ADEME and INRAE, relying on the collaboration of agricultural and agrifood technical institutes) that added a number of vegan food categories. Open Food Facts currently calculates the Eco-Score of a product by mapping its product category to the AGRIBALYSE database, which contains environmental impact information for over 2000 foods. <strong>My job would be to update Open Food Facts to use the latest version of AGRIBALYSE.</strong></p>
+<p><strong>Agora eu me sentia confiante o suficiente para enfrentar algo mais significativo. </strong>Stéphane percebeu meu interesse por comida vegana e me indicou a versão mais recente do <a rel="noreferrer noopener" href="https://agribalyse.ademe.fr/" target="_blank">AGRIBALYSE</a> *(*Copilotado pela ADEME e INRAE, contando com a colaboração de institutos técnicos agrícolas e agroalimentares) que adicionou uma série de categorias de alimentos veganos. Atualmente, o Open Food Facts calcula a Pontuação Ecológica de um produto mapeando sua categoria de produto no banco de dados AGRIBALYSE, que contém informações de impacto ambiental para mais de 2.000 alimentos. <strong>“Meu trabalho seria atualizar o Open Food Facts* para usar a versão mais recente do AGRIBALYSE.</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I tackled this in two parts. </p>
+<p>Abordei isso em duas partes. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>The first was to calculate the Eco-Score for products that already had one. </strong>The changes resulted in changed Eco-Scores for over 150,000 products. I was a bit nervous about having such a big impact at such an early stage in my involvement in the project, but the team were always encouraging and proactive in reviewing what I was producing. </p>
+<p><strong>O primeiro foi calcular a Pontuação Ecológica para produtos que já tinham uma. </strong>As mudanças resultaram em alterações nas Pontuações Ecológicas para mais de 150.000 produtos. Fiquei um pouco nervoso por ter um impacto tão grande em um estágio tão inicial do meu envolvimento no projeto, mas a equipe sempre foi encorajadora e proativa na revisão do que eu estava produzindo. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>I then, finally, got to add in the new categories for vegan and other products that had recently been introduced.</strong> This now meant that around 9000 products had an Eco-Score where they didn’t have one before, including many of my favourite vegan products. The change was deployed to production just over a month after that first introduction to the team on Slack 😃 !</p>
+<p><strong>Então, finalmente, consegui adicionar as novas categorias para produtos veganos e outros que foram introduzidos recentemente.</strong> Isso agora significa que cerca de 9.000 produtos tinham uma Pontuação Ecológica, onde não tinham antes, incluindo muitos dos meus produtos veganos favoritos. A mudança foi implantada na produção pouco mais de um mês após a primeira apresentação à equipe no Slack😃!</p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"23px"},"color":{"text":"#289fa7"}}} -->
-<p class="has-text-color" style="color:#289fa7;font-size:23px">As I said at the beginning of this article, this was <strong>my first venture into contributing to an open source project and I have thoroughly enjoyed the experience. </strong>This project, in particular, has inspired and invigorated me in ways that I had not previously imagined so I would wholeheartedly encourage anyone who is contemplating participation, in whatever form that might take, to dive right in!</p>
+<p class="has-text-color" style="color:#289fa7;font-size:23px">Como eu disse no começo deste artigo, esta foi <strong>minha primeira aventura contribuindo para um projeto de código aberto e eu gostei muito da experiência. </strong>Este projeto, em particular, me inspirou e revigorou de maneiras que eu não havia imaginado antes, então eu encorajaria de todo o coração qualquer um que esteja pensando em participar, de qualquer forma que seja, a mergulhar de cabeça!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -102,5 +102,5 @@ A história de um colaborador
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>(🔎 🍊 On the behalf of the entire Open Food Facts team: a warm <strong>THANK YOU</strong> from the entire community for the work you've accomplished in such a short time, John, we thoroughly enjoyed collaborating with you and are delighted to have you on board !)</p>
+<p>(🔎 🍊 Em nome de toda a equipe do Open Food Facts: um caloroso <strong>OBRIGADO</strong> de toda a comunidade pelo trabalho que você realizou em tão pouco tempo, John, nós gostamos muito de colaborar com você e estamos felizes em tê-lo a bordo!)</p>
 <!-- /wp:paragraph -->
