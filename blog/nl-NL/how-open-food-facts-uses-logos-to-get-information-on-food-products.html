@@ -29,7 +29,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, voormalig bijdrager aan Open Food Facts, nu onderdeel van het vaste team en mijn stagebegeleider, had in Robotoff* <strong>een systeem ontwikkeld om logo's uit afbeeldingen te extraheren, deze in vectoren om te zetten en de dichtstbijzijnde buren van elke vector te vinden.</strong> Het doel van het vinden van de buren van logo's was <strong>om bijdragers in staat te stellen enorme hoeveelheden logo's tegelijkertijd te 'annoteren' (handmatig te categoriseren) via een platform met de naam <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, een voormalige medewerker van Open Food Facts die nu deel uitmaakt van het vaste team en mijn stagebegeleider was, had in Robotoff* <strong>een systeem ontwikkeld om logo's uit afbeeldingen te extraheren, ze om te zetten in vectoren en van elke vector de dichtstbijzijnde buren te vinden.</strong> Het doel van het vinden van de buren van logo's was <strong>om bijdragers in staat te stellen enorme hoeveelheden logo's tegelijkertijd te "annoteren" (handmatig te categoriseren) via een platform, genaamd <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -37,11 +37,11 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In september 2022 kwam ik, een ingenieursstudent, bij het team voor een stage van 6 maanden die gewijd zou zijn aan logo's, en ik werkte aan het refactoren van dit hele proces! 🥳&nbsp;</p>
+<p>In september 2022 voegde ik, een ingenieursstudent, me bij het team voor een stage van 6 maanden die in het teken zou staan van logo's, en werkte ik aan het opnieuw vormgeven van dit hele proces! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* Wat is Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is een service die is ontwikkeld door bijdragers om de gegevensverwerking van Open Food Facts te ondersteunen. Op basis van de gegevens die al in de database aanwezig zijn, is het doel om over elk product zoveel mogelijk informatie op te halen en toe te voegen aan de database. Momenteel zijn de updates van Robotoff afkomstig van beeldanalyse, via optische karakterherkenning of meer algemene "Computer Vision modellen". Sommige updates worden automatisch op de database toegepast, maar andere hebben handmatige validatie nodig via vragen of Hunger Games.<br><br><em><strong>Kijk <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">hier</a>voor meer informatie over Robotoff!</strong></em>👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Wat is Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is een service die is ontwikkeld door bijdragers om de gegevensverwerking van Open Food Facts te ondersteunen. Op basis van de gegevens die al beschikbaar waren in de database, hebben we als hoofddoel om zoveel mogelijk informatie over elk product op te halen en toe te voegen aan de database. Momenteel zijn de updates van Robotoff afkomstig van beeldanalyses, via optische tekenherkenning of meer algemene computervisiemodellen. Sommige updates worden automatisch toegepast op de database, maar andere moeten handmatig worden gevalideerd via vragen of via Hunger Games.<br><br><em><strong>Wil je meer weten over Robotoff, neem dan <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">hier een kijkje</a>!</strong></em> 👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
@@ -69,7 +69,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Met de selectiekaders kunt u zien wat de bijbehorende logo's zijn via de API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> waarbij de coördinaten in dezelfde volgorde staan als die door het model in de selectiekaders worden geretourneerd.</p>
+<p>Met de begrenzende vakken kun je met de API zien wat de overeenkomstige logo's zijn: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> waarbij de coördinaten in dezelfde volgorde staan als de coördinaten die het model in de begrenzende vakken weergeeft.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -93,7 +93,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Nu we toegang hebben tot logo's, moeten we ze vectoriseren</strong>. Daarvoor gebruiken we een vooraf getraind model van OpenAI genaamd <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Ook al was het model aanvankelijk getraind om afbeeldingen met tekst te matchen, gebruiken we alleen het “computer vision”-gedeelte van het model om de insluiting (=logo's ingesloten in een vectorruimte) te krijgen die door CLIP voor elk logo zijn berekend.</p>
+<p><strong>Nu we toegang hebben tot logo's, moeten we ze vectoriseren</strong>. Daarvoor gebruiken we een vooraf getraind model van OpenAI genaamd <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Hoewel het model in eerste instantie is getraind om afbeeldingen met tekst te matchen, gebruiken we alleen het "computervisie"-gedeelte van het model om de embeddings (=logo's ingebed in een vectorruimte) te krijgen die CLIP voor elk logo heeft berekend.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -101,7 +101,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>De functie <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> in Robotoff is verantwoordelijk voor het toepassen van het model op de logo's en het opslaan van insluitingen in de postgresql-database van Robotoff.</p>
+<p>De <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> functie in Robotoff is bedoeld om het insluitingsmodel toe te passen op logo's en deze op te slaan in de Robotoff postgresql database.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -109,7 +109,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>3️⃣ </em>Zoek dichtstbijzijnde buren:</h4>
+<h4><em>3️⃣ </em>Zoek de dichtstbijzijnde buren:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,27 +117,27 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Om de dichtstbijzijnde buren van een logo te vinden, gebruiken we een “index” om de insluitingen op te slaan. Zodra deze index is gebouwd, kunnen we de <strong>“brute force” 💪-methode gebruiken, die bestaat uit het berekenen van de afstand tussen het "querylogo" en alle andere logo's van de database en de dichtstbijzijnde retourneren.</strong>. Dat is de meest nauwkeurige methode, omdat het ons de “echte” naaste buren geeft. Deze methode is echter te traag om toe te passen. De tijd die nodig is om de dichtstbijzijnde buren voor elk logo te extraheren als het totale aantal logo's 2,5 miljoen bedraagt, is ongeveer 3 seconden 😴</p>
+<p>Om de dichtstbijzijnde buren van een logo te vinden, gebruiken we een "index" om de embeddings op te slaan. Zodra deze index is opgebouwd, kunnen we de <strong>" brute kracht" 💪 methode gebruiken die bestaat uit het berekenen van de afstand tussen het gezochte logo en alle andere logo's in de database en de meest nabijgelegen logo's eruit halen</strong>. Dat is de meest nauwkeurige methode, omdat het ons de “echte” naaste buren geeft. Deze methode is echter te traag om toe te passen. De tijd die nodig is om de dichtstbijzijnde buren voor elk logo te extraheren als het totale aantal logo's 2,5 miljoen bedraagt, is ongeveer 3 seconden 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Omdat we een betere zoektijd nodig hadden en het prima vonden om minder precisie te hebben, hebben we besloten <strong>een benaderende methode</strong>te gebruiken. Degene die Robotoff gebruikt heet "HNSW" (hierarchical navigable small world). Je kunt <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">dit artikel</a> bekijken voor een beter inzicht in het zoeken naar dichtstbijzijnde buren.</p>
+<p>Omdat we een betere zoektijd nodig hadden en het prima vonden om minder precisie te hebben, hebben we besloten <strong>een benaderende methode</strong>te gebruiken. Degene die Robotoff gebruikt heet "HNSW" (hierarchical navigable small world). Je kunt <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">dit artikel</a> bekijken voor een beter inzicht in het zoeken naar de dichtstbijzijnde buren.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Met behulp van een "HNSW ElasticSearch-index" kan Robotoff nu met een enorme precisie zoeken naar de dichtstbijzijnde buren van elke insluiting tussen meer dan 2,5 miljoen vectoren (meer dan 90% van de 100 geretourneerde dichtstbijzijnde buren behoren tot de exact 100 echte dichtstbijzijnde buren) en een korte zoektijd van minder dan 100 ms 👏👏👏👏.</p>
+<p>Met behulp van een HNSW ElasticSearch index kan Robotoff nu de dichtstbijzijnde buren van elke inbedding zoeken in meer dan 2,5M vectoren met een enorme precisie (meer dan 90% van de 100 dichtstbijzijnde buren die worden getraceerd behoren tot de exacte 100 dichtstbijzijnde buren) en een korte zoektijd van minder dan 100ms 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Je kunt de volgende API gebruiken om de dichtstbijzijnde buren van een logo te krijgen: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>U kunt de volgende API gebruiken om de dichtstbijzijnde buren van een logo te verkrijgen: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 Een lepel bijdragen: </strong>Waar wordt het gebruikt?</h3>
+<h3><strong>🍯 Een lepel van bijdragen: </strong>Waar wordt het gebruikt?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Er is nog geen automatische logo-categorisatie geïmplementeerd in Robotoff. Alles wat ik eerder heb uitgelegd, is alleen gemaakt voor <a href="https://hunger.openfoodfacts.org/">Hongerspelen</a>.</p>
+<p>Er is nog geen automatische logo-categorisatie geïmplementeerd in Robotoff. Alles wat ik eerder heb uitgelegd, is alleen gemaakt voor <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -153,7 +153,7 @@ Hoe Open Food Facts logo's gebruikt om informatie over voedingsmiddelen te krijg
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Het annoteren van logo's verbetert Open Food Facts naarmate de hoeveelheid productgegevens die we hebben en de kwaliteit ervan groeit.</strong> En dankzij de modellen en algoritmen die op de achtergrond worden gebruikt, kun je een veel grotere impact hebben op de dagelijkse voeding van mensen 🥰.</p>
+<p><strong>Het annoteren van logo's verbetert Open Food Facts omdat het de hoeveelheid gegevens die we hebben over producten en de kwaliteit ervan vergroot.</strong> En dankzij de modellen en algoritmen die op de achtergrond worden gebruikt, kun je veel effectiever zijn en een grotere impact hebben op de dagelijkse voedingsgewoonten van consumenten 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

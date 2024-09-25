@@ -29,7 +29,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, колишній внесківець Open Food Facts, який тепер є частиною постійної команди і моїм керівником стажування, розробив у Robotoff* <strong>систему для витягування логотипів з зображень, перетворення їх у вектори та знаходження найближчих сусідів для кожного вектора.</strong> Мета знаходження сусідів логотипів полягала в <strong>дозволити внесківцям “анотувати” (категоризувати вручну) величезну кількість логотипів одночасно через платформу, під назвою <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a></strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41,7 +41,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. На основі даних, які вже є в базі даних, мета полягає в тому, аби дістати якомога більше інформації про кожен продукт і додати їх до бази даних. Наразі оновлення, які робить Robotoff, базуються на аналізі зображень, за допомогою оптичного розпізнавання символів або більш загальних моделей Computer Vision. Деякі оновлення застосовуються до бази даних автоматично, але інші потребують перевірки вручну за допомогою запитань або Голодних Ігор.<br><br><em><strong>Щоб дізнатися більше про Robotof, гляньте <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">тут</a>!</strong></em>👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Що таке Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> – це сервіс, розроблений учасниками внесків для допомоги в обробці даних Open Food Facts. На основі даних, які вже є в базі даних, мета полягає в тому, аби дістати якомога більше інформації про кожен продукт і додати їх до бази даних. Наразі оновлення, які робить Robotoff, базуються на аналізі зображень, за допомогою оптичного розпізнавання символів або більш загальних моделей Computer Vision. Деякі оновлення застосовуються до бази даних автоматично, але інші потребують перевірки вручну за допомогою запитань або Голодних Ігор.<br><br><em><strong>Щоб дізнатися більше про Robotof, гляньте <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">тут</a>!</strong></em>👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
@@ -57,19 +57,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Учасники Open Food Facts навчили модель машинного навчання розпізнавати логотипи на зображеннях. Ми вводимо зображення на вхід моделі та отримуємо декілька обмежувальних рамок з відповідними оцінками та класами. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Учасники Open Food Facts навчили модель машинного навчання розпізнавати логотипи на зображеннях. Ми вводимо зображення на вхід моделі та отримуємо декілька обмежувальних рамок з відповідними оцінками та класами. Класи, на яких була навчена модель, були «бренд» і «етикетка».</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Ви можете знайти код, де викликається модель, тут: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Ви можете спробувати це, використовуючи наступний API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>За допомогою обмежувальних рамок ви можете побачити відповідні логотипи за допомогою API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a>, де координати йдуть у тому ж порядку, що і ті, що повертаються моделлю в обмежувальних рамках.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -93,7 +93,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Тепер, коли ми маємо доступ до логотипів, нам потрібно їх векторизувати</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Тепер, коли ми маємо доступ до логотипів, нам потрібно їх векторизувати</strong>. Для цього ми використовуємо попередньо навчану модель від OpenAI під назвою <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Хоча модель спочатку була навчена для відповідності зображень з текстом, ми використовуємо лише частину моделі «комп'ютерного зору», щоб отримати векторні представлення (логотипи, вбудовані у векторний простір), обчислені CLIP для кожного логотипа.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -117,19 +117,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Після того як індекс створено, ми можемо використати метод <strong>«грубої сили» 💪, який полягає в обчисленні відстані між логотипом запиту та всіма іншими логотипами бази даних і поверненні найближчих з них</strong>. Це найбільш точний метод, оскільки він дає нам «справжніх» найближчих сусідів. Однак, цей метод занадто повільний, щоб його застосовувати. Необхідний час для вилучення найближчих сусідів для кожного лого, коли загальна кількість логотипів становить близько 2,5 мільйона, становить близько 3 секунд 😴</p>
+<p>Щоб знайти найближчих сусідів логотипу, ми використовуємо «індекс» для зберігання векторних представлень. Після того як індекс створено, ми можемо використати метод <strong>«грубої сили» 💪, який полягає в обчисленні відстані між логотипом запиту та всіма іншими логотипами бази даних і поверненні найближчих з них</strong>. Це найбільш точний метод, оскільки він дає нам «справжніх» найближчих сусідів. Однак, цей метод занадто повільний, щоб його застосовувати. Необхідний час для вилучення найближчих сусідів для кожного лого, коли загальна кількість логотипів становить близько 2,5 мільйона, становить близько 3 секунд 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Оскільки нам потрібен був кращий час пошуку, і нас влаштовувала менша точність, ми вирішили використати <strong>наближений метод</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Оскільки нам потрібен був кращий час пошуку, і нас влаштовувала менша точність, ми вирішили використати <strong>наближений метод</strong>. Той, який використовує Robotoff, називається HNSW (hierarchical navigable small world). Ви можете ознайомитися з <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">цією статтею</a>, щоб краще зрозуміти пошук найближчих сусідів.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Використовуючи індекс HNSW ElasticSearch, Robotoff тепер може шукати найближчих сусідів для кожного векторного представлення серед понад 2.5 мільйона векторів з великою точністю (більше ніж 90% з 100 найближчих сусідів, що повертаються, є серед точних 100 справжніх найближчих сусідів) і коротким часом пошуку менше 100 мс 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Ви можете використовувати наступний API, щоб отримати найближчих сусідів логотипу: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -141,7 +141,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Що це? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Що це? Це <strong>платформа для анотацій</strong>, розроблена учасником внесків на ім'я Alexandre Fauquette, яка <strong>дозволяє кожному перевіряти прогнози, зроблені Robotoff, і категоризувати логотипи</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
