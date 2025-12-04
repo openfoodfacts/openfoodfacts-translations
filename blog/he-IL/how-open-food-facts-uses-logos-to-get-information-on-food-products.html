@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. לכן זאת הזדמנות אדירה 🔥 לקבל מידע על מוצרים על ידי זיהוי הלוגואים האלה!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -37,7 +37,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>בספטמבר 2022, אני, סטודנט להנדסה, הצטרפתי לצוות להתמחות של 6 חודשים שמוקדשת ללוגואים, ועבדתי על חידוש כל התהליך הזה! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
@@ -73,7 +73,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>הנה דוגמה למה שקורה בעת שימוש במנשקי ה־API האלה עם התמונה הבאה:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -93,15 +93,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>עכשיו כשיש לנו גישה ללוגואים, אנחנו צריכים להמיר אותם לייצוג וקטורי</strong>. לשם כך, נשתמש במודל של OpenAI שאומן מראש בשם <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. למרות שהמודל לא אומן לתפוס תמונות עם טקסט, אנחנו משתמשים בחלק „ראיית המכונה” של המודל כדי לקבל הטמעות (=לוגואים מוטמעים במרחב וקטורי) שמחושבות על ידי CLIP לכל לוגו ולוגו.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>לכן יש לנו תמונת לוגו כקלט וממדי וקטור של 512 כפלט. ככל שהמרחק בין שני הווקטורים קטן יותר, כך שני הלוגואים התואמים דומים יותר.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>הפונקציה <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> ב־Robotoff אחראית על החלת המודל על לוגואים ועל שמירת המימושים למסד הנתונים של Robotoff מסוג postgresql.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -121,7 +121,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. זה ש־Robotoff משתמש בו נקרא HNSW‏ (hierarchical navigable small world - עולם קטן היררכי שאפשר לנווט בו). אפשר לפנות ל<a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">מאמר הזה</a> כדי להבין טוב יותר איך עובד חיפוש השכנים הקרובים ביותר.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -129,7 +129,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>אפשר להשתמש ב־API הבא כדי לקבל את השכנים הקרובים ביותר של לוגו: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -145,7 +145,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>אפשר להתנסות בזה. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>סרטון הדרכה על „כיצד להשתמש במשחקי הרעב?” אמור לצאת בקרוב… ⏳</p>
+<p><br>אפשר להתנסות בזה. היכרות/הדרכה זריזה תקבל את פניך ואפשר יהיה להתחיל לפרש לוגואים! 😉<br>סרטון הדרכה על „כיצד להשתמש במשחקי הרעב?” אמור לצאת בקרוב… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
