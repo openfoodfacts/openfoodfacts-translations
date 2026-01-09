@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+Πώς το Open Food Facts χρησιμοποιεί λογότυπα για να λαμβάνει πληροφορίες σχετικά με τρόφιμα
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Μια μικρή πληροφορία για τα συμφραζόμενα:</strong> «λογότυπα»;</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. These symbols are numerous and can give information on the brand of the product, its quality, its composition, the way it was made, in which bean to discard it, etc…&nbsp;</p>
+<p>Το Open Food Facts περιλαμβάνει περίπου <strong>3 εκατομμύρια προϊόντα</strong>. Κάθε προϊόν έχει μια συσκευασία που έχει σχεδιαστεί για να προσελκύει όσο το δυνατόν περισσότερους ανθρώπους. Από αυτή την άποψη, οι παραγωγοί αναδεικνύουν τις ιδιότητες των προϊόντων τους με<strong> φανταχτερά και σαφή σύμβολα</strong>. Αυτά τα σύμβολα είναι πολυάριθμα και μπορούν να δώσουν πληροφορίες για τη μάρκα του προϊόντος, την ποιότητά του, τη σύνθεσή του, τον τρόπο παρασκευής του, σε ποιον κόκκο να το απορρίψετε, κ.λπ.…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Για να ομογενοποιηθούν όλα τα σύμβολα και να βοηθηθούν οι καταναλωτές να βρουν προϊόντα που τους ταιριάζουν, <strong>διάφοροι φορείς έχουν δημιουργήσει αυστηρούς κανόνες για τους παραγωγούς, ώστε να μπορούν να επισημαίνουν τα προϊόντα τους με συγκεκριμένα σύμβολα, τα οποία ονομάζουμε «λογότυπα».</strong> Υπάρχει επομένως μια τεράστια ευκαιρία 🔥 να λάβετε δεδομένα σχετικά με προϊόντα ανιχνεύοντας αυτά τα λογότυπα!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>Πώς θα πρέπει το Open Food Facts να τα εντοπίζει; Χάρη σε έναν συνδυασμό τεχνολογίας και συντελεστών, όπως πάντα!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,27 +29,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Ο Raphaël Bournhonesque, πρώην συνεργάτης του Open Food Facts, ο οποίος τώρα είναι μέλος της μόνιμης ομάδας και επιβλέπων της πρακτικής μου άσκησης, είχε αναπτύξει στο Robotoff* <strong>ένα σύστημα για την εξαγωγή λογοτύπων από εικόνες, τη μετατροπή τους σε διανύσματα και την εύρεση των πλησιέστερων γειτόνων κάθε διανύσματος.</strong> Ο στόχος της εύρεσης γειτόνων των λογοτύπων ήταν <strong>να επιτραπεί στους συνεργάτες να «σχολιάζουν» (να κατηγοριοποιούν χειροκίνητα) τεράστιες ποσότητες λογοτύπων ταυτόχρονα μέσω μιας πλατφόρμας, με την ονομασία <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Ωστόσο, τα μοντέλα και οι αλγόριθμοι που χρησιμοποιούνταν τότε δεν μπορούσαν να δώσουν αρκετά αποτελεσματικά αποτελέσματα.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In September 2022, I, an engineering student, joined the team for an internship of 6 months which would be dedicated to logos, and I worked on refactoring this whole process! 🥳&nbsp;</p>
+<p>Τον Σεπτέμβριο του 2022, εγώ, φοιτητής μηχανικής, εντάχθηκα στην ομάδα για μια πρακτική άσκηση 6 μηνών αφιερωμένη στα λογότυπα και εργάστηκα πάνω στην αναδιαμόρφωση ολόκληρης αυτής της διαδικασίας! 🥳&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* Τι είναι το Robotoff;</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Το Robotoff</a> είναι μια υπηρεσία που αναπτύχθηκε από συνεργάτες για να βοηθήσει στην επεξεργασία δεδομένων Open Food Facts. Με βάση τα δεδομένα που είναι ήδη διαθέσιμα στη βάση δεδομένων, ο στόχος είναι να ανακτηθούν όσο το δυνατόν περισσότερες πληροφορίες για κάθε προϊόν και να προστεθούν στη βάση δεδομένων. Προς το παρόν, οι ενημερώσεις που πραγματοποιούνται από το Robotoff προέρχονται από ανάλυση εικόνων, μέσω οπτικής αναγνώρισης χαρακτήρων ή γενικότερων μοντέλων υπολογιστικής όρασης. Ορισμένες ενημερώσεις εφαρμόζονται αυτόματα στη βάση δεδομένων, αλλά κάποιες άλλες χρειάζονται χειροκίνητη επικύρωση μέσω ερωτήσεων ή Αγώνες Πείνας.<br><br><em><strong>Για να μάθετε περισσότερα για το Robotoff, ρίξτε μια ματιά <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">εδώ</a>!</strong></em>👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Λίγη τεχνολογία: </strong>Πώς ακριβώς λειτουργεί η επεξεργασία λογότυπων;</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Εξαγωγή λογοτύπων από εικόνες προϊόντων:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,23 +57,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Οι συνεργάτες του Open Food Facts εκπαίδευσαν ένα μοντέλο Μηχανικής Μάθησης ώστε να αναγνωρίζει λογότυπα σε εικόνες. Τοποθετούμε μια εικόνα ως είσοδο του μοντέλου και λαμβάνουμε πολλαπλά πλαίσια οριοθέτησης με αντίστοιχες βαθμολογίες και κλάσεις. Οι κατηγορίες στις οποίες εκπαιδεύτηκε το μοντέλο ήταν η «μάρκα» και η «ετικέτα».</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Μπορείτε να βρείτε τον κώδικα όπου καλείται το μοντέλο εδώ: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Μπορείτε να το δοκιμάσετε χρησιμοποιώντας το ακόλουθο API:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>Με τα πλαίσια οριοθέτησης, μπορείτε να δείτε ποια είναι τα αντίστοιχα λογότυπα με το API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> όπου οι συντεταγμένες είναι στην ίδια σειρά με αυτές που επιστρέφονται από το μοντέλο στα πλαίσια οριοθέτησης.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>Ακολουθεί ένα παράδειγμα του τι συμβαίνει κατά τη χρήση αυτών των API με την ακόλουθη εικόνα:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Μετατροπή εικόνων λογότυπων σε διανύσματα:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,23 +93,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Τώρα που μπορούμε να έχουμε πρόσβαση σε λογότυπα, πρέπει να τα διανυσματοποιήσουμε</strong>. Για αυτό, χρησιμοποιούμε ένα προ-εκπαιδευμένο μοντέλο από το OpenAI που ονομάζεται <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Παρόλο που το μοντέλο αρχικά είχε εκπαιδευτεί ώστε να αντιστοιχίζει εικόνες με κείμενο, χρησιμοποιούμε μόνο το τμήμα «υπολογιστικής όρασης» του μοντέλου για να υπολογίσουμε τις ενσωματώσεις (=λογότυπα ενσωματωμένα σε έναν διανυσματικό χώρο) από το CLIP για κάθε λογότυπο.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>Έτσι, έχουμε μια εικόνα λογότυπου ως είσοδο και ένα διάνυσμα διάστασης 512 ως έξοδο. Όσο μικρότερη είναι η απόσταση μεταξύ δύο διανυσμάτων, τόσο πιο παρόμοια είναι τα δύο αντίστοιχα λογότυπα.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>Η συνάρτηση <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> στο Robotoff είναι υπεύθυνη για την εφαρμογή του μοντέλου σε λογότυπα και την αποθήκευση ενσωματώσεων στη βάση δεδομένων postgresql του Robotoff.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find a more explicit code <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">here</a> to understand how we use CLIP to generate logos embeddings.</p>
+<p>Μπορείτε να βρείτε έναν πιο σαφή κώδικα <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">εδώ</a> για να κατανοήσετε πώς χρησιμοποιούμε το CLIP για τη δημιουργία ενσωματώσεων λογότυπων.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>3️⃣ </em>Find nearest neighbours:</h4>
+<h4><em>3️⃣ </em>Βρείτε τους πλησιέστερους γείτονες:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,47 +117,47 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Για να βρούμε τους πλησιέστερους γείτονες ενός λογότυπου, χρησιμοποιούμε ένα "ευρετήριο" για να αποθηκεύσουμε τις ενσωματώσεις. Μόλις δημιουργηθεί αυτός ο δείκτης, θα μπορούσαμε να χρησιμοποιήσουμε τη μέθοδο <strong>“brute force” 💪, η οποία συνίσταται στον υπολογισμό της απόστασης μεταξύ του λογότυπου του ερωτήματος και όλων των άλλων λογότυπων της βάσης δεδομένων και στην επιστροφή των πλησιέστερων</strong>. Αυτή είναι η πιο ακριβής μέθοδος, καθώς μας δίνει τους «αληθινούς» πλησιέστερους γείτονες. Ωστόσο, αυτή η μέθοδος είναι πολύ αργή για να εφαρμοστεί. Ο χρόνος που απαιτείται για την εξαγωγή των πλησιέστερων γειτόνων για κάθε λογότυπο όταν ο συνολικός αριθμός λογότυπων είναι 2,5 εκατομμύρια είναι περίπου 3 δευτερόλεπτα 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Καθώς χρειαζόμασταν καλύτερο χρόνο αναζήτησης και ήμασταν εντάξει με λιγότερη ακρίβεια, αποφασίσαμε να χρησιμοποιήσουμε μια κατά προσέγγιση μέθοδο <strong></strong>. Αυτό που χρησιμοποιεί το Robotoff ονομάζεται HNSW (hierarchical navigable small world - ιεραρχικός πλοηγήσιμος μικρός κόσμος). Μπορείτε να ρίξετε μια ματιά σε <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">αυτό το άρθρο</a> για να κατανοήσετε καλύτερα την αναζήτηση πλησιέστερων γειτόνων.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Χρησιμοποιώντας ένα ευρετήριο HNSW ElasticSearch, το Robotoff είναι πλέον σε θέση να αναζητήσει τους πλησιέστερους γείτονες κάθε ενσωμάτωσης ανάμεσα σε περισσότερα από 2,5 εκατομμύρια διανύσματα με τεράστια ακρίβεια (περισσότερο από το 90% των 100 πλησιέστερων γειτόνων που επιστρέφονται είναι μεταξύ των ακριβών 100 πραγματικών πλησιέστερων γειτόνων) και σε σύντομο χρόνο αναζήτησης μικρότερο από 100ms 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Μπορείτε να χρησιμοποιήσετε το ακόλουθο API για να βρείτε τους πλησιέστερους γείτονες ενός λογότυπου: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 A spoon of contributions: </strong>Where is it used?</h3>
+<h3><strong>🍯 Μια κουταλιά με συνεισφορές: </strong>Πού χρησιμοποιείται;</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No automatic logo categorization is yet implemented in Robotoff. Everything I explained before is made only for <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<p>Δεν έχει εφαρμοστεί ακόμη αυτόματη κατηγοριοποίηση λογοτύπων στο Robotoff. Όλα όσα εξήγησα πριν έχουν δημιουργηθεί μόνο για τους <a href="https://hunger.openfoodfacts.org/">Αγώνες Πείνας</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>What is it ? It is <strong>an annotation platform </strong>developed by a contributor named Alexandre Fauquette which <strong>allows everyone to answer check predictions made by Robotoff and to categorise logos</strong>.&nbsp;</p>
+<p>Τι είναι; Είναι <strong>μια πλατφόρμα σχολιασμού </strong>που αναπτύχθηκε από έναν συνεργάτη ονόματι Alexandre Fauquette, η οποία <strong>επιτρέπει σε όλους να απαντούν σε προβλέψεις ελέγχου που γίνονται από το Robotoff και να κατηγοριοποιούν λογότυπα</strong>.&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>You can try it. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
+<p><br>Μπορείς να το δοκιμάσεις. Μια γρήγορη εισαγωγή/σεμινάριο θα σας καλωσορίσει και θα μπορείτε να σχολιάσετε τα λογότυπα! 😉<br>Ένα εκπαιδευτικό βίντεο με θέμα "Πώς να χρησιμοποιήσετε το Hunger Games;" θα κυκλοφορήσει σύντομα… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">To play the Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Για να παίξετε τους Αγώνες Πείνας: hunger.openfoodfacts.org</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Annotating logos enhance Open Food Facts as it grows the amount of data we have on products and its quality.</strong> And thanks to the models and algorithms used in the background, you can be way more powerful and have a greater impact on people daily alimentation 🥰.</p>
+<p><strong>Τα σχολιασμένα λογότυπα ενισχύουν το Open Food Facts καθώς αυξάνουν την ποσότητα δεδομένων που έχουμε για τα προϊόντα και την ποιότητά τους.</strong> Και χάρη στα μοντέλα και τους αλγόριθμους που χρησιμοποιούνται στο παρασκήνιο, μπορείτε να είστε πολύ πιο ισχυροί και να έχετε μεγαλύτερο αντίκτυπο στην καθημερινή διατροφή των ανθρώπων 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Article by Gabriel</p>
+<p>Άρθρο του Gabriel</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":3418,"width":167,"height":167,"sizeSlug":"full","linkDestination":"none"} -->
