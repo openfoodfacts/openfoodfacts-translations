@@ -1,11 +1,11 @@
-How Open Food Facts uses logos to get information on food products
+Cómo Open Food Facts utiliza logotipos para obtener información sobre productos alimenticios
 
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🧂A pinch of context:</strong> “logos” ?</h3>
+<h3><strong>🧂Una pizca de contexto:</strong> “logos” ?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -13,15 +13,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts is filled with about <strong>3 million products</strong>. Each product has a packaging which is made to attract as many people as possible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. These symbols are numerous and can give information on the brand of the product, its quality, its composition, the way it was made, in which bean to discard it, etc…&nbsp;</p>
+<p>Open Food Facts contiene aproximadamente <strong>3 millones de productos</strong>. Cada producto tiene un embalaje que está hecho para atraer al mayor número de personas posible. To this regard, productors highlight the qualities of their products with<strong> flashy and explicit symbols</strong>. Estos símbolos son numerosos y pueden dar información sobre la marca del producto, su calidad, su composición, la forma de elaboración, en qué grano desecharlo, etc.…&nbsp;</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To homogenize all symbols and help consumers to find products that fit them, <strong>various institutions have created strict rules for producers to be able to mark their products with specific symbols which we call “logos”</strong>. There is thus a huge opportunity 🔥 to get data about products by detecting these logos!</p>
+<p>Para homogeneizar todos los símbolos y ayudar a los consumidores a encontrar productos que se ajusten a ellos, <strong>diversas instituciones han creado reglas estrictas para que los productores puedan marcar sus productos con símbolos específicos que llamamos “logotipos”</strong>. ¡Existe entonces una gran oportunidad 🔥 de obtener datos sobre los productos detectando estos logotipos!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always! Thanks to a mix between technology and contributors, as always!</strong></p>
+<p><strong>How should Open Food Facts detect them ? Thanks to a mix between technology and contributors, as always! ¡Gracias a una mezcla entre tecnología y colaboradores, como siempre!</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -29,11 +29,11 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Raphaël Bournhonesque, a former Open Food Facts contributor who is now part of the permanent team and my internship supervisor, had developed in Robotoff* <strong>a system to extract logos from images, convert them into vectors and find the nearest neighbours of each vector.</strong> The goal of finding logos’ neighbours was <strong>to allow contributors to “annotate” (to categorise manually) massive amounts of logos at the same time through a platform, named <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Hunger Games</a> </strong>😉.</p>
+<p>Raphaël Bournhonesque, un antiguo colaborador de Open Food Facts que ahora forma parte del equipo permanente y es mi supervisor de prácticas, desarrolló en Robotoff* <strong>un sistema para extraer logotipos de imágenes, convertirlos en vectores y encontrar los vecinos más cercanos de cada vector.</strong> El objetivo de encontrar los vecinos de los logotipos era <strong>permitir a los colaboradores "anotar" (categorizar manualmente) cantidades masivas de logotipos al mismo tiempo a través de una plataforma llamada <a rel="noreferrer noopener" href="https://hunger.openfoodfacts.org/" target="_blank">Los Juegos del Hambre</a> </strong>😉.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>However, the models and algorithms used back then could not give efficient enough results.</p>
+<p>Sin embargo, los modelos y algoritmos utilizados en aquel entonces no podían dar resultados suficientemente eficientes.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -41,15 +41,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:table -->
-<figure class="wp-block-table"><table><tbody><tr><td><strong>* What is Robotoff ?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> is a service developed by contributors to help Open Food Facts data processing. Based on the data already available in the database, the goal is to retrieve as much information as possible on each product and to add them to the db. Currently, the updates made by Robotoff come from images analysis, through Optical Character Recognition or more general Computer Vision models. Some updates are applied automatically to the db but some others need manual validation via questions or Hunger Games.<br><br><em><strong>To know more about Robotoff, take a look <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">here</a>!</strong></em> 👀</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><tbody><tr><td><strong>* ¿Qué es Robotoff?</strong><br><a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff" target="_blank">Robotoff</a> es un servicio desarrollado por colaboradores para facilitar el procesamiento de datos de Open Food Facts. A partir de los datos ya disponibles en la base de datos, el objetivo es recuperar la mayor cantidad de información posible sobre cada producto y agregarlos a la base de datos. Actualmente, las actualizaciones que realiza Robotoff provienen del análisis de imágenes, pasando por Reconocimiento Óptico de Caracteres o modelos más generales de Visión por Computador. Algunas actualizaciones se aplican automáticamente a la base de datos, pero otras necesitan validación manual mediante preguntas o Los Juegos del Hambre.<br><br><em><strong>Para saber más sobre Robotoff, echa un vistazo <a rel="noreferrer noopener" href="https://github.com/openfoodfacts/robotoff#readme" target="_blank">aquí</a>!</strong></em>👀</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🫗 A drizzle of tech: </strong>How does logos processing work exactly ?</h3>
+<h3><strong>🫗 Un poco de tecnología: </strong>¿Cómo funciona exactamente el procesamiento de logotipos?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>1️⃣ </em>Extract logos from products images:</h4>
+<h4><em>1️⃣ </em>Extraer logotipos de imágenes de productos:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -57,23 +57,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Open Food Facts contributors trained a Machine Learning model to recognize logos in images. We put an image as the input of the model and we receive multiple bounding boxes with corresponding scores and classes. The classes on which the model was trained were “brand” and “label”.</p>
+<p>Los colaboradores de Open Food Facts entrenaron un modelo de aprendizaje automático para reconocer logotipos en imágenes. Colocamos una imagen como entrada del modelo y recibimos múltiples cuadros delimitadores con puntuaciones y clases correspondientes. Las clases en las que se entrenó el modelo fueron “marca” y “etiqueta”.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find the code where the model is called here: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
+<p>Puedes encontrar el código donde se llama al modelo aquí: <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L325" target="_blank" rel="noreferrer noopener">Robotoff.import_image.py</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can try it by using the following API :&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
+<p>Puedes probarlo usando la siguiente API:&nbsp;<a href="https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/predict?image_url=[image_url]&amp;models=universal-logo-detector</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>With the bounding boxes, you can see what are the corresponding logos with the API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> where the coordinates are in the same order as the ones returned by the model in the bounding boxes.</p>
+<p>Con los cuadros delimitadores, puedes ver cuáles son los logotipos correspondientes con la API: <a href="https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]" target="_blank" rel="noreferrer noopener">https://robotoff.openfoodfacts.net/api/v1/images/crop?image_url=[image_url]&amp;y_min=[y_min]&amp;x_min=[x_min]&amp;y_max=[y_max]&amp;x_max=[x_max]</a> donde las coordenadas están en el mismo orden que las devueltas por el modelo en los cuadros delimitadores.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Here is an example of what happens when using these APIs with the following image:</p>
+<p>A continuación se muestra un ejemplo de lo que sucede al utilizar estas API con la siguiente imagen:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -85,7 +85,7 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>2️⃣ </em>Convert logos images to Vectors:</h4>
+<h4><em>2️⃣ </em>Convertir imágenes de logotipos a vectores:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -93,23 +93,23 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Now that we can access logos, we need to vectorise them</strong>. For that, we use a pre-trained model from OpenAI called <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Even though the model was initially trained to match images with text, we use only the “computer vision” part of the model to get the embeddings (=logos embedded in a vector space) computed by CLIP for each logo.</p>
+<p><strong>Ahora que podemos acceder a los logotipos, necesitamos vectorizarlos</strong>. Para ello, utilizamos un modelo preentrenado de OpenAI llamado <a href="https://huggingface.co/docs/transformers/model_doc/clip" target="_blank" rel="noreferrer noopener">CLIP</a>. Aunque el modelo fue entrenado inicialmente para hacer coincidir imágenes con texto, usamos solo la parte de “visión por computadora” del modelo para obtener las incrustaciones (=logotipos incrustados en un espacio vectorial) calculadas por CLIP para cada logotipo.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We thus have a logo image as input and a vector of dimension 512 as output. The smaller the distance between two vectors is, the more similar the two corresponding logos are.</p>
+<p>De esta forma tenemos como entrada una imagen de logotipo y como salida un vector de dimensión 512. Cuanto menor sea la distancia entre dos vectores, más similares serán los dos logotipos correspondientes.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> function in Robotoff is in charge of applying the model to logos and save embeddings to the Robotoff postgresql database.</p>
+<p>La función <a href="https://github.com/openfoodfacts/robotoff/blob/b209707cc062310b51f9886c87ee14be91527644/robotoff/workers/tasks/import_image.py#L398" target="_blank" rel="noreferrer noopener">save_logo_embeddings</a> en Robotoff se encarga de aplicar el modelo a los logotipos y guardar las incrustaciones en la base de datos postgresql de Robotoff.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can find a more explicit code <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">here</a> to understand how we use CLIP to generate logos embeddings.</p>
+<p>Puedes encontrar un código más explícito <a href="https://github.com/openfoodfacts/openfoodfacts-ai/blob/develop/logo-ann/generation/02_generate_embeddings.py#L108" target="_blank" rel="noreferrer noopener">aquí</a> para entender cómo usamos CLIP para generar incrustaciones de logotipos.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-<h4><em>3️⃣ </em>Find nearest neighbours:</h4>
+<h4><em>3️⃣ </em>Encuentra vecinos más cercanos:</h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -117,27 +117,27 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>To find the nearest neighbors of a logo, we use an “index” to store the embeddings. Once this index is built, we could use the <strong>“brute force” 💪 method which consists in computing the distance between the query logo and all the other logos of the db and return the closest ones</strong>. That’s the most precise method as it gives us the “true” nearest neighbors. However, this method is too slow to be applied. The time needed to extract the nearest neighbors for each logo when the total amount of logos is 2.5M is around 3s 😴</p>
+<p>Para encontrar los vecinos más cercanos de un logotipo, utilizamos un “índice” para almacenar las incrustaciones. Una vez construido este índice, podríamos utilizar el método de “fuerza bruta” <strong>💪 que consiste en calcular la distancia entre el logo de la consulta y todos los demás logos de la BD y devolver los más cercanos</strong>. Éste es el método más preciso ya que nos da los vecinos más cercanos “verdaderos”. Sin embargo, este método es demasiado lento para ser aplicado. El tiempo necesario para extraer los vecinos más cercanos para cada logotipo cuando la cantidad total de logotipos es de 2,5 millones es de alrededor de 3 s 😴</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>As we needed a better search time and were ok with having less precision, we decided to use <strong>an approximate method</strong>. The one that Robotoff uses is called HNSW (hierarchical navigable small world). You can take a look at <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">this article</a> to understand better nearest neighbours search.</p>
+<p>Como necesitábamos un mejor tiempo de búsqueda y nos conformábamos con tener menos precisión, decidimos utilizar <strong>un método aproximado</strong>. El que utiliza Robotoff se llama HNSW (mundo pequeño navegable jerárquico). Puedes echar un vistazo a <a rel="noreferrer noopener" href="https://www.pinecone.io/learn/vector-indexes/" target="_blank">este artículo</a> para comprender mejor la búsqueda de vecinos más cercanos.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Using a HNSW ElasticSearch index, Robotoff is now able to look for the nearest neighbours of each embedding among more than 2.5M vectors with a huge precision (more than 90% of the 100 nearest neighbours returned are among the exact 100 true nearest neighbours) and a short search time of less than 100ms 👏👏👏👏.</p>
+<p>Al utilizar un índice ElasticSearch de HNSW, Robotoff ahora puede buscar los vecinos más cercanos de cada incrustación entre más de 2,5 millones de vectores con una enorme precisión (más del 90 % de los 100 vecinos más cercanos devueltos se encuentran entre los 100 vecinos más cercanos reales exactos) y un tiempo de búsqueda corto de menos de 100 ms 👏👏👏👏.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You can use the following API to get the nearest neighbours of a logo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
+<p>Puede utilizar la siguiente API para obtener los vecinos más cercanos de un logotipo: <a href="https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]">https://robotoff.openfoodfacts.org/api/v1/ann/search/[logo_id]?count=[count]</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>🍯 A spoon of contributions: </strong>Where is it used?</h3>
+<h3><strong>🍯 Una cucharada de aportes: </strong>¿Dónde se utiliza?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No automatic logo categorization is yet implemented in Robotoff. Everything I explained before is made only for <a href="https://hunger.openfoodfacts.org/">Hunger Games</a>.</p>
+<p>Todavía no se ha implementado ninguna categorización automática de logotipos en Robotoff. Todo lo que expliqué antes está hecho solo para <a href="https://hunger.openfoodfacts.org/">Los Juegos del Hambre</a>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -145,15 +145,15 @@ How Open Food Facts uses logos to get information on food products
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><br>You can try it. A quick introduction/tutorial will welcome you and you will be able to annotate logos ! A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
+<p><br>Puedes probarlo ¡Una breve introducción/tutorial te dará la bienvenida y podrás anotar logotipos! A quick introduction/tutorial will welcome you and you will be able to annotate logos ! 😉<br>A video tutorial of “How to use Hunger Games ?” should be out soon… ⏳</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":3433,"width":505,"height":633,"sizeSlug":"full","linkDestination":"custom"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">To play the Hunger Games: hunger.openfoodfacts.org</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a href="hunger.openfoodfacts.org"><img src="https://blog.openfoodfacts.org/wp-content/uploads/2023/02/Screenshot-2023-02-14-at-14.44.23.png" alt="" class="wp-image-3433" width="505" height="633"/></a><figcaption class="wp-element-caption">Para jugar a los Juegos del Hambre: hungry.openfoodfacts.org</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p><strong>Annotating logos enhance Open Food Facts as it grows the amount of data we have on products and its quality.</strong> And thanks to the models and algorithms used in the background, you can be way more powerful and have a greater impact on people daily alimentation 🥰.</p>
+<p><strong>Anotar logotipos mejora Open Food Facts a medida que aumenta la cantidad de datos que tenemos sobre los productos y su calidad.</strong> Y gracias a los modelos y algoritmos utilizados en segundo plano, puedes ser mucho más poderoso y tener un mayor impacto en la alimentación diaria de las personas 🥰.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
