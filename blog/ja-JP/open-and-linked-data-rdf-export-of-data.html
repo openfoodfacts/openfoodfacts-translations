@@ -14,13 +14,21 @@ Open Food Facts データは、近いうちに他の多くのデータセット�
 </b></h3>
 私は <a href="https://datalift.org/">Datalift</a> の Charles Nepote 氏に招待されて</b> に <b>Datalift Camp に参加し、そこで初めて Datalift ツールに触れました。 OFF データを RDF でどのように表現するかを調べるために、OFF データを「操作」し始めました。<br>
 <br>
+<br>
+<br>
 原材料と栄養素のデータは、モンペリエの情報科学、ロボット工学、マイクロエレクトロニクス研究所の <b>François Scharffe</b> 氏 <a href="https://www.lirmm.fr/">LIRMM</a> と、ロランコンピュータサイエンス研究所の <b>Emmanuel Nauer</b> 氏およびその <a href="https://www.loria.fr/">LORIA</a> アプリケーションで作成している <a href="https://data.lirmm.fr/ontologies/food">オントロジー food</a> によって記述されています。 アイデアは、レシピ（エマニュエルが参加しているプロジェクト <a href="https://taaable.fr/">Taaable in</a> で使用されているものなど）や製造された食品を説明するために同じ語彙を使用することです。<br>
+<br>
+<br>
 <br>
 RDFエクスポートはこちらです: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (XML / RDF形式)<br>
 <br>
 また、Open Food Factsデータセットの検出を容易にするために、The Data Hub</a> で <a href="https://datahub.io/dataset/open-food-facts">参照されています。<br>
 <br>
+また、Open Food Factsデータセットの検出を容易にするために、The Data Hub</a> で <a href="https://datahub.io/dataset/open-food-facts">参照されています。<br>
+<br>
 成分はテキスト内の成分リストから解析されますが、エラーがあり、リストの形式は製品ごとに大きく異なります。 私はパーサーを改良するつもりであり、それと並行して貢献者はリスト内のスペルエラーを修正します。<br>
+<br>
+<br>
 <br>
 現在、製品と原料の URL は HTML Web ページを返しますが、コンテンツ ネゴシエーションを追加して RDF を返すようにします。<br>
 <br>
@@ -28,8 +36,12 @@ François は、Open Food Facts の成分と DBPedia 上の同じ成分との間
 <pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; ソルビン酸カリウム &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
 現在、SPARQL エンドポイントはありません。 代わりに、RDF エクスポートを Datalift などのツールにロードして、SPARQL クエリを実行することもできます。 例として、私の最初のクエリの 1 つを以下に示します (主成分が砂糖である製品を検索する)。<br>
+<pre><br>
 <pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
    ?i 食べ物: 食べ物 <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>。
+   ?i food: ランク "1" オプション {?s food: コード?コード}.<br>}</pre>
+<br>
+もちろんこれは進行中の作業であり、RDF エクスポートにはまだ多くのデータが欠けています (ブランド、カテゴリなど)。
    ?i food: ランク "1" オプション {?s food: コード?コード}.<br>}</pre>
 <br>
 もちろんこれは進行中の作業であり、RDF エクスポートにはまだ多くのデータが欠けています (ブランド、カテゴリなど)。 順次追加していきます。<br>
