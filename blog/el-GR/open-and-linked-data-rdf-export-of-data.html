@@ -1,39 +1,39 @@
-The data of <a href="https://world.openfoodfacts.org">Open Food Facts</a> were already open and free (in <i>open data</i> as they say), and now they are also linked. And yes, free and linked at once!<br>
+Τα δεδομένα του <a href="https://world.openfoodfacts.org">Open Food Facts</a> ήταν ήδη ανοιχτά και δωρεάν (στα <i>ανοιχτά δεδομένα</i> όπως λένε), και τώρα είναι επίσης συνδεδεμένα. Και ναι, δωρεάν και συνδεδεμένο ταυτόχρονα!<br>
 <br>
-Free because the open license allows the data to be used by all and for any purpose, and linked because the data is now linked not only to each other, but also to other datasets, via the database DBPedia.<br>
+Δωρεάν επειδή η ανοιχτή άδεια επιτρέπει τη χρήση των δεδομένων από όλους και για οποιονδήποτε σκοπό, και συνδεδεμένα επειδή τα δεδομένα συνδέονται πλέον όχι μόνο μεταξύ τους, αλλά και με άλλα σύνολα δεδομένων, μέσω της βάσης δεδομένων DBPedia.<br>
 <br>
-Let me rephrase that: there is now a large file that contains Open Food Facts data on products, their ingredients and their nutritional composition. The products are related to the ingredients they contain, and the ingredients (some to start) refer to their page on <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (a database from Wikipedia articles). This file is not for humans, but for programs. It is possible to query it, to formulate queries as "which are the products whose main ingredient is sugar", and to cross it easily with other datasets.<br>
+Επιτρέψτε μου να το αναδιατυπώσω: υπάρχει πλέον ένα μεγάλο αρχείο που περιέχει δεδομένα Open Food Facts για τα προϊόντα, τα συστατικά τους και τη θρεπτική τους σύνθεση. Τα προϊόντα σχετίζονται με τα συστατικά που περιέχουν και τα συστατικά (μερικά για αρχή) αναφέρονται στη σελίδα τους στο <a href="https://fr.wikipedia.org/wiki/DBpedia">DBPedia</a> (μια βάση δεδομένων από άρθρα της Wikipedia). Αυτό το αρχείο δεν είναι για ανθρώπους, αλλά για προγράμματα. Είναι δυνατό να υποβληθεί ερώτημα σε αυτό, να διατυπωθούν ερωτήματα ως «ποια είναι τα προϊόντα των οποίων το κύριο συστατικό είναι η ζάχαρη» και να διασταυρωθεί εύκολα με άλλα σύνολα δεδομένων.<br>
 <br>
-Thanks to this file, the OFF data is now part of what is called <a href="https://en.wikipedia.org/wiki/Linked_data">"Linked Data" or "the Web of Data"</a> . The data is more easily reusable.<br>
+Χάρη σε αυτό το αρχείο, τα δεδομένα OFF αποτελούν πλέον μέρος αυτού που ονομάζεται <a href="https://en.wikipedia.org/wiki/Linked_data">"Συνδεδεμένα Δεδομένα" ή "Ιστός Δεδομένων"</a>. Τα δεδομένα είναι πιο εύκολα επαναχρησιμοποιήσιμα.<br>
 <br>
 <img title="" src="https://blog.openfoodfacts.org/wp-content/uploads/2022/05/off_linked_data.png" width="638" height="547" alt=""><br>
-Will Open Food Facts data soon be linked with lots of other datasets?<br>
+Θα συνδεθούν σύντομα τα δεδομένα του Open Food Facts με πολλά άλλα σύνολα δεδομένων;<br>
 <br>
 <br>
-<h3><b>The technical details:<br>
+<h3><b>Οι τεχνικές λεπτομέρειες:<br>
 </b></h3>
-I took part in the <b>Datalift Camp to</b> which Charles Nepote of <a href="https://datalift.org/">Datalift</a> invited me, and it was my first time with the Datalift tool. We started to "play" with the OFF data to see how to express it in RDF.<br>
+Συμμετείχα στο <b>Datalift Camp στο</b> το οποίο με προσκάλεσε ο Charles Nepote του <a href="https://datalift.org/">Datalift</a> και ήταν η πρώτη φορά που χρησιμοποιούσα το εργαλείο Datalift. Αρχίσαμε να «παίζουμε» με τα δεδομένα OFF για να δούμε πώς να τα εκφράσουμε σε RDF.<br>
 <br>
-The data on ingredients and nutrients are described by an <a href="https://data.lirmm.fr/ontologies/food">ontology food</a> that we are creating with <b>François Scharffe</b> of the Laboratory of Informatics, Robotics and Microelectronics of Montpellier <a href="https://www.lirmm.fr/">LIRMM</a> and <b>Emmanuel Nauer</b> of the Lorrain Laboratory of Research in Computer Science and its <a href="https://www.loria.fr/">LORIA</a> applications. The idea is to use the same vocabulary to describe a recipe (like those used by the project <a href="https://taaable.fr/">Taaable in</a> which Emmanuel participates), or a manufactured food product.<br>
+Τα δεδομένα σχετικά με τα συστατικά και τα θρεπτικά συστατικά περιγράφονται από μια <a href="https://data.lirmm.fr/ontologies/food">οντολογία τροφίμων</a> που δημιουργούμε με τον <b>François Scharffe</b> του Εργαστηρίου Πληροφορικής, Ρομποτικής και Μικροηλεκτρονικής του Μονπελιέ <a href="https://www.lirmm.fr/">LIRMM</a> και τον <b>Emmanuel Nauer</b> του Εργαστηρίου Έρευνας στην Επιστήμη των Υπολογιστών Lorrain και τις εφαρμογές του <a href="https://www.loria.fr/">LORIA</a> . Η ιδέα είναι να χρησιμοποιηθεί το ίδιο λεξιλόγιο για να περιγραφεί μια συνταγή (όπως αυτές που χρησιμοποιούνται από το έργο <a href="https://taaable.fr/">Taaable στο</a> στο οποίο συμμετέχει ο Εμμανουήλ) ή ένα παρασκευασμένο προϊόν διατροφής.<br>
 <br>
-The RDF export is here: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (in XML / RDF)<br>
+Η εξαγωγή RDF βρίσκεται εδώ: <a href="https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf">https://world.openfoodfacts.org/data/en.openfoodfacts.org.products.rdf</a> (σε XML / RDF)<br>
 <br>
 And it is <a href="https://datahub.io/dataset/open-food-facts">referenced on The Data Hub</a> to facilitate the discovery of the Open Food Facts dataset.<br>
 <br>
-The ingredients are parsed from the list of ingredients in text, there are errors, the format of the lists vary a lot from one product to another. I am going to improve the parser, and in parallel contributors correct the spelling errors present in the lists.<br>
+Τα συστατικά έχουν αναλυθεί από τη λίστα συστατικών στο κείμενο, υπάρχουν σφάλματα και η μορφή των λιστών διαφέρει πολύ από προϊόν σε προϊόν. Θα βελτιώσω τον αναλυτή και παράλληλα οι συνεισφέροντες θα διορθώνουν τα ορθογραφικά λάθη που υπάρχουν στις λίστες.<br>
 <br>
-The product and ingredient URLs currently return the HTML webpage, but I'm going to add the content negotiation to return the RDF.<br>
+Οι διευθύνσεις URL προϊόντων και συστατικών επιστρέφουν αυτήν τη στιγμή την ιστοσελίδα HTML, αλλά θα προσθέσω τη διαπραγμάτευση περιεχομένου για να επιστρέψω το RDF.<br>
 <br>
-François generated equivalences between the Open Food Facts ingredients and the same ingredients on DBPedia. They are indicated by the owl:sameAs property, for example:<br>
-<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Potassium sorbate &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
+Ο François δημιούργησε ισοδυναμίες μεταξύ των συστατικών του Open Food Facts και των ίδιων συστατικών στο DBPedia. Υποδεικνύονται από την ιδιότητα owl:sameAs, για παράδειγμα:<br>
+<pre><rdf:description rdf:about="https://world.openfoodfacts.org/ingredient/potassium-sorbate" rdf:type="https://data.lirmm.fr/ontologies/food#Food"></rdf:description> &lt;food:name&gt; Σορβικό κάλιο &lt;/food:name&gt;<br>&lt;owl:sameAs rdf:resource="https://en.dbpedia.org/resource/Sorbate_of_potassium" /&gt;<br>&lt;/rdf:Description&gt;</pre>
 <br>
-There is currently no SPARQL endpoint. You can instead load the RDF export into a tool like Datalift to execute SPARQL queries. As an example, here is one of my first queries (to find products whose main ingredient is sugar):<br>
-<pre>PREFIX food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
-   ?i food: food <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a> .
-   ?i food: rank "1" OPTIONAL {?s food: code?code}.<br>}</pre>
+Δεν υπάρχει προς το παρόν τελικό σημείο SPARQL. Μπορείτε αντ' αυτού να φορτώσετε την εξαγωγή RDF σε ένα εργαλείο όπως το Datalift για να εκτελέσετε ερωτήματα SPARQL. Για παράδειγμα, ακολουθεί ένα από τα πρώτα μου ερωτήματα (για να βρω προϊόντα με κύριο συστατικό τη ζάχαρη):<br>
+<pre>ΠΡΟΘΕΜΑ food: <a class="moz-txt-link-rfc2396E" href="https://data.lirmm.fr/ontologies/food#">&lt;https://data.lirmm.fr/ontologies/food#&gt;</a><br>SELECT?s?WHERE code {<br>   ?s <a class="moz-txt-link-rfc2396E" href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">&lt;https://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</a> food: FoodProduct.<br>   ?s food: containsIngredient?i.
+   ?i φαγητό: φαγητό <a class="moz-txt-link-rfc2396E" href="https://world.openfoodfacts.org/ingredient/sugar">&lt;https://world.openfoodfacts.org/ingredient/sugar&gt;</a>.
+   ?i food: κατάταξη "1" ΠΡΟΑΙΡΕΤΙΚΑ {?s food: code?code}.<br>}</pre>
 <br>
-This is of course a work in progress, there is still a lot of data missing in the RDF export (brands, categories etc.). They will be added gradually.<br>
+Αυτό είναι φυσικά ένα έργο σε εξέλιξη, καθώς εξακολουθούν να λείπουν πολλά δεδομένα στην εξαγωγή RDF (μάρκες, κατηγορίες κ.λπ.). Θα προστεθούν σταδιακά.<br>
 <br>
-Your ideas, comments, suggestions etc. are welcome to improve these data, link them better, represent them better etc. Moreover if you use the data, it would be nice to tell us. Thank you in advance !<br>
+Οι ιδέες, τα σχόλια, οι προτάσεις σας κ.λπ. είναι ευπρόσδεκτα για τη βελτίωση αυτών των δεδομένων, την καλύτερη σύνδεσή τους, την καλύτερη παρουσίασή τους κ.λπ. Επιπλέον, αν χρησιμοποιείτε τα δεδομένα, θα ήταν καλό να μας τα πείτε. Σας ευχαριστώ εκ των προτέρων!<br>
 <br>
-And of course a big thank you to Emmanuel and François for their help!<br>
+Και φυσικά ένα μεγάλο ευχαριστώ στον Εμμανουήλ και τον Φρανσουά για τη βοήθειά τους!<br>

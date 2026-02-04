@@ -11,25 +11,25 @@
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
 <figcaption>ソース: Google</figcaption>
 </figure>
-<p>この定義は、さらに混乱を招くようですよね？ (after all, it&rsquo;s not Open Animal Facts, it&rsquo;s Open Food Facts). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
-<h2>Moving forward</h2>
-<p>Admittedly, I was hesitant to ask a community member to just&nbsp;<em>&ldquo;define&rdquo;</em>&nbsp;it for me because the term felt so central to this project that it only felt fair to give myself a few days, explore the codebase and see how stuff works around. Very naturally, this word (and several others concepts) started making sense as I became more familiar with the repository&rsquo;s structure over the next few days.</p>
-<h2>So... what are taxonomies ? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link to the wiki page too!)</a></em></h2>
+<p>この定義は、さらに混乱を招くようですよね？ (結局のところ、それは&rsquo;Open Animal Facts ではなく、&rsquo;Open Food Facts です)。 At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
+<h2>前進</h2>
+<p>正直に言うと、コミュニティのメンバーにそれを&nbsp;<em>&ldquo;定義&rdquo;</em>&nbsp;するように頼むのはためらわれました。なぜなら、この用語がこのプロジェクトにとって非常に重要であるように思われたので、自分自身に数日間を与えてコードベースを調べ、どのように動作するかを確認するのが公平であると感じたからです。 ごく自然に、数日後にリポジトリ&rsquo;の構造に慣れてくると、この単語 (および他のいくつかの概念) が意味を持ち始めました。</p>
+<h2>では、分類法とは何でしょうか? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Wikiページへのリンクも！)</a></em></h2>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
-<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;are at the heart of the Data Structure in Open Food Facts. These are raw text files&nbsp;<code>(.txt)</code>&nbsp;that mainly contain translations, classifications, labels, ingredients lists and hierarchies.</p>
-<p>For simplifying it a bit, their function can be broadly broken down into 2 parts,</p>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">分類法</a>&nbsp;は Open Food Facts のデータ構造の中心です。 これらは、主に翻訳、分類、ラベル、成分リスト、階層を含む生のテキスト ファイル&nbsp;<code>(.txt)</code>&nbsp;です。</p>
+<p>簡単に言えば、その機能は大きく分けて2つの部分に分けられます。</p>
 <ul>
-<li><strong><strong>Classification</strong>: </strong>We can use taxonomies to establish hierarchies for consumables. This is best explained by an example: Let&rsquo;s take a look at this&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;product page linked&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">here</a>.</li>
+<li><strong><strong>分類</strong>: </strong>分類法を使用して消耗品の階層を確立できます。 これは例を挙げて説明するのが一番わかりやすいでしょう。&rsquo;こちらの&nbsp;<em><strong>&ldquo;ヌテラビスケット&rdquo;</strong></em>&nbsp;リンクされている製品ページ&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">こちら</a>を見てみましょう。</li>
 </ul>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
-<figcaption>Note: These categories are listed in a hierarchal order. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+<figcaption>注: これらのカテゴリは階層順にリストされています。 この商品は、&nbsp;<strong>&ldquo;スナック&rdquo;</strong>&nbsp;であり、スナックの中でも、&nbsp;<strong>&ldquo;スイートスナック&rdquo;</strong>です。 さらに、これはビスケットのサブクラスに属し、&nbsp;<strong>&ldquo;ビスケット&rdquo;</strong>&nbsp;の分類に進むと、&rsquo;&nbsp;<strong>&ldquo;フィリング入りビスケット</strong>&ldquo;となります。</figcaption>
 </figure>
 <ul>
-<li><strong>Translation</strong>: With these we can maintain a list of translations for ingredients, certain phrases, measuring units, nutrients and countries. If you are bilingual like me, you may already know that&nbsp;<em>Google Translate</em>&nbsp;just doesn&rsquo;t cut it sometimes. There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
+<li><strong>翻訳</strong>: これらを使用して、原材料、特定のフレーズ、測定単位、栄養素、国などの翻訳リストを維持できます。 私のようにバイリンガルであれば、&nbsp;<em>Google 翻訳</em>&nbsp;では&rsquo;十分でない場合があることをすでにご存知でしょう。 There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
 </ul>
-<h2>Something cool about Taxonomies</h2>
-<p>You can contribute to them regardless of your familiarity with Coding.&nbsp;<em>Yes, you heard that right!</em>&nbsp;If you find something you wish to correct or add to the Taxonomies, all you need to do is edit/make your addition to the text files linked&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>here</strong></a>&nbsp;and propose your change through a&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (linked to a descriptive guide)</p>
-<p><strong>Parting words</strong></p>
-<p>I will soon be coming up with a blog that&rsquo;s specific to contributing to the Open Food Facts taxonomies for someone uninitiated with coding and/or Git and GitHub.</p>
-<p>Stay Tuned for that!&nbsp;:)</p>
-<p>Signing off, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
+<h2>タクソノミーのクールな点</h2>
+<p>コーディングの知識の有無にかかわらず、貢献することができます。&nbsp;<em>はい、その通りです!</em>&nbsp;タクソノミーを修正または追加したい内容を見つけた場合は、&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>ここ</strong></a>&nbsp;にリンクされているテキスト ファイルを編集/追加し、&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>プル リクエスト</strong></a>を通じて変更を提案するだけです。 （説明ガイドへのリンク）</p>
+<p><strong>別れの言葉</strong></p>
+<p>コーディングや Git、GitHub に不慣れな人向けに、Open Food Facts 分類への貢献に特化した&rsquo;ブログを近々作成する予定です。</p>
+<p>乞うご期待！&nbsp;:)</p>
+<p>サインオフ、 <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">ユクティ</a></p>
