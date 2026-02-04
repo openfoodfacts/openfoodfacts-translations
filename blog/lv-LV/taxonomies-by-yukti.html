@@ -1,35 +1,35 @@
-<h2>On taxonomies</h2>
+<h2>Par taksonomijām</h2>
 
-<p><em>This blog entry is written by Yukti (who joins us with the Outreachy program). She kindly gave us permission to share it here as we think it explains the topic very well. Thank you very much Yukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Link to the original article "Everybody Struggles"</a>).</em></p>
+<p><em>Šī emuāra ieraksta autore ir Jukti (kura pievienojas mums programmā “Outreachy”). Viņa laipni atļāva mums to šeit kopīgot, jo, mūsuprāt, tas ļoti labi izskaidro tēmu. Liels paldies, Jukti! (<a href="https://yuktea.wordpress.com/2022/06/22/three-generations/">Saite uz oriģinālo rakstu "Visi cīnās"</a>).</em></p>
 <hr />
 <figure>
 <blockquote>
-<p><em>We are now in Week 3 of the Outreachy internship! A lot of points I&rsquo;ll touch on in the Blog have been inspired by some of the writing prompts from the Outreachy organizers. In this blog, I will be writing about an open source vocabulary term that was new for me<em>. During the Outreachy Application Period.</em></em></p>
+<p><em>Mēs tagad esam Outreachy prakses 3. nedēļā! Daudzi punkti, kurus&rsquo;aplūkošu emuārā, ir iedvesmojušies no dažiem Outreachy organizatoru rakstīšanas ieteikumiem. Šajā emuāra ierakstā es rakstīšu par atvērtā pirmkoda vārdu krājuma terminu, kas man bija jauns<em>. Informatīvās aktivitātes pieteikšanās periodā.</em></em></p>
 </blockquote>
 </figure>
-<p>There were a ton of words/concepts that I was confused with during the Outreachy application period. The word that sticks out to me the most right now is&nbsp;<code>Taxonomy&nbsp;<em>(plural: Taxonomies</em></code><em>).&nbsp;</em>As a newcomer to the Open Food Facts community, I noticed this term being talked about a lot, mentioned in issues and pull requests. It didn&rsquo;t take too long for me to realize that this term should be an important one in the context of the project.</p>
+<p>Outreachy pieteikšanās laikā man bija milzīgs daudzums vārdu/jēdzienu, ar kuriem es biju apjucis. Vārds, kas man šobrīd visvairāk iekrīt atmiņā, ir&nbsp;<code>Taksonomija&nbsp;<em>(daudzskaitlī: Taksonomijas</em></code><em>).&nbsp;</em>Kā jaunpienācējs Open Food Facts kopienā, pamanīju, ka par šo terminu daudz runā, tas tiek pieminēts problēmās un pieprasījumos. Man&rsquo;nebija vajadzīgs ilgs laiks, lai saprastu, ka šim terminam ir jābūt svarīgam projekta kontekstā.</p>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-1.png" alt="" width="621" height="241" />
-<figcaption>Source: Google</figcaption>
+<figcaption>Avots: Google</figcaption>
 </figure>
-<p>This definition seems to make it even more confusing right? (after all, it&rsquo;s not Open Animal Facts, it&rsquo;s Open Food Facts). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
-<h2>Moving forward</h2>
-<p>Admittedly, I was hesitant to ask a community member to just&nbsp;<em>&ldquo;define&rdquo;</em>&nbsp;it for me because the term felt so central to this project that it only felt fair to give myself a few days, explore the codebase and see how stuff works around. Very naturally, this word (and several others concepts) started making sense as I became more familiar with the repository&rsquo;s structure over the next few days.</p>
-<h2>So... what are taxonomies ? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Link to the wiki page too!)</a></em></h2>
+<p>Šķiet, ka šī definīcija visu padara vēl mulsinošāku, vai ne? (galu galā, tas&rsquo;nav Atklāti dzīvnieku fakti, bet gan&rsquo;Atklāti pārtikas fakti). At that point, I could vaguely make out what this term may mean outside of a biological context but still wasn&rsquo;t able to really relate it to the project.</p>
+<h2>Virzība uz priekšu</h2>
+<p>Jāatzīst, es vilcinājos lūgt kopienas loceklim vienkārši&nbsp;<em>&ldquo;definēt&rdquo;</em>&nbsp;to manā vietā, jo šis termins šķita tik būtisks šim projektam, ka šķita tikai godīgi atvēlēt sev dažas dienas, lai izpētītu koda bāzi un redzētu, kā lietas darbojas. Ļoti dabiski, ka šis vārds (un vairāki citi jēdzieni) sāka iegūt jēgu, man nākamo dažu dienu laikā labāk iepazīstoties ar repozitorija&rsquo;struktūru.</p>
+<h2>Tātad... kas ir taksonomijas? <em><a href="https://wiki.openfoodfacts.org/Global_taxonomies" target="_blank" rel="noreferrer noopener">(Saite arī uz wiki lapu!)</a></em></h2>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-2-edited.png" alt="" width="619" /></figure>
-<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taxonomies</a>&nbsp;are at the heart of the Data Structure in Open Food Facts. These are raw text files&nbsp;<code>(.txt)</code>&nbsp;that mainly contain translations, classifications, labels, ingredients lists and hierarchies.</p>
-<p>For simplifying it a bit, their function can be broadly broken down into 2 parts,</p>
+<p><a href="https://wiki.openfoodfacts.org/Global_taxonomies">Taksonomijas</a>&nbsp;ir datu struktūras pamatā pakalpojumā Open Food Facts. Tie ir neapstrādāti teksta faili&nbsp;<code>(.txt)</code>&nbsp;, kas galvenokārt satur tulkojumus, klasifikācijas, etiķetes, sastāvdaļu sarakstus un hierarhijas.</p>
+<p>Lai to nedaudz vienkāršotu, to funkciju var plaši iedalīt divās daļās,</p>
 <ul>
-<li><strong><strong>Classification</strong>: </strong>We can use taxonomies to establish hierarchies for consumables. This is best explained by an example: Let&rsquo;s take a look at this&nbsp;<em><strong>&ldquo;Nutella Biscuits&rdquo;</strong></em>&nbsp;product page linked&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">here</a>.</li>
+<li><strong><strong>Klasifikācija</strong>: </strong>Mēs varam izmantot taksonomijas, lai izveidotu hierarhijas patēriņa precēm. Vislabāk to var izskaidrot ar piemēru: Apskatīsim&rsquo;šo&nbsp;<em><strong>&ldquo;Nutella cepumus&rdquo;</strong></em>&nbsp;produkta lapu, uz kuru ir saite&nbsp;<a href="https://world.openfoodfacts.org/product/8000500310427/nutella-biscuits" target="_blank" rel="noreferrer noopener">šeit</a>.</li>
 </ul>
 <figure><img src="https://blog.openfoodfacts.org/wp-content/uploads/2022/07/image-3.png" alt="" width="739" height="337" />
-<figcaption>Note: These categories are listed in a hierarchal order. This product is a&nbsp;<strong>&ldquo;Snack&rdquo;</strong>&nbsp;first and within snacks, a&nbsp;<strong>&ldquo;Sweet snack&rdquo;</strong>. Further, we could say it belongs to the Biscuits subclass and going down the&nbsp;<strong>&ldquo;Biscuits&rdquo;</strong>&nbsp;classification, it&rsquo;s a&nbsp;<strong>&ldquo;Filled Biscuit</strong>&ldquo;.</figcaption>
+<figcaption>Piezīme. Šīs kategorijas ir uzskaitītas hierarhiskā secībā. Šis produkts ir&nbsp;<strong>&ldquo;uzkoda&rdquo;</strong>&nbsp;pirmā, un uzkodu vidū ir&nbsp;<strong>&ldquo;salda uzkoda&rdquo;</strong>. Turklāt mēs varētu teikt, ka tas pieder cepumu apakšklasei, un, virzoties uz leju pa&nbsp;<strong>&ldquo;cepumu&rdquo;</strong>&nbsp;klasifikāciju, tas&rsquo;sa&nbsp;<strong>&ldquo;pildīts cepums</strong>&ldquo;.</figcaption>
 </figure>
 <ul>
-<li><strong>Translation</strong>: With these we can maintain a list of translations for ingredients, certain phrases, measuring units, nutrients and countries. If you are bilingual like me, you may already know that&nbsp;<em>Google Translate</em>&nbsp;just doesn&rsquo;t cut it sometimes. There could be local variations to names, alternate spellings, uncommon ingredients,&nbsp;<strong>synonyms (alternate names</strong>) and many more cases where using a translation tool wouldn&rsquo;t solve our problem.</li>
+<li><strong>Tulkojums</strong>: Ar šo mēs varam uzturēt sastāvdaļu, noteiktu frāžu, mērvienību, uzturvielu un valstu tulkojumu sarakstu. Ja arī jūs, tāpat kā es, esat divvalodīgs(-a), iespējams, jau zināt, ka&nbsp;<em>Google tulkotājs</em>&nbsp;dažreiz vienkārši&rsquo;nepietiek. Varētu būt vietējas nosaukumu variācijas, alternatīvas rakstības, neparastas sastāvdaļas,&nbsp;<strong>sinonīmi (alternatīvi nosaukumi</strong>) un daudzi citi gadījumi, kad tulkošanas rīka izmantošana&rsquo;neatrisinātu mūsu problēmu.</li>
 </ul>
-<h2>Something cool about Taxonomies</h2>
-<p>You can contribute to them regardless of your familiarity with Coding.&nbsp;<em>Yes, you heard that right!</em>&nbsp;If you find something you wish to correct or add to the Taxonomies, all you need to do is edit/make your addition to the text files linked&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>here</strong></a>&nbsp;and propose your change through a&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pull request</strong></a>. (linked to a descriptive guide)</p>
-<p><strong>Parting words</strong></p>
-<p>I will soon be coming up with a blog that&rsquo;s specific to contributing to the Open Food Facts taxonomies for someone uninitiated with coding and/or Git and GitHub.</p>
-<p>Stay Tuned for that!&nbsp;:)</p>
-<p>Signing off, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
+<h2>Kaut kas foršs par taksonomijām</h2>
+<p>Jūs varat sniegt savu ieguldījumu neatkarīgi no jūsu kodēšanas zināšanām.&nbsp;<em>Jā, jūs dzirdējāt pareizi!</em>&nbsp;Ja atrodat kaut ko, ko vēlaties labot vai pievienot taksonomijām, viss, kas jums jādara, ir rediģēt/veikt papildinājumu saistītajos teksta failos&nbsp;<a href="https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies" target="_blank" rel="noreferrer noopener"><strong>šeit</strong></a>&nbsp;un ierosināt savas izmaiņas, izmantojot&nbsp;<a href="https://www.youtube.com/watch?v=8A4TsoXJOs8" target="_blank" rel="noreferrer noopener"><strong>pieprasījumu</strong></a>. (saistīts ar aprakstošu ceļvedi)</p>
+<p><strong>Atvadvārdi</strong></p>
+<p>Drīzumā publicēšu emuāra ierakstu, kas&rsquo;būs īpaši veltīts Open Food Facts taksonomijas papildināšanai tiem, kas nav iesācēji kodēšanā un/vai Git un GitHub.</p>
+<p>Sekojiet līdzi jaunumiem!&nbsp;:)</p>
+<p>Notiek izrakstīšanās, <a href="https://github.com/yuktea" target="_blank" rel="noreferrer noopener">Yukti</a></p>
